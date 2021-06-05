@@ -1,0 +1,37 @@
+[
+  { "station": "Zličín", "artworks": false },
+
+  { "station": "Stodůlky", "artworks": false },
+
+  { "station": "Luka", "artworks": false },
+
+  { "station": "Lužiny", "artworks": false },
+
+  { "station": "Hůrka", "artworks": false },
+  {
+    "station": "Nové Butovice",
+    "artworks": [
+      {
+        "artwork": "Nové Butovice1",
+        "name": "Pomník Dukelským hrdinům",
+        "id": "b25",
+        "author": "ak. soch. Milan Vácha",
+        "type": "plastika",
+        "date": "neuveden",
+        "material": "pískovec",
+        "image": ""
+      },
+
+      {
+        "artwork": "Nové Butovice2",
+        "name": "Trifot",
+        "id": "b26",
+        "author": "Jiří David",
+        "type": "plastika",
+        "date": "2016",
+        "material": "neuveden",
+        "image": ""
+      }
+    ]
+  }
+]
