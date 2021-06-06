@@ -7,9 +7,14 @@ const Line = ({ line }) => {
   return (
     <div>
       <div className={styles.line}>
-        <Link href={`/line-b/${line.station}`}>
+        <Link
+          href={`/line-b/[art]?art=${line.station}`}
+          as={`/line-b/${line.station}`}
+        >
           <div className={styles.station}>
-            <span className={styles.label}>{line.station}</span>
+            <span className={styles.label}>
+              {line.station} {line.artworks.name}
+            </span>
           </div>
         </Link>
       </div>
