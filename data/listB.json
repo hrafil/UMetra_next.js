@@ -26,7 +26,7 @@
       {
         "artwork": "Nové Butovice2",
         "name": "Trifot",
-        "id": "b26",
+        "id": "b-nb2",
         "author": "Jiří David",
         "type": "plastika",
         "date": "2016",
@@ -44,7 +44,7 @@
       {
         "artwork": "Radlická1",
         "name": "neuveden",
-        "id": "b23",
+        "id": "b-r1",
         "author": "ak. soch. Zdeněk Hošek",
         "type": "plastika",
         "date": "neuveden",
@@ -55,7 +55,7 @@
       {
         "artwork": "Radlická2",
         "name": "neuveden",
-        "id": "b24",
+        "id": "b-r2",
         "author": "ak. soch. doc. Alexius Appl",
         "type": "mříž",
         "date": "neuveden",
@@ -73,7 +73,7 @@
       {
         "artwork": "Anděl1",
         "name": "(8 bronzových reliéfů)",
-        "id": "b22",
+        "id": "b-a1",
         "author": "neuveden",
         "type": "reliéf",
         "date": "neuveden",
@@ -89,18 +89,18 @@
       {
         "artwork": "Karlovo náměstí1",
         "name": "neuveden",
-        "id": "b18",
+        "id": "b-kn1",
         "author": "ing. arch. Miroslav Suchý",
         "type": "vitáž",
         "date": "neuveden",
-        "material": "sklo,kov",
+        "material": "sklo, kov",
         "image": ""
       },
 
       {
         "artwork": "Karlovo náměstí2",
         "name": "neuveden",
-        "id": "b19",
+        "id": "b-kn2",
         "author": "ak. soch. Jaroslav Štursa",
         "type": "skleněný objekt",
         "date": "neuveden",
@@ -111,7 +111,7 @@
       {
         "artwork": "Karlovo náměstí3",
         "name": "neuveden",
-        "id": "b20",
+        "id": "b-kn3",
         "author": "ak. soch. Luboš Růžička",
         "type": "pítko",
         "date": "neuveden",
@@ -122,7 +122,7 @@
       {
         "artwork": "Karlovo náměstí4",
         "name": "Karel IV. a jeho doba",
-        "id": "b21",
+        "id": "b-kn4",
         "author": "nár. umělec Radomír Kolář",
         "type": "mozaika",
         "date": "neuveden",
@@ -138,7 +138,7 @@
       {
         "artwork": "Národní třída1",
         "name": "Hlava Franze Kafky",
-        "id": "b17",
+        "id": "b-nt1",
         "author": "Jiří David",
         "type": "plastika",
         "date": "neuveden",
@@ -154,7 +154,7 @@
       {
         "artwork": "Můstek1",
         "name": "šipka",
-        "id": "b13",
+        "id": "b-m1",
         "author": "ak. soch. Helena Samohelová",
         "type": "d",
         "date": "neuveden",
@@ -165,7 +165,7 @@
       {
         "artwork": "Můstek2",
         "name": "Praha",
-        "id": "b14",
+        "id": "b-m2",
         "author": "ak. soch. Lubomír Šilar",
         "type": "reliéf",
         "date": "neuveden",
@@ -176,7 +176,7 @@
       {
         "artwork": "Můstek3",
         "name": "(pítko na Jungmannově nám.)",
-        "id": "b15",
+        "id": "b-m3",
         "author": "ak. soch. Lubomír Šilar",
         "type": "pítko",
         "date": "neuveden",
@@ -187,7 +187,7 @@
       {
         "artwork": "Můstek4",
         "name": "(pítko u Dětského domu",
-        "id": "b16",
+        "id": "b-m4",
         "author": "ing. arch. Karel Fořtl",
         "type": "pítko",
         "date": "neuveden",
@@ -205,7 +205,7 @@
       {
         "artwork": "Florenc1",
         "name": "(hodiny)",
-        "id": "b11",
+        "id": "b-f1",
         "author": "nár. umělec Rufolf Svoboda",
         "type": "d",
         "date": "neuveden",
@@ -216,7 +216,7 @@
       {
         "artwork": "Florenc2",
         "name": "Mostaři",
-        "id": "b12",
+        "id": "b-f2",
         "author": "Hladík, Karel",
         "type": "d",
         "date": "1980",
@@ -234,23 +234,23 @@
       {
         "artwork": "Invalidovna1",
         "name": "Sport",
-        "id": "b9",
+        "id": "b-i1",
         "author": "ak. mal. Eva Heřmanská",
         "type": "d",
         "date": "neuveden",
         "material": "vitráž",
-        "image": ""
+        "image": "/Invalidovna_1.jpg"
       },
 
       {
         "artwork": "Invalidovna2",
         "name": "Fontána",
-        "id": "b10",
+        "id": "b-i1",
         "author": "Hladíková Lydie, Mírová Děvana, Rychlíková Marie",
         "type": "d",
         "date": "neuveden",
         "material": "neuveden",
-        "image": ""
+        "image": "/Invalidovna_2.jpg"
       }
     ]
   },
@@ -261,7 +261,7 @@
       {
         "artwork": "Palmovka1",
         "name": "Soukolí",
-        "id": "b6",
+        "id": "b-i1",
         "author": "ak. soch. doc. Alexius Appl",
         "date": "neuveden",
         "type": "d",
@@ -272,7 +272,7 @@
       {
         "artwork": "Palmovka2",
         "name": "úryvky z Hrabalových děl",
-        "id": "b7",
+        "id": "b-i2",
         "author": "Tatiana Svatošová",
         "type": "d",
         "date": "neuveden",
@@ -283,7 +283,7 @@
       {
         "artwork": "Palmovka3",
         "name": "Červený květ",
-        "id": "b8",
+        "id": "b-i2",
         "author": "Kryštůfek Jiří",
         "type": "d",
         "date": "1970",
@@ -299,7 +299,7 @@
       {
         "artwork": "Českomoravská1",
         "name": "Život hrou",
-        "id": "b5",
+        "id": "b-c1",
         "author": "Vivot Lea",
         "date": "2001-2004",
         "type": "d",
@@ -315,7 +315,7 @@
       {
         "artwork": "Vysočanská1",
         "name": "Modrý Vysočan",
-        "id": "b3",
+        "id": "b-v1",
         "author": "Voříšek, Petr",
         "date": "1999",
         "type": "d",
@@ -326,7 +326,7 @@
       {
         "artwork": "Vysočanská2",
         "name": "Pomník Emila Kolbena",
-        "id": "b4",
+        "id": "b-v2",
         "author": "Suchánek, Martin; Velíšek, Lukáš",
         "date": "neuveden",
         "type": "d",
@@ -344,7 +344,7 @@
       {
         "artwork": "Hloubětín1",
         "name": "Plastická výzdoba bazénu",
-        "id": "b1",
+        "id": "b-h1",
         "author": "Košík, Arnošt",
         "date": "1970",
         "type": "d",
@@ -355,7 +355,7 @@
       {
         "artwork": "Hloubětín2",
         "name": "Koupání",
-        "id": "b2",
+        "id": "b-h2",
         "author": "Hladký, Jaroslav",
         "date": "1985",
         "type": "d",

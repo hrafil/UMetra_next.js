@@ -20,6 +20,8 @@ h1 {
   font-size: 40px;
 }
 
+/* Line B */
+
 .line {
   width: 20px;
   margin: auto;
@@ -27,7 +29,6 @@ h1 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: #ffce2d;
 }
 
 .station {
@@ -38,12 +39,16 @@ h1 {
   height: 80px;
   background-color: #fff;
   border-color: #ffce2d;
-  pointer-events: none;
+}
+
+.isDisabled {
+  /* pointer-events: none; */
+  background-color: #ffce2d;
 }
 
 .yellow {
+  border-color: #ffce2d;
   background-color: #ffce2d;
-  pointer-events: all;
 }
 
 .label {
@@ -51,3 +56,40 @@ h1 {
   font-size: 10px;
   white-space: nowrap;
 }
+
+/* Line B transfer */
+.transfer {
+  list-style-type: none;
+  font-size: 10px;
+}
+
+/* Images */
+
+img {
+  width: 100%;
+}
+
+/* ArtPage */
+
+.container_artworks {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.container_artwork {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+/* .red-line {
+  height: 20px;
+  width: 100vw;
+  display: flex;
+  background-color: red;
+  z-index: -1;
+  position: absolute;
+  transform: rotate(25deg);
+} */
