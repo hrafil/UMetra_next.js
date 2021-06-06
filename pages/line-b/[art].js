@@ -1,4 +1,3 @@
-import { useRouter } from 'next/router';
 import { getStation } from '../../lib/stationB';
 
 export const Artwork = ({ station }) => {

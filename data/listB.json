@@ -8,6 +8,7 @@
   { "station": "Lužiny", "artworks": false },
 
   { "station": "Hůrka", "artworks": false },
+
   {
     "station": "Nové Butovice",
     "artworks": [
@@ -33,5 +34,338 @@
         "image": ""
       }
     ]
-  }
+  },
+
+  { "station": "Jinonice", "artworks": false },
+
+  {
+    "station": "Radlická",
+    "artworks": [
+      {
+        "artwork": "Radlická1",
+        "name": "neuveden",
+        "id": "b23",
+        "author": "ak. soch. Zdeněk Hošek",
+        "type": "plastika",
+        "date": "neuveden",
+        "material": "žula, bronz",
+        "image": ""
+      },
+
+      {
+        "artwork": "Radlická2",
+        "name": "neuveden",
+        "id": "b24",
+        "author": "ak. soch. doc. Alexius Appl",
+        "type": "mříž",
+        "date": "neuveden",
+        "material": "kov",
+        "image": ""
+      }
+    ]
+  },
+
+  { "station": "Smíchovské nádráží", "artworks": false },
+
+  {
+    "station": "Anděl",
+    "artworks": [
+      {
+        "artwork": "Anděl1",
+        "name": "(8 bronzových reliéfů)",
+        "id": "b22",
+        "author": "neuveden",
+        "type": "reliéf",
+        "date": "neuveden",
+        "material": "bronz",
+        "image": ""
+      }
+    ]
+  },
+
+  {
+    "station": "Karlovo náměstí",
+    "artworks": [
+      {
+        "artwork": "Karlovo náměstí1",
+        "name": "neuveden",
+        "id": "b18",
+        "author": "ing. arch. Miroslav Suchý",
+        "type": "vitáž",
+        "date": "neuveden",
+        "material": "sklo,kov",
+        "image": ""
+      },
+
+      {
+        "artwork": "Karlovo náměstí2",
+        "name": "neuveden",
+        "id": "b19",
+        "author": "ak. soch. Jaroslav Štursa",
+        "type": "skleněný objekt",
+        "date": "neuveden",
+        "material": "sklo",
+        "image": ""
+      },
+
+      {
+        "artwork": "Karlovo náměstí3",
+        "name": "neuveden",
+        "id": "b20",
+        "author": "ak. soch. Luboš Růžička",
+        "type": "pítko",
+        "date": "neuveden",
+        "material": "neuveden",
+        "image": ""
+      },
+
+      {
+        "artwork": "Karlovo náměstí4",
+        "name": "Karel IV. a jeho doba",
+        "id": "b21",
+        "author": "nár. umělec Radomír Kolář",
+        "type": "mozaika",
+        "date": "neuveden",
+        "material": "neuveden",
+        "image": ""
+      }
+    ]
+  },
+
+  {
+    "station": "Národní třída",
+    "artworks": [
+      {
+        "artwork": "Národní třída1",
+        "name": "Hlava Franze Kafky",
+        "id": "b17",
+        "author": "Jiří David",
+        "type": "plastika",
+        "date": "neuveden",
+        "material": "neuveden",
+        "image": ""
+      }
+    ]
+  },
+
+  {
+    "station": "Můstek",
+    "artworks": [
+      {
+        "artwork": "Můstek1",
+        "name": "šipka",
+        "id": "b13",
+        "author": "ak. soch. Helena Samohelová",
+        "type": "d",
+        "date": "neuveden",
+        "material": "keramický reliéf",
+        "image": ""
+      },
+
+      {
+        "artwork": "Můstek2",
+        "name": "Praha",
+        "id": "b14",
+        "author": "ak. soch. Lubomír Šilar",
+        "type": "reliéf",
+        "date": "neuveden",
+        "material": "keramický reliéf",
+        "image": ""
+      },
+
+      {
+        "artwork": "Můstek3",
+        "name": "(pítko na Jungmannově nám.)",
+        "id": "b15",
+        "author": "ak. soch. Lubomír Šilar",
+        "type": "pítko",
+        "date": "neuveden",
+        "material": "neuveden",
+        "image": ""
+      },
+
+      {
+        "artwork": "Můstek4",
+        "name": "(pítko u Dětského domu",
+        "id": "b16",
+        "author": "ing. arch. Karel Fořtl",
+        "type": "pítko",
+        "date": "neuveden",
+        "material": "neuveden",
+        "image": ""
+      }
+    ]
+  },
+
+  { "station": "Náměstí Republiky", "artworks": false },
+
+  {
+    "station": "Florenc",
+    "artworks": [
+      {
+        "artwork": "Florenc1",
+        "name": "(hodiny)",
+        "id": "b11",
+        "author": "nár. umělec Rufolf Svoboda",
+        "type": "d",
+        "date": "neuveden",
+        "material": "kovová plastika",
+        "image": ""
+      },
+
+      {
+        "artwork": "Florenc2",
+        "name": "Mostaři",
+        "id": "b12",
+        "author": "Hladík, Karel",
+        "type": "d",
+        "date": "1980",
+        "material": "plastika",
+        "image": ""
+      }
+    ]
+  },
+
+  { "station": "Křižíkova", "artworks": false },
+
+  {
+    "station": "Invalidovna",
+    "artworks": [
+      {
+        "artwork": "Invalidovna1",
+        "name": "Sport",
+        "id": "b9",
+        "author": "ak. mal. Eva Heřmanská",
+        "type": "d",
+        "date": "neuveden",
+        "material": "vitráž",
+        "image": ""
+      },
+
+      {
+        "artwork": "Invalidovna2",
+        "name": "Fontána",
+        "id": "b10",
+        "author": "Hladíková Lydie, Mírová Děvana, Rychlíková Marie",
+        "type": "d",
+        "date": "neuveden",
+        "material": "neuveden",
+        "image": ""
+      }
+    ]
+  },
+
+  {
+    "station": "Palmovka",
+    "artworks": [
+      {
+        "artwork": "Palmovka1",
+        "name": "Soukolí",
+        "id": "b6",
+        "author": "ak. soch. doc. Alexius Appl",
+        "date": "neuveden",
+        "type": "d",
+        "material": "ocelová plastika",
+        "image": ""
+      },
+
+      {
+        "artwork": "Palmovka2",
+        "name": "úryvky z Hrabalových děl",
+        "id": "b7",
+        "author": "Tatiana Svatošová",
+        "type": "d",
+        "date": "neuveden",
+        "material": "neuveden",
+        "image": ""
+      },
+
+      {
+        "artwork": "Palmovka3",
+        "name": "Červený květ",
+        "id": "b8",
+        "author": "Kryštůfek Jiří",
+        "type": "d",
+        "date": "1970",
+        "material": "mramorová plastika",
+        "image": ""
+      }
+    ]
+  },
+
+  {
+    "station": "Českomoravská",
+    "artworks": [
+      {
+        "artwork": "Českomoravská1",
+        "name": "Život hrou",
+        "id": "b5",
+        "author": "Vivot Lea",
+        "date": "2001-2004",
+        "type": "d",
+        "material": "bronz",
+        "image": ""
+      }
+    ]
+  },
+
+  {
+    "station": "Vysočanská",
+    "artworks": [
+      {
+        "artwork": "Vysočanská1",
+        "name": "Modrý Vysočan",
+        "id": "b3",
+        "author": "Voříšek, Petr",
+        "date": "1999",
+        "type": "d",
+        "material": "kov",
+        "image": ""
+      },
+
+      {
+        "artwork": "Vysočanská2",
+        "name": "Pomník Emila Kolbena",
+        "id": "b4",
+        "author": "Suchánek, Martin; Velíšek, Lukáš",
+        "date": "neuveden",
+        "type": "d",
+        "material": "sklo, ocel, kámen",
+        "image": ""
+      }
+    ]
+  },
+
+  { "station": "Kolbenova", "artworks": false },
+
+  {
+    "station": "Hloubětín",
+    "artworks": [
+      {
+        "artwork": "Hloubětín1",
+        "name": "Plastická výzdoba bazénu",
+        "id": "b1",
+        "author": "Košík, Arnošt",
+        "date": "1970",
+        "type": "d",
+        "material": "bílý beton",
+        "image": ""
+      },
+
+      {
+        "artwork": "Hloubětín2",
+        "name": "Koupání",
+        "id": "b2",
+        "author": "Hladký, Jaroslav",
+        "date": "1985",
+        "type": "d",
+        "material": "bronz",
+        "image": ""
+      }
+    ]
+  },
+
+  { "station": "Rajská zahrada", "artworks": false },
+
+  { "station": "Černý most", "artworks": false }
 ]
