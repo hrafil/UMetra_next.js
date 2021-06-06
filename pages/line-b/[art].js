@@ -2,22 +2,27 @@ import { getStation } from '../../lib/stationB';
 
 export const Artwork = ({ station }) => {
   return (
-    <div>
+    <div className="container_artworks">
       {station.artworks.map((artwork) => (
-        <table>
-          <tr>
-            <th>Název:</th>
-            <th>Autor</th>
-            <th>Datace</th>
-            <th>Typ</th>
-          </tr>
-          <tr>
-            <th>{artwork.name}</th>
-            <th>{artwork.author}</th>
-            <th>{artwork.date}</th>
-            <th>{artwork.type}</th>
-          </tr>
-        </table>
+        <div className="container_artwork">
+          <img src={artwork.image} />
+          <table>
+            <tbody>
+              <tr>
+                <td>Název:</td>
+                <td>Autor</td>
+                <td>Datace</td>
+                <td>Typ</td>
+              </tr>
+              <tr>
+                <td>{artwork.name}</td>
+                <td>{artwork.author}</td>
+                <td>{artwork.date}</td>
+                <td>{artwork.type}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       ))}
     </div>
   );

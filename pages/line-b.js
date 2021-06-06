@@ -1,33 +1,26 @@
 import Link from 'next/link';
 import { getStation } from '../lib/stationB';
 // import styles from '../styles/Lines.module.css';
-import Modal from 'react-modal';
-import { useRouter } from 'next/router';
-import { Artwork } from './line-b/[art]';
-
-// Modal.setAppElement('#__next');
 
 const Line = ({ line }) => {
-  const router = useRouter();
+  const lineClass = line.artworks ? 'station' : 'station isDisabled yellow';
 
-  const lineClass = !line.artworks ? 'station' : 'station yellow';
+  const redLine =
+    line.station === 'Florenc' ? <div className="red-line"></div> : '';
 
   return (
     <div>
-      <div className="line">
+      <div className="line yellow">
         <Link
           href={`/line-b/[art]?art=${line.station}`}
           as={`/line-b/${line.station}`}
         >
           <div className={lineClass}>
+            {redLine}
             <span className="label">{line.station}</span>
           </div>
         </Link>
       </div>
-
-      {/* <Modal isOpen={!!router.query.art}>
-        <Artwork art={!!router.query.art} />
-      </Modal> */}
     </div>
   );
 };
@@ -41,12 +34,14 @@ const Lines = ({ lines }) => {
         ))}
       </div>
       <div>
-        <li>
-          <Link href="/line-a">Přestup na linku A</Link>
-        </li>
-        <li>
-          <Link href="/line-c">Přestup na linku C</Link>
-        </li>
+        <ul className="transfer">
+          <li>
+            <Link href="/line-a">Přestup na linku A</Link>
+          </li>
+          <li>
+            <Link href="/line-c">Přestup na linku C</Link>
+          </li>
+        </ul>
       </div>
     </>
   );
