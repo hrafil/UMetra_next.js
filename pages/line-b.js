@@ -26,22 +26,6 @@ const Line = ({ line }) => {
   }
 };
 
-//   return (
-//     <div>
-//       <div className="line yellow">
-//         <Link
-//           href={`/line-b/[art]?art=${line.station}`}
-//           as={`/line-b/${line.station}`}
-//         >
-//           <div className={lineClass}>
-//             <span className="label">{line.station}</span>
-//           </div>
-//         </Link>
-//       </div>
-//     </div>
-//   );
-// };
-
 const Lines = ({ lines }) => {
   return (
     <>
