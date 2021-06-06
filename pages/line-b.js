@@ -1,15 +1,19 @@
 import Link from 'next/link';
 import { getStation } from '../lib/stationB';
 import styles from '../styles/Lines.module.css';
+import Modal from 'react-modal';
 
 const Line = ({ line }) => {
   return (
     <div>
-      <Link href={`/line-b/${line.station}`}>
-        <div className={styles.station}>
-          <span className={styles.label}>{line.station}</span>
-        </div>
-      </Link>
+      <div className={styles.line}>
+        <Link href={`/line-b/${line.station}`}>
+          <div className={styles.station}>
+            <span className={styles.label}>{line.station}</span>
+          </div>
+        </Link>
+      </div>
+      {/* <Modal isOpen={true}>Čauko!</Modal>; */}
     </div>
   );
 };
@@ -17,7 +21,7 @@ const Line = ({ line }) => {
 const Lines = ({ lines }) => {
   return (
     <>
-      <div className={styles.line}>
+      <div>
         {lines.map((line) => (
           <Line key={line.station} line={line} />
         ))}
@@ -27,11 +31,12 @@ const Lines = ({ lines }) => {
 };
 
 export const getStaticProps = () => {
-  const seznamKontaktu = getStation();
+  const stationBList = getStation();
   return {
     props: {
-      lines: seznamKontaktu,
+      lines: stationBList,
     },
   };
 };
+
 export default Lines;
