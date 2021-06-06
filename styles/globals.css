@@ -19,3 +19,35 @@ body {
 h1 {
   font-size: 40px;
 }
+
+.line {
+  width: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffce2d;
+}
+
+.station {
+  margin: 20px;
+  border-radius: 50%;
+  border: 15px solid;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-color: #ffce2d;
+  pointer-events: none;
+}
+
+.yellow {
+  background-color: #ffce2d;
+  pointer-events: all;
+}
+
+.label {
+  margin: 80px;
+  font-size: 10px;
+  white-space: nowrap;
+}

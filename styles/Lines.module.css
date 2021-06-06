@@ -1,4 +1,4 @@
-.line {
+/* .line {
   width: 20px;
   margin: auto;
   display: flex;
@@ -18,11 +18,15 @@
   border-color: #ffce2d;
 }
 
+.yellow {
+  background-color: #ffce2d;
+}
+
 .label {
   margin: 80px;
   font-size: 10px;
   white-space: nowrap;
-}
+} */
 
 /* 
 
