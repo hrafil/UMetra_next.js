@@ -42,7 +42,7 @@ h1 {
 }
 
 .isDisabled {
-  pointer-events: none;
+  /* pointer-events: none; */
   background-color: #ffce2d;
 }
 

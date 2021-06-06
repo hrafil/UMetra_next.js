@@ -1,10 +1,16 @@
 import { getStation } from '../../lib/stationB';
 
 export const Artwork = ({ station }) => {
+  // const stationsFull = station.artworks.filter(
+  //   (item) => item.artworks !== false,
+  // );
+  // console.log(stationsFull);
+
+  // if (station.artwork === true) {
   return (
     <div className="container_artworks">
       {station.artworks.map((artwork) => (
-        <div className="container_artwork">
+        <div key={artwork.id} className="container_artwork">
           <img src={artwork.image} />
           <table>
             <tbody>
@@ -27,6 +33,7 @@ export const Artwork = ({ station }) => {
     </div>
   );
 };
+// };
 
 export const getStaticProps = ({ params }) => {
   const stationBList = getStation();
