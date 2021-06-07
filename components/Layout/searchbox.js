@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Search from 'react-search';
 import lineB from '../../data/listB.json';
 
 const searchField = () => {
   const [searchInput, setInput] = useState();
+  const [searchCathegory, setCathegory] = useState();
 
   const stationsFull = lineB.filter((item) => item.artworks !== false);
 
@@ -11,7 +11,7 @@ const searchField = () => {
   stationsFull.map((station) => {
     station.artworks.map((artwork) => artworksIn.push(artwork));
   });
-  console.log(artworksIn);
+  // console.log(artworksIn);
 
   const searchStation = () =>
     stationsFull.find((item) => {
@@ -22,7 +22,7 @@ const searchField = () => {
   // console.log(searchStation());
 
   const searchName = () =>
-    stationsFull.find((station) => {
+    artworksIn.find((station) => {
       if (station.name === searchInput) {
         return station.name;
       }
@@ -30,40 +30,59 @@ const searchField = () => {
   // console.log(searchName());
 
   const searchType = () =>
-    stationsFull.find((station) => {
+    artworksIn.filter((station) => {
       if (station.type === searchInput) {
-        return station.type;
+        return station;
       }
     });
   // console.log(searchType());
 
+  const searchAuthor = () =>
+    artworksIn.filter((station) => {
+      if (station.author === searchInput) {
+        return station;
+      }
+    });
+
+  const choice = () => {
+    if (searchCathegory === 'stanice') {
+      return searchStation();
+    } else if (searchCathegory === 'název') {
+      return searchName();
+    } else if (searchCathegory === 'typ') {
+      return searchType();
+    }
+  };
+  console.log(listOfItems(choice()));
+
   return (
     <>
-      <label>
-        Hledám...
-        <input type="text" onChange={(e) => setInput(e.target.value)} />
-      </label>
+      <form onSubmit={(e) => e.preventDefault()}>
+        <label>
+          Hledám...
+          <input type="text" onChange={(e) => setInput(e.target.value)} />
+        </label>
+        <select name="kategorie" onChange={(e) => setCathegory(e.target.value)}>
+          <option value="stanice">stanice</option>
+          <option value="název">název</option>
+          <option value="typ">typ</option>
+        </select>
+        {/* <button type="submit"></button> */}
+      </form>
     </>
   );
 };
 
-export const SearchStation = ({ stationsFull }) => {
-  return (
-    <div>
-      {stationsFull.map((station) => (
-        <div>{station.station}</div>
-      ))}
-    </div>
-  );
-};
+export const listOfItems = (items) = 
 
-// export const getStaticProps = () => {
-//   const stationBList = getStation();
-//   return {
-//     props: {
-//       lines: stationBList,
-//     },
-//   };
+// export const SearchStation = ({ stationsFull }) => {
+//   return (
+//     <div>
+//       {stationsFull.map((station) => (
+//         <div>{station.station}</div>
+//       ))}
+//     </div>
+//   );
 // };
 
 export const getStaticProps = ({ params }) => {
@@ -85,21 +104,4 @@ export const getStaticPaths = () => {
   };
 };
 
-// const Searchbox = () => {
-//   return (
-//     <div>
-//       <Search items={items} />
-
-//       <Search
-//         items={items}
-//         // placeholder="Pick your language"
-//         maxSelected={3}
-//         multiple={true}
-//         onItemsChanged={HiItems}
-//       />
-//     </div>
-//   );
-// };
-
 export default searchField;
-// export default stationsFull;
