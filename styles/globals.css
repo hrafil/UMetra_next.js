@@ -24,11 +24,15 @@ a {
 /* Home page */
 
 .container_home {
+  margin: 0 15px;
+}
+
+.btn_home {
   text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 35% 0;
+  margin: auto 0;
 }
 
 ul {
@@ -42,7 +46,7 @@ li {
   list-style: none;
 }
 
-.container_home a {
+.btn_home a {
   text-decoration: none;
   min-width: 100px;
   display: inline-block;
@@ -58,6 +62,13 @@ li {
 
 .btn_yellow {
   background-color: #ffce2d;
+}
+
+.btn_yellow {
+  transition: all 1s ease-in-out;
+}
+.btn_yellow:active {
+  transform: scale(100);
 }
 
 .btn_red {
