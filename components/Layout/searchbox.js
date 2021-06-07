@@ -53,7 +53,7 @@ const searchField = () => {
       return searchType();
     }
   };
-  console.log(listOfItems(choice()));
+  // console.log(listOfItems(choice()));
 
   return (
     <>
@@ -73,7 +73,7 @@ const searchField = () => {
   );
 };
 
-export const listOfItems = (items) = 
+// export const listOfItems = (items) =
 
 // export const SearchStation = ({ stationsFull }) => {
 //   return (
@@ -85,23 +85,23 @@ export const listOfItems = (items) =
 //   );
 // };
 
-export const getStaticProps = ({ params }) => {
-  const stationBList = getStation();
-  return {
-    props: {
-      station: stationBList.find((station) => station.station === params.art),
-    },
-  };
-};
+// export const getStaticProps = ({ params }) => {
+//   const stationBList = getStation();
+//   return {
+//     props: {
+//       station: stationBList.find((station) => station.station === params.art),
+//     },
+//   };
+// };
 
-export const getStaticPaths = () => {
-  const stationBList = getStation();
-  return {
-    paths: stationBList.map((station) => ({
-      params: { art: station.station },
-    })),
-    fallback: false,
-  };
-};
+// export const getStaticPaths = () => {
+//   const stationBList = getStation();
+//   return {
+//     paths: stationBList.map((station) => ({
+//       params: { art: station.station },
+//     })),
+//     fallback: false,
+//   };
+// };
 
 export default searchField;

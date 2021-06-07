@@ -2,30 +2,33 @@ import { getStation } from '../../lib/stationB';
 
 export const Artwork = ({ station }) => {
   return (
-    <div className="container_artworks">
-      {station.artworks &&
-        station.artworks.map((artwork) => (
-          <div key={artwork.id} className="container_artwork">
-            <img src={artwork.image} />
-            <table>
-              <tbody>
-                <tr>
-                  <td>Název:</td>
-                  <td>Autor</td>
-                  <td>Datace</td>
-                  <td>Typ</td>
-                </tr>
-                <tr>
-                  <td>{artwork.name}</td>
-                  <td>{artwork.author}</td>
-                  <td>{artwork.date}</td>
-                  <td>{artwork.type}</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        ))}
-    </div>
+    <>
+      <h2>{station.station}</h2>
+      <div className="container_artworks">
+        {station.artworks &&
+          station.artworks.map((artwork) => (
+            <div key={artwork.id} className="container_artwork">
+              <img src={artwork.image} />
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Název:</td>
+                    <td>Autor</td>
+                    <td>Datace</td>
+                    <td>Typ</td>
+                  </tr>
+                  <tr>
+                    <td>{artwork.name}</td>
+                    <td>{artwork.author}</td>
+                    <td>{artwork.date}</td>
+                    <td>{artwork.type}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          ))}
+      </div>
+    </>
   );
 };
 // };

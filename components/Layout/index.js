@@ -10,10 +10,13 @@ const Layout = ({ children }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
-        <h1>
+        {/* <h1>
           <Link href="/">UMetra</Link>
         </h1>
-        <Link href="/about">O projektu</Link>
+        <Link href="/about">O projektu</Link> */}
+        <button>
+          <Link href="/">x</Link>
+        </button>
       </header>
       <main>{children}</main>
     </>

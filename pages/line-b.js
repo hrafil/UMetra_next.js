@@ -5,8 +5,8 @@ import { getStation } from '../lib/stationB';
 const Line = ({ line }) => {
   if (!line.artworks) {
     return (
-      <div className="station yellow">
-        <span className="label">{line.station}</span>
+      <div className="station">
+        <p className="label lable_empty">{line.station}</p>
       </div>
     );
   } else {
@@ -15,8 +15,8 @@ const Line = ({ line }) => {
         href={`/line-b/[art]?art=${line.station}`}
         as={`/line-b/${line.station}`}
       >
-        <div className="station">
-          <span className="label">{line.station}</span>
+        <div className="station yellow">
+          <p className="label">{line.station}</p>
         </div>
       </Link>
     );

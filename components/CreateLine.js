@@ -31,16 +31,6 @@ const Lines = ({ lines }) => {
           <Line key={line.station} line={line} />
         ))}
       </div>
-      <div>
-        <ul className="transfer">
-          <li>
-            <Link href="/line-a">Přestup na linku A</Link>
-          </li>
-          <li>
-            <Link href="/line-c">Přestup na linku C</Link>
-          </li>
-        </ul>
-      </div>
     </>
   );
 };

@@ -9,11 +9,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
-}
-
-body {
-  font-family: sans-serif;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 
 h1 a {
@@ -79,30 +75,38 @@ li {
   align-items: center;
 }
 
+.isDisabled {
+  /* pointer-events: none; */
+  background-color: #ffce2d;
+}
+
 .station {
-  margin: 20px;
+  margin: 20px 0;
   border-radius: 50%;
   border: 15px solid;
   width: 80px;
   height: 80px;
   background-color: #fff;
   border-color: #ffce2d;
-}
-
-.isDisabled {
-  /* pointer-events: none; */
-  background-color: #ffce2d;
+  position: relative;
 }
 
 .yellow {
   border-color: #ffce2d;
   background-color: #ffce2d;
+  position: relative;
 }
 
 .label {
-  margin: 80px;
-  font-size: 10px;
   white-space: nowrap;
+  font-size: 12px;
+  position: absolute;
+  left: 80px;
+  top: 1px;
+}
+
+.lable_empty {
+  color: rgba(0, 0, 0, 0.504);
 }
 
 /* Line B transfer */
@@ -111,25 +115,22 @@ li {
   font-size: 10px;
 }
 
-/* Images */
+/* ArtWorks */
+
+.container_artworks {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
 
 img {
   width: 100%;
 }
 
-/* ArtPage */
-
-.container_artworks {
-  display: flex;
-  width: 100%;
-  overflow-x: scroll;
-}
-
 .container_artwork {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  width: 100%;
+  width: 80%;
+  margin: 15px auto;
 }
 
 /* .red-line {
