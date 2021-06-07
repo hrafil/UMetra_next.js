@@ -16,8 +16,56 @@ body {
   font-family: sans-serif;
 }
 
-h1 {
+h1 a {
   font-size: 40px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Home page */
+
+.container_home {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 35% 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  border-radius: 50%;
+  list-style: none;
+}
+
+.container_home a {
+  text-decoration: none;
+  min-width: 100px;
+  display: inline-block;
+  color: black;
+  margin: 0;
+  padding: 40px 0;
+  font-weight: bold;
+}
+
+.btn_green {
+  background-color: #17a301;
+}
+
+.btn_yellow {
+  background-color: #ffce2d;
+}
+
+.btn_red {
+  background-color: #ff2632;
 }
 
 /* Line B */
