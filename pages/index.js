@@ -15,35 +15,15 @@ const Home = () => {
   const handleTitle = () =>
     title === 'UMetra' ? setTitle('U metra') : setTitle('UMetra');
 
-  useEffect(() => {
-    setTimeout(() => {
-      console.log('Chci se zpozdit');
-    }, 3000);
-  }, []);
-
-  // const handleClick = (e) => {
-  //   e.preventDefault();
-  //   setB('');
-  //   window.setTimeout(() => {}, 100000);
-  // };
-
-  const handleClick = (e) => {
-    e.preventDefault();
-  };
-
   return (
     <div className="container_home">
       <h1 onClick={handleTitle}>{title}</h1>
       <h2>{t('common:slogan')}</h2>
       <p>{t('common:information')}</p>
       <div className="btn_home">
-        <button onSubmit={handleClick}>
-          <Link href="/line-b">B</Link>
-        </button>
-
-        {/* <li className="btn_green">
+        <li className="btn_green">
           <Link href="/line-a">A</Link>
-        </li> */}
+        </li>
         <li className="btn_yellow">
           <Link href="/line-b">B</Link>
         </li>
