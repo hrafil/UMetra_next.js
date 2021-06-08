@@ -1,9 +1,15 @@
 import { getStation } from '../../lib/stationB';
 import Link from 'next/link';
-import useTranslation from 'next-translate/useTranslation';
+// import useTranslation from 'next-translate/useTranslation';
+// import getT from 'next-translate/getT';
+// import { useRouter } from 'next/router';
 
 export const Artwork = ({ station }) => {
-  let { t } = useTranslation();
+  // const { query } = useRouter();
+  // const { t, lang } = useTranslation();
+
+  // console.log({ query });
+
   return (
     <div className="container_artpage">
       <Link href="/line-b">Zpět</Link>

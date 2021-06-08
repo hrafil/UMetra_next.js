@@ -3,7 +3,10 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 const Layout = ({ children }) => {
-  const router = useRouter();
+  let router = useRouter();
+  let language =
+    router.locale === 'cs' ? 'EN' : router.locale === 'en-US' ? 'CZ' : '';
+
   return (
     <>
       <Head>
@@ -20,18 +23,27 @@ const Layout = ({ children }) => {
           <Link href="/">x</Link>
         </button>
       </header>
+      <main>{children}</main>
       <footer>
         <ul>
           {router.locales.map((locale) => (
             <li key={locale}>
               <Link href={router.asPath} locale={locale}>
-                {locale}
+                {language}
               </Link>
             </li>
           ))}
+          <div>{language}</div>
         </ul>
+
+        {/* <ul>
+          <li>
+            <Link href={router.asPath}>{router.locales[1]}</Link>
+          </li>
+        </ul>
+
+        <p>{router.locales[0]}</p> */}
       </footer>
-      <main>{children}</main>
     </>
   );
 };
