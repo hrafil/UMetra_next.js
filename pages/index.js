@@ -2,8 +2,11 @@
 // import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import React, { useState } from 'react';
+import useTranslation from 'next-translate/useTranslation';
 
 const Home = () => {
+  let { t } = useTranslation();
+
   const [title, setTitle] = useState('UMetra');
   // const [b, setB] = useState('B');
   const [yellowLink, setYellowLink] = useState('');
@@ -20,7 +23,7 @@ const Home = () => {
   return (
     <div className="container_home">
       <h1 onClick={handleTitle}>{title}</h1>
-      <h2>umění v metru</h2>
+      <h2>{t('common:slogan')}</h2>
       <p>
         Prozkoumej uměnumělecká díla na pražských linkách metra a jejich
         blízkého okolí. Vyber si trasu.
@@ -41,3 +44,16 @@ const Home = () => {
 };
 
 export default Home;
+
+// export const getStaticProps = ({ locale }) => {
+//   const slogan =
+//     locale === 'cs'
+//       ? 'umění v metru'
+//       : locale === 'en-US'
+//       ? 'art in the subway'
+//       : '';
+
+//   return {
+//     props: { slogan },
+//   };
+// };

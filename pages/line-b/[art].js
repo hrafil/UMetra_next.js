@@ -1,7 +1,9 @@
 import { getStation } from '../../lib/stationB';
 import Link from 'next/link';
+import useTranslation from 'next-translate/useTranslation';
 
 export const Artwork = ({ station }) => {
+  let { t } = useTranslation();
   return (
     <div className="container_artpage">
       <Link href="/line-b">Zpět</Link>
