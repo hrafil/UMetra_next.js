@@ -1,34 +1,24 @@
 import { getStation } from '../../lib/stationB';
+import Link from 'next/link';
 
 export const Artwork = ({ station }) => {
   return (
-    <>
+    <div className="container_artpage">
+      <Link href="/line-b">Zpět</Link>
       <h2>{station.station}</h2>
       <div className="container_artworks">
         {station.artworks &&
           station.artworks.map((artwork) => (
             <div key={artwork.id} className="container_artwork">
               <img src={artwork.image} />
-              <table>
-                <tbody>
-                  <tr>
-                    <td>Název:</td>
-                    <td>Autor</td>
-                    <td>Datace</td>
-                    <td>Typ</td>
-                  </tr>
-                  <tr>
-                    <td>{artwork.name}</td>
-                    <td>{artwork.author}</td>
-                    <td>{artwork.date}</td>
-                    <td>{artwork.type}</td>
-                  </tr>
-                </tbody>
-              </table>
+              <div>{artwork.name}</div>
+              <div>Autor: {artwork.author}</div>
+              <div>Datace: {artwork.date}</div>
+              <div>Typ: {artwork.type}</div>
             </div>
           ))}
       </div>
-    </>
+    </div>
   );
 };
 // };

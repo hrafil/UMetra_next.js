@@ -9,7 +9,7 @@ const Home = () => {
   const [yellowLink, setYellowLink] = useState('');
 
   const handleTitle = () =>
-    title === 'UMetra' ? setTitle('Umetra') : setTitle('UMetra');
+    title === 'UMetra' ? setTitle('U metra') : setTitle('UMetra');
 
   const handleClick = (e) => {
     e.preventDefault();

@@ -15,12 +15,12 @@
       {
         "artwork": "Nové Butovice1",
         "name": "Pomník Dukelským hrdinům",
-        "id": "b25",
+        "id": "b-nb1",
         "author": "Milan Vácha",
         "type": "plastika",
         "date": "neuveden",
         "material": "pískovec",
-        "image": ""
+        "image": "/b-nb1.jpg"
       },
 
       {
@@ -31,7 +31,7 @@
         "type": "plastika",
         "date": "2016",
         "material": "neuveden",
-        "image": ""
+        "image": "/b-nb2.jpg"
       }
     ]
   },
@@ -49,7 +49,7 @@
         "type": "plastika",
         "date": "neuveden",
         "material": "žula, bronz",
-        "image": ""
+        "image": "/b-r1.jpg"
       },
 
       {
@@ -60,7 +60,7 @@
         "type": "mříž",
         "date": "neuveden",
         "material": "kov",
-        "image": ""
+        "image": "/b-r2.jpg"
       }
     ]
   },
@@ -78,7 +78,7 @@
         "type": "reliéf",
         "date": "neuveden",
         "material": "bronz",
-        "image": ""
+        "image": "/b-a1.jpg"
       }
     ]
   },
@@ -94,7 +94,7 @@
         "type": "vitáž",
         "date": "neuveden",
         "material": "sklo, kov",
-        "image": ""
+        "image": "/b-kn1.jpg"
       },
 
       {
@@ -105,7 +105,7 @@
         "type": "skleněný objekt",
         "date": "neuveden",
         "material": "sklo",
-        "image": ""
+        "image": "/b-kn2.jpg"
       },
 
       {
@@ -116,7 +116,7 @@
         "type": "pítko",
         "date": "neuveden",
         "material": "neuveden",
-        "image": ""
+        "image": "/b-kn3.jpg"
       },
 
       {
@@ -127,7 +127,7 @@
         "type": "mozaika",
         "date": "neuveden",
         "material": "neuveden",
-        "image": ""
+        "image": "/b-kn4.jpg"
       }
     ]
   },
@@ -143,7 +143,7 @@
         "type": "plastika",
         "date": "neuveden",
         "material": "neuveden",
-        "image": ""
+        "image": "/b-nt1.jpg"
       }
     ]
   },
@@ -159,7 +159,7 @@
         "type": "d",
         "date": "neuveden",
         "material": "keramický reliéf",
-        "image": ""
+        "image": "/b-m1.jpg"
       },
 
       {
@@ -170,7 +170,7 @@
         "type": "reliéf",
         "date": "neuveden",
         "material": "keramický reliéf",
-        "image": ""
+        "image": "/b-m2.jpg"
       },
 
       {
@@ -181,7 +181,7 @@
         "type": "pítko",
         "date": "neuveden",
         "material": "neuveden",
-        "image": ""
+        "image": "/b-m3.jpg"
       },
 
       {
@@ -192,7 +192,7 @@
         "type": "pítko",
         "date": "neuveden",
         "material": "neuveden",
-        "image": ""
+        "image": "/b-m4.jpg"
       }
     ]
   },
@@ -203,17 +203,6 @@
     "station": "Florenc",
     "artworks": [
       {
-        "artwork": "Florenc1",
-        "name": "(hodiny)",
-        "id": "b-f1",
-        "author": "nár. umělec Rufolf Svoboda",
-        "type": "d",
-        "date": "neuveden",
-        "material": "kovová plastika",
-        "image": ""
-      },
-
-      {
         "artwork": "Florenc2",
         "name": "Mostaři",
         "id": "b-f2",
@@ -221,6 +210,16 @@
         "type": "d",
         "date": "1980",
         "material": "plastika",
+        "image": "/b-f2.jpg"
+      },
+      {
+        "artwork": "Florenc1",
+        "name": "(hodiny)",
+        "id": "b-f1",
+        "author": "nár. umělec Rufolf Svoboda",
+        "type": "d",
+        "date": "neuveden",
+        "material": "kovová plastika",
         "image": ""
       }
     ]
@@ -239,18 +238,18 @@
         "type": "d",
         "date": "neuveden",
         "material": "vitráž",
-        "image": "/Invalidovna_1.jpg"
+        "image": "/b-i1.jpg"
       },
 
       {
         "artwork": "Invalidovna2",
         "name": "Fontána",
-        "id": "b-i1",
+        "id": "b-i2",
         "author": "Hladíková Lydie, Mírová Děvana, Rychlíková Marie",
         "type": "d",
         "date": "neuveden",
         "material": "neuveden",
-        "image": "/Invalidovna_2.jpg"
+        "image": "/b-i2.jpg"
       }
     ]
   },
@@ -259,36 +258,35 @@
     "station": "Palmovka",
     "artworks": [
       {
+        "artwork": "Palmovka3",
+        "name": "Červený květ",
+        "id": "b-p3",
+        "author": "Kryštůfek Jiří",
+        "type": "d",
+        "date": "1970",
+        "material": "mramorová plastika",
+        "image": "/b-p3.jpg"
+      },
+      {
         "artwork": "Palmovka1",
         "name": "Soukolí",
-        "id": "b-i1",
+        "id": "b-p1",
         "author": "ak. soch. doc. Alexius Appl",
         "date": "neuveden",
         "type": "d",
         "material": "ocelová plastika",
-        "image": ""
+        "image": "/b-p1.jpg"
       },
 
       {
         "artwork": "Palmovka2",
         "name": "úryvky z Hrabalových děl",
-        "id": "b-i2",
+        "id": "b-p2",
         "author": "Tatiana Svatošová",
         "type": "d",
         "date": "neuveden",
         "material": "neuveden",
-        "image": ""
-      },
-
-      {
-        "artwork": "Palmovka3",
-        "name": "Červený květ",
-        "id": "b-i2",
-        "author": "Kryštůfek Jiří",
-        "type": "d",
-        "date": "1970",
-        "material": "mramorová plastika",
-        "image": ""
+        "image": "/b-p2.jpg"
       }
     ]
   },
@@ -304,7 +302,7 @@
         "date": "2001-2004",
         "type": "d",
         "material": "bronz",
-        "image": ""
+        "image": "/b-c1.jpg"
       }
     ]
   },
@@ -320,7 +318,7 @@
         "date": "1999",
         "type": "d",
         "material": "kov",
-        "image": ""
+        "image": "/b-v1.jpg"
       },
 
       {
@@ -331,7 +329,7 @@
         "date": "neuveden",
         "type": "d",
         "material": "sklo, ocel, kámen",
-        "image": ""
+        "image": "/b-v2.jpg"
       }
     ]
   },
@@ -349,7 +347,7 @@
         "date": "1970",
         "type": "d",
         "material": "bílý beton",
-        "image": ""
+        "image": "/b-h1.jpg"
       },
 
       {
@@ -360,7 +358,7 @@
         "date": "1985",
         "type": "d",
         "material": "bronz",
-        "image": ""
+        "image": "/b-h2.jpg"
       }
     ]
   },

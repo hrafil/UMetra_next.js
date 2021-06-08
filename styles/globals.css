@@ -86,10 +86,10 @@ li {
   align-items: center;
 }
 
-.isDisabled {
-  /* pointer-events: none; */
+/* .isDisabled {
+  pointer-events: none;
   background-color: #ffce2d;
-}
+} */
 
 .station {
   margin: 20px 0;
@@ -127,6 +127,10 @@ li {
 }
 
 /* ArtWorks */
+
+/* .container_artpage {
+  background-color: #ffce2d;
+} */
 
 .container_artworks {
   display: flex;
