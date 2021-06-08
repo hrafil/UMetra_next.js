@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+// import { useRouter } from 'next/router';
 
 const Layout = ({ children }) => {
-  let router = useRouter();
-  let language =
-    router.locale === 'cs' ? 'EN' : router.locale === 'en-US' ? 'CZ' : '';
+  // let router = useRouter();
+  // let language =
+  //   router.locale === 'cs' ? 'EN' : router.locale === 'en-US' ? 'CZ' : '';
 
   return (
     <>
@@ -24,26 +24,6 @@ const Layout = ({ children }) => {
         </button>
       </header>
       <main>{children}</main>
-      <footer>
-        <ul>
-          {router.locales.map((locale) => (
-            <li key={locale}>
-              <Link href={router.asPath} locale={locale}>
-                {language}
-              </Link>
-            </li>
-          ))}
-          <div>{language}</div>
-        </ul>
-
-        {/* <ul>
-          <li>
-            <Link href={router.asPath}>{router.locales[1]}</Link>
-          </li>
-        </ul>
-
-        <p>{router.locales[0]}</p> */}
-      </footer>
     </>
   );
 };

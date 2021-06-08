@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useEffect } from 'react';
 import { getStation } from '../lib/stationB';
 // import styles from '../styles/Lines.module.css';
 
@@ -24,6 +25,8 @@ const Line = ({ line }) => {
 };
 
 const Lines = ({ lines }) => {
+  useEffect(() => window.scrollTo(0, 1300), []);
+
   return (
     <>
       <div className="line yellow">
