@@ -1,0 +1,52 @@
+[
+  {"station": "Nemocnice Motol",
+    "artworks": [
+      {
+        "artwork": "Nemocnice Motol1",
+        "name": "Péče o děti",
+        "id": "a-nem1",
+        "author": "Richard Ferdinand Podzemný, Jiří Kryštůfek",
+        "type": "plastika",
+        "date": "neuveden",
+        "material": "neuveden",
+        "image": "tba"
+      }
+]
+  },
+
+  { "station": "Petřiny", "artworks": false },
+
+  { "station": "Nádraží Veleslavín", "artworks": false },
+
+  { "station": "Bořislavka", "artworks": false },
+
+  {"station": "Dejvická",
+    "artworks": [
+      {
+        "artwork": "Plameny revoluce",
+        "name": "",
+        "id": "a-dej1",
+        "author": "Martin Sladký",
+        "type": "mozaika",
+        "date": "neuveden",
+        "material": "neuveden",
+        "image": "tba"
+      }
+]
+  },
+
+  {"station": "Hradčanská ",
+    "artworks": [
+      {
+        "artwork": "Nemocnice Motol1",
+        "name": "",
+        "id": "a-nem1",
+        "author": "Josefína Jonášová, Magdaléna Roztočilová",
+        "type": "plastika",
+        "date": "neuveden",
+        "material": "neuveden",
+        "image": "tba"
+      },
+]
+  },
+
