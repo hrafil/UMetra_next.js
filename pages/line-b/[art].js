@@ -13,16 +13,17 @@ export const Artwork = ({ station }) => {
   return (
     <div className="container_artpage">
       <Link href="/line-b">Zpět</Link>
-      <h2>{station.station}</h2>
+      <h2>{station.station.toUpperCase()}</h2>
       <div className="container_artworks">
+        <div className="circle_art"></div>
         {station.artworks &&
           station.artworks.map((artwork) => (
             <div key={artwork.id} className="container_artwork">
               <img src={artwork.image} />
-              <div>{artwork.name}</div>
-              <div>Autor: {artwork.author}</div>
-              <div>Datace: {artwork.date}</div>
-              <div>Typ: {artwork.type}</div>
+              <div>{artwork.name.toUpperCase()}</div>
+              <div>{artwork.author}</div>
+              <div>{artwork.date}</div>
+              <div>{artwork.type}</div>
             </div>
           ))}
       </div>

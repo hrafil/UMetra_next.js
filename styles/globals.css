@@ -71,12 +71,12 @@ li {
   background-color: #ffce2d;
 }
 
-.btn_yellow {
+/* .btn_yellow {
   transition: all 1s ease-in-out;
 }
 .btn_yellow:active {
   transform: scale(100);
-}
+} */
 
 .btn_red {
   background-color: #ff2632;
@@ -84,14 +84,14 @@ li {
 
 /* Line B */
 
-.line {
+/* .line {
   width: 20px;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-}
+} */
 
 /* .isDisabled {
   pointer-events: none;
@@ -99,14 +99,20 @@ li {
 } */
 
 .station {
-  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.station_circle {
+  margin: 0 auto;
   border-radius: 50%;
-  border: 15px solid;
-  width: 80px;
-  height: 80px;
+  border: 20px solid;
+  width: 150px;
+  height: 150px;
   background-color: #fff;
   border-color: #ffce2d;
-  position: relative;
+  /* position: relative; */
+  display: flex;
 }
 
 .yellow {
@@ -115,16 +121,29 @@ li {
   position: relative;
 }
 
-.label {
+/* .label {
   white-space: nowrap;
   font-size: 12px;
   position: absolute;
   left: 80px;
   top: 1px;
+} */
+
+/* 2 varianta */
+
+.label {
+  width: 100%;
+  white-space: nowrap;
+  font-size: 20px;
+  /* position: absolute;
+  bottom: -90px; */
+  text-align: center;
+  font-weight: bold;
 }
 
 .lable_empty {
-  color: rgba(0, 0, 0, 0.504);
+  /* color: rgba(0, 0, 0, 0.504); */
+  font-weight: normal;
 }
 
 /* Line B transfer */
@@ -142,25 +161,38 @@ li {
 .container_artworks {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+  transform: none;
 }
 
 img {
   width: 100%;
+  border: 20px solid white;
 }
 
 .container_artwork {
-  width: 80%;
+  width: 95%;
   margin: 15px auto;
+  text-align: right;
 }
 
-/* .red-line {
-  height: 20px;
-  width: 100vw;
-  display: flex;
-  background-color: red;
+h2 {
+  text-align: right;
+  font-size: 36px;
+}
+
+.circle_art {
+  background-color: #ffce2d;
+  /* width: 250px;
+  height: 500px;
+  border-bottom-right-radius: 500px;
+  border-top-right-radius: 500px; */
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  position: fixed;
   z-index: -1;
-  position: absolute;
-  transform: rotate(25deg);
-} */
+  top: 80px;
+  left: -400px;
+}

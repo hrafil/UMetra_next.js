@@ -24,10 +24,10 @@ const Layout = ({ children }) => {
           <Link href="/">x</Link>
         </button>
       </header>
-      {/* <main>{children}</main> */}
-      <Transition location={router.pathname}>
+      <main>{children}</main>
+      {/* <Transition location={router.pathname}>
         <main className="main">{children}</main>
-      </Transition>
+      </Transition> */}
     </>
   );
 };

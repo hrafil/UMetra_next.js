@@ -7,7 +7,8 @@ const Line = ({ line }) => {
   if (!line.artworks) {
     return (
       <div className="station">
-        <p className="label lable_empty">{line.station}</p>
+        <div className="station_circle"></div>
+        <p className="label lable_empty">{line.station.toUpperCase()}</p>
       </div>
     );
   } else {
@@ -16,8 +17,9 @@ const Line = ({ line }) => {
         href={`/line-b/[art]?art=${line.station}`}
         as={`/line-b/${line.station}`}
       >
-        <div className="station yellow">
-          <p className="label">{line.station}</p>
+        <div className="station">
+          <div className="station_circle yellow"></div>
+          <p className="label">{line.station.toUpperCase()}</p>
         </div>
       </Link>
     );
@@ -25,15 +27,15 @@ const Line = ({ line }) => {
 };
 
 const Lines = ({ lines }) => {
-  useEffect(() => window.scrollTo(0, 1300), []);
+  useEffect(() => window.scrollTo(0, 2700), []);
 
   return (
-    <>
-      <div className="line yellow">
-        {lines.map((line) => (
-          <Line key={line.station} line={line} />
-        ))}
-      </div>
+    <main>
+      {/* <div className="line yellow"> */}
+      {lines.map((line) => (
+        <Line key={line.station} line={line} />
+      ))}
+      {/* </div> */}
       <div>
         <ul className="transfer">
           <li>
@@ -44,7 +46,7 @@ const Lines = ({ lines }) => {
           </li>
         </ul>
       </div>
-    </>
+    </main>
   );
 };
 
