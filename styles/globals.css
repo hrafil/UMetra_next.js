@@ -196,3 +196,10 @@ h2 {
   top: 80px;
   left: -400px;
 }
+
+@media (min-width: 768px) {
+  body {
+    max-width: 650px;
+    margin: 0 auto;
+  }
+}
