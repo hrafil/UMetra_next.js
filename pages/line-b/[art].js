@@ -1,4 +1,5 @@
 import { getStationB } from '../../lib/stationB';
+import { CreateArt } from '../../components/CreateArt';
 import Link from 'next/link';
 // import useTranslation from 'next-translate/useTranslation';
 // import getT from 'next-translate/getT';
@@ -7,30 +8,9 @@ import Link from 'next/link';
 export const Artwork = ({ station }) => {
   // const { query } = useRouter();
   // const { t, lang } = useTranslation();
-
   // console.log({ query });
-
-  return (
-    <div className="container_artpage">
-      <Link href="/line-b">Zpět</Link>
-      <h2>{station.station.toUpperCase()}</h2>
-      <div className="container_artworks">
-        <div className="circle_art"></div>
-        {station.artworks &&
-          station.artworks.map((artwork) => (
-            <div key={artwork.id} className="container_artwork">
-              <img src={artwork.image} />
-              <div>{artwork.name.toUpperCase()}</div>
-              <div>{artwork.author}</div>
-              <div>{artwork.date}</div>
-              <div>{artwork.type}</div>
-            </div>
-          ))}
-      </div>
-    </div>
-  );
+  return <CreateArt station={station} color="circle_art_yellow" letter="b" />;
 };
-// };
 
 export const getStaticProps = ({ params }) => {
   const stationBList = getStationB();

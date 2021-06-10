@@ -1,15 +1,13 @@
 import { getStationA } from '../../lib/stationA';
-import Link from 'next/link';
+import { CreateArt } from '../../components/CreateArt';
+// import Link from 'next/link';
 
 export const Artwork = ({ station }) => {
   // const { query } = useRouter();
   // const { t, lang } = useTranslation();
-
   // console.log({ query });
-
-  return <Artwork station={station} />;
+  return <CreateArt station={station} color="circle_art_green" letter="a" />;
 };
-// };
 
 export const getStaticProps = ({ params }) => {
   const stationAList = getStationA();

@@ -61,17 +61,151 @@
 
   { "station": "Muzeum", "artworks": false },
 
-  { "station": "Náměstí míru", "artworks": false },
+  {
+    "station": "Náměstí míru",
+    "artworks": [
+      {
+        "artwork": "Náměstí míru1",
+        "name": "Alegorie míru",
+        "id": "a-nam1",
+        "author": "Jan Kryštůfek",
+        "type": "plastika",
+        "date": "neuveden",
+        "material": "bronz",
+        "image": "tba"
+      }
+    ]
+  },
 
-  { "station": "Jiřího z Poděbrad", "artworks": false },
+  {
+    "station": "Jiřího z Poděbrad",
+    "artworks": [
+      {
+        "artwork": "Jiřího z Poděbrad1",
+        "name": "Sjednocená Evropa",
+        "id": "a-jir1",
+        "author": "Petr Šedivý",
+        "type": "fontána",
+        "date": "neuveden",
+        "material": " ",
+        "image": "tba"
+      },
+      {
+        "artwork": "Jiřího z Poděbrad2",
+        "name": "(husitství)",
+        "id": "a-jir2",
+        "author": "Lubomír Šilar",
+        "type": "reliéfy",
+        "date": "neuveden",
+        "material": "keramika",
+        "image": "tba"
+      },
+      {
+        "artwork": "Jiřího z Poděbrad2",
+        "name": "Jiří z Poděbrad",
+        "id": "a-jir2",
+        "author": "Jiří Dušek",
+        "type": "reliéf",
+        "date": "neuveden",
+        "material": "kámen",
+        "image": "tba"
+      }
+    ]
+  },
 
-  { "station": "Flora", "artworks": false },
+  {
+    "station": "Flora",
+    "artworks": [
+      {
+        "artwork": "Flora1",
+        "name": "Rostlinné motivy",
+        "id": "a-flo1",
+        "author": "Petr Svoboda",
+        "type": "reliéfy",
+        "date": "neuveden",
+        "material": "keramika",
+        "image": "tba"
+      }
+    ]
+  },
 
-  { "station": "Želivského", "artworks": false },
+  {
+    "station": "Želivského",
+    "artworks": [
+      {
+        "artwork": "Želivského1",
+        "name": "Kalich",
+        "id": "a-zel1",
+        "author": "Petr Svoboda",
+        "type": "fontána",
+        "date": "neuveden",
+        "material": " ",
+        "image": "tba"
+      },
+      {
+        "artwork": "Želivského2",
+        "name": "Jan Želivský a jeho doba",
+        "id": "a-zel2",
+        "author": "Jiřina Adamcová",
+        "type": "mozaika",
+        "date": "neuveden",
+        "material": " ",
+        "image": "tba"
+      },
+      {
+        "artwork": "Želivského3",
+        "name": "Husitství",
+        "id": "a-zel3",
+        "author": "Jan Simota",
+        "type": "reliéf",
+        "date": "neuveden",
+        "material": "bronz",
+        "image": "tba"
+      }
+    ]
+  },
 
   { "station": "Strašnická", "artworks": false },
 
-  { "station": "Skalka", "artworks": false },
+  {
+    "station": "Skalka",
+    "artworks": [
+      {
+        "artwork": "Skalka1",
+        "name": "Přírodní motivy",
+        "id": "a-ska1",
+        "author": "Jan Grimm",
+        "type": "mozaika",
+        "date": "neuveden",
+        "material": "",
+        "image": "tba"
+      },
+      {
+        "artwork": "Skalka2",
+        "name": "(fontána)",
+        "id": "a-ska2",
+        "author": "Martin Zet",
+        "type": "mozaika",
+        "date": "neuveden",
+        "material": "",
+        "image": "tba"
+      }
+    ]
+  },
 
-  { "station": "Depo Hostivař", "artworks": false }
+  {
+    "station": "Depo Hostivař",
+    "artworks": [
+      {
+        "artwork": "Depo Hostivař1",
+        "name": "Rodina",
+        "id": "a-flo1",
+        "author": "Vladimír Navrátil, Bohumil Teplý",
+        "type": "socha",
+        "date": "neuveden",
+        "material": "bronz",
+        "image": "tba"
+      }
+    ]
+  }
 ]
