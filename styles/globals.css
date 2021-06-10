@@ -118,12 +118,19 @@ h2 {
   font-size: 36px;
 }
 
-.circle_art {
+.circle_art_yellow {
   background-color: #ffce2d;
-  /* width: 250px;
-  height: 500px;
-  border-bottom-right-radius: 500px;
-  border-top-right-radius: 500px; */
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  position: fixed;
+  z-index: -1;
+  top: 80px;
+  left: -400px;
+}
+
+.circle_art_green {
+  background-color: #17a301;
   width: 600px;
   height: 600px;
   border-radius: 50%;

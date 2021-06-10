@@ -1,10 +1,12 @@
-export const Artwork = ({ station }) => {
+import Link from 'next/link';
+
+export const CreateArt = ({ station, color, letter }) => {
   return (
     <div className="container_artpage">
-      <Link href="/line-a">Zpět</Link>
+      <Link href={`line-${letter}`}>Zpět</Link>
       <h2>{station.station.toUpperCase()}</h2>
       <div className="container_artworks">
-        <div className="circle_art"></div>
+        <div className={color}></div>
         {station.artworks &&
           station.artworks.map((artwork) => (
             <div key={artwork.id} className="container_artwork">
@@ -20,4 +22,4 @@ export const Artwork = ({ station }) => {
   );
 };
 
-export default Artwork;
+export default CreateArt;

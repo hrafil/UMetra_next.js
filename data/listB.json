@@ -27,7 +27,7 @@
         "artwork": "Nové Butovice2",
         "name": "Trifot",
         "id": "b-nb2",
-        "author": "Jiří David",
+        "author": "David Černý",
         "type": "plastika",
         "date": "2016",
         "material": "neuveden",
@@ -99,7 +99,7 @@
 
       {
         "artwork": "Karlovo náměstí2",
-        "name": "neuveden",
+        "name": "bez názvu (skleněný objekt)",
         "id": "b-kn2",
         "author": "Jaroslav Štursa",
         "type": "skleněný objekt",
@@ -110,11 +110,11 @@
 
       {
         "artwork": "Karlovo náměstí3",
-        "name": "neuveden",
+        "name": "bez názvu (pítko)",
         "id": "b-kn3",
         "author": "Luboš Růžička",
         "type": "pítko",
-        "date": "neuveden",
+        "date": "1985",
         "material": "neuveden",
         "image": "/b-kn3.jpg"
       },
@@ -125,7 +125,7 @@
         "id": "b-kn4",
         "author": "Radomír Kolář",
         "type": "mozaika",
-        "date": "neuveden",
+        "date": "1985",
         "material": "neuveden",
         "image": "/b-kn4.jpg"
       }
@@ -139,9 +139,9 @@
         "artwork": "Národní třída1",
         "name": "Hlava Franze Kafky",
         "id": "b-nt1",
-        "author": "Jiří David",
+        "author": "David  Černý",
         "type": "plastika",
-        "date": "neuveden",
+        "date": "2014",
         "material": "neuveden",
         "image": "/b-nt1.jpg"
       }
@@ -207,7 +207,7 @@
         "name": "Mostaři",
         "id": "b-f2",
         "author": "Karel Hladík",
-        "type": "d",
+        "type": "plastika",
         "date": "1980",
         "material": "plastika",
         "image": "/b-f2.jpg"
@@ -225,20 +225,31 @@
         "name": "Sport",
         "id": "b-i1",
         "author": "Eva Heřmanská",
-        "type": "vitráž",
-        "date": "neuveden",
-        "material": "vitráž",
+        "type": "skleněná vitráž",
+        "date": "1989",
+        "material": "skleněná vitráž",
         "image": "/b-i1.jpg"
       },
 
       {
         "artwork": "Invalidovna2",
-        "name": "Fontána",
+        "name": "bez názvu (fontána)",
         "id": "b-i2",
         "author": "Lydie Hladíková, Děvana Mírová, Marie Rychlíková",
         "type": "plastika",
-        "date": "neuveden",
-        "material": "neuveden",
+        "date": "1964",
+        "material": "keramika",
+        "image": "/b-i2.jpg"
+      },
+
+      {
+        "artwork": "Invalidovna3",
+        "name": "bez názvu (keramická mříž)",
+        "id": "b-i3",
+        "author": "Lydie Hladíková, Děvana Mírová, Marie Rychlíková",
+        "type": "plastika",
+        "date": "1963",
+        "material": "keramika",
         "image": "/b-i2.jpg"
       }
     ]
@@ -262,7 +273,7 @@
         "name": "Soukolí",
         "id": "b-p1",
         "author": "Alexius Appl",
-        "date": "neuveden",
+        "date": "1987",
         "type": "plastika",
         "material": "ocel",
         "image": "/b-p1.jpg"
@@ -273,8 +284,8 @@
         "name": "úryvky z Hrabalových děl",
         "id": "b-p2",
         "author": "Tatiana Svatošová",
-        "type": "d",
-        "date": "neuveden",
+        "type": "malba",
+        "date": "1999",
         "material": "neuveden",
         "image": "/b-p2.jpg"
       }
@@ -290,7 +301,7 @@
         "id": "b-c1",
         "author": "Lea Vivot",
         "date": "2001-2004",
-        "type": "d",
+        "type": "socha",
         "material": "bronz",
         "image": "/b-c1.jpg"
       }
@@ -316,8 +327,8 @@
         "name": "Pomník Emila Kolbena",
         "id": "b-v2",
         "author": "Suchánek, Martin; Velíšek, Lukáš",
-        "date": "neuveden",
-        "type": "d",
+        "date": "2014",
+        "type": "pomník",
         "material": "sklo, ocel, kámen",
         "image": "/b-v2.jpg"
       }
