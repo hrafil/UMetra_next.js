@@ -2,8 +2,8 @@
 // import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import React, { useState } from 'react';
-import { useRouter } from 'next/router';
-import { useEffect } from 'react';
+// import { useRouter } from 'next/router';
+// import { useEffect } from 'react';
 
 const Home = () => {
   const [title, setTitle] = useState('UMetra');
@@ -14,7 +14,6 @@ const Home = () => {
   return (
     <div className="container_home">
       <h1 onClick={handleTitle}>{title}</h1>
-      <h2>umění v metru</h2>
       <p>
         Prozkoumej umělecká díla v pražských linkách metra a jejich blízkého
         okolí. Vyber si trasu.
