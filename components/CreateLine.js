@@ -36,7 +36,6 @@ const CreateStation = ({ line, color, colorEmpty, letter }) => {
           <div className="station">
             <div className={color}></div>
             <p className="label">
-              {line.station.toUpperCase()}
               {transferToC ? (
                 <Link href="/line-c">
                   <div className="transfer_red"></div>
@@ -50,6 +49,7 @@ const CreateStation = ({ line, color, colorEmpty, letter }) => {
                   <div className="transfer_yellow"></div>
                 </Link>
               ) : undefined}
+              {line.station.toUpperCase()}
             </p>
           </div>
         </Link>

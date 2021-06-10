@@ -90,7 +90,7 @@ li {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  margin-left: 1rem;
+  right: 5%;
   margin-top: 0.5rem;
 }
 
@@ -101,7 +101,7 @@ li {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  margin-left: 1rem;
+  left: 5%;
   margin-top: 0.5rem;
 }
 
@@ -112,7 +112,7 @@ li {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  margin-left: 1rem;
+  right: 5%;
   margin-top: 0.5rem;
 }
 

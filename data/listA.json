@@ -57,9 +57,37 @@
 
   { "station": "Staroměstská", "artworks": false },
 
-  { "station": "Můstek", "artworks": false },
+  {
+    "station": "Můstek",
+    "artworks": [
+      {
+        "artwork": "Můstek1",
+        "name": "",
+        "id": "a-mus1",
+        "author": "",
+        "type": "",
+        "date": "",
+        "material": "",
+        "image": "tba"
+      }
+    ]
+  },
 
-  { "station": "Muzeum", "artworks": false },
+  {
+    "station": "Muzeum",
+    "artworks": [
+      {
+        "artwork": "Muzeum1",
+        "name": "",
+        "id": "a-muz1",
+        "author": "",
+        "type": "",
+        "date": "",
+        "material": "",
+        "image": "tba"
+      }
+    ]
+  },
 
   {
     "station": "Náměstí míru",
