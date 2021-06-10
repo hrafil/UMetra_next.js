@@ -9,7 +9,13 @@ const LineB = ({ lines }) => {
 
   return (
     <main>
-      <CreateLine key={lines.station} lines={lines} />
+      <CreateLine
+        key={lines.station}
+        lines={lines}
+        color="circle_yellow"
+        colorEmpty="circle_empty_yellow"
+        letter="b"
+      />
 
       <div>
         <ul className="transfer">

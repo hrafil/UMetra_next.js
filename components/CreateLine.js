@@ -1,24 +1,24 @@
 import Link from 'next/link';
 import styles from '../styles/Line.module.css';
 
-const CreateStation = ({ line }) => {
+const CreateStation = ({ line, color, colorEmpty, letter }) => {
   if (!line.artworks) {
     return (
-      <div className={styles.station}>
-        <div className={styles.circle_empty_yellow}></div>
-        <p className={styles.lable_empty}>{line.station.toUpperCase()}</p>
+      <div className="station">
+        <div className={colorEmpty}></div>
+        <p className="lable_empty">{line.station.toUpperCase()}</p>
       </div>
     );
   } else {
     return (
       <>
         <Link
-          href={`/line-b/[art]?art=${line.station}`}
-          as={`/line-b/${line.station}`}
+          href={`/line-${letter}/[art]?art=${line.station}`}
+          as={`/line-${letter}/${line.station}`}
         >
-          <div className={styles.station}>
-            <div className={styles.circle_yellow}></div>
-            <p className={styles.label}>{line.station.toUpperCase()}</p>
+          <div className="station">
+            <div className={color}></div>
+            <p className="label">{line.station.toUpperCase()}</p>
           </div>
         </Link>
       </>
@@ -26,11 +26,17 @@ const CreateStation = ({ line }) => {
   }
 };
 
-const CreateLine = ({ lines }) => {
+const CreateLine = ({ lines, color, colorEmpty, letter }) => {
   return (
     <main>
       {lines.map((line) => (
-        <CreateStation key={line.station} line={line} />
+        <CreateStation
+          key={line.station}
+          line={line}
+          color={color}
+          colorEmpty={colorEmpty}
+          letter={letter}
+        />
       ))}
     </main>
   );

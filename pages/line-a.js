@@ -1,13 +1,20 @@
 import { getStationA } from '../lib/stationA';
-
 import CreateLine from '../components/CreateLine';
+// import { useEffect } from 'react';
 
 const LineA = ({ lines }) => {
+  // useEffect(() => window.scrollTo(0, 2700), []);
+
   return (
-    <div>
-      <div>Linka A</div>
-      <CreateLine key={lines.station} lines={lines} />
-    </div>
+    <main>
+      <CreateLine
+        key={lines.station}
+        lines={lines}
+        color="circle_green"
+        colorEmpty="circle_empty_green"
+        letter="a"
+      />
+    </main>
   );
 };
 

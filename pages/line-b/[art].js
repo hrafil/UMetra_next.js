@@ -1,4 +1,4 @@
-import { getStation } from '../../lib/stationB';
+import { getStationB } from '../../lib/stationB';
 import Link from 'next/link';
 // import useTranslation from 'next-translate/useTranslation';
 // import getT from 'next-translate/getT';
@@ -33,7 +33,7 @@ export const Artwork = ({ station }) => {
 // };
 
 export const getStaticProps = ({ params }) => {
-  const stationBList = getStation();
+  const stationBList = getStationB();
   return {
     props: {
       station: stationBList.find((station) => station.station === params.art),
@@ -42,7 +42,7 @@ export const getStaticProps = ({ params }) => {
 };
 
 export const getStaticPaths = () => {
-  const stationBList = getStation();
+  const stationBList = getStationB();
   return {
     paths: stationBList.map((station) => ({
       params: { art: station.station },
