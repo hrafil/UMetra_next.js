@@ -1,0 +1,256 @@
+[
+  {
+    "station": "Háje",
+    "artworks": [
+      {
+        "artwork": "Háje1",
+        "name": "Kosmonauti",
+        "id": "c-h1",
+        "author": "Jan Bartoš",
+        "type": "plastika",
+        "date": "neuveden",
+        "material": "bronz",
+        "image": "tba"
+      },
+
+      {
+        "artwork": "Háje2",
+        "name": "Kosmonauti",
+        "id": "c-h2",
+        "author": "Alois Fišárek",
+        "type": "mozaika",
+        "date": "neuveden",
+        "material": "keramika",
+        "image": "tba"
+      }
+    ]
+  },
+
+  {
+    "station": "Opatov",
+    "artworks": [
+      {
+        "artwork": "Opatov1",
+        "name": "Fauna a flóra",
+        "id": "c-o1",
+        "author": "Vyhnánek",
+        "type": "mural",
+        "date": "2020",
+        "material": "neuveden",
+        "image": "tba"
+      }
+    ]
+  },
+
+  {
+    "station": "Chodov",
+    "artworks": [
+      {
+        "artwork": "Chodov1",
+        "name": "Budovatel metra",
+        "id": "c-ch1",
+        "author": "Jiří Kryštůfek",
+        "type": "plastika",
+        "date": "neuveden",
+        "material": "bronz",
+        "image": "tba"
+      }
+    ]
+  },
+
+  { "station": "Roztyly", "artworks": false },
+
+  {
+    "station": "Kačerov",
+    "artworks": [
+      {
+        "artwork": "Kačerov1",
+        "name": "Fontána",
+        "id": "c-ka1",
+        "author": "František Radovan",
+        "type": "fontána",
+        "date": "neuveden",
+        "material": "kámen",
+        "image": "tba"
+      },
+
+      {
+        "artwork": "Kačerov2",
+        "name": "neuveden",
+        "id": "c-ka2",
+        "author": "Vlastislav Gajda",
+        "type": "reliéf",
+        "date": "neuveden",
+        "material": "pískovec",
+        "image": "tba"
+      },
+
+      {
+        "artwork": "Kačerov3",
+        "name": "(spirály)",
+        "id": "c-ka3",
+        "author": "Benjamin Hejlek",
+        "type": "vitráže",
+        "date": "neuveden",
+        "material": "sklo",
+        "image": "tba"
+      }
+    ]
+  },
+
+  { "station": "Pankrác", "artworks": false },
+
+  {
+    "station": "Pražského povstání",
+    "artworks": [
+      {
+        "artwork": "Pražského povstání1",
+        "name": "Barikáda - květen 1945",
+        "id": "c-prp1",
+        "author": "Stanislav Hanzík",
+        "type": "plastika",
+        "date": "neuveden",
+        "material": "kámen",
+        "image": "tba"
+      }
+    ]
+  },
+
+  { "station": "Vyšehrad", "artworks": false },
+
+  { "station": "I.P.Pavlova", "artworks": false },
+
+  {
+    "station": "Muzeum",
+    "artworks": [
+      {
+        "artwork": "Muzeum1",
+        "name": "Busty Lista a Belady",
+        "id": "c-muz1",
+        "author": "Josef Kadlčík, Jan Bardoš",
+        "type": "busty",
+        "date": "neuveden",
+        "material": "neuveden",
+        "image": "tba"
+      }
+    ]
+  },
+
+  { "station": "Hlavní nádraží", "artworks": false },
+
+  {
+    "station": "Florenc",
+    "artworks": [
+      {
+        "artwork": "Florenc1",
+        "name": "Bitva o Sokolovo",
+        "id": "c-fl1",
+        "author": "Oldřich Opit, Sauro Ballardini",
+        "type": "mozaika",
+        "date": "neuveden",
+        "material": "keramika",
+        "image": "tba"
+      }
+    ]
+  },
+
+  {
+    "station": "Vltavská",
+    "artworks": [
+      {
+        "artwork": "Vltavská1",
+        "name": "Faun a Vltava",
+        "id": "c-vl1",
+        "author": "Miroslav Hudeček, Olga Hudečková",
+        "type": "fontána",
+        "date": "neuveden",
+        "material": "neuveden",
+        "image": "tba"
+      },
+
+      {
+        "artwork": "Vltavská2",
+        "name": "Vltava",
+        "id": "c-vl2",
+        "author": "Jan Fišar, Václav Zajíc",
+        "type": "vitráž",
+        "date": "neuveden",
+        "material": "sklo",
+        "image": "tba"
+      },
+
+      {
+        "artwork": "Vltavská3",
+        "name": "neuveden",
+        "id": "c-vl3",
+        "author": "Vladimír Dolejš",
+        "type": "tvarování stěny",
+        "date": "neuveden",
+        "material": "neuveden",
+        "image": "tba"
+      },
+
+      {
+        "artwork": "Vltavská4",
+        "name": "neuveden",
+        "id": "c-vl4",
+        "author": "Josef Šmíd, Pavel Dušek",
+        "type": "mural",
+        "date": "neuveden",
+        "material": "neuveden",
+        "image": "tba"
+      }
+    ]
+  },
+
+  {
+    "station": "Nádraží Holešovice",
+    "artworks": [
+      {
+        "artwork": "Nádraží Holešovice1",
+        "name": "Řeka",
+        "id": "c-nh1",
+        "author": "Josef Klimeš",
+        "type": "plastika",
+        "date": "neuveden",
+        "material": "kámen",
+        "image": "tba"
+      },
+
+      {
+        "artwork": "Nádraží Holešovice2",
+        "name": "Reliéf Júlia Fučíka",
+        "id": "c-nh2",
+        "author": "Stanislav Hanzík, Aleš Vašíček",
+        "type": "reliéf",
+        "date": "neuveden",
+        "material": "kamen",
+        "image": "tba"
+      }
+    ]
+  },
+
+  { "station": "Kobylisy", "artworks": false },
+
+  {
+    "station": "Ládví",
+    "artworks": [
+      {
+        "artwork": "Ládví1",
+        "name": "(pandemie)",
+        "id": "c-lad1",
+        "author": "Josefína Jonášová, Magdaléna Roztočilová",
+        "type": "mural",
+        "date": "neuveden",
+        "material": "neuveden",
+        "image": "tba"
+      }
+    ]
+  },
+
+  { "station": "Střížkov", "artworks": false },
+
+  { "station": "Prosek", "artworks": false },
+
+  { "station": "Letňany", "artworks": false }
+]

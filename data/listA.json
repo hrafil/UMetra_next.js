@@ -1,5 +1,19 @@
 [
-  { "station": "Nemocnice Motol", "artworks": false },
+  {
+    "station": "Nemocnice Motol",
+    "artworks": [
+      {
+        "artwork": "Nemocnice Motol1",
+        "name": "Péče o děti",
+        "id": "a-nem1",
+        "author": "Richard Ferdinand Podzemný, Jiří Kryštůfek",
+        "type": "plastika",
+        "date": "neuveden",
+        "material": "neuveden",
+        "image": "tba"
+      }
+    ]
+  },
 
   { "station": "Petřiny", "artworks": false },
 
@@ -7,29 +21,35 @@
 
   { "station": "Bořislavka", "artworks": false },
 
-  { "station": "Dejvická", "artworks": false },
+  {
+    "station": "Dejvická",
+    "artworks": [
+      {
+        "artwork": "Plameny revoluce",
+        "name": "",
+        "id": "a-dej1",
+        "author": "Martin Sladký",
+        "type": "mozaika",
+        "date": "neuveden",
+        "material": "neuveden",
+        "image": "tba"
+      }
+    ]
+  },
 
-  { "station": "Hradčanská", "artworks": false },
-
-  { "station": "Malostranská", "artworks": false },
-
-  { "station": "Staroměstská", "artworks": false },
-
-  { "station": "Můstek", "artworks": false },
-
-  { "station": "Muzeum", "artworks": false },
-
-  { "station": "Náměstí míru", "artworks": false },
-
-  { "station": "Jiřího z Poděbrad", "artworks": false },
-
-  { "station": "Flora", "artworks": false },
-
-  { "station": "Želivského", "artworks": false },
-
-  { "station": "Strašnická", "artworks": false },
-
-  { "station": "Skalka", "artworks": false },
-
-  { "station": "Depo Hostivař", "artworks": false }
+  {
+    "station": "Hradčanská ",
+    "artworks": [
+      {
+        "artwork": "Nemocnice Motol1",
+        "name": "",
+        "id": "a-nem1",
+        "author": "Josefína Jonášová, Magdaléna Roztočilová",
+        "type": "plastika",
+        "date": "neuveden",
+        "material": "neuveden",
+        "image": "tba"
+      }
+    ]
+  }
 ]
