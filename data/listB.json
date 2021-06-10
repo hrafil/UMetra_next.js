@@ -18,7 +18,7 @@
         "id": "b-nb1",
         "author": "Milan Vácha",
         "type": "plastika",
-        "date": "neuveden",
+        "date": "1988",
         "material": "pískovec",
         "image": "/b-nb1.jpg"
       },
@@ -43,22 +43,22 @@
     "artworks": [
       {
         "artwork": "Radlická1",
-        "name": "neuveden",
+        "name": "Vztah přírody a techniky",
         "id": "b-r1",
         "author": "Zdeněk Hošek",
         "type": "plastika",
-        "date": "neuveden",
+        "date": "1988",
         "material": "žula, bronz",
         "image": "/b-r1.jpg"
       },
 
       {
         "artwork": "Radlická2",
-        "name": "neuveden",
+        "name": "bez názvu",
         "id": "b-r2",
         "author": "Alexius Appl",
-        "type": "mříž",
-        "date": "neuveden",
+        "type": "mozaika",
+        "date": "1987",
         "material": "kov",
         "image": "/b-r2.jpg"
       }
@@ -88,8 +88,8 @@
     "artworks": [
       {
         "artwork": "Karlovo náměstí1",
-        "name": "neuveden",
-        "id": "b-kn1",
+        "name": "beu názvu (vitráž)",
+        "id": "80. léta 20. století",
         "author": "Miroslav Suchý",
         "type": "vitráž",
         "date": "neuveden",
@@ -103,7 +103,7 @@
         "id": "b-kn2",
         "author": "Jaroslav Štursa",
         "type": "skleněný objekt",
-        "date": "neuveden",
+        "date": "80. léta 20. století",
         "material": "sklo",
         "image": "/b-kn2.jpg"
       },

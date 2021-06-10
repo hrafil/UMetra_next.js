@@ -41,9 +41,9 @@
     "station": "Hradčanská ",
     "artworks": [
       {
-        "artwork": "Nemocnice Motol1",
+        "artwork": "Hradčanská1",
         "name": "",
-        "id": "a-nem1",
+        "id": "a-hra1",
         "author": "Josefína Jonášová, Magdaléna Roztočilová",
         "type": "plastika",
         "date": "neuveden",
@@ -52,6 +52,7 @@
       }
     ]
   },
+
   { "station": "Malostranská", "artworks": false },
 
   { "station": "Staroměstská", "artworks": false },
