@@ -37,20 +37,19 @@ const CreateStation = ({ line, color, colorEmpty, letter }) => {
             <div className={color}></div>
             <p className="label">
               {line.station.toUpperCase()}
-              {
-                transferToC ? (
-                  <Link href="/line-c">
-                    <div className="transfer_red"></div>
-                  </Link>
-                ) : undefined
-
-                // transferToA ? (
-                //   <Link href="/line-a">A</Link>
-                // ) : transferToB ? (
-                //   <Link href="/line-b">B</Link>
-                // ) : (
-                //   ' '
-              }
+              {transferToC ? (
+                <Link href="/line-c">
+                  <div className="transfer_red"></div>
+                </Link>
+              ) : transferToA ? (
+                <Link href="/line-a">
+                  <div className="transfer_green"></div>
+                </Link>
+              ) : transferToB ? (
+                <Link href="/line-b">
+                  <div className="transfer_yellow"></div>
+                </Link>
+              ) : undefined}
             </p>
           </div>
         </Link>

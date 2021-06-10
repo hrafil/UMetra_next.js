@@ -94,6 +94,28 @@ li {
   margin-top: 0.5rem;
 }
 
+.transfer_green {
+  background-color: #17a301;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.transfer_yellow {
+  background-color: #ffce2d;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
 /* ArtWorks */
 
 .container_artworks {
