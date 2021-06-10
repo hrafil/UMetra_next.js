@@ -83,16 +83,18 @@ li {
 }
 
 /* Line B transfer */
-.transfer {
-  list-style-type: none;
-  font-size: 10px;
+.transfer_red {
+  background-color: #ff2632;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
 }
 
 /* ArtWorks */
-
-/* .container_artpage {
-  background-color: #ffce2d;
-} */
 
 .container_artworks {
   display: flex;
@@ -184,6 +186,7 @@ h2 {
   font-size: 20px;
   text-align: center;
   font-weight: bold;
+  position: relative;
 }
 
 .lable_empty {

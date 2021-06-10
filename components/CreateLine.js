@@ -2,6 +2,23 @@ import Link from 'next/link';
 import styles from '../styles/Line.module.css';
 
 const CreateStation = ({ line, color, colorEmpty, letter }) => {
+  const transferFromBtoA =
+    line.station === 'Můstek' && color === 'circle_yellow';
+  const transferFromBtoC =
+    line.station === 'Florenc' && color === 'circle_yellow';
+
+  const transferFromAtoB =
+    line.station === 'Můstek' && color === 'circle_green';
+  const transferFromAtoC =
+    line.station === 'Muzeum' && color === 'circle_green';
+
+  const transferFromCtoA = line.station === 'Muzeum' && color === 'circle_red';
+  const transferFromCtoB = line.station === 'Florenc' && color === 'circle_red';
+
+  const transferToA = transferFromBtoA || transferFromCtoA;
+  const transferToB = transferFromAtoB || transferFromCtoB;
+  const transferToC = transferFromBtoC || transferFromAtoC;
+
   if (!line.artworks) {
     return (
       <div className="station">
@@ -18,7 +35,23 @@ const CreateStation = ({ line, color, colorEmpty, letter }) => {
         >
           <div className="station">
             <div className={color}></div>
-            <p className="label">{line.station.toUpperCase()}</p>
+            <p className="label">
+              {line.station.toUpperCase()}
+              {
+                transferToC ? (
+                  <Link href="/line-c">
+                    <div className="transfer_red"></div>
+                  </Link>
+                ) : undefined
+
+                // transferToA ? (
+                //   <Link href="/line-a">A</Link>
+                // ) : transferToB ? (
+                //   <Link href="/line-b">B</Link>
+                // ) : (
+                //   ' '
+              }
+            </p>
           </div>
         </Link>
       </>
