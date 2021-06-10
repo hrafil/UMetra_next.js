@@ -1,0 +1,35 @@
+[
+  { "station": "Nemocnice Motol", "artworks": false },
+
+  { "station": "Petřiny", "artworks": false },
+
+  { "station": "Nádraží Veleslavín", "artworks": false },
+
+  { "station": "Bořislavka", "artworks": false },
+
+  { "station": "Dejvická", "artworks": false },
+
+  { "station": "Hradčanská", "artworks": false },
+
+  { "station": "Malostranská", "artworks": false },
+
+  { "station": "Staroměstská", "artworks": false },
+
+  { "station": "Můstek", "artworks": false },
+
+  { "station": "Muzeum", "artworks": false },
+
+  { "station": "Náměstí míru", "artworks": false },
+
+  { "station": "Jiřího z Poděbrad", "artworks": false },
+
+  { "station": "Flora", "artworks": false },
+
+  { "station": "Želivského", "artworks": false },
+
+  { "station": "Strašnická", "artworks": false },
+
+  { "station": "Skalka", "artworks": false },
+
+  { "station": "Depo Hostivař", "artworks": false }
+]

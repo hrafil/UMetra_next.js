@@ -1,47 +1,38 @@
 import Link from 'next/link';
-import { getStation } from '../lib/stationB';
-// import styles from '../styles/Lines.module.css';
 
-const Line = ({ line }) => {
+const CreateStation = ({ line }) => {
   if (!line.artworks) {
     return (
-      <div className="station yellow">
-        <span className="label">{line.station}</span>
+      <div className="station">
+        <div className="station_circle"></div>
+        <p className="label lable_empty">{line.station.toUpperCase()}</p>
       </div>
     );
   } else {
     return (
-      <Link
-        href={`/line-b/[art]?art=${line.station}`}
-        as={`/line-b/${line.station}`}
-      >
-        <div className="station">
-          <span className="label">{line.station}</span>
-        </div>
-      </Link>
+      <>
+        <Link
+          href={`/line-b/[art]?art=${line.station}`}
+          as={`/line-b/${line.station}`}
+        >
+          <div className="station">
+            <div className="station_circle yellow"></div>
+            <p className="label">{line.station.toUpperCase()}</p>
+          </div>
+        </Link>
+      </>
     );
   }
 };
 
-const Lines = ({ lines }) => {
+const CreateLine = ({ lines }) => {
   return (
-    <>
-      <div className="line yellow">
-        {lines.map((line) => (
-          <Line key={line.station} line={line} />
-        ))}
-      </div>
-    </>
+    <main>
+      {lines.map((line) => (
+        <CreateStation key={line.station} line={line} />
+      ))}
+    </main>
   );
 };
 
-export const getStaticProps = () => {
-  const stationBList = getStation();
-  return {
-    props: {
-      lines: stationBList,
-    },
-  };
-};
-
-export default Lines;
+export default CreateLine;

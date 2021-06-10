@@ -1,41 +1,16 @@
 import Link from 'next/link';
 import { useEffect } from 'react';
-import { getStation } from '../lib/stationB';
+import CreateLine from '../components/CreateLine';
+import { getStationB } from '../lib/stationB';
 // import styles from '../styles/Lines.module.css';
 
-const Line = ({ line }) => {
-  if (!line.artworks) {
-    return (
-      <div className="station">
-        <div className="station_circle"></div>
-        <p className="label lable_empty">{line.station.toUpperCase()}</p>
-      </div>
-    );
-  } else {
-    return (
-      <Link
-        href={`/line-b/[art]?art=${line.station}`}
-        as={`/line-b/${line.station}`}
-      >
-        <div className="station">
-          <div className="station_circle yellow"></div>
-          <p className="label">{line.station.toUpperCase()}</p>
-        </div>
-      </Link>
-    );
-  }
-};
-
-const Lines = ({ lines }) => {
+const LineB = ({ lines }) => {
   useEffect(() => window.scrollTo(0, 2700), []);
 
   return (
     <main>
-      {/* <div className="line yellow"> */}
-      {lines.map((line) => (
-        <Line key={line.station} line={line} />
-      ))}
-      {/* </div> */}
+      <CreateLine key={lines.station} lines={lines} />
+
       <div>
         <ul className="transfer">
           <li>
@@ -51,7 +26,7 @@ const Lines = ({ lines }) => {
 };
 
 export const getStaticProps = () => {
-  const stationBList = getStation();
+  const stationBList = getStationB();
   return {
     props: {
       lines: stationBList,
@@ -59,4 +34,4 @@ export const getStaticProps = () => {
   };
 };
 
-export default Lines;
+export default LineB;
