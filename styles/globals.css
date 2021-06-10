@@ -101,7 +101,7 @@ li {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  left: 5%;
+  right: 5%;
   margin-top: 0.5rem;
 }
 
