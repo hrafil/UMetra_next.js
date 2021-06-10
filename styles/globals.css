@@ -225,19 +225,19 @@ h2 {
   width: 150px;
   height: 150px;
   background-color: #fff;
-  border-color: #ed131e;
+  border-color: #ff2632;
   display: flex;
-  border-color: #ed131e;
-  background-color: #ed131e;
+  border-color: #ff2632;
+  background-color: #ff2632;
 }
 
-.circle_empty_green {
+.circle_empty_red {
   margin: 0 auto;
   border-radius: 50%;
   border: 20px solid;
   width: 150px;
   height: 150px;
   background-color: #fff;
-  border-color: #ed131e;
+  border-color: #ff2632;
   display: flex;
 }
