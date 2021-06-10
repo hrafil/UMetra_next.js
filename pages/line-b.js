@@ -2,7 +2,6 @@ import Link from 'next/link';
 import { useEffect } from 'react';
 import CreateLine from '../components/CreateLine';
 import { getStationB } from '../lib/stationB';
-// import styles from '../styles/Lines.module.css';
 
 const LineB = ({ lines }) => {
   useEffect(() => window.scrollTo(0, 2700), []);

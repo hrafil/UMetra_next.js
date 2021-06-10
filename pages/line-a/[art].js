@@ -1,11 +1,7 @@
 import { getStationA } from '../../lib/stationA';
 import { CreateArt } from '../../components/CreateArt';
-// import Link from 'next/link';
 
 export const Artwork = ({ station }) => {
-  // const { query } = useRouter();
-  // const { t, lang } = useTranslation();
-  // console.log({ query });
   return <CreateArt station={station} color="circle_art_green" letter="a" />;
 };
 
