@@ -38,15 +38,15 @@ const CreateStation = ({ line, color, colorEmpty, letter }) => {
             <p className="label">
               {transferToC ? (
                 <Link href="/line-c">
-                  <div className="transfer_red"></div>
+                  <span className="transfer_red"></span>
                 </Link>
               ) : transferToA ? (
                 <Link href="/line-a">
-                  <div className="transfer_green"></div>
+                  <span className="transfer_green"></span>
                 </Link>
               ) : transferToB ? (
                 <Link href="/line-b">
-                  <div className="transfer_yellow"></div>
+                  <span className="transfer_yellow"></span>
                 </Link>
               ) : undefined}
               {line.station.toUpperCase()}
@@ -59,6 +59,7 @@ const CreateStation = ({ line, color, colorEmpty, letter }) => {
 };
 
 const CreateLine = ({ lines, color, colorEmpty, letter }) => {
+  console.log(lines);
   return (
     <main>
       {lines.map((line) => (
