@@ -1,11 +1,12 @@
 import Link from 'next/link';
+import styles from '../styles/Line.module.css';
 
 const CreateStation = ({ line }) => {
   if (!line.artworks) {
     return (
-      <div className="station">
-        <div className="station_circle"></div>
-        <p className="label lable_empty">{line.station.toUpperCase()}</p>
+      <div className={styles.station}>
+        <div className={styles.circle_empty_yellow}></div>
+        <p className={styles.lable_empty}>{line.station.toUpperCase()}</p>
       </div>
     );
   } else {
@@ -15,9 +16,9 @@ const CreateStation = ({ line }) => {
           href={`/line-b/[art]?art=${line.station}`}
           as={`/line-b/${line.station}`}
         >
-          <div className="station">
-            <div className="station_circle yellow"></div>
-            <p className="label">{line.station.toUpperCase()}</p>
+          <div className={styles.station}>
+            <div className={styles.circle_yellow}></div>
+            <p className={styles.label}>{line.station.toUpperCase()}</p>
           </div>
         </Link>
       </>
