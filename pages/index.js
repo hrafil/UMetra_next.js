@@ -15,8 +15,8 @@ const Home = () => {
     <div className="container_home">
       <h1 onClick={handleTitle}>{title}</h1>
       <p>
-        Prozkoumej umělecká díla v pražských linkách metra a jejich blízkého
-        okolí. Vyber si trasu.
+        Prozkoumejte umělecká díla v pražských linkách metra a jejich blízkém
+        okolí. Vyberte si trasu.
       </p>
       <div className="btn_home">
         <li className="btn_green">

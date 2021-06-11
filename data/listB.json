@@ -87,6 +87,17 @@
     "station": "Karlovo náměstí",
     "artworks": [
       {
+        "artwork": "Karlovo náměstí4",
+        "name": "Karel IV. a jeho doba",
+        "id": "b-kn4",
+        "author": "Radomír Kolář",
+        "type": "mozaika",
+        "date": "1985",
+        "material": "neuveden",
+        "image": "/b-kn4.jpg"
+      },
+
+      {
         "artwork": "Karlovo náměstí1",
         "name": "beu názvu (vitráž)",
         "id": "80. léta 20. století",
@@ -117,17 +128,6 @@
         "date": "1985",
         "material": "neuveden",
         "image": "/b-kn3.jpg"
-      },
-
-      {
-        "artwork": "Karlovo náměstí4",
-        "name": "Karel IV. a jeho doba",
-        "id": "b-kn4",
-        "author": "Radomír Kolář",
-        "type": "mozaika",
-        "date": "1985",
-        "material": "neuveden",
-        "image": "/b-kn4.jpg"
       }
     ]
   },

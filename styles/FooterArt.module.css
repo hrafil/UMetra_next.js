@@ -1,0 +1,19 @@
+.footer_art {
+  padding-top: 20%;
+}
+
+.footer_left {
+  text-align: left;
+  position: absolute;
+  left: 10%;
+  bottom: 0;
+  display: inline-block;
+}
+
+.footer_right {
+  text-align: right;
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  display: inline-block;
+}

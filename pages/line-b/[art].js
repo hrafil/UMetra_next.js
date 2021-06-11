@@ -35,3 +35,5 @@ export const getStaticPaths = () => {
     fallback: false,
   };
 };
+
+export default Artwork;

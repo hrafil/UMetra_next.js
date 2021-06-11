@@ -1,6 +1,6 @@
-import { useEffect } from 'react';
 import CreateLine from '../components/CreateLine';
 import { getStationB } from '../lib/stationB';
+import { useEffect } from 'react';
 
 const LineB = ({ lines }) => {
   useEffect(() => window.scrollTo(0, 2700), []);
