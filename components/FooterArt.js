@@ -16,3 +16,5 @@ export const FooterArt = ({ lines, station }) => {
     </footer>
   );
 };
+
+export default FooterArt;
