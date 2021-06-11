@@ -59,7 +59,6 @@ const CreateStation = ({ line, color, colorEmpty, letter }) => {
 };
 
 const CreateLine = ({ lines, color, colorEmpty, letter }) => {
-  console.log(lines);
   return (
     <main>
       {lines.map((line) => (

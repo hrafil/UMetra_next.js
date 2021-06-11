@@ -1,25 +1,18 @@
 import { getStationB } from '../../lib/stationB';
 import { CreateArt } from '../../components/CreateArt';
-import lineB from '../../data/listB.json';
-import Link from 'next/link';
+import { FooterArt } from '../../components/FooterArt';
 
-export const Artwork = ({ station }) => {
-  const stationsFull = lineB.filter((item) => item.artworks !== false);
-
-  const mapStationsFull = stationsFull.map((item) => item.station);
-  console.log(mapStationsFull);
-
-  console.log(station.station);
-
-  const index = mapStationsFull.indexOf(station.station);
-  console.log(index);
-
+export const Artwork = ({ station, lines }) => {
   return (
-    <>
-      <CreateArt station={station} color="circle_art_yellow" letter="b" />
-      <Link href={`${mapStationsFull[index - 1]}`}>Předchozí stanice</Link>
-      <Link href={`${mapStationsFull[index + 1]}`}>Další stanice</Link>
-    </>
+    <div className="container_artpage">
+      <CreateArt
+        station={station}
+        color="circle_art_yellow"
+        letter="b"
+        lines={lines}
+      />
+      <FooterArt lines={lines} station={station} />
+    </div>
   );
 };
 
@@ -42,5 +35,3 @@ export const getStaticPaths = () => {
     fallback: false,
   };
 };
-
-export default Artwork;
