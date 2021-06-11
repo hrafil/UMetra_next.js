@@ -18,10 +18,6 @@ body {
   position: absolute;
 } */
 
-.container_artpage {
-  position: relative;
-}
-
 a {
   color: black;
 }
@@ -147,10 +143,16 @@ li {
 
 /* ArtWorks */
 
+.container_artpage {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
 .container_artworks {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  /* width: 100%; */
   margin: 0 auto;
   transform: none;
 }
@@ -161,7 +163,7 @@ img {
 }
 
 .container_artwork {
-  width: 95%;
+  /* width: 85%; */
   margin: 15px auto;
   text-align: right;
 }
