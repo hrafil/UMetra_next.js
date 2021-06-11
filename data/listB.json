@@ -203,6 +203,16 @@
     "station": "Florenc",
     "artworks": [
       {
+        "artwork": "Florenc1",
+        "name": "Bitva o Sokolovo",
+        "id": "b-f1",
+        "author": "Oldřich Oplt, Sauro Ballardini",
+        "type": "kamenná mozaika",
+        "date": "1974",
+        "material": "plastika",
+        "image": "/b-f1.jpg"
+      },
+      {
         "artwork": "Florenc2",
         "name": "Mostaři",
         "id": "b-f2",
@@ -250,7 +260,7 @@
         "type": "plastika",
         "date": "1963",
         "material": "keramika",
-        "image": "/b-i2.jpg"
+        "image": "/b-i3.jpg"
       }
     ]
   },
