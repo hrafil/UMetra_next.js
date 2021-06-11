@@ -1,8 +1,6 @@
 import Layout from '../components/Layout';
 import '../styles/globals.css';
-import { ThemeProvider } from 'styled-components';
-// import { GlobalStyles } from '.styles/global';
-import { theme } from './theme';
+import Navbar from '../components/Nav';
 
 const MyApp = ({ Component, pageProps }) => {
   return (
@@ -14,17 +12,13 @@ const MyApp = ({ Component, pageProps }) => {
   );
 };
 
-export function BurgerApp() {
+export const AppNav = () => {
   return (
-    <ThemeProvider theme={theme}>
-      <>
-        <GlobalStyles />
-        <div>
-          <img src="/Layout/hamburger.svg" alt="burger icon" />
-        </div>
-      </>
-    </ThemeProvider>
+    <div className="App">
+      <Navbar />
+      App
+    </div>
   );
-}
+};
 
 export default MyApp;
