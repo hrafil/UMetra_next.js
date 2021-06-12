@@ -2,8 +2,8 @@
 // import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import React, { useState } from 'react';
-import useTranslation from 'next-translate/useTranslation';
-import router, { useRouter } from 'next/router';
+// import useTranslation from 'next-translate/useTranslation';
+// import router, { useRouter } from 'next/router';
 // import { useEffect } from 'react';
 
 const Home = () => {
@@ -18,8 +18,8 @@ const Home = () => {
     <div className="container_home">
       <h1 onClick={handleTitle}>{title}</h1>
       <p>
-        Prozkoumej umělecká díla v pražských linkách metra a jejich blízkého
-        okolí. Vyber si trasu.
+        Prozkoumejte umělecká díla v pražských linkách metra a jejich blízkém
+        okolí. Vyberte si trasu.
       </p>
       <div className="btn_home">
         <li className="btn_green">

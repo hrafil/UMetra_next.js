@@ -5,16 +5,10 @@ import '../styles/globals.css';
 // import Navbar from '../components/Nav/Navbar';
 
 const MyApp = ({ Component, pageProps }) => {
-  // const scrollRef = useRef({
-  //   scrollPos: 0,
-  // });
-
   return (
     <>
       <Layout>
-        {/* <UserContext.Provider value={{ scrollRef: scrollRef }}> */}
         <Component {...pageProps} />
-        {/* </UserContext.Provider> */}
       </Layout>
     </>
   );

@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import styles from '../styles/Line.module.css';
 
 const CreateStation = ({ line, color, colorEmpty, letter }) => {
   const transferFromBtoA =
