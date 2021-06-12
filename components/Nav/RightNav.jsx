@@ -34,19 +34,25 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
       <li>
-        <Link href="https://umetra.netlify.app/about">O nás</Link>
+        <Link href="/stations">UMstanice</Link>
       </li>
       <li>
-        <Link href="https://umetra.netlify.app/line-a">Linka A</Link>
+        <Link href="/line-a">Linka A</Link>
       </li>
       <li>
-        <Link href="https://umetra.netlify.app/line-b">Linka B</Link>
+        <Link href="/line-b">Linka B</Link>
       </li>
       <li>
-        <Link href="https://umetra.netlify.app/line-c">Linka C</Link>
+        <Link href="/line-c">Linka C</Link>
       </li>
       <li>
-        <Link href="https://umetra.netlify.app/contact">Kontakt</Link>
+        <Link href="/about">O projektu</Link>
+      </li>
+      <li>
+        <Link href="/sources">Zdroje</Link>
+      </li>
+      <li>
+        <Link href="/contact">Kontakt</Link>
       </li>
     </Ul>
   );
