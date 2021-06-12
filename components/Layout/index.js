@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import Link from 'next/link';
 // import Transition from '../Transition/index';
-import { useRouter } from 'next/router';
-import useTranslation from 'next-translate/useTranslation';
+// import { useRouter } from 'next/router';
+// import useTranslation from 'next-translate/useTranslation';
 
 const Layout = ({ children }) => {
-  const router = useRouter();
-  const { t, lang } = useTranslation();
+  // const router = useRouter();
+  // const { t, lang } = useTranslation();
 
   return (
     <>
