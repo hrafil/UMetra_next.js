@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Contact = () => {
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Kontakt</h2>
+      <h2 className={styles.title}>kontakt</h2>
       <div className={styles.text}>
         <p>
           Chybí nám ve stanici nějaké dílo, které dennodenně míjíte? Máte nápad,

@@ -24,7 +24,7 @@ const Stations = () => {
 
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Seznam UMstanic</h2>
+      <h2 className={styles.title}>seznam UMstanic</h2>
       {allStation.map((station) => (
         <div key={station}>
           {justStationA.includes(station) ? (
