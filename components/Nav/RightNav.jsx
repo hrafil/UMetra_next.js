@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Link from 'next/link';
 
 const Ul = styled.ul`
   list-style: none;
@@ -32,11 +33,21 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li>O nás</li>
-      <li>Linka A</li>
-      <li>Linka B</li>
-      <li>Linka C</li>
-      <li>Kontakt</li>
+      <li>
+        <Link href="https://umetra.netlify.app/about">O nás</Link>
+      </li>
+      <li>
+        <Link href="https://umetra.netlify.app/line-a">Linka A</Link>
+      </li>
+      <li>
+        <Link href="https://umetra.netlify.app/line-b">Linka B</Link>
+      </li>
+      <li>
+        <Link href="https://umetra.netlify.app/line-c">Linka C</Link>
+      </li>
+      <li>
+        <Link href="https://umetra.netlify.app/contact">Kontakt</Link>
+      </li>
     </Ul>
   );
 };
