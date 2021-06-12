@@ -149,7 +149,17 @@
         "type": "mozaika",
         "date": "neuveden",
         "material": "keramika",
-        "image": "tba"
+        "image": "/b-f1.jpg"
+      },
+      {
+        "artwork": "Florenc2",
+        "name": "Mostaři",
+        "id": "b-f2",
+        "author": "Karel Hladík",
+        "type": "plastika",
+        "date": "1980",
+        "material": "plastika",
+        "image": "/b-f2.jpg"
       }
     ]
   },

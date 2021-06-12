@@ -17,7 +17,9 @@ export const FooterArt = ({ lines, station }) => {
       )}
       {index === mapStationIsFull.length - 1 ? undefined : (
         <p className={styles.footer_right}>
-          <Link href={`${mapStationIsFull[index + 1]}`}>Další stanice</Link>
+          <Link href={`${mapStationIsFull[index + 1]}`}>
+            Následující stanice
+          </Link>
         </p>
       )}
     </footer>

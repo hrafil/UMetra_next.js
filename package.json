@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@appbaseio/reactivesearch": "^3.18.1",
+    "axios": "^0.21.1",
     "i18next": "^20.3.1",
     "next": "10.2.3",
     "next-translate": "^1.0.7",

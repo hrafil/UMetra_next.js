@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Transition from '../Transition/index';
+// import Transition from '../Transition/index';
 import { useRouter } from 'next/router';
+import useTranslation from 'next-translate/useTranslation';
 
 const Layout = ({ children }) => {
   const router = useRouter();
-  // let language =
-  //   router.locale === 'cs' ? 'EN' : router.locale === 'en-US' ? 'CZ' : '';
+  const { t, lang } = useTranslation();
 
   return (
     <>
@@ -25,9 +25,20 @@ const Layout = ({ children }) => {
         </button>
       </header>
       <main>{children}</main>
-      {/* <Transition location={router.pathname}>
-        <main className="main">{children}</main>
-      </Transition> */}
+      {/* <footer>
+        <ul>
+          {lang !== 'cs' && (
+            <Link href={router.asPath} locale="cs">
+              <a>CZ</a>
+            </Link>
+          )}
+          {lang !== 'en' && (
+            <Link href={router.asPath} locale="en">
+              <a>EN</a>
+            </Link>
+          )}
+        </ul>
+      </footer> */}
     </>
   );
 };
