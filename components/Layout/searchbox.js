@@ -19,7 +19,7 @@ const searchField = () => {
         return item.station;
       }
     });
-  // console.log(searchStation());
+  console.log(searchStation());
 
   const searchName = () =>
     artworksIn.find((station) => {
