@@ -1,24 +1,25 @@
 import React, { useState } from 'react';
-import lineB from '../../data/listB.json';
-import lineA from '../../data/listA.json';
-import lineC from '../../data/listC.json';
-
-// const allFields = [lineB, lineA, lineC];
+// import Stations from './Stations/index.js';
+import allLines from '../../data/listAll.json';
+// import lineB from '../../data/listB.json';
+// import lineA from '../../data/listA.json';
+// import lineC from '../../data/listC.json';
 
 const searchField = () => {
   const [searchInput, setInput] = useState();
   const [searchCathegory, setCathegory] = useState();
 
-  const stationsFull = lineB.filter((item) => item.artworks !== false);
+  const stationsFull = allLines.filter((item) => item.artworks !== false);
 
   const artworksIn = [];
   stationsFull.map((station) => {
     station.artworks.map((artwork) => artworksIn.push(artwork));
   });
-  // console.log(artworksIn);
+  console.log(artworksIn);
 
   const searchStation = () =>
     stationsFull.find((item) => {
+      // Stations.find((item) => {
       if (item.station === searchInput) {
         return item.station;
       }
@@ -63,7 +64,6 @@ const searchField = () => {
     <>
       <form onSubmit={(e) => e.preventDefault()}>
         <label>
-          Hledám...
           <input type="text" onChange={(e) => setInput(e.target.value)} />
         </label>
         <select name="kategorie" onChange={(e) => setCathegory(e.target.value)}>
