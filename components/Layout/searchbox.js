@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
 import lineB from '../../data/listB.json';
+import lineA from '../../data/listA.json';
+import lineC from '../../data/listC.json';
+
+const allFields = [lineB, lineA, lineC];
 
 const searchField = () => {
   const [searchInput, setInput] = useState();
   const [searchCathegory, setCathegory] = useState();
 
-  const stationsFull = lineB.filter((item) => item.artworks !== false);
+  const stationsFull = allFields.filter((item) => item.artworks !== false);
 
   const artworksIn = [];
   stationsFull.map((station) => {

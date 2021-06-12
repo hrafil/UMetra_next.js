@@ -8,11 +8,12 @@ const Ul = styled.ul`
 
   li {
     padding: 18px 10px;
+    text-align: center;
   }
 
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: #0d2538;
+    background-color: #347f;
     position: fixed;
     transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
     top: 0;
