@@ -10,7 +10,7 @@
         "type": "plastika",
         "date": "neuveden",
         "material": "bronz",
-        "image": "tba"
+        "image": "/c-h1.jpg"
       },
 
       {
@@ -21,7 +21,7 @@
         "type": "mozaika",
         "date": "neuveden",
         "material": "keramika",
-        "image": "tba"
+        "image": "/c-h2.jpg"
       }
     ]
   },
@@ -37,7 +37,7 @@
         "type": "mural",
         "date": "2020",
         "material": "neuveden",
-        "image": "tba"
+        "image": "c-o1.jpg"
       }
     ]
   },
