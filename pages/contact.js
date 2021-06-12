@@ -20,7 +20,12 @@ const Contact = () => {
           </p>
         </div>
         <div>
-          <p>Nicole Strungová</p>
+          <p>
+            Nicole Strungová{' '}
+            <Link href="mailto:nicole.strungova@gmail.com">
+              nicole.strungova@gmail.com
+            </Link>
+          </p>
         </div>
       </div>
     </div>
