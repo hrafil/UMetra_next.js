@@ -6,19 +6,27 @@ import Link from 'next/link';
 
 const Stations = () => {
   const stationAFull = lineA.filter((station) => station.artworks);
+  const stationBFull = lineB.filter((station) => station.artworks);
+  const stationCFull = lineC.filter((station) => station.artworks);
 
   const justStationA = stationAFull.map((station) => station.station);
+  const justStationB = stationBFull.map((station) => station.station);
+  const justStationC = stationCFull.map((station) => station.station);
 
-  const stationASort = justStationA.sort();
+  const stationAB = justStationA.concat(justStationB);
+  const stationABC = stationAB.concat(justStationC);
 
-  console.log(stationASort);
+  const allStation = stationABC.sort();
+
+  console.log(allStation);
 
   return (
     <>
       <h2>Seznam stanic</h2>
-      {stationASort.map((station) => (
+      {allStation.map((station) => (
         <div key={station}>
-          <Link href={`/line-a/${station}`}>{station}</Link>
+          {station}
+          {/* <Link href={`/line-a/${station}`}>{station}</Link> */}
         </div>
       ))}
     </>
