@@ -2,7 +2,7 @@ import Layout from '../components/Layout';
 import '../styles/globals.css';
 // import UserContext from '../components/UserContext';
 // import { useRef } from 'react';
-import Navbar from '../components/Nav/Navbar';
+// import Navbar from '../components/Nav/Navbar';
 
 const MyApp = ({ Component, pageProps }) => {
   // const scrollRef = useRef({
@@ -20,13 +20,13 @@ const MyApp = ({ Component, pageProps }) => {
   );
 };
 
-export const AppNav = () => {
-  return (
-    <div className="App">
-      <Navbar />
-      App
-    </div>
-  );
-};
+// export const AppNav = () => {
+//   return (
+//     <div className="App">
+//       <Navbar />
+//       App
+//     </div>
+//   );
+// };
 
 export default MyApp;

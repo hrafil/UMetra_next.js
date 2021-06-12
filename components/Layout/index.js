@@ -3,6 +3,7 @@ import Link from 'next/link';
 // import Transition from '../Transition/index';
 import { useRouter } from 'next/router';
 import useTranslation from 'next-translate/useTranslation';
+import Navbar from '../Nav/Navbar';
 
 const Layout = ({ children }) => {
   const router = useRouter();
@@ -16,6 +17,9 @@ const Layout = ({ children }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
+        <div className="App">
+          <Navbar />
+        </div>
         {/* <h1>
           <Link href="/">UMetra</Link>
         </h1>
@@ -40,6 +44,15 @@ const Layout = ({ children }) => {
         </ul>
       </footer> */}
     </>
+  );
+};
+
+export const AppNav = () => {
+  return (
+    <div className="App">
+      <Navbar />
+      App
+    </div>
   );
 };
 
