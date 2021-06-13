@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
-import NavLink from './NavLink';
 
 const Ul = styled.ul`
   list-style: none;
@@ -44,15 +43,17 @@ const Ul = styled.ul`
   }
 `;
 
-const RightNav = ({ open }) => {
+const RightNav = (props) => {
+  function closeRightNav(event) {
+    props.onChange(false);
+  }
+
   return (
-    <Ul open={open}>
+    <Ul open={props.open} onClick={() => closeRightNav(false)}>
       <li className="home">
-        <Link open={open} onClick={() => setOpen(!open)} href="/">
-          UMetra
-        </Link>
+        <Link href="/">UMetra</Link>
       </li>
-      <li>
+      <li className="stations">
         <Link href="/stations">Stanice</Link>
       </li>
       <li className="hledej">
