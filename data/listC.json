@@ -8,7 +8,7 @@
         "id": "c-h1",
         "author": "Jan Bartoš",
         "type": "plastika",
-        "date": "neuveden",
+        "date": "",
         "material": "bronz",
         "image": "/c-h1.jpg"
       },
@@ -19,7 +19,7 @@
         "id": "c-h2",
         "author": "Alois Fišárek",
         "type": "mozaika",
-        "date": "neuveden",
+        "date": "",
         "material": "keramika",
         "image": "/c-h2.jpg"
       }
@@ -36,7 +36,7 @@
         "author": "Vyhnánek",
         "type": "mural",
         "date": "2020",
-        "material": "neuveden",
+        "material": "",
         "image": "/c-o1.jpg"
       }
     ]
@@ -51,7 +51,7 @@
         "id": "c-ch1",
         "author": "Jiří Kryštůfek",
         "type": "plastika",
-        "date": "neuveden",
+        "date": "",
         "material": "bronz",
         "image": "/c-ch1.jpg"
       }
@@ -69,18 +69,18 @@
         "id": "c-ka1",
         "author": "František Radovan",
         "type": "fontána",
-        "date": "neuveden",
+        "date": "",
         "material": "kámen",
         "image": "/c-ka1.jpg"
       },
 
       {
         "artwork": "Kačerov2",
-        "name": "neuveden",
+        "name": "bez názvu",
         "id": "c-ka2",
         "author": "Vlastislav Gajda",
         "type": "reliéf",
-        "date": "neuveden",
+        "date": "",
         "material": "pískovec",
         "image": "/c-ka2.jpg"
       },
@@ -91,7 +91,7 @@
         "id": "c-ka3",
         "author": "Benjamin Hejlek",
         "type": "vitráže",
-        "date": "neuveden",
+        "date": "",
         "material": "sklo",
         "image": "/c-ka3.jpg"
       }
@@ -109,7 +109,7 @@
         "id": "c-prp1",
         "author": "Stanislav Hanzík",
         "type": "plastika",
-        "date": "neuveden",
+        "date": "",
         "material": "kámen",
         "image": "/c-prp1.jpg"
       }
@@ -125,13 +125,13 @@
     "artworks": [
       {
         "artwork": "Muzeum1",
-        "name": "Busty Lista a Belady",
+        "name": "bez názvu (busty Lista a Belady)",
         "id": "c-muz1",
         "author": "Josef Kadlčík, Jan Bardoš",
         "type": "busty",
-        "date": "neuveden",
+        "date": "",
         "material": "neuveden",
-        "image": "tba"
+        "image": "/a-muz2.jpeg"
       }
     ]
   },
@@ -147,7 +147,7 @@
         "id": "c-f1",
         "author": "Oldřich Opit, Sauro Ballardini",
         "type": "mozaika",
-        "date": "neuveden",
+        "date": "",
         "material": "keramika",
         "image": "/b-f1.jpg"
       },
@@ -173,7 +173,7 @@
         "id": "c-vl1",
         "author": "Miroslav Hudeček, Olga Hudečková",
         "type": "fontána",
-        "date": "neuveden",
+        "date": "",
         "material": "neuveden",
         "image": "/c-vl1.jpg"
       },
@@ -184,29 +184,29 @@
         "id": "c-vl2",
         "author": "Jan Fišar, Václav Zajíc",
         "type": "vitráž",
-        "date": "neuveden",
+        "date": "",
         "material": "sklo",
         "image": "/c-vl2.jpg"
       },
 
       {
         "artwork": "Vltavská3",
-        "name": "neuveden",
+        "name": "bez názvu",
         "id": "c-vl3",
         "author": "Vladimír Dolejš",
         "type": "tvarování stěny",
-        "date": "neuveden",
+        "date": "",
         "material": "neuveden",
         "image": "/c-vl3.jpg"
       },
 
       {
         "artwork": "Vltavská4",
-        "name": "neuveden",
+        "name": "bez názvu",
         "id": "c-vl4",
         "author": "Josef Šmíd, Pavel Dušek",
         "type": "mural",
-        "date": "neuveden",
+        "date": "",
         "material": "neuveden",
         "image": "/c-vl4.jpg"
       }
@@ -222,7 +222,7 @@
         "id": "c-nh1",
         "author": "Josef Klimeš",
         "type": "plastika",
-        "date": "neuveden",
+        "date": "",
         "material": "kámen",
         "image": "/c-nh1.jpg"
       },
@@ -233,7 +233,7 @@
         "id": "c-nh2",
         "author": "Stanislav Hanzík, Aleš Vašíček",
         "type": "reliéf",
-        "date": "neuveden",
+        "date": "",
         "material": "kamen",
         "image": "/c-nh2.jpg"
       }
@@ -251,7 +251,7 @@
         "id": "c-lad1",
         "author": "Josefína Jonášová, Magdaléna Roztočilová",
         "type": "mural",
-        "date": "neuveden",
+        "date": "",
         "material": "neuveden",
         "image": "/c-lad1.jpg"
       }
