@@ -27,6 +27,9 @@ export const Menu = ({ open }) => {
       <li>
         <Link href="/contact">Kontakt</Link>
       </li>
+      <li>
+        <Link href="/search">Vyhledat</Link>
+      </li>
     </StyledMenu>
   );
 };

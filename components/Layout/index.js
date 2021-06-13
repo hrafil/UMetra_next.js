@@ -15,9 +15,6 @@ const Layout = ({ children }) => {
         <div className="App">
           <Navbar />
         </div>
-        <div className="Searchbox">
-          <SearchField />
-        </div>
         {/* <button>
           <Link href="/">x</Link>
         </button> */}
