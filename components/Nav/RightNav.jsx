@@ -14,10 +14,10 @@ const Ul = styled.ul`
   height: 100vh;
   width: 300px;
   padding-top: 3.5rem;
-  transition: transform 0.3s ease-in-out;
   z-index: 100,
   width: 100vw;
   height: 100vh;
+  
 
 
   li {
