@@ -72,11 +72,11 @@
     "artworks": [
       {
         "artwork": "Anděl1",
-        "name": "(8 bronzových reliéfů)",
+        "name": "bez názvu (bronzové reliéfy)",
         "id": "b-a1",
-        "author": "neuveden",
+        "author": "",
         "type": "reliéf",
-        "date": "neuveden",
+        "date": "",
         "material": "bronz",
         "image": "/b-a1.jpg"
       }
@@ -103,7 +103,7 @@
         "id": "80. léta 20. století",
         "author": "Miroslav Suchý",
         "type": "vitráž",
-        "date": "neuveden",
+        "date": "",
         "material": "sklo, kov",
         "image": "/b-kn1.jpg"
       },
@@ -143,7 +143,7 @@
         "type": "plastika",
         "date": "2014",
         "material": "neuveden",
-        "image": "/b-nt1.jpeg"
+        "image": "/b-nt1.jpg"
       }
     ]
   },
@@ -157,7 +157,7 @@
         "id": "b-m1",
         "author": "Helena Samohelová",
         "type": "d",
-        "date": "neuveden",
+        "date": "",
         "material": "keramický reliéf",
         "image": "/b-m1.jpg"
       },
@@ -168,7 +168,7 @@
         "id": "b-m2",
         "author": "ak. soch. Lubomír Šilar",
         "type": "reliéf",
-        "date": "neuveden",
+        "date": "",
         "material": "keramický reliéf",
         "image": "/b-m2.jpg"
       },
@@ -179,7 +179,7 @@
         "id": "b-m3",
         "author": "Lubomír Šilar",
         "type": "pítko",
-        "date": "neuveden",
+        "date": "",
         "material": "neuveden",
         "image": "/b-m3.jpg"
       },
@@ -190,7 +190,7 @@
         "id": "b-m4",
         "author": "Karel Fořtl",
         "type": "pítko",
-        "date": "neuveden",
+        "date": "",
         "material": "neuveden",
         "image": "/b-m4.jpg"
       }
@@ -336,7 +336,7 @@
         "artwork": "Vysočanská2",
         "name": "Pomník Emila Kolbena",
         "id": "b-v2",
-        "author": "Suchánek, Martin; Velíšek, Lukáš",
+        "author": "Martin Suchánek, Lukáš Velíšek",
         "date": "2014",
         "type": "pomník",
         "material": "sklo, ocel, kámen",

@@ -8,7 +8,7 @@
         "id": "a-nem1",
         "author": "Richard Ferdinand Podzemný, Jiří Kryštůfek",
         "type": "plastika",
-        "date": "neuveden",
+        "date": "",
         "material": "neuveden",
         "image": "tba"
       }
@@ -30,7 +30,7 @@
         "id": "a-dej1",
         "author": "Martin Sladký",
         "type": "mozaika",
-        "date": "neuveden",
+        "date": "",
         "material": "neuveden",
         "image": "tba"
       }
@@ -46,7 +46,7 @@
         "id": "a-hra1",
         "author": "Josefína Jonášová, Magdaléna Roztočilová",
         "type": "plastika",
-        "date": "neuveden",
+        "date": "",
         "material": "neuveden",
         "image": "tba"
       }
@@ -98,7 +98,7 @@
         "type": "nástěnné plastiky",
         "date": "",
         "material": "",
-        "image": "/a-mus3.jpeg"
+        "image": "/a-mus3.jpg"
       }
     ]
   },
@@ -114,7 +114,7 @@
         "type": "pomník",
         "date": "1912",
         "material": "",
-        "image": "/a-muz1.jpeg"
+        "image": "/a-muz1.jpg"
       },
       {
         "artwork": "Muzeum2",
@@ -138,9 +138,9 @@
         "id": "a-nam1",
         "author": "Jan Kryštůfek",
         "type": "plastika",
-        "date": "neuveden",
+        "date": "",
         "material": "bronz",
-        "image": "/a-nam1.jpeg"
+        "image": "/a-nam1.jpg"
       }
     ]
   },
@@ -156,7 +156,7 @@
         "type": "výdech z metra",
         "date": "1981",
         "material": " ",
-        "image": "/a-jir4.jpeg"
+        "image": "/a-jir4.jpg"
       },
       {
         "artwork": "Jiřího z Poděbrad1",
@@ -166,7 +166,7 @@
         "type": "kašna",
         "date": "1981",
         "material": " ",
-        "image": "/a-jir1.jpeg"
+        "image": "/a-jir1.jpg"
       },
       {
         "artwork": "Jiřího z Poděbrad2",
@@ -174,7 +174,7 @@
         "id": "a-jir2",
         "author": "Lubomír Šilar",
         "type": "reliéfy",
-        "date": "neuveden",
+        "date": "",
         "material": "keramika",
         "image": "/a-jir2.jpeg"
       },
@@ -184,7 +184,7 @@
         "id": "a-jir3",
         "author": "Jiří Dušek",
         "type": "reliéf",
-        "date": "neuveden",
+        "date": "",
         "material": "kámen",
         "image": "/a-jir3.jpeg"
       }
@@ -200,9 +200,9 @@
         "id": "a-flo1",
         "author": "Petr Svoboda",
         "type": "reliéfy",
-        "date": "neuveden",
+        "date": "",
         "material": "keramika",
-        "image": "/a-flo1.jpeg"
+        "image": "/a-flo1.jpg"
       }
     ]
   },
@@ -216,9 +216,9 @@
         "id": "a-zel1",
         "author": "Petr Svoboda",
         "type": "fontána",
-        "date": "neuveden",
+        "date": "",
         "material": " ",
-        "image": "/a-zel1.jpeg"
+        "image": "/a-zel1.jpg"
       },
       {
         "artwork": "Želivského2",
@@ -226,9 +226,9 @@
         "id": "a-zel2",
         "author": "Jiřina Adamcová",
         "type": "mozaika",
-        "date": "neuveden",
+        "date": "",
         "material": " ",
-        "image": "/a-zel2.jpeg"
+        "image": "/a-zel2.jpg"
       }
     ]
   },
@@ -244,9 +244,9 @@
         "id": "a-ska1",
         "author": "Jan Grimm",
         "type": "mozaika",
-        "date": "neuveden",
+        "date": "",
         "material": "",
-        "image": "/a-ska1.jpeg"
+        "image": "/a-ska1.jpg"
       },
       {
         "artwork": "Skalka2",
@@ -254,9 +254,9 @@
         "id": "a-ska2",
         "author": "Martin Zet",
         "type": "mozaika",
-        "date": "neuveden",
+        "date": "",
         "material": "",
-        "image": "/a-ska2.jpeg"
+        "image": "/a-ska2.jpg"
       }
     ]
   },
@@ -270,9 +270,9 @@
         "id": "a-dep1",
         "author": "Vladimír Navrátil, Bohumil Teplý",
         "type": "socha",
-        "date": "neuveden",
+        "date": "",
         "material": "bronz",
-        "image": "/a-dep1.jpeg"
+        "image": "/a-dep1.jpg"
       }
     ]
   }
