@@ -26,7 +26,7 @@ const Stations = () => {
     <div className={styles.container}>
       <h2 className={styles.title}>seznam UMstanic</h2>
       {allStation.map((station) => (
-        <div key={station}>
+        <div className={styles.text} key={station}>
           {justStationA.includes(station) ? (
             <Link href={`/line-a/${station}`}>{station}</Link>
           ) : justStationB.includes(station) ? (
