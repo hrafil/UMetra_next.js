@@ -1,7 +1,9 @@
 import { getStationC } from '../lib/stationC';
 import CreateLine from '../components/CreateLine';
+import { useEffect } from 'react';
 
 const LineC = ({ lines }) => {
+  useEffect(() => window.scrollTo(0, 2185), []);
   return (
     <CreateLine
       key={lines.station}

@@ -7,12 +7,12 @@ const Ul = styled.ul`
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 
   li {
     text-align: center;
     font-size: 15px;
-    padding-right: 5px;
+    padding-right: 15px;
   }
 
   @media (max-width: 768px) {
@@ -29,7 +29,7 @@ const Ul = styled.ul`
     height: 100vh;
     width: 100vw;
     padding-top: 3rem;
-    font-size: 20px;
+    font-size: 25px;
 
     li {
       color: #fff;

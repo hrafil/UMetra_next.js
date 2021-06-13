@@ -11,10 +11,11 @@ const About = () => {
       </p>
 
       <p className={styles.text}>
-        Část z děl, která vznikala společně se stanicemi, byla již odstraněna,
-        zastavěna stánky či obklopena vizuálním smogem. Cílem tohoto projektu je
-        probudit zvědavost a zájem o umění ve veřejném prostoru, aby docházelo k
-        jeho obnově a novým instalacím spíše, než k jeho ničení.
+        Část uměleckých děl, která vznikala společně se stanicemi metra, byla
+        již odstraněna, zastavěna stánky či je aktuálně obklopena vizuálním
+        smogem. Cílem tohoto projektu je probudit zvědavost a zájem o umění ve
+        veřejném prostoru, aby docházelo k jeho obnově a instalaci nových děl
+        spíše než k jeho ničení.
       </p>
       <p className={styles.text}>
         Umetra vzniklo jako závěrečný projekt Digitální Akademie Web, Czechitas.
