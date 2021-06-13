@@ -10,10 +10,10 @@ const Ul = styled.ul`
   li {
     text-align: center;
     font-size: 20px;
-    font-weight: bold;
   }
 
   @media (max-width: 768px) {
+    font-weight: bold;
     z-index: 10;
     margin-top: 0;
     flex-flow: column nowrap;
@@ -45,7 +45,7 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
       <li className="home">
-        <Link open={open} onClick={() => setOpen(open)} href="/">
+        <Link open={open} onClick={() => setOpen(!open)} href="/">
           UMetra
         </Link>
       </li>

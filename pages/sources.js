@@ -30,7 +30,7 @@ const Sources = () => {
           Dalším zdrojem se staly informační popisky umístěné u vybraných děl ve
           stanicích metra.
         </p>
-        <p>Fotografie jsme si pořizovali vlastní.</p>
+        <p>Fotografie uměleckých děl jsou pořízené autorkami webu.</p>
       </div>
     </div>
   );

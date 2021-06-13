@@ -96,7 +96,7 @@ li {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  right: 10%;
+  right: 15%;
   margin-top: 0.5rem;
 }
 
@@ -107,7 +107,7 @@ li {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  right: 10%;
+  right: 15%;
   margin-top: 0.5rem;
 }
 
@@ -118,7 +118,7 @@ li {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  right: 10%;
+  right: 15%;
   margin-top: 0.5rem;
 }
 
@@ -126,8 +126,9 @@ li {
 
 .container_artpage {
   position: relative;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
+  padding-top: 10px;
 }
 
 .container_artworks {
