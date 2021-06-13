@@ -15,8 +15,7 @@ const Ul = styled.ul`
   }
 
   @media (max-width: 768px) {
-    z-index: 50;
-    border: 3px solid #ffce2d;
+    z-index: 10;
     margin-top: 0;
     flex-flow: column nowrap;
     background-color: white;
