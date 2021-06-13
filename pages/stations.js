@@ -28,11 +28,17 @@ const Stations = () => {
       {allStation.map((station) => (
         <div className={styles.text} key={station}>
           {justStationA.includes(station) ? (
-            <Link href={`/line-a/${station}`}>{station}</Link>
+            <Link className={styles.link} href={`/line-a/${station}`}>
+              {station}
+            </Link>
           ) : justStationB.includes(station) ? (
-            <Link href={`/line-b/${station}`}>{station}</Link>
+            <Link className={styles.link} href={`/line-b/${station}`}>
+              {station}
+            </Link>
           ) : justStationC.includes(station) ? (
-            <Link href={`/line-c/${station}`}>{station}</Link>
+            <Link className={styles.link} href={`/line-c/${station}`}>
+              {station}
+            </Link>
           ) : (
             ''
           )}

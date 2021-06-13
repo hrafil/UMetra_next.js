@@ -5,7 +5,7 @@ import styles from '../styles/About.module.css';
 const SearchPage = () => {
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>vyhledávání</h2>
+      <h2 className={styles.title}>vyhledat</h2>
       <div className={styles.search_field}>
         <SearchField />;
       </div>
