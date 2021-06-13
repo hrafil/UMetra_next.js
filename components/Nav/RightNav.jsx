@@ -65,4 +65,8 @@ const RightNav = ({ open }) => {
   );
 };
 
+const closeMenu = () => {
+  setOpen(false);
+};
+
 export default RightNav;
