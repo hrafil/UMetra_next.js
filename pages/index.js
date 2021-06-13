@@ -1,14 +1,7 @@
-// import Head from 'next/head';
-// import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import React, { useState } from 'react';
-// import useTranslation from 'next-translate/useTranslation';
-// import router, { useRouter } from 'next/router';
-// import { useEffect } from 'react';
 
 const Home = () => {
-  // let router = useRouter();
-
   const [title, setTitle] = useState('UMetra');
 
   const handleTitle = () =>
