@@ -1,15 +1,19 @@
 /* About */
 
 .container {
-  padding: 0 40px;
+  padding: 60px 40px 0 40px;
   text-align: left;
   display: flex;
   flex-wrap: wrap;
+  border: 3px solid #17a301;
+  width: 100vw;
+  height: 100vh;
 }
 
 .title {
   text-align: left;
   font-size: 24px;
+  margin-bottom: 0;
 }
 
 .text {

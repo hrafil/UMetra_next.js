@@ -1,12 +1,14 @@
 .container {
-  padding: 0 40px;
+  padding: 60px 40px 0 40px;
   text-align: left;
   flex-wrap: wrap;
+  border: 3px solid #ffce2d;
 }
 
 .title {
   text-align: left;
   font-size: 24px;
+  margin-bottom: 40px;
 }
 
 .text {
