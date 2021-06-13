@@ -64,7 +64,11 @@ const searchField = () => {
     <>
       <form onSubmit={(e) => e.preventDefault()}>
         <label>
-          <input type="text" onChange={(e) => setInput(e.target.value)} />
+          <input
+            type="text"
+            placeholder="Search..."
+            onChange={(e) => setInput(e.target.value)}
+          />
         </label>
         <select name="kategorie" onChange={(e) => setCathegory(e.target.value)}>
           <option value="stanice">stanice</option>
