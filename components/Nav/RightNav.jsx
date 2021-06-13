@@ -25,7 +25,7 @@ const Ul = styled.ul`
     right: 0;
     height: 100vh;
     width: 100vw;
-    padding-top: 3.5rem;
+    padding-top: 3rem;
 
     li {
       color: #fff;
@@ -37,6 +37,7 @@ const Ul = styled.ul`
 
     .contact {
       padding-top: 60px;
+      padding-bottom: 10px;
     }
   }
 `;
