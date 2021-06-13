@@ -14,9 +14,9 @@ const Layout = ({ children }) => {
         <div className="App">
           <Navbar />
         </div>
-        <button>
+        {/* <button>
           <Link href="/">x</Link>
-        </button>
+        </button> */}
       </header>
       <main>{children}</main>
     </>

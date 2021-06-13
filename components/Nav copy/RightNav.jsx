@@ -5,8 +5,16 @@ import Link from 'next/link';
 const Ul = styled.ul`
   list-style: none;
   display: flex;
+  flex-flow: row nowrap;
+
+  li {
+    padding: 18px 10px;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: ##ffffff;
+    background-color: #347f;
     position: fixed;
     transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
     top: 0;
