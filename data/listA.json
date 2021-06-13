@@ -10,7 +10,7 @@
         "type": "plastika",
         "date": "",
         "material": "neuveden",
-        "image": "tba"
+        "image": "/a-nem1.jpg"
       }
     ]
   },
@@ -42,18 +42,98 @@
     "artworks": [
       {
         "artwork": "Hradčanská1",
-        "name": "",
+        "name": "Koruna",
         "id": "a-hra1",
-        "author": "Josefína Jonášová, Magdaléna Roztočilová",
-        "type": "plastika",
+        "author": "Jiří Prádler",
+        "type": "kamenný reliéf",
         "date": "",
-        "material": "neuveden",
-        "image": "tba"
+        "material": "kámen",
+        "image": "/a-hra1.jpg"
+      },
+
+      {
+        "artwork": "Hradčanská2",
+        "name": "(ruce)",
+        "id": "a-hra2",
+        "author": "Slavoj Nejdl",
+        "type": "kamenný reliéf",
+        "date": "",
+        "material": "kámen",
+        "image": "/a-hra2.jpg"
+      },
+
+      {
+        "artwork": "Hradčanská3",
+        "name": "(nápis)",
+        "id": "a-hra3",
+        "author": "Slavoj Nejdl",
+        "type": "kamenný reliéf",
+        "date": "",
+        "material": "kámen",
+        "image": "/a-hra3.jpg"
       }
     ]
   },
 
-  { "station": "Malostranská", "artworks": false },
+  {
+    "station": "Malostranská",
+    "artworks": [
+      {
+        "artwork": "Malostranská1",
+        "name": "repliky soch A. Brauna",
+        "id": "a-mal1",
+        "author": "neuveden",
+        "type": "plastika",
+        "date": "",
+        "material": "kámen",
+        "image": "/a-mal1.jpg"
+      },
+
+      {
+        "artwork": "Malostranská2",
+        "name": "Pítko",
+        "id": "a-mal2",
+        "author": "Miroslav Vystrčil",
+        "type": "pítko",
+        "date": "",
+        "material": "kámen",
+        "image": "/a-mal2.jpg"
+      },
+
+      {
+        "artwork": "Malostranská3",
+        "name": "Patník",
+        "id": "a-mal3",
+        "author": "Lubomír Růžička",
+        "type": "nárožní patník",
+        "date": "",
+        "material": "kámen",
+        "image": "/a-mal3.jpg"
+      },
+
+      {
+        "artwork": "Malostranská4",
+        "name": "Ozdobná mříž (vstup)",
+        "id": "a-mal4",
+        "author": "Jan Smrž",
+        "type": "mříž",
+        "date": "",
+        "material": "kov",
+        "image": "/a-mal4.jpg"
+      },
+
+      {
+        "artwork": "Malostranská5",
+        "name": "Ozdobná mříž (Valdštejnská jízdárna)",
+        "id": "a-mal5",
+        "author": "dílna Jaromíra Brudhause",
+        "type": "mříž",
+        "date": "",
+        "material": "kov",
+        "image": "/a-mal5.jpg"
+      }
+    ]
+  },
 
   { "station": "Staroměstská", "artworks": false },
 

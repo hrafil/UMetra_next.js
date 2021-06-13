@@ -37,7 +37,7 @@
         "type": "mural",
         "date": "2020",
         "material": "neuveden",
-        "image": "c-o1.jpg"
+        "image": "/c-o1.jpg"
       }
     ]
   },
@@ -53,7 +53,7 @@
         "type": "plastika",
         "date": "neuveden",
         "material": "bronz",
-        "image": "tba"
+        "image": "/c-ch1.jpg"
       }
     ]
   },
@@ -71,7 +71,7 @@
         "type": "fontána",
         "date": "neuveden",
         "material": "kámen",
-        "image": "tba"
+        "image": "/c-ka1.jpg"
       },
 
       {
@@ -82,7 +82,7 @@
         "type": "reliéf",
         "date": "neuveden",
         "material": "pískovec",
-        "image": "tba"
+        "image": "/c-ka2.jpg"
       },
 
       {
@@ -93,7 +93,7 @@
         "type": "vitráže",
         "date": "neuveden",
         "material": "sklo",
-        "image": "tba"
+        "image": "/c-ka3.jpg"
       }
     ]
   },
@@ -111,7 +111,7 @@
         "type": "plastika",
         "date": "neuveden",
         "material": "kámen",
-        "image": "tba"
+        "image": "/c-prp1.jpg"
       }
     ]
   },
@@ -144,7 +144,7 @@
       {
         "artwork": "Florenc1",
         "name": "Bitva o Sokolovo",
-        "id": "c-fl1",
+        "id": "c-f1",
         "author": "Oldřich Opit, Sauro Ballardini",
         "type": "mozaika",
         "date": "neuveden",
@@ -154,7 +154,7 @@
       {
         "artwork": "Florenc2",
         "name": "Mostaři",
-        "id": "b-f2",
+        "id": "c-f2",
         "author": "Karel Hladík",
         "type": "plastika",
         "date": "1980",
@@ -175,7 +175,7 @@
         "type": "fontána",
         "date": "neuveden",
         "material": "neuveden",
-        "image": "tba"
+        "image": "/c-vl1.jpg"
       },
 
       {
@@ -186,7 +186,7 @@
         "type": "vitráž",
         "date": "neuveden",
         "material": "sklo",
-        "image": "tba"
+        "image": "/c-vl2.jpg"
       },
 
       {
@@ -197,7 +197,7 @@
         "type": "tvarování stěny",
         "date": "neuveden",
         "material": "neuveden",
-        "image": "tba"
+        "image": "/c-vl3.jpg"
       },
 
       {
@@ -208,7 +208,7 @@
         "type": "mural",
         "date": "neuveden",
         "material": "neuveden",
-        "image": "tba"
+        "image": "/c-vl4.jpg"
       }
     ]
   },
@@ -224,7 +224,7 @@
         "type": "plastika",
         "date": "neuveden",
         "material": "kámen",
-        "image": "tba"
+        "image": "/c-nh1.jpg"
       },
 
       {
@@ -235,7 +235,7 @@
         "type": "reliéf",
         "date": "neuveden",
         "material": "kamen",
-        "image": "tba"
+        "image": "/c-nh2.jpg"
       }
     ]
   },
@@ -253,7 +253,7 @@
         "type": "mural",
         "date": "neuveden",
         "material": "neuveden",
-        "image": "tba"
+        "image": "/c-lad1.jpg"
       }
     ]
   },

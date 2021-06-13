@@ -8,9 +8,10 @@
         "id": "a-nem1",
         "author": "Richard Ferdinand Podzemný, Jiří Kryštůfek",
         "type": "plastika",
-        "date": "neuveden",
+        "date": "",
         "material": "neuveden",
-        "image": "tba"
+        "image": "/a-nem1.jpg",
+        "location": "Nemocnice Motol"
       }
     ]
   },
@@ -30,7 +31,7 @@
         "id": "a-dej1",
         "author": "Martin Sladký",
         "type": "mozaika",
-        "date": "neuveden",
+        "date": "",
         "material": "neuveden",
         "image": "tba"
       }
@@ -42,18 +43,106 @@
     "artworks": [
       {
         "artwork": "Hradčanská1",
-        "name": "",
+        "name": "Koruna",
         "id": "a-hra1",
-        "author": "Josefína Jonášová, Magdaléna Roztočilová",
-        "type": "plastika",
-        "date": "neuveden",
-        "material": "neuveden",
-        "image": "tba"
+        "author": "Jiří Prádler",
+        "type": "kamenný reliéf",
+        "date": "",
+        "material": "kámen",
+        "image": "/a-hra1.jpg",
+        "location": "Hradčanská"
+      },
+
+      {
+        "artwork": "Hradčanská2",
+        "name": "(ruce)",
+        "id": "a-hra2",
+        "author": "Slavoj Nejdl",
+        "type": "kamenný reliéf",
+        "date": "",
+        "material": "kámen",
+        "image": "/a-hra2.jpg",
+        "location": "Hradčanská"
+      },
+
+      {
+        "artwork": "Hradčanská3",
+        "name": "(nápis)",
+        "id": "a-hra3",
+        "author": "Slavoj Nejdl",
+        "type": "kamenný reliéf",
+        "date": "",
+        "material": "kámen",
+        "image": "/a-hra3.jpg",
+        "location": "Hradčanská"
       }
     ]
   },
 
-  { "station": "Malostranská", "artworks": false },
+  {
+    "station": "Malostranská",
+    "artworks": [
+      {
+        "artwork": "Malostranská1",
+        "name": "repliky soch A. Brauna",
+        "id": "a-mal1",
+        "author": "neuveden",
+        "type": "plastika",
+        "date": "",
+        "material": "kámen",
+        "image": "/a-mal1.jpg",
+        "location": "Malostranská"
+      },
+
+      {
+        "artwork": "Malostranská2",
+        "name": "Pítko",
+        "id": "a-mal2",
+        "author": "Miroslav Vystrčil",
+        "type": "pítko",
+        "date": "",
+        "material": "kámen",
+        "image": "/a-mal2.jpg",
+        "location": "Malostranská"
+      },
+
+      {
+        "artwork": "Malostranská3",
+        "name": "Patník",
+        "id": "a-mal3",
+        "author": "Lubomír Růžička",
+        "type": "nárožní patník",
+        "date": "",
+        "material": "kámen",
+        "image": "/a-mal3.jpg",
+        "location": "Malostranská"
+      },
+
+      {
+        "artwork": "Malostranská4",
+        "name": "Ozdobná mříž (vstup)",
+        "id": "a-mal4",
+        "author": "Jan Smrž",
+        "type": "mříž",
+        "date": "",
+        "material": "kov",
+        "image": "/a-mal4.jpg",
+        "location": "Malostranská"
+      },
+
+      {
+        "artwork": "Malostranská5",
+        "name": "Ozdobná mříž (Valdštejnská jízdárna)",
+        "id": "a-mal5",
+        "author": "dílna Jaromíra Brudhause",
+        "type": "mříž",
+        "date": "",
+        "material": "kov",
+        "image": "/a-mal5.jpg",
+        "location": "Malostranská"
+      }
+    ]
+  },
 
   { "station": "Staroměstská", "artworks": false },
 
@@ -62,13 +151,47 @@
     "artworks": [
       {
         "artwork": "Můstek1",
-        "name": "",
+        "name": "vitráž firmy Tesla",
         "id": "a-mus1",
-        "author": "",
-        "type": "",
+        "author": "František Hudeček",
+        "type": "vitráž",
         "date": "",
         "material": "",
-        "image": "tba"
+        "image": "/a-mus1.jpeg",
+        "location": "Můstek"
+      },
+      {
+        "artwork": "Můstek2",
+        "name": "bez názvu",
+        "id": "a-mus2",
+        "author": "Josef Buňka",
+        "type": "hliníkové panely",
+        "date": "",
+        "material": "",
+        "image": "/a-mus2.jpeg",
+        "location": "Můstek"
+      },
+      {
+        "artwork": "Můstek3",
+        "name": "Sv. Václav",
+        "id": "a-mus3",
+        "author": "David Černý",
+        "type": "socha",
+        "date": "",
+        "material": "",
+        "image": "/a-mus3.jpeg",
+        "location": "Můstek"
+      },
+      {
+        "artwork": "Můstek4",
+        "name": "bez názvu",
+        "id": "a-mus4",
+        "author": "Ladislav Dydek, František Bílek",
+        "type": "nástěnné plastiky",
+        "date": "",
+        "material": "",
+        "image": "/a-mus3.jpg",
+        "location": "Můstek"
       }
     ]
   },
@@ -78,13 +201,25 @@
     "artworks": [
       {
         "artwork": "Muzeum1",
-        "name": "",
+        "name": "Pomník svatého Václava",
         "id": "a-muz1",
-        "author": "",
-        "type": "",
+        "author": "Josef Václav Myslbek",
+        "type": "pomník",
+        "date": "1912",
+        "material": "",
+        "image": "/a-muz1.jpg",
+        "location": "Muzeum"
+      },
+      {
+        "artwork": "Muzeum2",
+        "name": "bez názvu (busty Lista a Belady)",
+        "id": "a-muz2",
+        "author": "Josef Kadlčík, Jan Bartoš",
+        "type": "busty",
         "date": "",
         "material": "",
-        "image": "tba"
+        "image": "/a-muz2.jpeg",
+        "location": "Muzeum"
       }
     ]
   },
@@ -98,9 +233,10 @@
         "id": "a-nam1",
         "author": "Jan Kryštůfek",
         "type": "plastika",
-        "date": "neuveden",
+        "date": "",
         "material": "bronz",
-        "image": "tba"
+        "image": "/a-nam1.jpg",
+        "location": "Náměstí Míru"
       }
     ]
   },
@@ -110,23 +246,36 @@
     "artworks": [
       {
         "artwork": "Jiřího z Poděbrad1",
+        "name": "Výdech 10 JP",
+        "id": "a-jir4",
+        "author": "Petr Šedivý, Anna Hübschmannová",
+        "type": "výdech z metra",
+        "date": "1981",
+        "material": " ",
+        "image": "/a-jir4.jpg",
+        "location": "Jiřího z Poděbrad"
+      },
+      {
+        "artwork": "Jiřího z Poděbrad1",
         "name": "Sjednocená Evropa",
         "id": "a-jir1",
-        "author": "Petr Šedivý",
-        "type": "fontána",
-        "date": "neuveden",
+        "author": "Petr Šedivý, Anna Hübschmannová",
+        "type": "kašna",
+        "date": "1981",
         "material": " ",
-        "image": "tba"
+        "image": "/a-jir1.jpg",
+        "location": "Jiřího z Poděbrad"
       },
       {
         "artwork": "Jiřího z Poděbrad2",
-        "name": "(husitství)",
+        "name": "bez názvu (husitství)",
         "id": "a-jir2",
         "author": "Lubomír Šilar",
         "type": "reliéfy",
-        "date": "neuveden",
+        "date": "",
         "material": "keramika",
-        "image": "tba"
+        "image": "/a-jir2.jpeg",
+        "location": "Jiřího z Poděbrad"
       },
       {
         "artwork": "Jiřího z Poděbrad3",
@@ -134,9 +283,10 @@
         "id": "a-jir3",
         "author": "Jiří Dušek",
         "type": "reliéf",
-        "date": "neuveden",
+        "date": "",
         "material": "kámen",
-        "image": "tba"
+        "image": "/a-jir3.jpeg",
+        "location": "Jiřího z Poděbrad"
       }
     ]
   },
@@ -150,9 +300,10 @@
         "id": "a-flo1",
         "author": "Petr Svoboda",
         "type": "reliéfy",
-        "date": "neuveden",
+        "date": "",
         "material": "keramika",
-        "image": "tba"
+        "image": "/a-flo1.jpg",
+        "location": "Flora"
       }
     ]
   },
@@ -166,9 +317,10 @@
         "id": "a-zel1",
         "author": "Petr Svoboda",
         "type": "fontána",
-        "date": "neuveden",
+        "date": "",
         "material": " ",
-        "image": "tba"
+        "image": "/a-zel1.jpg",
+        "location": "Želivského"
       },
       {
         "artwork": "Želivského2",
@@ -176,19 +328,10 @@
         "id": "a-zel2",
         "author": "Jiřina Adamcová",
         "type": "mozaika",
-        "date": "neuveden",
+        "date": "",
         "material": " ",
-        "image": "tba"
-      },
-      {
-        "artwork": "Želivského3",
-        "name": "Husitství",
-        "id": "a-zel3",
-        "author": "Jan Simota",
-        "type": "reliéf",
-        "date": "neuveden",
-        "material": "bronz",
-        "image": "tba"
+        "image": "/a-zel2.jpg",
+        "location": "Želivského"
       }
     ]
   },
@@ -204,9 +347,10 @@
         "id": "a-ska1",
         "author": "Jan Grimm",
         "type": "mozaika",
-        "date": "neuveden",
+        "date": "",
         "material": "",
-        "image": "tba"
+        "image": "/a-ska1.jpg",
+        "location": "Skalka"
       },
       {
         "artwork": "Skalka2",
@@ -214,9 +358,10 @@
         "id": "a-ska2",
         "author": "Martin Zet",
         "type": "mozaika",
-        "date": "neuveden",
+        "date": "",
         "material": "",
-        "image": "tba"
+        "image": "/a-ska2.jpg",
+        "location": "Skalka"
       }
     ]
   },
@@ -227,12 +372,13 @@
       {
         "artwork": "Depo Hostivař1",
         "name": "Rodina",
-        "id": "a-flo1",
+        "id": "a-dep1",
         "author": "Vladimír Navrátil, Bohumil Teplý",
         "type": "socha",
-        "date": "neuveden",
+        "date": "",
         "material": "bronz",
-        "image": "tba"
+        "image": "/a-dep1.jpg",
+        "location": "Depo Hostivař"
       }
     ]
   },
@@ -258,7 +404,8 @@
         "type": "plastika",
         "date": "1988",
         "material": "pískovec",
-        "image": "/b-nb1.jpg"
+        "image": "/b-nb1.jpg",
+        "location": "Nové Butovice"
       },
 
       {
@@ -269,7 +416,8 @@
         "type": "plastika",
         "date": "2016",
         "material": "neuveden",
-        "image": "/b-nb2.jpg"
+        "image": "/b-nb2.jpg",
+        "location": "Nové Butovice"
       }
     ]
   },
@@ -287,7 +435,8 @@
         "type": "plastika",
         "date": "1988",
         "material": "žula, bronz",
-        "image": "/b-r1.jpg"
+        "image": "/b-r1.jpg",
+        "location": "Radlická"
       },
 
       {
@@ -298,7 +447,8 @@
         "type": "mozaika",
         "date": "1987",
         "material": "kov",
-        "image": "/b-r2.jpg"
+        "image": "/b-r2.jpg",
+        "location": "Radlická"
       }
     ]
   },
@@ -316,7 +466,8 @@
         "type": "reliéf",
         "date": "neuveden",
         "material": "bronz",
-        "image": "/b-a1.jpg"
+        "image": "/b-a1.jpg",
+        "location": "Anděl"
       }
     ]
   },
@@ -332,18 +483,20 @@
         "type": "mozaika",
         "date": "1985",
         "material": "neuveden",
-        "image": "/b-kn4.jpg"
+        "image": "/b-kn4.jpg",
+        "location": "Karlovo náměstí"
       },
 
       {
         "artwork": "Karlovo náměstí1",
         "name": "beu názvu (vitráž)",
-        "id": "80. léta 20. století",
+        "id": "b-kn1",
         "author": "Miroslav Suchý",
         "type": "vitráž",
         "date": "neuveden",
         "material": "sklo, kov",
-        "image": "/b-kn1.jpg"
+        "image": "/b-kn1.jpg",
+        "location": "Karlovo náměstí"
       },
 
       {
@@ -354,7 +507,8 @@
         "type": "skleněný objekt",
         "date": "80. léta 20. století",
         "material": "sklo",
-        "image": "/b-kn2.jpg"
+        "image": "/b-kn2.jpg",
+        "location": "Karlovo náměstí"
       },
 
       {
@@ -365,7 +519,8 @@
         "type": "pítko",
         "date": "1985",
         "material": "neuveden",
-        "image": "/b-kn3.jpg"
+        "image": "/b-kn3.jpg",
+        "location": "Karlovo náměstí"
       }
     ]
   },
@@ -381,7 +536,8 @@
         "type": "plastika",
         "date": "2014",
         "material": "neuveden",
-        "image": "/b-nt1.jpg"
+        "image": "/b-nt1.jpg",
+        "location": "Národní třída"
       }
     ]
   },
@@ -397,7 +553,8 @@
         "type": "d",
         "date": "neuveden",
         "material": "keramický reliéf",
-        "image": "/b-m1.jpg"
+        "image": "/b-m1.jpg",
+        "location": "Můstek"
       },
 
       {
@@ -408,7 +565,8 @@
         "type": "reliéf",
         "date": "neuveden",
         "material": "keramický reliéf",
-        "image": "/b-m2.jpg"
+        "image": "/b-m2.jpg",
+        "location": "Můstek"
       },
 
       {
@@ -419,7 +577,8 @@
         "type": "pítko",
         "date": "neuveden",
         "material": "neuveden",
-        "image": "/b-m3.jpg"
+        "image": "/b-m3.jpg",
+        "location": "Můstek"
       },
 
       {
@@ -430,7 +589,8 @@
         "type": "pítko",
         "date": "neuveden",
         "material": "neuveden",
-        "image": "/b-m4.jpg"
+        "image": "/b-m4.jpg",
+        "location": "Můstek"
       }
     ]
   },
@@ -448,7 +608,8 @@
         "type": "kamenná mozaika",
         "date": "1974",
         "material": "plastika",
-        "image": "/b-f1.jpg"
+        "image": "/b-f1.jpg",
+        "location": "Florenc"
       },
       {
         "artwork": "Florenc2",
@@ -458,7 +619,8 @@
         "type": "plastika",
         "date": "1980",
         "material": "plastika",
-        "image": "/b-f2.jpg"
+        "image": "/b-f2.jpg",
+        "location": "Florenc"
       }
     ]
   },
@@ -476,7 +638,8 @@
         "type": "skleněná vitráž",
         "date": "1989",
         "material": "skleněná vitráž",
-        "image": "/b-i1.jpg"
+        "image": "/b-i1.jpg",
+        "location": "Invalidovna"
       },
 
       {
@@ -487,7 +650,8 @@
         "type": "plastika",
         "date": "1964",
         "material": "keramika",
-        "image": "/b-i2.jpg"
+        "image": "/b-i2.jpg",
+        "location": "Invalidovna"
       },
 
       {
@@ -498,7 +662,8 @@
         "type": "plastika",
         "date": "1963",
         "material": "keramika",
-        "image": "/b-i3.jpg"
+        "image": "/b-i3.jpg",
+        "location": "Invalidovna"
       }
     ]
   },
@@ -514,7 +679,8 @@
         "type": "plastika",
         "date": "1970",
         "material": "mramor",
-        "image": "/b-p3.jpg"
+        "image": "/b-p3.jpg",
+        "location": "Palmovka"
       },
       {
         "artwork": "Palmovka1",
@@ -524,7 +690,8 @@
         "date": "1987",
         "type": "plastika",
         "material": "ocel",
-        "image": "/b-p1.jpg"
+        "image": "/b-p1.jpg",
+        "location": "Palmovka"
       },
 
       {
@@ -535,7 +702,8 @@
         "type": "malba",
         "date": "1999",
         "material": "neuveden",
-        "image": "/b-p2.jpg"
+        "image": "/b-p2.jpg",
+        "location": "Palmovka"
       }
     ]
   },
@@ -551,7 +719,8 @@
         "date": "2001-2004",
         "type": "socha",
         "material": "bronz",
-        "image": "/b-c1.jpg"
+        "image": "/b-c1.jpg",
+        "location": "Českomoravská"
       }
     ]
   },
@@ -567,7 +736,8 @@
         "date": "1999",
         "type": "plastika",
         "material": "kov",
-        "image": "/b-v1.jpg"
+        "image": "/b-v1.jpg",
+        "location": "Vysočanská"
       },
 
       {
@@ -578,7 +748,8 @@
         "date": "2014",
         "type": "pomník",
         "material": "sklo, ocel, kámen",
-        "image": "/b-v2.jpg"
+        "image": "/b-v2.jpg",
+        "location": "Vysočanská"
       }
     ]
   },
@@ -596,7 +767,8 @@
         "date": "1970",
         "type": "plastika",
         "material": "bílý beton",
-        "image": "/b-h1.jpg"
+        "image": "/b-h1.jpg",
+        "location": "Hloubětín"
       },
 
       {
@@ -607,7 +779,8 @@
         "date": "1985",
         "type": "plastika",
         "material": "bronz",
-        "image": "/b-h2.jpg"
+        "image": "/b-h2.jpg",
+        "location": "Hloubétín"
       }
     ]
   },
@@ -627,7 +800,8 @@
         "type": "plastika",
         "date": "neuveden",
         "material": "bronz",
-        "image": "tba"
+        "image": "/c-h1.jpg",
+        "location": "Háje"
       },
 
       {
@@ -638,7 +812,8 @@
         "type": "mozaika",
         "date": "neuveden",
         "material": "keramika",
-        "image": "tba"
+        "image": "/c-h2.jpg",
+        "location": "Háje"
       }
     ]
   },
@@ -654,7 +829,8 @@
         "type": "mural",
         "date": "2020",
         "material": "neuveden",
-        "image": "tba"
+        "image": "/c-o1.jpg",
+        "location": "Opatov"
       }
     ]
   },
@@ -670,7 +846,8 @@
         "type": "plastika",
         "date": "neuveden",
         "material": "bronz",
-        "image": "tba"
+        "image": "/c-ch1.jpg",
+        "location": "Chodov"
       }
     ]
   },
@@ -688,7 +865,8 @@
         "type": "fontána",
         "date": "neuveden",
         "material": "kámen",
-        "image": "tba"
+        "image": "/c-ka1.jpg",
+        "location": "Kačerov"
       },
 
       {
@@ -699,7 +877,8 @@
         "type": "reliéf",
         "date": "neuveden",
         "material": "pískovec",
-        "image": "tba"
+        "image": "/c-ka2.jpg",
+        "location": "Kačerov"
       },
 
       {
@@ -710,7 +889,8 @@
         "type": "vitráže",
         "date": "neuveden",
         "material": "sklo",
-        "image": "tba"
+        "image": "/c-ka3.jpg",
+        "location": "Kačerov"
       }
     ]
   },
@@ -728,7 +908,8 @@
         "type": "plastika",
         "date": "neuveden",
         "material": "kámen",
-        "image": "tba"
+        "image": "/c-prp1.jpg",
+        "location": "Pražského povstání"
       }
     ]
   },
@@ -748,7 +929,8 @@
         "type": "busty",
         "date": "neuveden",
         "material": "neuveden",
-        "image": "tba"
+        "image": "/a-muz2",
+        "location": "Muzeum"
       }
     ]
   },
@@ -761,22 +943,24 @@
       {
         "artwork": "Florenc1",
         "name": "Bitva o Sokolovo",
-        "id": "c-fl1",
+        "id": "c-f1",
         "author": "Oldřich Opit, Sauro Ballardini",
         "type": "mozaika",
         "date": "neuveden",
         "material": "keramika",
-        "image": "/b-f1.jpg"
+        "image": "/b-f1.jpg",
+        "location": "Florenc"
       },
       {
         "artwork": "Florenc2",
         "name": "Mostaři",
-        "id": "b-f2",
+        "id": "c-f2",
         "author": "Karel Hladík",
         "type": "plastika",
         "date": "1980",
         "material": "plastika",
-        "image": "/b-f2.jpg"
+        "image": "/b-f2.jpg",
+        "location": "Florenc"
       }
     ]
   },
@@ -792,7 +976,8 @@
         "type": "fontána",
         "date": "neuveden",
         "material": "neuveden",
-        "image": "tba"
+        "image": "/c-vl1.jpg",
+        "location": "Vltavská"
       },
 
       {
@@ -803,7 +988,8 @@
         "type": "vitráž",
         "date": "neuveden",
         "material": "sklo",
-        "image": "tba"
+        "image": "/c-vl2.jpg",
+        "location": "Vltavská"
       },
 
       {
@@ -814,7 +1000,8 @@
         "type": "tvarování stěny",
         "date": "neuveden",
         "material": "neuveden",
-        "image": "tba"
+        "image": "/c-vl3.jpg",
+        "location": "Vltavská"
       },
 
       {
@@ -825,7 +1012,8 @@
         "type": "mural",
         "date": "neuveden",
         "material": "neuveden",
-        "image": "tba"
+        "image": "/c-vl4.jpg",
+        "location": "Vltavská"
       }
     ]
   },
@@ -841,7 +1029,8 @@
         "type": "plastika",
         "date": "neuveden",
         "material": "kámen",
-        "image": "tba"
+        "image": "/c-nh1.jpg",
+        "location": "Nádraží Holešovice"
       },
 
       {
@@ -852,7 +1041,8 @@
         "type": "reliéf",
         "date": "neuveden",
         "material": "kamen",
-        "image": "tba"
+        "image": "/c-nh2.jpg",
+        "location": "Nádraží Holešovice"
       }
     ]
   },
@@ -870,271 +1060,8 @@
         "type": "mural",
         "date": "neuveden",
         "material": "neuveden",
-        "image": "tba"
-      }
-    ]
-  },
-
-  { "station": "Střížkov", "artworks": false },
-
-  { "station": "Prosek", "artworks": false },
-
-  { "station": "Letňany", "artworks": false },
-  {
-    "station": "Háje",
-    "artworks": [
-      {
-        "artwork": "Háje1",
-        "name": "Kosmonauti",
-        "id": "c-h1",
-        "author": "Jan Bartoš",
-        "type": "plastika",
-        "date": "neuveden",
-        "material": "bronz",
-        "image": "tba"
-      },
-
-      {
-        "artwork": "Háje2",
-        "name": "Kosmonauti",
-        "id": "c-h2",
-        "author": "Alois Fišárek",
-        "type": "mozaika",
-        "date": "neuveden",
-        "material": "keramika",
-        "image": "tba"
-      }
-    ]
-  },
-
-  {
-    "station": "Opatov",
-    "artworks": [
-      {
-        "artwork": "Opatov1",
-        "name": "Fauna a flóra",
-        "id": "c-o1",
-        "author": "Vyhnánek",
-        "type": "mural",
-        "date": "2020",
-        "material": "neuveden",
-        "image": "tba"
-      }
-    ]
-  },
-
-  {
-    "station": "Chodov",
-    "artworks": [
-      {
-        "artwork": "Chodov1",
-        "name": "Budovatel metra",
-        "id": "c-ch1",
-        "author": "Jiří Kryštůfek",
-        "type": "plastika",
-        "date": "neuveden",
-        "material": "bronz",
-        "image": "tba"
-      }
-    ]
-  },
-
-  { "station": "Roztyly", "artworks": false },
-
-  {
-    "station": "Kačerov",
-    "artworks": [
-      {
-        "artwork": "Kačerov1",
-        "name": "Fontána",
-        "id": "c-ka1",
-        "author": "František Radovan",
-        "type": "fontána",
-        "date": "neuveden",
-        "material": "kámen",
-        "image": "tba"
-      },
-
-      {
-        "artwork": "Kačerov2",
-        "name": "neuveden",
-        "id": "c-ka2",
-        "author": "Vlastislav Gajda",
-        "type": "reliéf",
-        "date": "neuveden",
-        "material": "pískovec",
-        "image": "tba"
-      },
-
-      {
-        "artwork": "Kačerov3",
-        "name": "(spirály)",
-        "id": "c-ka3",
-        "author": "Benjamin Hejlek",
-        "type": "vitráže",
-        "date": "neuveden",
-        "material": "sklo",
-        "image": "tba"
-      }
-    ]
-  },
-
-  { "station": "Pankrác", "artworks": false },
-
-  {
-    "station": "Pražského povstání",
-    "artworks": [
-      {
-        "artwork": "Pražského povstání1",
-        "name": "Barikáda - květen 1945",
-        "id": "c-prp1",
-        "author": "Stanislav Hanzík",
-        "type": "plastika",
-        "date": "neuveden",
-        "material": "kámen",
-        "image": "tba"
-      }
-    ]
-  },
-
-  { "station": "Vyšehrad", "artworks": false },
-
-  { "station": "I.P.Pavlova", "artworks": false },
-
-  {
-    "station": "Muzeum",
-    "artworks": [
-      {
-        "artwork": "Muzeum1",
-        "name": "Busty Lista a Belady",
-        "id": "c-muz1",
-        "author": "Josef Kadlčík, Jan Bardoš",
-        "type": "busty",
-        "date": "neuveden",
-        "material": "neuveden",
-        "image": "tba"
-      }
-    ]
-  },
-
-  { "station": "Hlavní nádraží", "artworks": false },
-
-  {
-    "station": "Florenc",
-    "artworks": [
-      {
-        "artwork": "Florenc1",
-        "name": "Bitva o Sokolovo",
-        "id": "c-fl1",
-        "author": "Oldřich Opit, Sauro Ballardini",
-        "type": "mozaika",
-        "date": "neuveden",
-        "material": "keramika",
-        "image": "/b-f1.jpg"
-      },
-      {
-        "artwork": "Florenc2",
-        "name": "Mostaři",
-        "id": "b-f2",
-        "author": "Karel Hladík",
-        "type": "plastika",
-        "date": "1980",
-        "material": "plastika",
-        "image": "/b-f2.jpg"
-      }
-    ]
-  },
-
-  {
-    "station": "Vltavská",
-    "artworks": [
-      {
-        "artwork": "Vltavská1",
-        "name": "Faun a Vltava",
-        "id": "c-vl1",
-        "author": "Miroslav Hudeček, Olga Hudečková",
-        "type": "fontána",
-        "date": "neuveden",
-        "material": "neuveden",
-        "image": "tba"
-      },
-
-      {
-        "artwork": "Vltavská2",
-        "name": "Vltava",
-        "id": "c-vl2",
-        "author": "Jan Fišar, Václav Zajíc",
-        "type": "vitráž",
-        "date": "neuveden",
-        "material": "sklo",
-        "image": "tba"
-      },
-
-      {
-        "artwork": "Vltavská3",
-        "name": "neuveden",
-        "id": "c-vl3",
-        "author": "Vladimír Dolejš",
-        "type": "tvarování stěny",
-        "date": "neuveden",
-        "material": "neuveden",
-        "image": "tba"
-      },
-
-      {
-        "artwork": "Vltavská4",
-        "name": "neuveden",
-        "id": "c-vl4",
-        "author": "Josef Šmíd, Pavel Dušek",
-        "type": "mural",
-        "date": "neuveden",
-        "material": "neuveden",
-        "image": "tba"
-      }
-    ]
-  },
-
-  {
-    "station": "Nádraží Holešovice",
-    "artworks": [
-      {
-        "artwork": "Nádraží Holešovice1",
-        "name": "Řeka",
-        "id": "c-nh1",
-        "author": "Josef Klimeš",
-        "type": "plastika",
-        "date": "neuveden",
-        "material": "kámen",
-        "image": "tba"
-      },
-
-      {
-        "artwork": "Nádraží Holešovice2",
-        "name": "Reliéf Júlia Fučíka",
-        "id": "c-nh2",
-        "author": "Stanislav Hanzík, Aleš Vašíček",
-        "type": "reliéf",
-        "date": "neuveden",
-        "material": "kamen",
-        "image": "tba"
-      }
-    ]
-  },
-
-  { "station": "Kobylisy", "artworks": false },
-
-  {
-    "station": "Ládví",
-    "artworks": [
-      {
-        "artwork": "Ládví1",
-        "name": "(pandemie)",
-        "id": "c-lad1",
-        "author": "Josefína Jonášová, Magdaléna Roztočilová",
-        "type": "mural",
-        "date": "neuveden",
-        "material": "neuveden",
-        "image": "tba"
+        "image": "/c-lad1.jpg",
+        "location": "Ládví"
       }
     ]
   },

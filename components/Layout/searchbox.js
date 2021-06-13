@@ -129,6 +129,7 @@ function buildArtworkComponent(artworks) {
         <div>{artwork.author}</div>
         <div>{artwork.date}</div>
         <div>{artwork.type}</div>
+        <div>{artwork.location}</div>
       </>
     );
   });
