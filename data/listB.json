@@ -143,7 +143,7 @@
         "type": "plastika",
         "date": "2014",
         "material": "neuveden",
-        "image": "/b-nt1.jpg"
+        "image": "/b-nt1.jpeg"
       }
     ]
   },
@@ -175,7 +175,7 @@
 
       {
         "artwork": "Můstek3",
-        "name": "(pítko na Jungmannově nám.)",
+        "name": "bez názvu (pítko)",
         "id": "b-m3",
         "author": "Lubomír Šilar",
         "type": "pítko",
@@ -186,7 +186,7 @@
 
       {
         "artwork": "Můstek4",
-        "name": "(pítko u Dětského domu",
+        "name": "(pítko u Dětského domu)",
         "id": "b-m4",
         "author": "Karel Fořtl",
         "type": "pítko",

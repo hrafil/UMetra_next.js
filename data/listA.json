@@ -62,13 +62,43 @@
     "artworks": [
       {
         "artwork": "Můstek1",
-        "name": "",
+        "name": "vitráž firmy Tesla",
         "id": "a-mus1",
-        "author": "",
-        "type": "",
+        "author": "František Hudeček",
+        "type": "vitráž",
         "date": "",
         "material": "",
-        "image": "tba"
+        "image": "/a-mus1.jpeg"
+      },
+      {
+        "artwork": "Můstek2",
+        "name": "bez názvu",
+        "id": "a-mus2",
+        "author": "Josef Buňka",
+        "type": "hliníkové panely",
+        "date": "",
+        "material": "",
+        "image": "/a-mus2.jpeg"
+      },
+      {
+        "artwork": "Můstek3",
+        "name": "Sv. Václav",
+        "id": "a-mus3",
+        "author": "David Černý",
+        "type": "socha",
+        "date": "",
+        "material": "",
+        "image": "/a-mus3.jpeg"
+      },
+      {
+        "artwork": "Můstek4",
+        "name": "bez názvu",
+        "id": "a-mus4",
+        "author": "Ladislav Dydek, František Bílek",
+        "type": "nástěnné plastiky",
+        "date": "",
+        "material": "",
+        "image": "/a-mus3.jpeg"
       }
     ]
   },
@@ -78,13 +108,23 @@
     "artworks": [
       {
         "artwork": "Muzeum1",
-        "name": "",
+        "name": "Pomník svatého Václava",
         "id": "a-muz1",
-        "author": "",
-        "type": "",
+        "author": "Josef Václav Myslbek",
+        "type": "pomník",
+        "date": "1912",
+        "material": "",
+        "image": "/a-muz1.jpeg"
+      },
+      {
+        "artwork": "Muzeum2",
+        "name": "bez názvu (busty Lista a Belady)",
+        "id": "a-muz2",
+        "author": "Josef Kadlčík, Jan Bartoš",
+        "type": "busty",
         "date": "",
         "material": "",
-        "image": "tba"
+        "image": "/a-muz2.jpeg"
       }
     ]
   },
@@ -100,7 +140,7 @@
         "type": "plastika",
         "date": "neuveden",
         "material": "bronz",
-        "image": "tba"
+        "image": "/a-nam1.jpeg"
       }
     ]
   },
@@ -110,23 +150,33 @@
     "artworks": [
       {
         "artwork": "Jiřího z Poděbrad1",
+        "name": "Výdech 10 JP",
+        "id": "a-jir4",
+        "author": "Petr Šedivý, Anna Hübschmannová",
+        "type": "výdech z metra",
+        "date": "1981",
+        "material": " ",
+        "image": "/a-jir4.jpeg"
+      },
+      {
+        "artwork": "Jiřího z Poděbrad1",
         "name": "Sjednocená Evropa",
         "id": "a-jir1",
-        "author": "Petr Šedivý",
-        "type": "fontána",
-        "date": "neuveden",
+        "author": "Petr Šedivý, Anna Hübschmannová",
+        "type": "kašna",
+        "date": "1981",
         "material": " ",
-        "image": "tba"
+        "image": "/a-jir1.jpeg"
       },
       {
         "artwork": "Jiřího z Poděbrad2",
-        "name": "(husitství)",
+        "name": "bez názvu (husitství)",
         "id": "a-jir2",
         "author": "Lubomír Šilar",
         "type": "reliéfy",
         "date": "neuveden",
         "material": "keramika",
-        "image": "tba"
+        "image": "/a-jir2.jpeg"
       },
       {
         "artwork": "Jiřího z Poděbrad3",
@@ -136,7 +186,7 @@
         "type": "reliéf",
         "date": "neuveden",
         "material": "kámen",
-        "image": "tba"
+        "image": "/a-jir3.jpeg"
       }
     ]
   },
@@ -152,7 +202,7 @@
         "type": "reliéfy",
         "date": "neuveden",
         "material": "keramika",
-        "image": "tba"
+        "image": "/a-flo1.jpeg"
       }
     ]
   },
@@ -168,7 +218,7 @@
         "type": "fontána",
         "date": "neuveden",
         "material": " ",
-        "image": "tba"
+        "image": "/a-zel1.jpeg"
       },
       {
         "artwork": "Želivského2",
@@ -178,17 +228,7 @@
         "type": "mozaika",
         "date": "neuveden",
         "material": " ",
-        "image": "tba"
-      },
-      {
-        "artwork": "Želivského3",
-        "name": "Husitství",
-        "id": "a-zel3",
-        "author": "Jan Simota",
-        "type": "reliéf",
-        "date": "neuveden",
-        "material": "bronz",
-        "image": "tba"
+        "image": "/a-zel2.jpeg"
       }
     ]
   },
@@ -206,7 +246,7 @@
         "type": "mozaika",
         "date": "neuveden",
         "material": "",
-        "image": "tba"
+        "image": "/a-ska1.jpeg"
       },
       {
         "artwork": "Skalka2",
@@ -216,7 +256,7 @@
         "type": "mozaika",
         "date": "neuveden",
         "material": "",
-        "image": "tba"
+        "image": "/a-ska2.jpeg"
       }
     ]
   },
@@ -227,12 +267,12 @@
       {
         "artwork": "Depo Hostivař1",
         "name": "Rodina",
-        "id": "a-flo1",
+        "id": "a-dep1",
         "author": "Vladimír Navrátil, Bohumil Teplý",
         "type": "socha",
         "date": "neuveden",
         "material": "bronz",
-        "image": "tba"
+        "image": "/a-dep1.jpeg"
       }
     ]
   }
