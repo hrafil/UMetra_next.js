@@ -1,9 +1,7 @@
-// import useTranslation from 'next-translate/useTranslation';
 import styles from '../styles/About.module.css';
 import Link from 'next/link';
 
 const Sources = () => {
-  // let { t } = useTranslation();
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>zdroje</h2>

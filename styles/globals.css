@@ -126,7 +126,7 @@ li {
 
 .container_artpage {
   position: relative;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   padding-top: 10px;
 }
@@ -141,7 +141,7 @@ li {
 
 img {
   width: 100%;
-  border: 20px solid white;
+  border: 10px solid white;
 }
 
 .container_artwork {
@@ -155,7 +155,7 @@ img {
 }
 
 h2 {
-  text-align: right;
+  text-align: left;
   font-size: 36px;
 }
 

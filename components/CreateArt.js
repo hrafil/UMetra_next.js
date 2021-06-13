@@ -1,11 +1,6 @@
 import Link from 'next/link';
-// import UserContext from '../components/UserContext';
-// import { useContext } from 'react';
-// import { useRouter } from 'next/router';
 
 export const CreateArt = ({ station, color, letter }) => {
-  // const router = useRouter();
-
   return (
     <>
       <h2 className="artwork_text">{station.station.toUpperCase()}</h2>

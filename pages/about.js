@@ -1,8 +1,6 @@
-import useTranslation from 'next-translate/useTranslation';
 import styles from '../styles/About.module.css';
 
 const About = () => {
-  let { t } = useTranslation();
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>o projektu</h2>
