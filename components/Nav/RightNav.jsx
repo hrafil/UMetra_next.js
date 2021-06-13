@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
+import NavLink from './NavLink';
 
 const Ul = styled.ul`
   list-style: none;
