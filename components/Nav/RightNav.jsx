@@ -10,6 +10,7 @@ const Ul = styled.ul`
   li {
     text-align: center;
     font-size: 20px;
+    padding-right: 5px;
   }
 
   @media (max-width: 768px) {
@@ -53,6 +54,9 @@ const RightNav = ({ open }) => {
       <li>
         <Link href="/stations">Stanice</Link>
       </li>
+      <li className="hledej">
+        <Link href="/search">Vyhledat</Link>
+      </li>
       <li>
         <Link href="/about">O projektu</Link>
       </li>
@@ -61,9 +65,6 @@ const RightNav = ({ open }) => {
       </li>
       <li className="contact">
         <Link href="/contact">Kontakt</Link>
-      </li>
-      <li className="hledej">
-        <Link href="/search">Vyhledat</Link>
       </li>
     </Ul>
   );
