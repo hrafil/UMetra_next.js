@@ -7,14 +7,14 @@ const Ul = styled.ul`
   display: flex;
   flex-flow: column nowrap;
   background-color: ##ffffff;
+  width: 100vw;
+  height: 100vh;
   position: fixed;
   transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
   top: 0;
   right: 0;
   padding-top: 3.5rem;
   z-index: 100,
-  width: 100vw;
-  height: 100vh;
   border: 3px solid #ffce2d;
   z-index: 100;
 
@@ -30,7 +30,7 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
       <li>
-        <Link open={!open} href="/stations">
+        <Link open={open} href="/stations">
           UMstanice
         </Link>
       </li>
