@@ -40,7 +40,11 @@ const StyledBurger = styled.div`
 `;
 
 const Burger = () => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
+
+  function handleChange(openValue) {
+    setOpen(openValue);
+  }
 
   return (
     <>
@@ -49,7 +53,7 @@ const Burger = () => {
         <div />
         <div />
       </StyledBurger>
-      <RightNav open={open} />
+      <RightNav open={open} onChange={handleChange} />
     </>
   );
 };
