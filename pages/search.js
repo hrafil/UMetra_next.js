@@ -1,8 +1,8 @@
 import React from 'react';
-import Searchbox from '../components/Layout/searchbox';
+import SearchField from '../components/Layout/searchbox.js';
 
 const SearchPage = () => {
-  return <Searchbox />;
+  return <SearchField />;
 };
 
 export default SearchPage;
