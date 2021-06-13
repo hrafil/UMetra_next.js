@@ -8,7 +8,6 @@ const Ul = styled.ul`
   flex-flow: row nowrap;
 
   li {
-    padding: 18px 10px;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
@@ -18,6 +17,7 @@ const Ul = styled.ul`
     z-index: 10;
     margin-top: 0;
     flex-flow: column nowrap;
+    justify-content: space-evenly;
     background-color: white;
     position: fixed;
     transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
@@ -30,23 +30,27 @@ const Ul = styled.ul`
     li {
       color: #fff;
     }
+
+    .home {
+      padding-bottom: 60px;
+    }
+
+    .contact {
+      padding-top: 60px;
+    }
   }
 `;
 
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li>
-        <Link href="/stations">UMstanice</Link>
+      <li className="home">
+        <Link open={open} onClick={() => setOpen(open)} href="/">
+          UMetra
+        </Link>
       </li>
       <li>
-        <Link href="/line-a">Linka A</Link>
-      </li>
-      <li>
-        <Link href="/line-b">Linka B</Link>
-      </li>
-      <li>
-        <Link href="/line-c">Linka C</Link>
+        <Link href="/stations">Stanice</Link>
       </li>
       <li>
         <Link href="/about">O projektu</Link>
@@ -54,7 +58,7 @@ const RightNav = ({ open }) => {
       <li>
         <Link href="/sources">Zdroje</Link>
       </li>
-      <li>
+      <li className="contact">
         <Link href="/contact">Kontakt</Link>
       </li>
     </Ul>

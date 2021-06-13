@@ -8,8 +8,6 @@ export const CreateArt = ({ station, color, letter }) => {
 
   return (
     <>
-      <Link href={`/line-${letter}`}>Zpět</Link>
-
       <h2>{station.station.toUpperCase()}</h2>
       <div className="container_artworks">
         <div className={color}></div>
