@@ -62,12 +62,15 @@ const RightNav = ({ open }) => {
       <li className="contact">
         <Link href="/contact">Kontakt</Link>
       </li>
+      <li className="hledej">
+        <Link href="/search">Vyhledat</Link>
+      </li>
     </Ul>
   );
 };
 
-const closeMenu = () => {
-  setOpen(false);
-};
+// const closeMenu = () => {
+//   setOpen(false);
+// };
 
 export default RightNav;
