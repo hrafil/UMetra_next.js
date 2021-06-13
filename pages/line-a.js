@@ -3,7 +3,7 @@ import CreateLine from '../components/CreateLine';
 import { useEffect } from 'react';
 
 const LineA = ({ lines }) => {
-  useEffect(() => window.scrollTo(0, 1950), []);
+  useEffect(() => window.scrollTo(0, 1900), []);
   return (
     <CreateLine
       key={lines.station}
