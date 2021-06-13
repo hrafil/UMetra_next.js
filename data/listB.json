@@ -153,10 +153,10 @@
     "artworks": [
       {
         "artwork": "Můstek1",
-        "name": "šipka",
+        "name": "bez názvu (šipka)",
         "id": "b-m1",
         "author": "Helena Samohelová",
-        "type": "d",
+        "type": "reliéf",
         "date": "",
         "material": "keramický reliéf",
         "image": "/b-m1.jpg"
@@ -170,29 +170,18 @@
         "type": "reliéf",
         "date": "",
         "material": "keramický reliéf",
-        "image": "/b-m2.jpg"
+        "image": "/b-m2.jpeg"
       },
 
       {
         "artwork": "Můstek3",
-        "name": "bez názvu (pítko)",
-        "id": "b-m3",
-        "author": "Lubomír Šilar",
-        "type": "pítko",
-        "date": "",
-        "material": "neuveden",
-        "image": "/b-m3.jpg"
-      },
-
-      {
-        "artwork": "Můstek4",
         "name": "(pítko u Dětského domu)",
-        "id": "b-m4",
+        "id": "b-m3",
         "author": "Karel Fořtl",
         "type": "pítko",
         "date": "",
         "material": "neuveden",
-        "image": "/b-m4.jpg"
+        "image": "/b-m3.jpg"
       }
     ]
   },

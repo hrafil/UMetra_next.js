@@ -96,7 +96,7 @@ li {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  right: 10%;
+  right: 15%;
   margin-top: 0.5rem;
 }
 
@@ -107,7 +107,7 @@ li {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  right: 10%;
+  right: 15%;
   margin-top: 0.5rem;
 }
 
@@ -118,7 +118,7 @@ li {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  right: 10%;
+  right: 15%;
   margin-top: 0.5rem;
 }
 
@@ -128,6 +128,7 @@ li {
   position: relative;
   width: 90%;
   margin: 0 auto;
+  padding-top: 10px;
 }
 
 .container_artworks {
@@ -147,6 +148,10 @@ img {
   /* width: 85%; */
   margin: 15px auto;
   text-align: right;
+}
+
+.artwork_text {
+  padding-right: 20px;
 }
 
 h2 {

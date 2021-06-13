@@ -10,10 +10,10 @@ const Ul = styled.ul`
   li {
     text-align: center;
     font-size: 20px;
-    font-weight: bold;
   }
 
   @media (max-width: 768px) {
+    font-weight: bold;
     z-index: 10;
     margin-top: 0;
     flex-flow: column nowrap;
@@ -25,7 +25,7 @@ const Ul = styled.ul`
     right: 0;
     height: 100vh;
     width: 100vw;
-    padding-top: 3.5rem;
+    padding-top: 3rem;
 
     li {
       color: #fff;
@@ -37,6 +37,7 @@ const Ul = styled.ul`
 
     .contact {
       padding-top: 60px;
+      padding-bottom: 10px;
     }
   }
 `;
@@ -45,7 +46,7 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
       <li className="home">
-        <Link open={open} onClick={() => setOpen(open)} href="/">
+        <Link open={open} onClick={() => setOpen(!open)} href="/">
           UMetra
         </Link>
       </li>
