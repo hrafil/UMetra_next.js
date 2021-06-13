@@ -1,14 +1,12 @@
-import React, { useState } from 'react';
 import styled from 'styled-components';
-import RightNav2 from './RightNav2';
 
-const StyledBurger = styled.div`
+export const StyledBurger = styled.button`
   width: 2rem;
   height: 2rem;
   position: fixed;
   top: 15px;
   right: 20px;
-  z-index: 20;
+  z-index: 110;
   display: none;
 
   @media (max-width: 768px) {
@@ -20,7 +18,7 @@ const StyledBurger = styled.div`
   div {
     width: 2rem;
     height: 0.25rem;
-    background-color: ${({ open }) => (open ? 'black' : '#333')};
+    background-color: ${({ open }) => (open ? 'black' : 'black')};
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;
@@ -37,20 +35,3 @@ const StyledBurger = styled.div`
     }
   }
 `;
-
-const Burger2 = () => {
-  const [open, setOpen] = useState(false);
-
-  return (
-    <>
-      <StyledBurger open={open} onClick={() => setOpen(!open)}>
-        <div />
-        <div />
-        <div />
-      </StyledBurger>
-      <RightNav open={open} />
-    </>
-  );
-};
-
-export default Burger2;
