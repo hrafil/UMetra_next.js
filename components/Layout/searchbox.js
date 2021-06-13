@@ -5,8 +5,8 @@ import allLines from '../../data/listAll.json';
 // import lineA from '../../data/listA.json';
 // import lineC from '../../data/listC.json';
 
-const searchField = () => {
-  const [searchInput, setInput] = useState();
+const SearchField = () => {
+  const [searchInput, setInput] = useState('');
   const [searchCathegory, setCathegory] = useState();
 
   const stationsFull = allLines.filter((item) => item.artworks !== false);
@@ -40,7 +40,7 @@ const searchField = () => {
         return station;
       }
     });
-  // console.log(searchType());
+  console.log(searchType());
 
   const searchAuthor = () =>
     artworksIn.filter((station) => {
@@ -61,27 +61,32 @@ const searchField = () => {
   // console.log(listOfItems(choice()));
 
   return (
-    <>
-      <form onSubmit={(e) => e.preventDefault()}>
-        <label>
+    <form onSubmit={(e) => e.preventDefault()}>
+      <div className="Searchfield">
+        <input
+          type="text"
+          placeholder="Search..."
+          onChange={(event) => {
+            setInput(event.target.value);
+          }}
+        />
+        {/* <label>
           <input
             type="text"
             placeholder="Search..."
             onChange={(e) => setInput(e.target.value)}
           />
-        </label>
+        </label>  */}
         <select name="kategorie" onChange={(e) => setCathegory(e.target.value)}>
           <option value="stanice">stanice</option>
           <option value="název">název</option>
           <option value="typ">typ</option>
         </select>
         {/* <button type="submit"></button> */}
-      </form>
-    </>
+      </div>
+    </form>
   );
 };
-
-// export const listOfItems = (items) =
 
 // export const SearchStation = ({ stationsFull }) => {
 //   return (
@@ -112,4 +117,4 @@ const searchField = () => {
 //   };
 // };
 
-export default searchField;
+export default SearchField;
