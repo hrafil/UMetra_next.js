@@ -10,9 +10,13 @@ const Ul = styled.ul`
   li {
     padding: 18px 10px;
     text-align: center;
+    font-size: 20px;
+    font-weight: bold;
   }
 
   @media (max-width: 768px) {
+    border: 3px solid #ffce2d;
+    margin-top: 0;
     flex-flow: column nowrap;
     background-color: white;
     position: fixed;
@@ -20,9 +24,8 @@ const Ul = styled.ul`
     top: 0;
     right: 0;
     height: 100vh;
-    width: 300px;
+    width: 100vw;
     padding-top: 3.5rem;
-    transition: transform 0.3s ease-in-out;
 
     li {
       color: #fff;
