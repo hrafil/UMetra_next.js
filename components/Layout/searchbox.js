@@ -7,7 +7,7 @@ import allLines from '../../data/listAll.json';
 
 const SearchField = () => {
   const [searchInput, setInput] = useState('');
-  const [searchCathegory, setCathegory] = useState();
+  const [searchCathegory, setCathegory] = useState('stanice');
 
   const stationsFull = allLines.filter((item) => item.artworks !== false);
 
@@ -24,7 +24,7 @@ const SearchField = () => {
         return item.station;
       }
     });
-  console.log(searchStation());
+  //console.log(searchStation());
 
   const searchName = () =>
     artworksIn.find((station) => {
@@ -40,7 +40,7 @@ const SearchField = () => {
         return station;
       }
     });
-  console.log(searchType());
+  //console.log(searchType());
 
   const searchAuthor = () =>
     artworksIn.filter((station) => {
@@ -49,7 +49,8 @@ const SearchField = () => {
       }
     });
 
-  const choice = () => {
+  const choice = (() => {
+    console.log('Search category: ' + searchCathegory);
     if (searchCathegory === 'stanice') {
       return searchStation();
     } else if (searchCathegory === 'název') {
@@ -57,8 +58,9 @@ const SearchField = () => {
     } else if (searchCathegory === 'typ') {
       return searchType();
     }
-  };
-  // console.log(listOfItems(choice()));
+  })();
+
+  const searchResult = buildSearchResultComponent(choice, searchCathegory);
 
   return (
     <form onSubmit={(e) => e.preventDefault()}>
@@ -84,6 +86,7 @@ const SearchField = () => {
         </select>
         {/* <button type="submit"></button> */}
       </div>
+      {searchResult}
     </form>
   );
 };
@@ -116,5 +119,37 @@ const SearchField = () => {
 //     fallback: false,
 //   };
 // };
+
+function buildArtworkComponent(artworks) {
+  return artworks.map((artwork, index) => {
+    return (
+      <>
+        <img src={artwork.image} />
+        <div>{artwork.name.toUpperCase()}</div>
+        <div>{artwork.author}</div>
+        <div>{artwork.date}</div>
+        <div>{artwork.type}</div>
+      </>
+    );
+  });
+}
+
+function buildSearchResultComponent(choiceData, searchCathegory) {
+  if (choiceData == undefined) {
+    return;
+  }
+
+  switch (searchCathegory) {
+    case 'stanice':
+      return buildArtworkComponent(choiceData.artworks);
+    case 'název':
+      break;
+    case 'typ':
+      return buildArtworkComponent(choiceData);
+    default:
+      console.warn('Uknown searchCathegory:' + searchCathegory);
+      return;
+  }
+}
 
 export default SearchField;
