@@ -30,7 +30,7 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
       <li>
-        <Link open={open} href="/stations">
+        <Link open={!open} href="/stations">
           UMstanice
         </Link>
       </li>
