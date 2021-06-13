@@ -16,6 +16,7 @@ const Ul = styled.ul`
   width: 100vw;
   height: 100vh;
   border: 3px solid #ffce2d;
+  z-index: 100;
 
 
 
@@ -29,7 +30,9 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
       <li>
-        <Link href="/stations">UMstanice</Link>
+        <Link open={open} href="/stations">
+          UMstanice
+        </Link>
       </li>
       <li>
         <Link href="/line-a">Linka A</Link>
