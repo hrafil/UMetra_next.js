@@ -53,7 +53,7 @@
 
       {
         "artwork": "Hradčanská2",
-        "name": "(ruce)",
+        "name": "bez názvu (ruce)",
         "id": "a-hra2",
         "author": "Slavoj Nejdl",
         "type": "kamenný reliéf",
@@ -64,7 +64,7 @@
 
       {
         "artwork": "Hradčanská3",
-        "name": "(nápis)",
+        "name": "bez názvu (nápis)",
         "id": "a-hra3",
         "author": "Slavoj Nejdl",
         "type": "kamenný reliéf",
@@ -82,7 +82,7 @@
         "artwork": "Malostranská1",
         "name": "repliky soch A. Brauna",
         "id": "a-mal1",
-        "author": "neuveden",
+        "author": "",
         "type": "plastika",
         "date": "",
         "material": "kámen",
@@ -91,7 +91,7 @@
 
       {
         "artwork": "Malostranská2",
-        "name": "Pítko",
+        "name": "bez názvu (pítko)",
         "id": "a-mal2",
         "author": "Miroslav Vystrčil",
         "type": "pítko",
@@ -102,7 +102,7 @@
 
       {
         "artwork": "Malostranská3",
-        "name": "Patník",
+        "name": "bez názvu (patník)",
         "id": "a-mal3",
         "author": "Lubomír Růžička",
         "type": "nárožní patník",
@@ -113,7 +113,7 @@
 
       {
         "artwork": "Malostranská4",
-        "name": "Ozdobná mříž (vstup)",
+        "name": "bez názvu (ozdobná mříž)",
         "id": "a-mal4",
         "author": "Jan Smrž",
         "type": "mříž",
@@ -124,7 +124,7 @@
 
       {
         "artwork": "Malostranská5",
-        "name": "Ozdobná mříž (Valdštejnská jízdárna)",
+        "name": "bez názvu (Ozdobná mříž - Valdštejnská jízdárna)",
         "id": "a-mal5",
         "author": "dílna Jaromíra Brudhause",
         "type": "mříž",
