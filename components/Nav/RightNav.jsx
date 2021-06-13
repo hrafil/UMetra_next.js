@@ -6,11 +6,12 @@ import NavLink from './NavLink';
 const Ul = styled.ul`
   list-style: none;
   display: flex;
-  flex-flow: row nowrap;
+  flex-direction: row;
+  justify-content: flex-end;
 
   li {
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     padding-right: 5px;
   }
 
@@ -28,6 +29,7 @@ const Ul = styled.ul`
     height: 100vh;
     width: 100vw;
     padding-top: 3rem;
+    font-size: 20px;
 
     li {
       color: #fff;
