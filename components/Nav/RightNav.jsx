@@ -12,12 +12,12 @@ const Ul = styled.ul`
   top: 0;
   right: 0;
   height: 100vh;
-  width: 300px;
+  width: 100vw;
   padding-top: 3.5rem;
   z-index: 100,
   width: 100vw;
   height: 100vh;
-  
+
 
 
   li {

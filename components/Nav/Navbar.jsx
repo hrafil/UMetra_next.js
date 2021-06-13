@@ -7,6 +7,9 @@ const Nav = styled.nav`
   height: 100vh;
   z-index: 100;
   border: 3px solid #ffce2d;
+  background-color: ##ffffff;
+  display: flex;
+  justify-content: space-between;
 `;
 
 const Navbar = () => {
