@@ -5,8 +5,4 @@ const Navbar = () => {
   return <Burger />;
 };
 
-const closeMenu = () => {
-  setOpen(false);
-};
-
 export default Navbar;
