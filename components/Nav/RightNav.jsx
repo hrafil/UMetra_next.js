@@ -7,6 +7,7 @@ const Ul = styled.ul`
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin-bottom: 0;
 
   li {
     text-align: center;

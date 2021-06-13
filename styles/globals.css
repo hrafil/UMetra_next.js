@@ -197,6 +197,13 @@ h2 {
     max-width: 650px;
     margin: 0 auto;
   }
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .btn_home a {
+    padding: 50px 65px;
+  }
 }
 
 /* Line */
