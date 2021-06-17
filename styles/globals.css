@@ -127,7 +127,7 @@ li {
 
 .container_artpage {
   position: relative;
-  width: 80vw;
+  width: 80%;
   margin: 0 auto;
   padding-top: 10px;
 }
@@ -169,7 +169,7 @@ h2 {
   height: 1rem;
   border-radius: 50%;
   position: absolute;
-  right: 10px;
+  right: 15px;
   top: 58px;
   align-items: center;
 }
@@ -180,7 +180,7 @@ h2 {
   height: 1rem;
   border-radius: 50%;
   position: absolute;
-  right: 10px;
+  right: 15px;
   top: 58px;
   align-items: center;
 }
@@ -191,7 +191,7 @@ h2 {
   height: 1rem;
   border-radius: 50%;
   position: absolute;
-  right: 10px;
+  right: 15px;
   top: 58px;
   align-items: center;
 }
