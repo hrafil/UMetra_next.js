@@ -36,11 +36,11 @@ const Ul = styled.ul`
     }
 
     .home {
-      padding-bottom: 60px;
+      padding-bottom: 30px;
     }
 
     .contact {
-      padding-top: 60px;
+      padding-top: 30px;
       padding-bottom: 10px;
     }
   }
@@ -59,7 +59,7 @@ const RightNav = (props) => {
       <li className="stations">
         <Link href="/stations">Stanice</Link>
       </li>
-      <li className="hledej">
+      <li>
         <Link href="/search">Vyhledat</Link>
       </li>
       <li>
@@ -67,6 +67,15 @@ const RightNav = (props) => {
       </li>
       <li>
         <Link href="/sources">Zdroje</Link>
+      </li>
+      <li>
+        <Link href="/line-a">Linka A</Link>
+      </li>
+      <li>
+        <Link href="/line-b">Linka B</Link>
+      </li>
+      <li>
+        <Link href="/line-c">Linka C</Link>
       </li>
       <li className="contact">
         <Link href="/contact">Kontakt</Link>
