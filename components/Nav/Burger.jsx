@@ -40,7 +40,7 @@ const StyledBurger = styled.div`
 `;
 
 const Burger = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   function handleChange(openValue) {
     setOpen(openValue);

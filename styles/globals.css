@@ -44,6 +44,7 @@ a {
 
 h1 {
   font-size: 50px;
+  font-weight: normal;
   width: 100%;
 }
 
@@ -203,6 +204,12 @@ h2 {
   }
   .btn_home a {
     padding: 50px 65px;
+  }
+  .circle_art_yellow {
+    width: 800px;
+    height: 800px;
+    top: 50px;
+    left: -500px;
   }
 }
 

@@ -7,7 +7,7 @@ const SearchPage = () => {
     <div className={styles.container}>
       <h2 className={styles.title}>vyhledat</h2>
       <div className={styles.search_field}>
-        <SearchField />;
+        <SearchField />
       </div>
     </div>
   );

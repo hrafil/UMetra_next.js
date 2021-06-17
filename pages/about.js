@@ -18,7 +18,7 @@ const About = () => {
         spíše než k jeho ničení.
       </p>
       <p className={styles.text}>
-        Umetra vzniklo jako závěrečný projekt Digitální Akademie Web, Czechitas.
+        UMetra vzniklo jako závěrečný projekt Digitální Akademie Web, Czechitas.
       </p>
     </div>
   );
