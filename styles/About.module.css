@@ -8,7 +8,6 @@
   flex-wrap: wrap;
   width: 100vw;
   height: 100vh;
-  border: 3px solid #ffce2d;
 }
 
 .title {
@@ -18,7 +17,7 @@
 }
 
 .text {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .contact {

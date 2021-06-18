@@ -30,19 +30,18 @@ const Ul = styled.ul`
     width: 100vw;
     padding-top: 3rem;
     font-size: 25px;
-    border: 3px solid #ff2632;
 
     li {
       color: #fff;
     }
 
     .home {
-      padding-bottom: 30px;
+      padding-bottom: 20px;
     }
 
     .contact {
-      padding-top: 30px;
-      padding-bottom: 10px;
+      padding-top: 20px;
+      padding-bottom: 3rem;
     }
   }
 `;
