@@ -1,31 +1,23 @@
-import lineA from '../data/listA.json';
-import lineB from '../data/listB.json';
-import lineC from '../data/listC.json';
 import Link from 'next/link';
 import styles from '../styles/Stations.module.css';
+import useAllStation from '../hooks/useAllStation';
+import { getAllStation } from '../lib/allStation';
 
-const Stations = () => {
-  const stationAFull = lineA.filter((station) => station.artworks);
-  const stationBFull = lineB.filter((station) => station.artworks);
-  const stationCFull = lineC.filter((station) => station.artworks);
+const Stations = (allStation) => {
+  const justStation = useAllStation();
 
-  const justStationA = stationAFull.map((station) => station.station);
-  const justStationB = stationBFull.map((station) => station.station);
-  const justStationC = stationCFull.map((station) => station.station);
+  const lineA = allStation.lines[0].art.filter((station) => station.artworks);
+  const lineB = allStation.lines[1].art.filter((station) => station.artworks);
+  const lineC = allStation.lines[2].art.filter((station) => station.artworks);
 
-  const stationAB = justStationA.concat(justStationB);
-  const stationABC = stationAB.concat(justStationC);
-
-  const allStation = stationABC.sort();
-
-  stationABC.splice(stationABC.indexOf('Můstek'), 1);
-  stationABC.splice(stationABC.indexOf('Florenc'), 1);
-  stationABC.splice(stationABC.indexOf('Muzeum'), 1);
+  const justStationA = lineA.map((station) => station.station);
+  const justStationB = lineB.map((station) => station.station);
+  const justStationC = lineC.map((station) => station.station);
 
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>seznam UMstanic</h2>
-      {allStation.map((station) => (
+      {justStation.map((station) => (
         <div className={styles.text} key={station}>
           {justStationA.includes(station) ? (
             <Link className={styles.link} href={`/line-a/${station}`}>
@@ -46,6 +38,15 @@ const Stations = () => {
       ))}
     </div>
   );
+};
+
+export const getStaticProps = () => {
+  const allStation = getAllStation();
+  return {
+    props: {
+      lines: allStation,
+    },
+  };
 };
 
 export default Stations;

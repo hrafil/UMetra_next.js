@@ -1,13 +1,16 @@
-import { getStationA } from '../lib/stationA';
+import { getAllStation } from '../lib/allStation';
 import CreateLine from '../components/CreateLine';
 import { useEffect } from 'react';
 
 const LineA = ({ lines }) => {
   useEffect(() => window.scrollTo(0, 1900), []);
+
+  const lineA = lines[0].art;
+
   return (
     <CreateLine
-      key={lines.station}
-      lines={lines}
+      key={lineA.station}
+      lines={lineA}
       color="circle_green"
       colorEmpty="circle_empty_green"
       letter="a"
@@ -16,10 +19,10 @@ const LineA = ({ lines }) => {
 };
 
 export const getStaticProps = () => {
-  const stationAList = getStationA();
+  const allStation = getAllStation();
   return {
     props: {
-      lines: stationAList,
+      lines: allStation,
     },
   };
 };

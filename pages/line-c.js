@@ -1,13 +1,16 @@
-import { getStationC } from '../lib/stationC';
+import { getAllStation } from '../lib/allStation';
 import CreateLine from '../components/CreateLine';
 import { useEffect } from 'react';
 
 const LineC = ({ lines }) => {
   useEffect(() => window.scrollTo(0, 2145), []);
+
+  const lineC = lines[2].art;
+
   return (
     <CreateLine
-      key={lines.station}
-      lines={lines}
+      key={lineC.station}
+      lines={lineC}
       color="circle_red"
       colorEmpty="circle_empty_red"
       letter="c"
@@ -16,10 +19,10 @@ const LineC = ({ lines }) => {
 };
 
 export const getStaticProps = () => {
-  const stationCList = getStationC();
+  const allStation = getAllStation();
   return {
     props: {
-      lines: stationCList,
+      lines: allStation,
     },
   };
 };
