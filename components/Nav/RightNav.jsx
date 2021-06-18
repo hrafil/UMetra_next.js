@@ -30,6 +30,7 @@ const Ul = styled.ul`
     width: 100vw;
     padding-top: 3rem;
     font-size: 25px;
+    border: 3px solid #ff2632;
 
     li {
       color: #fff;
@@ -54,7 +55,9 @@ const RightNav = (props) => {
   return (
     <Ul open={props.open} onClick={() => closeRightNav(false)}>
       <li className="home">
-        <Link href="/">UMetra</Link>
+        <Link href="/">
+          <b>UMetra</b>
+        </Link>
       </li>
       <li className="stations">
         <Link href="/stations">Stanice</Link>

@@ -256,6 +256,7 @@ h2 {
   flex-wrap: wrap;
   width: 60%;
   margin: 0 auto;
+  flex-direction: column;
 }
 
 .circle_empty_yellow {
