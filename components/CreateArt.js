@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export const CreateArt = ({ station, color, letter }) => {
+export const CreateArt = ({ station, color }) => {
   const transferToMustekA =
     station.station === 'Můstek' && color === 'circle_art_yellow';
   const transferToMuzeumA =

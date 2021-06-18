@@ -17,14 +17,14 @@
 }
 
 .text {
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .contact {
   margin-top: 0;
 }
 
-@media (min-width: 325px) {
+@media (min-width: 350px) {
   .text {
     font-size: 16px;
   }

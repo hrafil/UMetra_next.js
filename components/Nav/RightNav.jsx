@@ -36,12 +36,12 @@ const Ul = styled.ul`
     }
 
     .home {
-      padding-bottom: 20px;
+      padding-bottom: 60px;
     }
 
     .contact {
-      padding-top: 20px;
-      padding-bottom: 3rem;
+      padding-top: 60px;
+      padding-bottom: 10px;
     }
   }
 `;
