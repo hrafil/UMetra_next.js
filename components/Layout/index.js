@@ -10,16 +10,6 @@ const Layout = ({ children }) => {
         <title>UMetra</title>
         <meta name="description" content="Umění u metra" />
         <link rel="icon" href="/favicon.ico" />
-        {/* Global site tag (gtag.js) - Google Analytics */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-V63JSM91TG"
-        ></script>
-        <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-V63JSM91TG');
-        </script>
       </Head>
       <header>
         <div className="App">

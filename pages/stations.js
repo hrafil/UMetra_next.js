@@ -6,9 +6,15 @@ import { getAllStation } from '../lib/allStation';
 const Stations = (allStation) => {
   const justStation = useAllStation();
 
-  const lineA = allStation.lines[0].art.filter((station) => station.artworks);
-  const lineB = allStation.lines[1].art.filter((station) => station.artworks);
-  const lineC = allStation.lines[2].art.filter((station) => station.artworks);
+  const lineA = allStation.lines.filter(
+    (station) => station.line === 'A' && station.artworks,
+  );
+  const lineB = allStation.lines.filter(
+    (station) => station.line === 'B' && station.artworks,
+  );
+  const lineC = allStation.lines.filter(
+    (station) => station.line === 'C' && station.artworks,
+  );
 
   const justStationA = lineA.map((station) => station.station);
   const justStationB = lineB.map((station) => station.station);

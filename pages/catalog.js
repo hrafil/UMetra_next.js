@@ -1,29 +1,44 @@
-import styles from '../styles/About.module.css';
 import { useState } from 'react';
 import useAllStation from '../hooks/useAllStation';
 import { getAllStation } from '../lib/allStation';
+import styles from '../styles/Catalog.module.css';
 
 // import Link from 'next/link';
 
 const Catalog = (lines) => {
-  // console.log(lines.lines[0].art);
-
-  const lineA = lines.lines[0].art.filter((station) => station.artworks);
-  // console.log(lineA);
-
-  const [station, setStation] = useState(null);
-  const [author, setAuthor] = useState(null);
-
   const justStation = useAllStation();
-  // console.log(station);
+  const [selectedStation, setSelectedStation] = useState(null);
+  const [selectedAuthor, setSelectedAuthor] = useState(null);
+
+  const lineA = lines.lines.filter(
+    (station) => station.line === 'A' && station.artworks,
+  );
+  const lineB = lines.lines.filter(
+    (station) => station.line === 'B' && station.artworks,
+  );
+  const lineC = lines.lines.filter(
+    (station) => station.line === 'C' && station.artworks,
+  );
 
   const handleStation = (e) => {
-    setStation(e.target.value);
+    setSelectedStation(e.target.value);
   };
 
   const handleAuthor = (e) => {
-    setAuthor(e.target.value);
+    setSelectedAuthor(e.target.value);
   };
+
+  const resultStationA = lineA.find(
+    (station) => station.station === selectedStation,
+  );
+  const resultStationB = lineB.find(
+    (station) => station.station === selectedStation,
+  );
+  const resultStationC = lineC.find(
+    (station) => station.station === selectedStation,
+  );
+
+  const resultStation = resultStationA || resultStationB || resultStationC;
 
   return (
     <div className={styles.container}>
@@ -49,6 +64,33 @@ const Catalog = (lines) => {
             </select>
           </label>
         </form>
+      </div>
+      <div>
+        <h4>{selectedStation}</h4>
+        {selectedStation !== null
+          ? resultStation.artworks.map((artwork) => (
+              <div
+                key={artwork.id}
+                className={
+                  resultStationA
+                    ? styles.containerA
+                    : resultStationB
+                    ? styles.containerB
+                    : resultStationC
+                    ? styles.containerB
+                    : ''
+                }
+              >
+                <img src={artwork.image} />
+                <div className={styles.artwork_text}>
+                  <div>{artwork.name.toUpperCase()}</div>
+                  <div>{artwork.author}</div>
+                  <div>{artwork.date}</div>
+                  <div>{artwork.type}</div>
+                </div>
+              </div>
+            ))
+          : ''}
       </div>
     </div>
   );

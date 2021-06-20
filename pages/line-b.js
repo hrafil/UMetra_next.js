@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 const LineB = ({ lines }) => {
   useEffect(() => window.scrollTo(0, 2700), []);
 
-  const lineB = lines[1].art;
+  const lineB = lines.filter((station) => station.line === 'B');
 
   return (
     <>
