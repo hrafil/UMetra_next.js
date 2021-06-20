@@ -1,6 +1,6 @@
 import listStation from '../data/listStation.json';
 
-const AllAuthors = () => {
+const AllTypes = () => {
   const stationsFull = listStation.filter((item) => item.artworks !== false);
   console.log(stationsFull);
 
@@ -9,16 +9,15 @@ const AllAuthors = () => {
     station.artworks.map((artwork) => artworksIn.push(artwork));
   });
 
-  const author = [];
+  const type = [];
   for (let i = 0; i < artworksIn.length; i += 1) {
-    !author.includes(artworksIn[i].author)
-      ? author.push(artworksIn[i].author)
-      : '';
+    !type.includes(artworksIn[i].type) ? type.push(artworksIn[i].type) : '';
   }
 
-  author.sort();
+  type.sort();
+  console.log(type);
 
-  return author;
+  return type;
 };
 
-export default AllAuthors;
+export default AllTypes;
