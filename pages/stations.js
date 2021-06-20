@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import styles from '../styles/Stations.module.css';
+import AllStation from '../components/AllStation';
 import { getAllStation } from '../lib/allStation';
 
 const Stations = (allStation) => {
-  const justStation = useAllStation();
+  const justStation = AllStation();
 
   const lineA = allStation.lines.filter(
     (station) => station.line === 'A' && station.artworks,
