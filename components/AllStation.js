@@ -6,6 +6,10 @@ const useAllStation = () => {
 
   justStation.sort();
 
+  justStation.splice(justStation.indexOf('Můstek'), 1);
+  justStation.splice(justStation.indexOf('Florenc'), 1);
+  justStation.splice(justStation.indexOf('Muzeum'), 1);
+
   return justStation;
 };
 

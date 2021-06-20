@@ -1,14 +1,18 @@
 import { useState } from 'react';
-import useAllStation from '../hooks/useAllStation';
+import AllStation from '../components/AllStation';
+import AllAuthors from '../components/AllAuthors';
 import { getAllStation } from '../lib/allStation';
 import styles from '../styles/Catalog.module.css';
 
 // import Link from 'next/link';
 
 const Catalog = (lines) => {
-  const justStation = useAllStation();
+  const justStations = AllStation();
+  const justAuthors = AllAuthors();
   const [selectedStation, setSelectedStation] = useState(null);
   const [selectedAuthor, setSelectedAuthor] = useState(null);
+
+  console.log(justAuthors);
 
   const lineA = lines.lines.filter(
     (station) => station.line === 'A' && station.artworks,
@@ -44,12 +48,12 @@ const Catalog = (lines) => {
     <div className={styles.container}>
       <h2 className={styles.title}>katalog</h2>
       <div className={styles.text}>
-        <form>
+        <form className={styles.form}>
           <label>
             Stanice:
             <select onChange={handleStation}>
               <option>--vybrat--</option>
-              {justStation.map((station) => (
+              {justStations.map((station) => (
                 <option value={station}>{station}</option>
               ))}
             </select>
@@ -58,8 +62,8 @@ const Catalog = (lines) => {
             Autor:
             <select onChange={handleAuthor}>
               <option>--vybrat--</option>
-              {justStation.map((station) => (
-                <option value={station}>{station}</option>
+              {justAuthors.map((author) => (
+                <option value={author}>{author}</option>
               ))}
             </select>
           </label>
