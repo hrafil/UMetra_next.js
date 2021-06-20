@@ -77,7 +77,7 @@ const Catalog = (lines) => {
                     : resultStationB
                     ? styles.containerB
                     : resultStationC
-                    ? styles.containerB
+                    ? styles.containerC
                     : ''
                 }
               >

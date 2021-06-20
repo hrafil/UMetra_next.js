@@ -1,7 +1,7 @@
 /* About */
 
 .container {
-  padding: 60px 40px 0 40px;
+  padding: 60px 20px 0 20px;
   text-align: left;
   display: flex;
   flex-wrap: wrap;
@@ -28,7 +28,7 @@
 
 .containerB {
   border: 5px solid#ffce2d;
-  background-color: #ffce2d;
+  /* background-color: #ffce2d; */
   padding: 10px;
   margin-bottom: 20px;
 }
