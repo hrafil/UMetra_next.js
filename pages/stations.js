@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import styles from '../styles/Stations.module.css';
-import useAllStation from '../hooks/useAllStation';
 import { getAllStation } from '../lib/allStation';
 
 const Stations = (allStation) => {
