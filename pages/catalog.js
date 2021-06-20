@@ -39,17 +39,17 @@ const Catalog = (lines) => {
     setSelectedType(e.target.value);
   };
 
-  // const resultStationA = lineA.find(
-  //   (station) => station.station === selectedStation,
-  // );
-  // const resultStationB = lineB.find(
-  //   (station) => station.station === selectedStation,
-  // );
-  // const resultStationC = lineC.find(
-  //   (station) => station.station === selectedStation,
-  // );
+  const resultStationA = lineA.find(
+    (station) => station.station === selectedStation,
+  );
+  const resultStationB = lineB.find(
+    (station) => station.station === selectedStation,
+  );
+  const resultStationC = lineC.find(
+    (station) => station.station === selectedStation,
+  );
 
-  // const resultStation = resultStationA || resultStationB || resultStationC;
+  const resultStation = resultStationA || resultStationB || resultStationC;
 
   const stationsFull = listStation.filter((item) => item.artworks !== false);
 
