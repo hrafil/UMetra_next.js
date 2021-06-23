@@ -35,10 +35,6 @@ const Ul = styled.ul`
       color: #fff;
     }
 
-    // .home {
-    //   padding-bottom: 60px;
-    // }
-
     .contact {
       padding-top: 60px;
       padding-bottom: 10px;
