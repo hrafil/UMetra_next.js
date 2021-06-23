@@ -2,7 +2,7 @@ import listStation from '../data/listStation.json';
 
 const AllAuthors = () => {
   const stationsFull = listStation.filter((item) => item.artworks !== false);
-  console.log(stationsFull);
+  // console.log(stationsFull);
 
   const artworksIn = [];
   stationsFull.map((station) => {

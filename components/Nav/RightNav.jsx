@@ -6,8 +6,8 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  margin-bottom: 10px;
+  // justify-content: flex-end;
+  // margin-bottom: 10px;
 
   li {
     text-align: center;
@@ -15,29 +15,29 @@ const Ul = styled.ul`
     padding-right: 15px;
   }
 
-  @media (max-width: 768px) {
-    font-weight: bold;
-    z-index: 10;
-    margin-top: 0;
-    flex-flow: column nowrap;
-    justify-content: space-evenly;
-    background-color: white;
-    position: fixed;
-    transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 100vw;
-    padding-top: 3rem;
-    font-size: 25px;
+  // @media (max-width: 768px) {
+  font-weight: bold;
+  z-index: 10;
+  margin-top: 0;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  background-color: white;
+  position: fixed;
+  transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 3rem;
+  font-size: 25px;
 
-    li {
-      color: #fff;
-    }
+  li {
+    color: #fff;
+    // }
 
-    .home {
-      padding-bottom: 60px;
-    }
+    // .home {
+    //   padding-bottom: 60px;
+    // }
 
     .contact {
       padding-top: 60px;

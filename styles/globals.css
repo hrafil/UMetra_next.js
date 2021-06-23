@@ -89,6 +89,50 @@ li {
   background-color: #ff2632;
 }
 
+@media (min-width: 450px) {
+  .btn_home a {
+    padding: 35px 50px;
+  }
+  .container_home {
+    margin: 0 25px;
+  }
+  .container_home p {
+    width: 50%;
+  }
+}
+
+@media (min-width: 580px) {
+  .btn_home a {
+    padding: 45px 60px;
+  }
+  .container_home {
+    margin: 0 35px;
+  }
+  .container_home p {
+    width: 40%;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    max-width: 650px;
+    margin: 0 auto;
+  }
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .btn_home a {
+    padding: 50px 65px;
+  }
+  .circle_art_yellow {
+    width: 800px;
+    height: 800px;
+    top: 50px;
+    left: -500px;
+  }
+}
+
 /* Line B transfer */
 .transfer_red {
   background-color: #ff2632;
@@ -227,26 +271,6 @@ h2 {
   z-index: -1;
   top: 80px;
   left: -400px;
-}
-
-@media (min-width: 768px) {
-  body {
-    max-width: 650px;
-    margin: 0 auto;
-  }
-  h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .btn_home a {
-    padding: 50px 65px;
-  }
-  .circle_art_yellow {
-    width: 800px;
-    height: 800px;
-    top: 50px;
-    left: -500px;
-  }
 }
 
 /* Line */

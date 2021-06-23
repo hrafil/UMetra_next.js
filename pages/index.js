@@ -17,8 +17,8 @@ const Home = () => {
         {title2}
       </h1>
       <p>
-        Prozkoumejte umělecká díla v pražských linkách metra a jejich blízkém
-        okolí. Vyberte si trasu.
+        Prozkoumejte umělecká díla v&nbsp;pražských linkách metra a&nbsp;jejich
+        blízkém okolí. Vyberte si trasu.
       </p>
       <div className="btn_home">
         <li className="btn_green">

@@ -2,7 +2,7 @@ import listStation from '../data/listStation.json';
 
 const AllTypes = () => {
   const stationsFull = listStation.filter((item) => item.artworks !== false);
-  console.log(stationsFull);
+  // console.log(stationsFull);
 
   const artworksIn = [];
   stationsFull.map((station) => {
@@ -15,7 +15,7 @@ const AllTypes = () => {
   }
 
   type.sort();
-  console.log(type);
+  // console.log(type);
 
   return type;
 };
