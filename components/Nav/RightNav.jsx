@@ -33,17 +33,17 @@ const Ul = styled.ul`
 
   li {
     color: #fff;
-    // }
-
-    // .home {
-    //   padding-bottom: 60px;
-    // }
-
-    .contact {
-      padding-top: 60px;
-      padding-bottom: 10px;
-    }
   }
+
+  // .home {
+  //   padding-bottom: 60px;
+  // }
+
+  .contact {
+    padding-top: 60px;
+    padding-bottom: 10px;
+  }
+  // }
 `;
 
 const RightNav = (props) => {
