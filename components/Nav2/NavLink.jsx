@@ -1,6 +1,6 @@
-import React from 'react';
-import RightNav from './RightNav';
-import Burger from './Burger';
+// import React from 'react';
+// import RightNav from './RightNav';
+// import Burger from './Burger';
 
 const NavLink = () => {
   const [open, setOpen] = useState(false);

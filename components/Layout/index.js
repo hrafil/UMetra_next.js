@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Navbar from '../Nav/Navbar';
+// import Navbar from '../Nav/Navbar';
 import SearchField from './searchbox.js';
+import { Navbar } from '../Navbar';
 
 const Layout = ({ children }) => {
   return (
@@ -13,6 +14,7 @@ const Layout = ({ children }) => {
       </Head>
       <header>
         <div className="App">
+          {/* <Navbar /> */}
           <Navbar />
         </div>
         {/* <button>
