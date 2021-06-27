@@ -25,18 +25,7 @@
   {
     "line": "A",
     "station": "Dejvická",
-    "artworks": [
-      {
-        "artwork": "Plameny revoluce",
-        "name": "",
-        "id": "a-dej1",
-        "author": "Martin Sladký",
-        "type": "mozaika",
-        "date": "",
-        "material": "",
-        "image": "tba"
-      }
-    ]
+    "artworks": false
   },
 
   {
