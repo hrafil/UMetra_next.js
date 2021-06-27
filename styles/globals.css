@@ -384,6 +384,10 @@ h2 {
   background: transparent;
 }
 
+.nav_bar button:active {
+  border: none;
+}
+
 .menu_nav {
   list-style: none;
   position: fixed;
@@ -422,7 +426,7 @@ h2 {
 
 .menu_bottom a {
   width: calc(100vw / 3);
-  padding-bottom: 20px;
+  padding-bottom: 80px;
 }
 
 .nav_first {
