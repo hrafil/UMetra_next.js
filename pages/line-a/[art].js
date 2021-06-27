@@ -1,8 +1,8 @@
 import { getStationA } from '../../lib/stationA';
 import { CreateArt } from '../../components/CreateArt';
 import { FooterArt } from '../../components/FooterArt';
-import { useRouter } from 'next/router';
-import useTranslation from 'next-translate/useTranslation';
+// import { useRouter } from 'next/router';
+// import useTranslation from 'next-translate/useTranslation';
 
 export const Artwork = ({ station, lines }) => {
   return (

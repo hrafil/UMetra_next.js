@@ -9,7 +9,7 @@
         "author": "Richard Ferdinand Podzemný, Jiří Kryštůfek",
         "type": "plastika",
         "date": "",
-        "material": "neuveden",
+        "material": "",
         "image": "/a-nem1.jpg"
       }
     ]
@@ -23,7 +23,18 @@
 
   {
     "station": "Dejvická",
-    "artworks": false
+    "artworks": [
+      {
+        "artwork": "Plameny revoluce",
+        "name": "",
+        "id": "a-dej1",
+        "author": "Martin Sladký",
+        "type": "mozaika",
+        "date": "",
+        "material": "",
+        "image": "tba"
+      }
+    ]
   },
 
   {
@@ -140,6 +151,16 @@
         "image": "/a-mus1.jpeg"
       },
       {
+        "artwork": "Můstek5",
+        "name": "Svatý Václav",
+        "id": "a-mus5",
+        "author": "David Černý",
+        "type": "socha",
+        "date": "1999",
+        "material": "pěnový polystyrén, epoxydová pryskyřice",
+        "image": "/a-mus5.jpg"
+      },
+      {
         "artwork": "Můstek2",
         "name": "bez názvu",
         "id": "a-mus2",
@@ -154,10 +175,20 @@
         "name": "bez názvu",
         "id": "a-mus4",
         "author": "Ladislav Dydek, František Bílek",
-        "type": "nástěnné plastiky",
+        "type": "plastika",
         "date": "",
         "material": "",
         "image": "/a-mus3.jpg"
+      },
+      {
+        "artwork": "Můstek6",
+        "name": "bez názvu",
+        "id": "a-mus6",
+        "author": "neznámý",
+        "type": "plastika",
+        "date": "",
+        "material": "",
+        "image": "/a-mus6.jpg"
       }
     ]
   },
@@ -183,7 +214,7 @@
         "type": "busty",
         "date": "",
         "material": "",
-        "image": "/a-muz2.jpeg"
+        "image": "/a-muz2.jpg"
       }
     ]
   },
@@ -208,7 +239,7 @@
     "station": "Jiřího z Poděbrad",
     "artworks": [
       {
-        "artwork": "Jiřího z Poděbrad1",
+        "artwork": "Jiřího z Poděbrad4",
         "name": "Výdech 10 JP",
         "id": "a-jir4",
         "author": "Petr Šedivý, Anna Hübschmannová",
@@ -228,11 +259,21 @@
         "image": "/a-jir1.jpg"
       },
       {
+        "artwork": "Jiřího z Poděbrad5",
+        "name": "bez názvu (pítko)",
+        "id": "a-jir5",
+        "author": "MCA Ateliér",
+        "type": "pítko",
+        "date": "2012",
+        "material": "kámen",
+        "image": "/a-jir5.jpg"
+      },
+      {
         "artwork": "Jiřího z Poděbrad2",
         "name": "bez názvu (husitství)",
         "id": "a-jir2",
         "author": "Lubomír Šilar",
-        "type": "reliéfy",
+        "type": "reliéf",
         "date": "",
         "material": "keramika",
         "image": "/a-jir2.jpeg"
@@ -258,7 +299,7 @@
         "name": "Rostlinné motivy",
         "id": "a-flo1",
         "author": "Petr Svoboda",
-        "type": "reliéfy",
+        "type": "reliéf",
         "date": "",
         "material": "keramika",
         "image": "/a-flo1.jpg"

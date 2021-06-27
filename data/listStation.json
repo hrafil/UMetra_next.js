@@ -156,6 +156,16 @@
         "image": "/a-mus1.jpeg"
       },
       {
+        "artwork": "Můstek5",
+        "name": "Svatý Václav",
+        "id": "a-mus5",
+        "author": "David Černý",
+        "type": "socha",
+        "date": "1999",
+        "material": "pěnový polystyrén, epoxydová pryskyřice",
+        "image": "/a-mus5.jpg"
+      },
+      {
         "artwork": "Můstek2",
         "name": "bez názvu",
         "id": "a-mus2",
@@ -174,6 +184,16 @@
         "date": "",
         "material": "",
         "image": "/a-mus3.jpg"
+      },
+      {
+        "artwork": "Můstek6",
+        "name": "bez názvu",
+        "id": "a-mus6",
+        "author": "neznámý",
+        "type": "plastika",
+        "date": "",
+        "material": "",
+        "image": "/a-mus6.jpg"
       }
     ]
   },
@@ -227,7 +247,7 @@
     "station": "Jiřího z Poděbrad",
     "artworks": [
       {
-        "artwork": "Jiřího z Poděbrad1",
+        "artwork": "Jiřího z Poděbrad4",
         "name": "Výdech 10 JP",
         "id": "a-jir4",
         "author": "Petr Šedivý, Anna Hübschmannová",
@@ -245,6 +265,16 @@
         "date": "1981",
         "material": " ",
         "image": "/a-jir1.jpg"
+      },
+      {
+        "artwork": "Jiřího z Poděbrad5",
+        "name": "bez názvu (pítko)",
+        "id": "a-jir5",
+        "author": "MCA Ateliér",
+        "type": "pítko",
+        "date": "2012",
+        "material": "kámen",
+        "image": "/a-jir5.jpeg"
       },
       {
         "artwork": "Jiřího z Poděbrad2",
@@ -547,6 +577,16 @@
         "date": "",
         "material": "",
         "image": "/b-m3.jpg"
+      },
+      {
+        "artwork": "Můstek4",
+        "name": "bez názvu",
+        "id": "b-m4",
+        "author": "neznámý",
+        "type": "pítko",
+        "date": "",
+        "material": "reliéf",
+        "image": "/b-m4.jpg"
       }
     ]
   },
@@ -617,6 +657,26 @@
         "date": "1963",
         "material": "keramika",
         "image": "/b-i3.jpg"
+      },
+      {
+        "artwork": "Invalidovna4",
+        "name": "bez názvu (křesla)",
+        "id": "b-i4",
+        "author": "Zdeněk Ruffer",
+        "type": "socha",
+        "date": "",
+        "material": "beton",
+        "image": "/b-i4.jpg"
+      },
+      {
+        "artwork": "Invalidovna5",
+        "name": "bez názvu (vodní prvky)",
+        "id": "b-i5",
+        "author": "Zdeněk Ruffer",
+        "type": "socha",
+        "date": "",
+        "material": "beton",
+        "image": "/b-i5.jpg"
       }
     ]
   },

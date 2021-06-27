@@ -1,15 +1,16 @@
 [
-  { "station": "Zličín", "artworks": false },
+  { "line": "B", "station": "Zličín", "artworks": false },
 
-  { "station": "Stodůlky", "artworks": false },
+  { "line": "B", "station": "Stodůlky", "artworks": false },
 
-  { "station": "Luka", "artworks": false },
+  { "line": "B", "station": "Luka", "artworks": false },
 
-  { "station": "Lužiny", "artworks": false },
+  { "line": "B", "station": "Lužiny", "artworks": false },
 
-  { "station": "Hůrka", "artworks": false },
+  { "line": "B", "station": "Hůrka", "artworks": false },
 
   {
+    "line": "B",
     "station": "Nové Butovice",
     "artworks": [
       {
@@ -30,15 +31,16 @@
         "author": "David Černý",
         "type": "plastika",
         "date": "2016",
-        "material": "neuveden",
+        "material": "",
         "image": "/b-nb2.jpg"
       }
     ]
   },
 
-  { "station": "Jinonice", "artworks": false },
+  { "line": "B", "station": "Jinonice", "artworks": false },
 
   {
+    "line": "B",
     "station": "Radlická",
     "artworks": [
       {
@@ -65,9 +67,10 @@
     ]
   },
 
-  { "station": "Smíchovské nádráží", "artworks": false },
+  { "line": "B", "station": "Smíchovské nádráží", "artworks": false },
 
   {
+    "line": "B",
     "station": "Anděl",
     "artworks": [
       {
@@ -84,6 +87,7 @@
   },
 
   {
+    "line": "B",
     "station": "Karlovo náměstí",
     "artworks": [
       {
@@ -93,7 +97,7 @@
         "author": "Radomír Kolář",
         "type": "mozaika",
         "date": "1985",
-        "material": "neuveden",
+        "material": "",
         "image": "/b-kn4.jpg"
       },
 
@@ -113,7 +117,7 @@
         "name": "bez názvu (skleněný objekt)",
         "id": "b-kn2",
         "author": "Jaroslav Štursa",
-        "type": "skleněný objekt",
+        "type": "objekt",
         "date": "80. léta 20. století",
         "material": "sklo",
         "image": "/b-kn2.jpg"
@@ -126,29 +130,31 @@
         "author": "Luboš Růžička",
         "type": "pítko",
         "date": "1985",
-        "material": "neuveden",
+        "material": "",
         "image": "/b-kn3.jpg"
       }
     ]
   },
 
   {
+    "line": "B",
     "station": "Národní třída",
     "artworks": [
       {
         "artwork": "Národní třída1",
         "name": "Hlava Franze Kafky",
         "id": "b-nt1",
-        "author": "David  Černý",
+        "author": "David Černý",
         "type": "plastika",
         "date": "2014",
-        "material": "neuveden",
+        "material": "",
         "image": "/b-nt1.jpg"
       }
     ]
   },
 
   {
+    "line": "B",
     "station": "Můstek",
     "artworks": [
       {
@@ -166,7 +172,7 @@
         "artwork": "Můstek2",
         "name": "Praha",
         "id": "b-m2",
-        "author": "ak. soch. Lubomír Šilar",
+        "author": "Lubomír Šilar",
         "type": "reliéf",
         "date": "",
         "material": "keramický reliéf",
@@ -175,20 +181,21 @@
 
       {
         "artwork": "Můstek3",
-        "name": "(pítko u Dětského domu)",
+        "name": "bez názvu (pítko u Dětského domu)",
         "id": "b-m3",
         "author": "Karel Fořtl",
         "type": "pítko",
         "date": "",
-        "material": "neuveden",
+        "material": "",
         "image": "/b-m3.jpg"
       }
     ]
   },
 
-  { "station": "Náměstí Republiky", "artworks": false },
+  { "line": "B", "station": "Náměstí Republiky", "artworks": false },
 
   {
+    "line": "B",
     "station": "Florenc",
     "artworks": [
       {
@@ -214,9 +221,10 @@
     ]
   },
 
-  { "station": "Křižíkova", "artworks": false },
+  { "line": "B", "station": "Křižíkova", "artworks": false },
 
   {
+    "line": "B",
     "station": "Invalidovna",
     "artworks": [
       {
@@ -224,7 +232,7 @@
         "name": "Sport",
         "id": "b-i1",
         "author": "Eva Heřmanská",
-        "type": "skleněná vitráž",
+        "type": "vitráž",
         "date": "1989",
         "material": "skleněná vitráž",
         "image": "/b-i1.jpg"
@@ -250,11 +258,32 @@
         "date": "1963",
         "material": "keramika",
         "image": "/b-i3.jpg"
+      },
+      {
+        "artwork": "Invalidovna4",
+        "name": "bez názvu (křesla)",
+        "id": "b-i4",
+        "author": "Zdeněk Ruffer",
+        "type": "socha",
+        "date": "",
+        "material": "beton",
+        "image": "/b-i4.jpg"
+      },
+      {
+        "artwork": "Invalidovna5",
+        "name": "bez názvu (vodní prvky)",
+        "id": "b-i5",
+        "author": "Zdeněk Ruffer",
+        "type": "socha",
+        "date": "",
+        "material": "beton",
+        "image": "/b-i5.jpg"
       }
     ]
   },
 
   {
+    "line": "B",
     "station": "Palmovka",
     "artworks": [
       {
@@ -292,6 +321,7 @@
   },
 
   {
+    "line": "B",
     "station": "Českomoravská",
     "artworks": [
       {
@@ -308,6 +338,7 @@
   },
 
   {
+    "line": "B",
     "station": "Vysočanská",
     "artworks": [
       {
@@ -334,9 +365,10 @@
     ]
   },
 
-  { "station": "Kolbenova", "artworks": false },
+  { "line": "B", "station": "Kolbenova", "artworks": false },
 
   {
+    "line": "B",
     "station": "Hloubětín",
     "artworks": [
       {
@@ -354,7 +386,7 @@
         "artwork": "Hloubětín2",
         "name": "Koupání",
         "id": "b-h2",
-        "author": "Hladký, Jaroslav",
+        "author": "Jaroslav Hladký",
         "date": "1985",
         "type": "plastika",
         "material": "bronz",
@@ -363,7 +395,7 @@
     ]
   },
 
-  { "station": "Rajská zahrada", "artworks": false },
+  { "line": "B", "station": "Rajská zahrada", "artworks": false },
 
-  { "station": "Černý most", "artworks": false }
+  { "line": "B", "station": "Černý most", "artworks": false }
 ]
