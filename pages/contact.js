@@ -7,9 +7,9 @@ const Contact = () => {
       <h2 className={styles.title}>kontakt</h2>
       <div className={styles.text}>
         <p>
-          Chybí nám ve stanici nějaké dílo, které dennodenně míjíte? Máte nápad,
-          jak můžeme naše stránky vylepšit? Nebo se vám prostě jen líbí? Dejte
-          nám vědět!
+          Chybí nám ve stanici nějaké dílo, které dennodenně potkáváte? Máte
+          nápad, jak můžeme naše stránky vylepšit? Nebo se vám prostě jen líbí?
+          Dejte nám vědět!
         </p>
         <div>
           <p>

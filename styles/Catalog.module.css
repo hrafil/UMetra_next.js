@@ -4,6 +4,7 @@
   padding: 60px 20px 0 20px;
   text-align: left;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   width: 100vw;
   height: 100vh;
@@ -13,10 +14,42 @@
   text-align: left;
   font-size: 24px;
   margin-bottom: 0;
+  width: 100%;
 }
 
 .text {
   font-size: 12px;
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 7px;
+  margin-top: 15px;
+}
+
+.artwork_text {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.select {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.label {
+  width: 100%;
 }
 
 .containerA {
@@ -37,16 +70,6 @@
   border: 5px solid#ff2632;
   padding: 10px;
   margin-bottom: 20px;
-}
-
-.artwork_text {
-  text-align: right;
-  padding-right: 10px;
-}
-
-.form {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 @media (min-width: 350px) {
