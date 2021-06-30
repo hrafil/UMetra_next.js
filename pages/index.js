@@ -20,7 +20,7 @@ const Home = () => {
         Prozkoumejte umělecká díla v&nbsp;pražských linkách metra a&nbsp;jejich
         blízkém okolí. Vyberte si trasu.
       </p>
-      <div className="btn_home">
+      <ul className="btn_home">
         <li className="btn_green">
           <Link href="/line-a">A</Link>
         </li>
@@ -30,7 +30,7 @@ const Home = () => {
         <li className="btn_red">
           <Link href="/line-c">C</Link>
         </li>
-      </div>
+      </ul>
       <footer></footer>
     </div>
   );

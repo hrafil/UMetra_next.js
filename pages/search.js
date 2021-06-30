@@ -46,7 +46,7 @@ const Search = (lines) => {
     setfinalSelection(null);
   };
 
-  console.log(finalSelection);
+  // console.log(finalSelection);
 
   // const lineA = lines.lines.filter(
   //   (station) => station.line === 'A' && station.artworks,
@@ -126,7 +126,11 @@ const Search = (lines) => {
         {finalSelection !== null
           ? finalSelection.map((artwork) => (
               <div className={styles.artwork} key={artwork.id}>
-                <img className={styles.img} src={artwork.image} />
+                <img
+                  className={styles.img}
+                  src={artwork.image}
+                  alt={artwork.name}
+                />
                 <div className={styles.artwork_text}>
                   <div>{artwork.name.toUpperCase()}</div>
                   <div>{artwork.author}</div>

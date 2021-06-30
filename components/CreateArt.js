@@ -51,7 +51,7 @@ export const CreateArt = ({ station, color }) => {
         {station.artworks &&
           station.artworks.map((artwork) => (
             <div key={artwork.id} className="container_artwork">
-              <img src={artwork.image} />
+              <img src={artwork.image} alt={artwork.name} />
               <div className="artwork_text">
                 <div>{artwork.name.toUpperCase()}</div>
                 <div>{artwork.author}</div>

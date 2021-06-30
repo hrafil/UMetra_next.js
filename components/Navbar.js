@@ -16,7 +16,7 @@ export const Navbar = () => {
 
   return (
     <nav className="nav_bar">
-      <button onClick={handleToggle}>
+      <button name="menu" onClick={handleToggle}>
         {navbarOpen ? (
           <MdClose style={{ width: '50px', height: '50px' }} />
         ) : (
@@ -45,7 +45,7 @@ export const Navbar = () => {
         <li>
           <Link href="/line-c">Linka C</Link>
         </li>
-        <div className="menu_bottom">
+        <ul className="menu_bottom">
           <li>
             <Link href="/contact">Kontakt</Link>
           </li>
@@ -55,7 +55,7 @@ export const Navbar = () => {
           <li>
             <Link href="/sources">Zdroje</Link>
           </li>
-        </div>
+        </ul>
       </ul>
     </nav>
   );
