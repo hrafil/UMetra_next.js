@@ -42,6 +42,12 @@ const Search = (lines) => {
     setSelectedType(e.target.value);
   };
 
+  const handleReset = () => {
+    setfinalSelection(null);
+  };
+
+  console.log(finalSelection);
+
   // const lineA = lines.lines.filter(
   //   (station) => station.line === 'A' && station.artworks,
   // );
@@ -55,14 +61,13 @@ const Search = (lines) => {
   // const resultStationA = lineA.find(
   //   (station) => station.station === selectedStation,
   // );
+
   // const resultStationB = lineB.find(
   //   (station) => station.station === selectedStation,
   // );
   // const resultStationC = lineC.find(
   //   (station) => station.station === selectedStation,
   // );
-
-  // const resultStation = resultStationA || resultStationB || resultStationC;
 
   const stationsFull = listStation.filter((item) => item.artworks !== false);
 
@@ -111,6 +116,9 @@ const Search = (lines) => {
           </label>
           <button type="submit" className={styles.button}>
             Filtrovat
+          </button>
+          <button onClick={handleReset} type="reset" className={styles.button}>
+            Zrušit filtr
           </button>
         </form>
       </div>

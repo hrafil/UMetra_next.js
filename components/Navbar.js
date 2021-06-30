@@ -30,13 +30,12 @@ export const Navbar = () => {
         <li className="nav_logo">
           <Link href="/">UMetra</Link>
         </li>
-        <li className="nav_first">
+        {/* <li className="nav_first">
           <Link href="/stations">Stanice</Link>
-        </li>
-        <li>
+        </li> */}
+        <li className="nav_first">
           <Link href="/search">Vyhledat</Link>
         </li>
-
         <li>
           <Link href="/line-a">Linka A</Link>
         </li>
