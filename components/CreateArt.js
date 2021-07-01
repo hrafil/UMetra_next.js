@@ -53,10 +53,10 @@ export const CreateArt = ({ station, color }) => {
             <div key={artwork.id} className="container_artwork">
               <img src={artwork.image} alt={artwork.name} />
               <div className="artwork_text">
-                <div>{artwork.name.toUpperCase()}</div>
-                <div>{artwork.author}</div>
-                <div>{artwork.date}</div>
-                <div>{artwork.type}</div>
+                <p>{artwork.name.toUpperCase()}</p>
+                <p>{artwork.author}</p>
+                <p>{artwork.date}</p>
+                <p>{artwork.type}</p>
               </div>
             </div>
           ))}

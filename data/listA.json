@@ -1,5 +1,6 @@
 [
   {
+    "line": "A",
     "station": "Nemocnice Motol",
     "artworks": [
       {
@@ -15,27 +16,50 @@
     ]
   },
 
-  { "station": "Petřiny", "artworks": false },
+  { "line": "A", "station": "Petřiny", "artworks": false },
 
-  { "station": "Nádraží Veleslavín", "artworks": false },
+  { "line": "A", "station": "Nádraží Veleslavín", "artworks": false },
 
-  { "station": "Bořislavka", "artworks": false },
+  { "line": "A", "station": "Bořislavka", "artworks": false },
 
   {
+    "line": "A",
     "station": "Dejvická",
-    "artworks": false
+    "artworks": [
+      {
+        "artwork": "Dejvická1",
+        "name": "Plameny revoluce",
+        "id": "a-dej2",
+        "author": "Martin Sladký",
+        "type": "mozaika",
+        "date": "1978",
+        "material": "kámen",
+        "image": "/a-dej1.jpg"
+      },
+      {
+        "artwork": "Dejvická2",
+        "name": "Památník padlým vojákům",
+        "id": "a-dej2",
+        "author": "Jiří Plieštik, Tomáš Novotný, Jiří Opočenský",
+        "type": "památník",
+        "date": "2001",
+        "material": "bronz",
+        "image": "/a-dej2.jpg"
+      }
+    ]
   },
 
   {
+    "line": "A",
     "station": "Hradčanská",
     "artworks": [
       {
         "artwork": "Hradčanská1",
-        "name": "Koruna",
+        "name": "bez názvu (koruna)",
         "id": "a-hra1",
         "author": "Jiří Prádler",
-        "type": "kamenný reliéf",
-        "date": "",
+        "type": "reliéf",
+        "date": "1978",
         "material": "kámen",
         "image": "/a-hra1.jpg"
       },
@@ -46,7 +70,7 @@
         "id": "a-hra2",
         "author": "Slavoj Nejdl",
         "type": "kamenný reliéf",
-        "date": "",
+        "date": "1978",
         "material": "kámen",
         "image": "/a-hra2.jpg"
       },
@@ -57,14 +81,25 @@
         "id": "a-hra3",
         "author": "Slavoj Nejdl",
         "type": "kamenný reliéf",
-        "date": "",
+        "date": "1978",
         "material": "kámen",
         "image": "/a-hra3.jpg"
+      },
+      {
+        "artwork": "Hradčanská4",
+        "name": "Vrstvy",
+        "id": "a-hra4",
+        "author": "Michal Škapa",
+        "type": "objekt",
+        "date": "2018",
+        "material": "kov",
+        "image": "/a-hra4.jpg"
       }
     ]
   },
 
   {
+    "line": "A",
     "station": "Malostranská",
     "artworks": [
       {
@@ -73,7 +108,7 @@
         "id": "a-mal1",
         "author": "",
         "type": "plastika",
-        "date": "",
+        "date": "1973",
         "material": "kámen",
         "image": "/a-mal1.jpg"
       },
@@ -84,7 +119,7 @@
         "id": "a-mal2",
         "author": "Miroslav Vystrčil",
         "type": "pítko",
-        "date": "",
+        "date": "1978",
         "material": "kámen",
         "image": "/a-mal2.jpg"
       },
@@ -95,7 +130,7 @@
         "id": "a-mal3",
         "author": "Lubomír Růžička",
         "type": "nárožní patník",
-        "date": "",
+        "date": "1978",
         "material": "kámen",
         "image": "/a-mal3.jpg"
       },
@@ -106,7 +141,7 @@
         "id": "a-mal4",
         "author": "Jan Smrž",
         "type": "mříž",
-        "date": "",
+        "date": "1978",
         "material": "kov",
         "image": "/a-mal4.jpg"
       },
@@ -117,16 +152,32 @@
         "id": "a-mal5",
         "author": "dílna Jaromíra Brudhause",
         "type": "mříž",
-        "date": "",
+        "date": "1978",
         "material": "kov",
         "image": "/a-mal5.jpg"
       }
     ]
   },
 
-  { "station": "Staroměstská", "artworks": false },
+  {
+    "line": "A",
+    "station": "Staroměstská",
+    "artworks": [
+      {
+        "artwork": "Staroměstská1",
+        "name": "Pomník Antonína Dvořáka",
+        "id": "a-sta1",
+        "author": "Jan Wagner, Josef Wagner",
+        "type": "socha",
+        "date": "1988",
+        "material": "bronz",
+        "image": ""
+      }
+    ]
+  },
 
   {
+    "line": "A",
     "station": "Můstek",
     "artworks": [
       {
@@ -154,9 +205,9 @@
         "name": "bez názvu",
         "id": "a-mus2",
         "author": "Josef Buňka",
-        "type": "hliníkové panely",
-        "date": "",
-        "material": "",
+        "type": "reliéf",
+        "date": "1978",
+        "material": "hliník",
         "image": "/a-mus2.jpeg"
       },
       {
@@ -164,8 +215,8 @@
         "name": "bez názvu",
         "id": "a-mus4",
         "author": "Ladislav Dydek, František Bílek",
-        "type": "plastika",
-        "date": "",
+        "type": "reliéf",
+        "date": "1978",
         "material": "",
         "image": "/a-mus3.jpg"
       },
@@ -183,6 +234,7 @@
   },
 
   {
+    "line": "A",
     "station": "Muzeum",
     "artworks": [
       {
@@ -203,12 +255,13 @@
         "type": "busty",
         "date": "",
         "material": "",
-        "image": "/a-muz2.jpg"
+        "image": "/a-muz2.jpeg"
       }
     ]
   },
 
   {
+    "line": "A",
     "station": "Náměstí míru",
     "artworks": [
       {
@@ -225,6 +278,7 @@
   },
 
   {
+    "line": "A",
     "station": "Jiřího z Poděbrad",
     "artworks": [
       {
@@ -255,7 +309,7 @@
         "type": "pítko",
         "date": "2012",
         "material": "kámen",
-        "image": "/a-jir5.jpg"
+        "image": "/a-jir5.jpeg"
       },
       {
         "artwork": "Jiřího z Poděbrad2",
@@ -281,6 +335,7 @@
   },
 
   {
+    "line": "A",
     "station": "Flora",
     "artworks": [
       {
@@ -297,6 +352,7 @@
   },
 
   {
+    "line": "A",
     "station": "Želivského",
     "artworks": [
       {
@@ -322,9 +378,10 @@
     ]
   },
 
-  { "station": "Strašnická", "artworks": false },
+  { "line": "A", "station": "Strašnická", "artworks": false },
 
   {
+    "line": "A",
     "station": "Skalka",
     "artworks": [
       {
@@ -351,6 +408,7 @@
   },
 
   {
+    "line": "A",
     "station": "Depo Hostivař",
     "artworks": [
       {

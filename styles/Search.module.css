@@ -61,6 +61,10 @@
   padding-right: 10px;
 }
 
+.artwork_text p {
+  margin: 0;
+}
+
 .form {
   display: flex;
   flex-wrap: wrap;

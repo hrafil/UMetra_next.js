@@ -188,6 +188,16 @@
         "date": "",
         "material": "",
         "image": "/b-m3.jpg"
+      },
+      {
+        "artwork": "Můstek4",
+        "name": "bez názvu",
+        "id": "b-m4",
+        "author": "neznámý",
+        "type": "pítko",
+        "date": "",
+        "material": "reliéf",
+        "image": "/b-m4.jpg"
       }
     ]
   },
@@ -397,5 +407,34 @@
 
   { "line": "B", "station": "Rajská zahrada", "artworks": false },
 
-  { "line": "B", "station": "Černý most", "artworks": false }
+  { "line": "B", "station": "Černý most", "artworks": false },
+  {
+    "line": "C",
+    "station": "Háje",
+    "artworks": [
+      {
+        "artwork": "Háje1",
+        "name": "Kosmonauti",
+        "id": "c-h1",
+        "author": "Jan Bartoš",
+        "type": "plastika",
+        "date": "1979",
+        "material": "bronz",
+        "image": "/c-h1.jpg",
+        "location": "Háje"
+      },
+
+      {
+        "artwork": "Háje2",
+        "name": "Kosmonauti",
+        "id": "c-h2",
+        "author": "Alois Fišárek",
+        "type": "mozaika",
+        "date": "1979",
+        "material": "keramika",
+        "image": "/c-h2.jpg",
+        "location": "Háje"
+      }
+    ]
+  }
 ]

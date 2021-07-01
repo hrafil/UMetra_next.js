@@ -28,23 +28,23 @@
     "artworks": [
       {
         "artwork": "Dejvická1",
-        "name": "Dynamika revoluce",
-        "id": "a-dej1",
-        "author": "Martin Sladký",
-        "type": "mozaika",
-        "date": "1978",
-        "material": "kámen",
-        "image": ""
-      },
-      {
-        "artwork": "Dejvická2",
         "name": "Plameny revoluce",
         "id": "a-dej2",
         "author": "Martin Sladký",
         "type": "mozaika",
         "date": "1978",
         "material": "kámen",
-        "image": ""
+        "image": "/a-dej1.jpg"
+      },
+      {
+        "artwork": "Dejvická2",
+        "name": "Památník padlým vojákům",
+        "id": "a-dej2",
+        "author": "Jiří Plieštik, Tomáš Novotný, Jiří Opočenský",
+        "type": "památník",
+        "date": "2001",
+        "material": "bronz",
+        "image": "/a-dej2.jpg"
       }
     ]
   },
@@ -84,6 +84,16 @@
         "date": "1978",
         "material": "kámen",
         "image": "/a-hra3.jpg"
+      },
+      {
+        "artwork": "Hradčanská4",
+        "name": "Vrstvy",
+        "id": "a-hra4",
+        "author": "Michal Škapa",
+        "type": "objekt",
+        "date": "2018",
+        "material": "kov",
+        "image": "/a-hra4.jpg"
       }
     ]
   },
@@ -964,24 +974,34 @@
         "type": "stěna",
         "date": "1974",
         "material": "beton",
-        "image": ""
+        "image": "/c-vys1.jpg"
+      },
+      {
+        "artwork": "Vyšehrad2",
+        "name": "Prameník",
+        "id": "c-vys2",
+        "author": "Jiří Kryštůfek",
+        "type": "pítko",
+        "date": "1980",
+        "material": "nehodivský mramor",
+        "image": "/c-vys2.jpg"
       }
     ]
   },
 
   {
     "line": "C",
-    "station": "I.P.Pavlova",
+    "station": "I. P. Pavlova",
     "artworks": [
       {
-        "artwork": "I.P.Pavlova1",
+        "artwork": "I. P. Pavlova1",
         "name": "bez názvu (lvi)",
         "id": "c-ipp1",
         "author": "neznámý autor",
         "type": "reliéf",
         "date": "1974",
         "material": "kámen",
-        "image": ""
+        "image": "/c-ipp1.jpg"
       }
     ]
   },
@@ -1004,7 +1024,32 @@
     ]
   },
 
-  { "line": "C", "station": "Hlavní nádraží", "artworks": false },
+  {
+    "line": "C",
+    "station": "Hlavní nádraží",
+    "artworks": [
+      {
+        "artwork": "Hlavní nádraží1",
+        "name": "Památník rozloučení",
+        "id": "c-hla1",
+        "author": "Stuart Mason, Jan Huňát",
+        "type": "památník",
+        "date": "2017",
+        "material": "sklo, dveře vlaku",
+        "image": "/c-hla1.jpg"
+      },
+      {
+        "artwork": "Hlavní nádraží2",
+        "name": "Pomník Sbratření",
+        "id": "c-hla2",
+        "author": "Karel Pokorný",
+        "type": "pomník",
+        "date": "1947",
+        "material": "bronz",
+        "image": "/c-hla2.jpg"
+      }
+    ]
+  },
 
   {
     "line": "C",

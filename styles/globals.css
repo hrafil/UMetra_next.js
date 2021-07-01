@@ -280,9 +280,12 @@ img {
   position: relative;
 }
 
-h2 {
-  text-align: left;
-  font-size: 36px;
+.container_artwork p {
+  margin: 0;
+}
+
+.artwork_text {
+  margin-top: 5px;
 }
 
 .transfer_art_green {
@@ -412,7 +415,7 @@ h2 {
 .station {
   display: flex;
   flex-wrap: wrap;
-  width: 40%;
+  width: 80%;
   margin: 0 auto;
   flex-direction: column;
 }

@@ -15,6 +15,7 @@ const Search = (lines) => {
   const [selectedAuthor, setSelectedAuthor] = useState(null);
   const [selectedType, setSelectedType] = useState(null);
   const [finalSelection, setfinalSelection] = useState(null);
+  const [nothing, setNothing] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -28,6 +29,9 @@ const Search = (lines) => {
             selectedStation === null),
       ),
     );
+    finalSelection === null
+      ? setNothing('Vašemu výběru neodpovídá žádné dílo.')
+      : '';
   };
 
   const handleStation = (e) => {
@@ -44,6 +48,10 @@ const Search = (lines) => {
 
   const handleReset = () => {
     setfinalSelection(null);
+    setSelectedStation(null);
+    setSelectedAuthor(null);
+    setSelectedType(null);
+    setNothing(null);
   };
 
   console.log(selectedStation);
@@ -132,15 +140,16 @@ const Search = (lines) => {
                   alt={artwork.name}
                 />
                 <div className={styles.artwork_text}>
-                  <div>{artwork.name.toUpperCase()}</div>
-                  <div>{artwork.author}</div>
-                  <div>{artwork.date}</div>
-                  <div>{artwork.type}</div>
-                  <div>{artwork.artwork.slice(0, -1)}</div>
+                  <p>{artwork.name.toUpperCase()}</p>
+                  <p>{artwork.author}</p>
+                  <p>{artwork.date}</p>
+                  <p>{artwork.type}</p>
+                  <p>{artwork.artwork.slice(0, -1)}</p>
                 </div>
               </div>
             ))
           : ''}
+        <p>{nothing}</p>
       </div>
     </div>
   );
