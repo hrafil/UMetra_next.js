@@ -207,6 +207,7 @@ li {
   position: absolute;
   right: -70px;
   margin-top: 0.5rem;
+  cursor: pointer;
 }
 
 .transfer_green {
@@ -218,6 +219,7 @@ li {
   position: absolute;
   right: -70px;
   margin-top: 0.5rem;
+  cursor: pointer;
 }
 
 .transfer_yellow {
@@ -229,6 +231,7 @@ li {
   position: absolute;
   right: -70px;
   margin-top: 0.5rem;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -274,6 +277,7 @@ img {
   text-align: left;
   font-size: 36px;
   width: 60%;
+  position: relative;
 }
 
 h2 {
@@ -283,35 +287,38 @@ h2 {
 
 .transfer_art_green {
   background-color: #17a301;
-  width: 1rem;
-  height: 1rem;
+  width: 0.5em;
+  height: 0.5em;
   border-radius: 50%;
+  display: inline-block;
   position: absolute;
-  right: 85px;
-  top: 58px;
-  align-items: center;
+  right: -20px;
+  margin-top: 1.2rem;
+  cursor: pointer;
 }
 
 .transfer_art_yellow {
   background-color: #ffce2d;
-  width: 1rem;
-  height: 1rem;
+  width: 0.5em;
+  height: 0.5em;
   border-radius: 50%;
+  display: inline-block;
   position: absolute;
-  right: 85px;
-  top: 58px;
-  align-items: center;
+  right: -20px;
+  margin-top: 1.2rem;
+  cursor: pointer;
 }
 
 .transfer_art_red {
   background-color: #ff2632;
-  width: 1rem;
-  height: 1rem;
+  width: 0.5em;
+  height: 0.5em;
   border-radius: 50%;
+  display: inline-block;
   position: absolute;
-  right: 85px;
-  top: 58px;
-  align-items: center;
+  right: -20px;
+  margin-top: 0.5em;
+  cursor: pointer;
 }
 
 .circle_art_yellow {
@@ -375,14 +382,37 @@ h2 {
     border-top-right-radius: 600px;
     top: 100px;
   }
+  .transfer_art_green,
+  .transfer_art_yellow,
+  .transfer_art_red {
+    width: 1em;
+    height: 1em;
+    right: 50px;
+    margin-top: 0.2em;
+  }
 }
 
 /* Line */
 
+.label {
+  margin: 20px auto;
+  white-space: nowrap;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+
+.lable_empty {
+  margin: 20px auto;
+  white-space: nowrap;
+  font-size: 20px;
+  font-weight: normal;
+}
+
 .station {
   display: flex;
   flex-wrap: wrap;
-  width: 60%;
+  width: 40%;
   margin: 0 auto;
   flex-direction: column;
 }
@@ -409,21 +439,18 @@ h2 {
   display: flex;
   border-color: #ffce2d;
   background-color: #ffce2d;
+  cursor: pointer;
 }
 
-.label {
-  margin: 20px auto;
-  white-space: nowrap;
-  font-size: 20px;
-  font-weight: bold;
-  position: relative;
-}
-
-.lable_empty {
-  margin: 20px auto;
-  white-space: nowrap;
-  font-size: 20px;
-  font-weight: normal;
+.circle_empty_green {
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 20px solid;
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  border-color: #17a301;
+  display: flex;
 }
 
 .circle_green {
@@ -437,16 +464,17 @@ h2 {
   display: flex;
   border-color: #17a301;
   background-color: #17a301;
+  cursor: pointer;
 }
 
-.circle_empty_green {
+.circle_empty_red {
   margin: 0 auto;
   border-radius: 50%;
   border: 20px solid;
   width: 150px;
   height: 150px;
   background-color: #fff;
-  border-color: #17a301;
+  border-color: #ff2632;
   display: flex;
 }
 
@@ -461,17 +489,7 @@ h2 {
   display: flex;
   border-color: #ff2632;
   background-color: #ff2632;
-}
-
-.circle_empty_red {
-  margin: 0 auto;
-  border-radius: 50%;
-  border: 20px solid;
-  width: 150px;
-  height: 150px;
-  background-color: #fff;
-  border-color: #ff2632;
-  display: flex;
+  cursor: pointer;
 }
 
 /* sidebar Nav */
@@ -535,7 +553,7 @@ h2 {
 }
 
 .nav_first {
-  margin-top: 12rem;
+  margin-top: 10rem;
 }
 
 .nav_logo {

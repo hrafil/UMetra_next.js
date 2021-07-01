@@ -25,7 +25,28 @@
   {
     "line": "A",
     "station": "Dejvická",
-    "artworks": false
+    "artworks": [
+      {
+        "artwork": "Dejvická1",
+        "name": "Dynamika revoluce",
+        "id": "a-dej1",
+        "author": "Martin Sladký",
+        "type": "mozaika",
+        "date": "1978",
+        "material": "kámen",
+        "image": ""
+      },
+      {
+        "artwork": "Dejvická2",
+        "name": "Plameny revoluce",
+        "id": "a-dej2",
+        "author": "Martin Sladký",
+        "type": "mozaika",
+        "date": "1978",
+        "material": "kámen",
+        "image": ""
+      }
+    ]
   },
 
   {
@@ -34,11 +55,11 @@
     "artworks": [
       {
         "artwork": "Hradčanská1",
-        "name": "Koruna",
+        "name": "bez názvu (koruna)",
         "id": "a-hra1",
         "author": "Jiří Prádler",
-        "type": "kamenný reliéf",
-        "date": "",
+        "type": "reliéf",
+        "date": "1978",
         "material": "kámen",
         "image": "/a-hra1.jpg"
       },
@@ -49,7 +70,7 @@
         "id": "a-hra2",
         "author": "Slavoj Nejdl",
         "type": "kamenný reliéf",
-        "date": "",
+        "date": "1978",
         "material": "kámen",
         "image": "/a-hra2.jpg"
       },
@@ -60,7 +81,7 @@
         "id": "a-hra3",
         "author": "Slavoj Nejdl",
         "type": "kamenný reliéf",
-        "date": "",
+        "date": "1978",
         "material": "kámen",
         "image": "/a-hra3.jpg"
       }
@@ -77,7 +98,7 @@
         "id": "a-mal1",
         "author": "",
         "type": "plastika",
-        "date": "",
+        "date": "1973",
         "material": "kámen",
         "image": "/a-mal1.jpg"
       },
@@ -88,7 +109,7 @@
         "id": "a-mal2",
         "author": "Miroslav Vystrčil",
         "type": "pítko",
-        "date": "",
+        "date": "1978",
         "material": "kámen",
         "image": "/a-mal2.jpg"
       },
@@ -99,7 +120,7 @@
         "id": "a-mal3",
         "author": "Lubomír Růžička",
         "type": "nárožní patník",
-        "date": "",
+        "date": "1978",
         "material": "kámen",
         "image": "/a-mal3.jpg"
       },
@@ -110,7 +131,7 @@
         "id": "a-mal4",
         "author": "Jan Smrž",
         "type": "mříž",
-        "date": "",
+        "date": "1978",
         "material": "kov",
         "image": "/a-mal4.jpg"
       },
@@ -121,14 +142,29 @@
         "id": "a-mal5",
         "author": "dílna Jaromíra Brudhause",
         "type": "mříž",
-        "date": "",
+        "date": "1978",
         "material": "kov",
         "image": "/a-mal5.jpg"
       }
     ]
   },
 
-  { "line": "A", "station": "Staroměstská", "artworks": false },
+  {
+    "line": "A",
+    "station": "Staroměstská",
+    "artworks": [
+      {
+        "artwork": "Staroměstská1",
+        "name": "Pomník Antonína Dvořáka",
+        "id": "a-sta1",
+        "author": "Jan Wagner, Josef Wagner",
+        "type": "socha",
+        "date": "1988",
+        "material": "bronz",
+        "image": ""
+      }
+    ]
+  },
 
   {
     "line": "A",
@@ -159,9 +195,9 @@
         "name": "bez názvu",
         "id": "a-mus2",
         "author": "Josef Buňka",
-        "type": "hliníkové panely",
-        "date": "",
-        "material": "",
+        "type": "reliéf",
+        "date": "1978",
+        "material": "hliník",
         "image": "/a-mus2.jpeg"
       },
       {
@@ -169,8 +205,8 @@
         "name": "bez názvu",
         "id": "a-mus4",
         "author": "Ladislav Dydek, František Bílek",
-        "type": "plastika",
-        "date": "",
+        "type": "reliéf",
+        "date": "1978",
         "material": "",
         "image": "/a-mus3.jpg"
       },
@@ -796,7 +832,7 @@
         "id": "c-h1",
         "author": "Jan Bartoš",
         "type": "plastika",
-        "date": "",
+        "date": "1979",
         "material": "bronz",
         "image": "/c-h1.jpg",
         "location": "Háje"
@@ -808,7 +844,7 @@
         "id": "c-h2",
         "author": "Alois Fišárek",
         "type": "mozaika",
-        "date": "",
+        "date": "1979",
         "material": "keramika",
         "image": "/c-h2.jpg",
         "location": "Háje"
@@ -842,9 +878,9 @@
         "artwork": "Chodov1",
         "name": "Budovatel metra",
         "id": "c-ch1",
-        "author": "Jiří Kryštůfek",
+        "author": "František Radvan",
         "type": "plastika",
-        "date": "",
+        "date": "80. léta 20. století",
         "material": "bronz",
         "image": "/c-ch1.jpg",
         "location": "Chodov"
@@ -862,9 +898,9 @@
         "artwork": "Kačerov1",
         "name": "Fontána",
         "id": "c-ka1",
-        "author": "František Radovan",
+        "author": "František Radvan",
         "type": "fontána",
-        "date": "",
+        "date": "1972",
         "material": "kámen",
         "image": "/c-ka1.jpg",
         "location": "Kačerov"
@@ -916,9 +952,39 @@
     ]
   },
 
-  { "line": "C", "station": "Vyšehrad", "artworks": false },
+  {
+    "line": "C",
+    "station": "Vyšehrad",
+    "artworks": [
+      {
+        "artwork": "Vyšehrad1",
+        "name": "bez názvu (stěna)",
+        "id": "c-vys1",
+        "author": "Stanislav Kolíbal",
+        "type": "stěna",
+        "date": "1974",
+        "material": "beton",
+        "image": ""
+      }
+    ]
+  },
 
-  { "line": "C", "station": "I.P.Pavlova", "artworks": false },
+  {
+    "line": "C",
+    "station": "I.P.Pavlova",
+    "artworks": [
+      {
+        "artwork": "I.P.Pavlova1",
+        "name": "bez názvu (lvi)",
+        "id": "c-ipp1",
+        "author": "neznámý autor",
+        "type": "reliéf",
+        "date": "1974",
+        "material": "kámen",
+        "image": ""
+      }
+    ]
+  },
 
   {
     "line": "C",
@@ -926,11 +992,11 @@
     "artworks": [
       {
         "artwork": "Muzeum1",
-        "name": "Busty Lista a Belady",
+        "name": "Busty Lista a Beldy",
         "id": "c-muz1",
         "author": "Josef Kadlčík, Jan Bartoš",
         "type": "busty",
-        "date": "",
+        "date": "1992",
         "material": "",
         "image": "/a-muz2",
         "location": "Muzeum"
@@ -950,7 +1016,7 @@
         "id": "c-f1",
         "author": "Oldřich Oplt, Sauro Ballardini",
         "type": "mozaika",
-        "date": "",
+        "date": "1984",
         "material": "keramika",
         "image": "/b-f1.jpg",
         "location": "Florenc"
@@ -979,8 +1045,8 @@
         "id": "c-vl1",
         "author": "Miroslav Hudeček, Olga Hudečková",
         "type": "fontána",
-        "date": "",
-        "material": "",
+        "date": "1984",
+        "material": "kamenina",
         "image": "/c-vl1.jpg",
         "location": "Vltavská"
       },
@@ -991,7 +1057,7 @@
         "id": "c-vl2",
         "author": "Jan Fišar, Václav Zajíc",
         "type": "vitráž",
-        "date": "",
+        "date": "1984",
         "material": "sklo",
         "image": "/c-vl2.jpg",
         "location": "Vltavská"
@@ -999,12 +1065,12 @@
 
       {
         "artwork": "Vltavská3",
-        "name": "",
+        "name": "bez názvu",
         "id": "c-vl3",
         "author": "Vladimír Dolejš",
-        "type": "tvarování stěny",
-        "date": "",
-        "material": "",
+        "type": "keramická stěna",
+        "date": "1984",
+        "material": "keramika",
         "image": "/c-vl3.jpg",
         "location": "Vltavská"
       },
@@ -1015,7 +1081,7 @@
         "id": "c-vl4",
         "author": "Josef Šmíd, Pavel Dušek",
         "type": "mural",
-        "date": "",
+        "date": "2019",
         "material": "",
         "image": "/c-vl4.jpg",
         "location": "Vltavská"
@@ -1033,8 +1099,8 @@
         "id": "c-nh1",
         "author": "Josef Klimeš",
         "type": "plastika",
-        "date": "",
-        "material": "kámen",
+        "date": "1984",
+        "material": "mramor",
         "image": "/c-nh1.jpg",
         "location": "Nádraží Holešovice"
       },
@@ -1045,8 +1111,8 @@
         "id": "c-nh2",
         "author": "Stanislav Hanzík, Aleš Vašíček",
         "type": "reliéf",
-        "date": "",
-        "material": "kamen",
+        "date": "1984",
+        "material": "zbuzanský mramor",
         "image": "/c-nh2.jpg",
         "location": "Nádraží Holešovice"
       }
@@ -1061,11 +1127,11 @@
     "artworks": [
       {
         "artwork": "Ládví1",
-        "name": "(pandemie)",
+        "name": "Pandemie",
         "id": "c-lad1",
-        "author": "Josefína Jonášová, Magdaléna Roztočilová",
+        "author": "Josefína Jonášová",
         "type": "mural",
-        "date": "",
+        "date": "2015",
         "material": "",
         "image": "/c-lad1.jpg",
         "location": "Ládví"

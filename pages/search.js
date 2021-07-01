@@ -46,7 +46,7 @@ const Search = (lines) => {
     setfinalSelection(null);
   };
 
-  // console.log(finalSelection);
+  console.log(selectedStation);
 
   // const lineA = lines.lines.filter(
   //   (station) => station.line === 'A' && station.artworks,
@@ -82,17 +82,6 @@ const Search = (lines) => {
       <div className={styles.text}>
         <form onSubmit={handleSubmit} className={styles.form}>
           <label className={styles.label}>
-            Stanice:
-            <select className={styles.select} onChange={handleStation}>
-              <option value={null}>--vybrat--</option>
-              {justStations.map((station) => (
-                <option key={station} value={station}>
-                  {station}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label className={styles.label}>
             Autor:
             <select className={styles.select} onChange={handleAuthor}>
               <option value={null}>--vybrat--</option>
@@ -110,6 +99,17 @@ const Search = (lines) => {
               {justTypes.map((type) => (
                 <option key={type} value={type}>
                   {type}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className={styles.label}>
+            Stanice:
+            <select className={styles.select} onChange={handleStation}>
+              <option value={null}>--vybrat--</option>
+              {justStations.map((station) => (
+                <option key={station} value={station}>
+                  {station}
                 </option>
               ))}
             </select>

@@ -8,20 +8,22 @@ export const FooterArt = ({ lines, station }) => {
 
   return (
     <footer className={styles.footer_art}>
-      {index === 0 ? undefined : (
-        <p className={styles.footer_left}>
-          <Link className="footer_a" href={`${mapStationIsFull[index - 1]}`}>
-            Předchozí stanice
-          </Link>
-        </p>
-      )}
-      {index === mapStationIsFull.length - 1 ? undefined : (
-        <p className={styles.footer_right}>
-          <Link href={`${mapStationIsFull[index + 1]}`}>
-            Následující stanice
-          </Link>
-        </p>
-      )}
+      <ul>
+        {index === 0 ? undefined : (
+          <li className={styles.footer_left}>
+            <Link className="footer_a" href={`${mapStationIsFull[index - 1]}`}>
+              Předchozí stanice
+            </Link>
+          </li>
+        )}
+        {index === mapStationIsFull.length - 1 ? undefined : (
+          <li className={styles.footer_right}>
+            <Link href={`${mapStationIsFull[index + 1]}`}>
+              Následující stanice
+            </Link>
+          </li>
+        )}
+      </ul>
     </footer>
   );
 };
