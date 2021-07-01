@@ -255,7 +255,7 @@
         "type": "busty",
         "date": "",
         "material": "",
-        "image": "/a-muz2.jpeg"
+        "image": "/a-muz2.jpg"
       }
     ]
   },
@@ -396,12 +396,12 @@
       },
       {
         "artwork": "Skalka2",
-        "name": "(fontána)",
+        "name": "bez názvu (fontána)",
         "id": "a-ska2",
         "author": "Martin Zet",
-        "type": "mozaika",
-        "date": "",
-        "material": "",
+        "type": "fonána",
+        "date": "1990",
+        "material": "žula, kov",
         "image": "/a-ska2.jpg"
       }
     ]
@@ -991,7 +991,7 @@
 
   {
     "line": "C",
-    "station": "I. P. Pavlova",
+    "station": "I.P.Pavlova",
     "artworks": [
       {
         "artwork": "I. P. Pavlova1",
@@ -1018,8 +1018,7 @@
         "type": "busty",
         "date": "1992",
         "material": "",
-        "image": "/a-muz2",
-        "location": "Muzeum"
+        "image": "/a-muz2.jpg"
       }
     ]
   },

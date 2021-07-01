@@ -14,13 +14,13 @@ const Search = (lines) => {
   const [selectedStation, setSelectedStation] = useState(null);
   const [selectedAuthor, setSelectedAuthor] = useState(null);
   const [selectedType, setSelectedType] = useState(null);
-  const [finalSelection, setfinalSelection] = useState(null);
-  const [nothing, setNothing] = useState(null);
+  const [finalSelection, setFinalSelection] = useState(null);
+  // const [nothing, setNothing] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    setfinalSelection(
+    setFinalSelection(
       artworksIn.filter(
         (station) =>
           (selectedAuthor === station.author || selectedAuthor === null) &&
@@ -29,10 +29,10 @@ const Search = (lines) => {
             selectedStation === null),
       ),
     );
-    finalSelection === null
-      ? setNothing('Vašemu výběru neodpovídá žádné dílo.')
-      : '';
+    // setNothing('Vašemu výběru neodpovídá žádné dílo.');
   };
+
+  console.log(finalSelection);
 
   const handleStation = (e) => {
     setSelectedStation(e.target.value);
@@ -47,14 +47,11 @@ const Search = (lines) => {
   };
 
   const handleReset = () => {
-    setfinalSelection(null);
+    setFinalSelection(null);
     setSelectedStation(null);
     setSelectedAuthor(null);
     setSelectedType(null);
-    setNothing(null);
   };
-
-  console.log(selectedStation);
 
   // const lineA = lines.lines.filter(
   //   (station) => station.line === 'A' && station.artworks,
@@ -149,7 +146,6 @@ const Search = (lines) => {
               </div>
             ))
           : ''}
-        <p>{nothing}</p>
       </div>
     </div>
   );
