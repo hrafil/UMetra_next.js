@@ -15,12 +15,12 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  border: 5px solid #ff2632;
+  /* border: 5px solid #ff2632;
   position: absolute;
   left: 0;
   top: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100vh; */
 }
 
 .title {
@@ -54,7 +54,7 @@
     height: 80vh;
     padding: 70px 100px 70px 100px;
     margin: 0 auto;
-    border: none;
+    /* border: none; */
   }
   .text,
   .text_about {
