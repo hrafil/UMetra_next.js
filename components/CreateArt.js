@@ -55,6 +55,25 @@ export const CreateArt = ({ station, color }) => {
             <div key={artwork.id} className="container_artwork">
               <Popup
                 trigger={<img src={artwork.image} alt={artwork.name} />}
+                modal
+                nested
+              >
+                {(close) => (
+                  <div className="modal">
+                    <button className="close" onClick={close}>
+                      &times;
+                    </button>
+                    <img
+                      className="img_popup"
+                      src={artwork.image}
+                      alt={artwork.name}
+                    />
+                  </div>
+                )}
+              </Popup>
+
+              {/* <Popup
+                trigger={<img src={artwork.image} alt={artwork.name} />}
                 position="center"
               >
                 <div>
@@ -64,7 +83,7 @@ export const CreateArt = ({ station, color }) => {
                     alt={artwork.name}
                   />
                 </div>
-              </Popup>
+              </Popup> */}
 
               {/* <img src={artwork.image} alt={artwork.name} /> */}
               <div className="artwork_text">

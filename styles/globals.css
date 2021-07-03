@@ -268,11 +268,12 @@ img {
 }
 
 .img_popup {
-  width: 100vw;
+  /* width: 100vw;
   height: auto;
   position: fixed;
   left: 0;
-  top: 20%;
+  top: 20%; */
+  /* border-top-width: 27px; */
 }
 
 .popup-arrow {
@@ -281,6 +282,20 @@ img {
 
 .popup-overlay {
   background: rgba(0, 0, 0, 0.5);
+}
+
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  /* display: block; */
+  /* padding: 2px 5px; */
+  /* line-height: 20px; */
+  right: 8px;
+  top: 6px;
+  font-size: 28px;
+  background: transparent;
+  border: none;
+  color: white;
 }
 
 .container_artwork {
