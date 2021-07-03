@@ -267,6 +267,18 @@ img {
   border: 10px solid white;
 }
 
+.img_popup {
+  width: 100vw;
+  height: auto;
+  position: fixed;
+  left: 0;
+  top: 20%;
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
 .container_artwork {
   margin: 15px auto;
   text-align: right;
@@ -557,6 +569,7 @@ img {
 
 .nav_first {
   margin-top: 10rem;
+  position: relative;
 }
 
 .nav_logo {

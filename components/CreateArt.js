@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import Popup from 'reactjs-popup';
+import React from 'react';
 
 export const CreateArt = ({ station, color }) => {
   const transferToMustekA =
@@ -51,7 +53,20 @@ export const CreateArt = ({ station, color }) => {
         {station.artworks &&
           station.artworks.map((artwork) => (
             <div key={artwork.id} className="container_artwork">
-              <img src={artwork.image} alt={artwork.name} />
+              <Popup
+                trigger={<img src={artwork.image} alt={artwork.name} />}
+                position="center"
+              >
+                <div>
+                  <img
+                    className="img_popup"
+                    src={artwork.image}
+                    alt={artwork.name}
+                  />
+                </div>
+              </Popup>
+
+              {/* <img src={artwork.image} alt={artwork.name} /> */}
               <div className="artwork_text">
                 <p>{artwork.name.toUpperCase()}</p>
                 <p>{artwork.author}</p>

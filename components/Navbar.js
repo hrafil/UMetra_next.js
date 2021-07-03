@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { MdClose } from 'react-icons/md';
 import { BiMenu } from 'react-icons/bi';
+import { BiSearch } from 'react-icons/bi';
 
 export const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -31,11 +32,21 @@ export const Navbar = () => {
           <Link href="/">UMetra</Link>
         </li>
         <li className="nav_first">
-          <Link href="/stations">Stanice</Link>
+          <Link href="/search">Vyhledat</Link>
+          <BiSearch
+            style={{
+              width: '2em',
+              height: '2em',
+              position: 'absolute',
+              right: '27%',
+              top: '0',
+            }}
+          />
         </li>
         <li>
-          <Link href="/search">Vyhledat</Link>
+          <Link href="/stations">Stanice</Link>
         </li>
+
         <li>
           <Link href="/line-a">Linka A</Link>
         </li>
