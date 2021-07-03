@@ -1,13 +1,26 @@
 /* About */
 
+/* .container_border {
+  border: 5px solid #ff2632;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+} */
+
 .container {
   padding: 60px 30px 0 30px;
   text-align: left;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* width: 100vw; */
-  /* height: 100vh; */
+  border: 5px solid #ff2632;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 .title {
@@ -20,12 +33,17 @@
   font-size: 16px;
 }
 
+.text_about {
+  font-size: 13px;
+}
+
 .contact {
   margin-top: 0;
 }
 
 @media (min-width: 375px) {
-  .text {
+  .text,
+  .text_about {
     font-size: 16px;
   }
 }
@@ -36,8 +54,10 @@
     height: 80vh;
     padding: 70px 100px 70px 100px;
     margin: 0 auto;
+    border: none;
   }
-  .text {
+  .text,
+  .text_about {
     font-size: 16px;
     line-height: 1.5;
   }

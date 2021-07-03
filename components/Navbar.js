@@ -33,15 +33,6 @@ export const Navbar = () => {
         </li>
         <li className="nav_first">
           <Link href="/search">Vyhledat</Link>
-          <BiSearch
-            style={{
-              width: '2em',
-              height: '2em',
-              position: 'absolute',
-              right: '27%',
-              top: '0',
-            }}
-          />
         </li>
         <li>
           <Link href="/stations">Stanice</Link>

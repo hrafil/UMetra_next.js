@@ -275,6 +275,10 @@ img {
   top: 20%;
 }
 
+.popup-arrow {
+  color: transparent;
+}
+
 .popup-overlay {
   background: rgba(0, 0, 0, 0.5);
 }
@@ -404,6 +408,12 @@ img {
     height: 1em;
     right: 50px;
     margin-top: 0.2em;
+  }
+  .img_popup {
+    display: none;
+  }
+  .popup-overlay {
+    background: none;
   }
 }
 
@@ -569,8 +579,17 @@ img {
 
 .nav_first {
   margin-top: 10rem;
-  position: relative;
+  /* position: relative;
+  display: inline-block; */
 }
+
+/* .nav_first img {
+  width: 1.5em;
+  height: 1.5em;
+  border: none;
+  margin-left: 10px;
+  position: absolute;
+} */
 
 .nav_logo {
   position: absolute;

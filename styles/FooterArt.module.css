@@ -17,3 +17,17 @@
   bottom: 0;
   display: inline-block;
 }
+
+/* @media (min-width: 1300px) {
+  .footer_left,
+  .footer_right {
+    position: fixed;
+    top: 50vh;
+  }
+  .footer_left {
+    left: 18%;
+  }
+  .footer_right {
+    right: 18%;
+  }
+} */
