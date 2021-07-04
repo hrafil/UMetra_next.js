@@ -20,11 +20,12 @@ export const CreateArt = ({ station, color }) => {
     <>
       <div className="logo">
         <Link href="/">
-          <>
+          <img src="/logo.svg" alt="logo" />
+          {/* <>
             <div className="logo_green"></div>
             <div className="logo_yellow"></div>
             <div className="logo_red"></div>
-          </>
+          </> */}
         </Link>
       </div>
       <h2 className="artwork_title">{station.station.toUpperCase()}</h2>
