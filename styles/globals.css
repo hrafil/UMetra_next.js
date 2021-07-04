@@ -247,6 +247,39 @@ li {
 
 /* ArtWorks */
 
+.logo {
+  position: absolute;
+  left: -20px;
+  top: 24px;
+  border-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60px;
+}
+
+.logo_green,
+.logo_yellow,
+.logo_red {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  /* display: inline-block; */
+  cursor: pointer;
+}
+
+.logo_green {
+  background-color: #17a301;
+}
+
+.logo_yellow {
+  background-color: #ffce2d;
+}
+
+.logo_red {
+  background-color: #ff2632;
+}
+
 .container_artpage {
   position: relative;
   width: 80%;
@@ -295,7 +328,7 @@ img {
 }
 
 .artwork_title {
-  padding-right: 20px;
+  margin: 50px 0 0 0;
   text-align: left;
   font-size: 36px;
   width: 60%;
@@ -312,37 +345,40 @@ img {
 
 .transfer_art_green {
   background-color: #17a301;
-  width: 0.5em;
-  height: 0.5em;
+  width: 1em;
+  height: 1em;
   border-radius: 50%;
-  display: inline-block;
+  margin: 0 auto;
+  /* display: inline-block;
   position: absolute;
   right: -20px;
-  margin-top: 1.2rem;
+  margin-top: 0.5em; */
   cursor: pointer;
 }
 
 .transfer_art_yellow {
   background-color: #ffce2d;
-  width: 0.5em;
-  height: 0.5em;
+  width: 1em;
+  height: 1em;
   border-radius: 50%;
-  display: inline-block;
+  margin: 0 auto;
+  /* display: inline-block;
   position: absolute;
   right: -20px;
-  margin-top: 1.2rem;
+  margin-top: 1.2rem; */
   cursor: pointer;
 }
 
 .transfer_art_red {
   background-color: #ff2632;
-  width: 0.5em;
-  height: 0.5em;
+  width: 1em;
+  height: 1em;
   border-radius: 50%;
-  display: inline-block;
+  margin: 0 auto;
+  /* display: inline-block;
   position: absolute;
   right: -20px;
-  margin-top: 0.5em;
+  margin-top: 0.5em; */
   cursor: pointer;
 }
 
@@ -354,7 +390,7 @@ img {
   border-top-right-radius: 500px;
   position: fixed;
   z-index: -1;
-  top: 70px;
+  top: 90px;
   left: -70px;
   display: inline-block;
 }
@@ -367,7 +403,7 @@ img {
   border-top-right-radius: 500px;
   position: fixed;
   z-index: -1;
-  top: 70px;
+  top: 90px;
   left: -70px;
   display: inline-block;
 }
@@ -380,7 +416,7 @@ img {
   border-top-right-radius: 500px;
   position: fixed;
   z-index: -1;
-  top: 70px;
+  top: 90px;
   left: -70px;
   display: inline-block;
 }

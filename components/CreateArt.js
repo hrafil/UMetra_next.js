@@ -18,8 +18,47 @@ export const CreateArt = ({ station, color }) => {
 
   return (
     <>
-      <h2 className="artwork_title">
-        {station.station.toUpperCase()}
+      <div className="logo">
+        <Link href="/">
+          <>
+            <div className="logo_green"></div>
+            <div className="logo_yellow"></div>
+            <div className="logo_red"></div>
+          </>
+        </Link>
+      </div>
+      <h2 className="artwork_title">{station.station.toUpperCase()}</h2>
+      <div className="container_artworks">
+        <div className={color}></div>
+        {station.artworks &&
+          station.artworks.map((artwork) => (
+            <div key={artwork.id} className="container_artwork">
+              <Popup
+                trigger={<img src={artwork.image} alt={artwork.name} />}
+                modal
+                nested
+              >
+                {(close) => (
+                  <div className="modal">
+                    <button className="close" onClick={close}>
+                      &times;
+                    </button>
+                    <img
+                      className="img_popup"
+                      src={artwork.image}
+                      alt={artwork.name}
+                    />
+                  </div>
+                )}
+              </Popup>
+              <div className="artwork_text">
+                <p>{artwork.name.toUpperCase()}</p>
+                <p>{artwork.author}</p>
+                <p>{artwork.date}</p>
+                <p>{artwork.type}</p>
+              </div>
+            </div>
+          ))}
         {transferToMustekA ? (
           <Link href="/line-a/Můstek">
             <span className="transfer_art_green"></span>
@@ -47,53 +86,6 @@ export const CreateArt = ({ station, color }) => {
         ) : (
           ''
         )}
-      </h2>
-      <div className="container_artworks">
-        <div className={color}></div>
-        {station.artworks &&
-          station.artworks.map((artwork) => (
-            <div key={artwork.id} className="container_artwork">
-              <Popup
-                trigger={<img src={artwork.image} alt={artwork.name} />}
-                modal
-                nested
-              >
-                {(close) => (
-                  <div className="modal">
-                    <button className="close" onClick={close}>
-                      &times;
-                    </button>
-                    <img
-                      className="img_popup"
-                      src={artwork.image}
-                      alt={artwork.name}
-                    />
-                  </div>
-                )}
-              </Popup>
-
-              {/* <Popup
-                trigger={<img src={artwork.image} alt={artwork.name} />}
-                position="center"
-              >
-                <div>
-                  <img
-                    className="img_popup"
-                    src={artwork.image}
-                    alt={artwork.name}
-                  />
-                </div>
-              </Popup> */}
-
-              {/* <img src={artwork.image} alt={artwork.name} /> */}
-              <div className="artwork_text">
-                <p>{artwork.name.toUpperCase()}</p>
-                <p>{artwork.author}</p>
-                <p>{artwork.date}</p>
-                <p>{artwork.type}</p>
-              </div>
-            </div>
-          ))}
       </div>
     </>
   );
