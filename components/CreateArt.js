@@ -21,11 +21,6 @@ export const CreateArt = ({ station, color }) => {
       <div className="logo">
         <Link href="/">
           <img src="/logo.svg" alt="logo" />
-          {/* <>
-            <div className="logo_green"></div>
-            <div className="logo_yellow"></div>
-            <div className="logo_red"></div>
-          </> */}
         </Link>
       </div>
       <h2 className="artwork_title">{station.station.toUpperCase()}</h2>
@@ -62,6 +57,33 @@ export const CreateArt = ({ station, color }) => {
           ))}
         {transferToMustekA ? (
           <Link href="/line-a/Můstek">
+            <p className="transfer_art">Přestup na linku A</p>
+          </Link>
+        ) : transferToMuzeumA ? (
+          <Link href="/line-a/Muzeum">
+            <p className="transfer_art">Přestup na linku A</p>
+          </Link>
+        ) : tranferToMustekB ? (
+          <Link href="/line-b/Můstek">
+            <p className="transfer_art">Přestup na linku B</p>
+          </Link>
+        ) : tranferToMuzeumC ? (
+          <Link href="/line-c/Muzeum">
+            <p className="transfer_art"> Přestup na linku C</p>
+          </Link>
+        ) : transferToFlorencB ? (
+          <Link href="/line-b/Florenc">
+            <p className="transfer_art">Přestup na linku B</p>
+          </Link>
+        ) : transferToFlorencC ? (
+          <Link href="/line-c/Florenc">
+            <p className="transfer_art"> Přestup na linku C</p>
+          </Link>
+        ) : (
+          ''
+        )}
+        {/* {transferToMustekA ? (
+          <Link href="/line-a/Můstek">
             <span className="transfer_art_green"></span>
           </Link>
         ) : transferToMuzeumA ? (
@@ -86,7 +108,7 @@ export const CreateArt = ({ station, color }) => {
           </Link>
         ) : (
           ''
-        )}
+        )} */}
       </div>
     </>
   );
