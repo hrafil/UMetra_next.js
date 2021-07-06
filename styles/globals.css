@@ -17,7 +17,7 @@ a {
 }
 
 a:active {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a {
@@ -50,6 +50,8 @@ h1 {
   font-weight: normal;
   width: 100%;
   position: absolute;
+  cursor: pointer;
+
   animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
@@ -63,10 +65,6 @@ h1 {
   -webkit-animation-delay: 5s;
   -webkit-animation-iteration-count: 3;
   -webkit-animation-duration: 10s;
-}
-
-h1:hover {
-  cursor: pointer;
 }
 
 @keyframes shake {
@@ -139,6 +137,10 @@ li {
   padding: 15px 0;
   /* font-weight: bold; */
   font-size: 44px;
+}
+
+.btn_home a:active {
+  text-decoration: none;
 }
 
 .btn_green {
@@ -324,11 +326,6 @@ img {
   margin-top: 5px;
 }
 
-.transfer_art {
-  margin: 0 auto;
-  margin-bottom: 10px;
-}
-
 /* .transfer_art_green {
   background-color: #17a301;
   width: 1em;
@@ -417,14 +414,14 @@ img {
     border-top-right-radius: 600px;
     top: 100px;
   }
-  .transfer_art_green,
+  /* .transfer_art_green,
   .transfer_art_yellow,
   .transfer_art_red {
     width: 1em;
     height: 1em;
     right: 50px;
     margin-top: 0.2em;
-  }
+  } */
   .img_popup {
     display: none;
   }
@@ -441,6 +438,7 @@ img {
   font-size: 20px;
   font-weight: bold;
   position: relative;
+  cursor: pointer;
 }
 
 .lable_empty {

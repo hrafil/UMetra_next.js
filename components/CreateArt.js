@@ -3,19 +3,6 @@ import Popup from 'reactjs-popup';
 import React from 'react';
 
 export const CreateArt = ({ station, color }) => {
-  const transferToMustekA =
-    station.station === 'Můstek' && color === 'circle_art_yellow';
-  const transferToMuzeumA =
-    station.station === 'Muzeum' && color === 'circle_art_red';
-  const tranferToMustekB =
-    station.station === 'Můstek' && color === 'circle_art_green';
-  const tranferToMuzeumC =
-    station.station === 'Muzeum' && color === 'circle_art_green';
-  const transferToFlorencB =
-    station.station === 'Florenc' && color === 'circle_art_red';
-  const transferToFlorencC =
-    station.station === 'Florenc' && color === 'circle_art_yellow';
-
   return (
     <>
       <div className="logo">
@@ -55,60 +42,6 @@ export const CreateArt = ({ station, color }) => {
               </div>
             </div>
           ))}
-        {transferToMustekA ? (
-          <Link href="/line-a/Můstek">
-            <p className="transfer_art">Přestup na linku A</p>
-          </Link>
-        ) : transferToMuzeumA ? (
-          <Link href="/line-a/Muzeum">
-            <p className="transfer_art">Přestup na linku A</p>
-          </Link>
-        ) : tranferToMustekB ? (
-          <Link href="/line-b/Můstek">
-            <p className="transfer_art">Přestup na linku B</p>
-          </Link>
-        ) : tranferToMuzeumC ? (
-          <Link href="/line-c/Muzeum">
-            <p className="transfer_art"> Přestup na linku C</p>
-          </Link>
-        ) : transferToFlorencB ? (
-          <Link href="/line-b/Florenc">
-            <p className="transfer_art">Přestup na linku B</p>
-          </Link>
-        ) : transferToFlorencC ? (
-          <Link href="/line-c/Florenc">
-            <p className="transfer_art"> Přestup na linku C</p>
-          </Link>
-        ) : (
-          ''
-        )}
-        {/* {transferToMustekA ? (
-          <Link href="/line-a/Můstek">
-            <span className="transfer_art_green"></span>
-          </Link>
-        ) : transferToMuzeumA ? (
-          <Link href="/line-a/Muzeum">
-            <span className="transfer_art_green"></span>
-          </Link>
-        ) : tranferToMustekB ? (
-          <Link href="/line-b/Můstek">
-            <span className="transfer_art_yellow"></span>
-          </Link>
-        ) : tranferToMuzeumC ? (
-          <Link href="/line-c/Muzeum">
-            <span className="transfer_art_red"></span>
-          </Link>
-        ) : transferToFlorencB ? (
-          <Link href="/line-b/Florenc">
-            <span className="transfer_art_yellow"></span>
-          </Link>
-        ) : transferToFlorencC ? (
-          <Link href="/line-c/Florenc">
-            <span className="transfer_art_red"></span>
-          </Link>
-        ) : (
-          ''
-        )} */}
       </div>
     </>
   );

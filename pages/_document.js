@@ -10,6 +10,7 @@ class CsDocument extends Document {
     return (
       <Html lang="cs">
         <Head>
+          <link rel="icon" href="/logo2.svg" />
           <link
             href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap"
             rel="stylesheet"

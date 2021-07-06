@@ -1,4 +1,4 @@
-import { getStationA } from '../../lib/stationA';
+import { getAllStation } from '../../lib/allStation';
 import { CreateArt } from '../../components/CreateArt';
 import { FooterArt } from '../../components/FooterArt';
 
@@ -11,25 +11,33 @@ export const Artwork = ({ station, lines }) => {
         letter="a"
         lines={lines}
       />
-      <FooterArt lines={lines} station={station} />
+      <FooterArt lines={lines} station={station} color="circle_art_green" />
     </div>
   );
 };
 
 export const getStaticProps = ({ params }) => {
-  const stationAList = getStationA();
+  const allStation = getAllStation();
+  const lineA = allStation.filter(
+    (station) => station.line === 'A' && station.artworks !== false,
+  );
+
   return {
     props: {
-      lines: stationAList,
-      station: stationAList.find((station) => station.station === params.art),
+      lines: lineA,
+      station: lineA.find((station) => station.station === params.art),
     },
   };
 };
 
 export const getStaticPaths = () => {
-  const stationAList = getStationA();
+  const allStation = getAllStation();
+  const lineA = allStation.filter(
+    (station) => station.line === 'A' && station.artworks !== false,
+  );
+
   return {
-    paths: stationAList.map((station) => ({
+    paths: lineA.map((station) => ({
       params: { art: station.station },
     })),
     fallback: false,
