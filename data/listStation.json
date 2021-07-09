@@ -8,7 +8,7 @@
         "name": "Péče o děti",
         "id": "a-nem1",
         "author": "Richard Ferdinand Podzemný, Jiří Kryštůfek",
-        "type": "plastika",
+        "type": "socha",
         "date": "",
         "material": "",
         "image": "/a-nem1.jpg"
@@ -69,7 +69,7 @@
         "name": "bez názvu (ruce)",
         "id": "a-hra2",
         "author": "Slavoj Nejdl",
-        "type": "kamenný reliéf",
+        "type": "reliéf",
         "date": "1978",
         "material": "kámen",
         "image": "/a-hra2.jpg"
@@ -80,7 +80,7 @@
         "name": "bez názvu (nápis)",
         "id": "a-hra3",
         "author": "Slavoj Nejdl",
-        "type": "kamenný reliéf",
+        "type": "reliéf",
         "date": "1978",
         "material": "kámen",
         "image": "/a-hra3.jpg"
@@ -107,7 +107,7 @@
         "name": "repliky soch A. Brauna",
         "id": "a-mal1",
         "author": "",
-        "type": "plastika",
+        "type": "socha",
         "date": "1973",
         "material": "kámen",
         "image": "/a-mal1.jpg"
@@ -224,8 +224,8 @@
         "artwork": "Můstek6",
         "name": "bez názvu",
         "id": "a-mus6",
-        "author": "neznámý",
-        "type": "plastika",
+        "author": "neznámý autor",
+        "type": "socha",
         "date": "",
         "material": "",
         "image": "/a-mus6.jpg"
@@ -269,7 +269,7 @@
         "name": "Alegorie míru",
         "id": "a-nam1",
         "author": "Jan Kryštůfek",
-        "type": "plastika",
+        "type": "socha",
         "date": "",
         "material": "bronz",
         "image": "/a-nam1.jpg"
@@ -442,7 +442,7 @@
         "name": "Pomník Dukelským hrdinům",
         "id": "b-nb1",
         "author": "Milan Vácha",
-        "type": "plastika",
+        "type": "socha",
         "date": "1988",
         "material": "pískovec",
         "image": "/b-nb1.jpg"
@@ -453,7 +453,7 @@
         "name": "Trifot",
         "id": "b-nb2",
         "author": "David Černý",
-        "type": "plastika",
+        "type": "socha",
         "date": "2016",
         "material": "",
         "image": "/b-nb2.jpg"
@@ -472,7 +472,7 @@
         "name": "Vztah přírody a techniky",
         "id": "b-r1",
         "author": "Zdeněk Hošek",
-        "type": "plastika",
+        "type": "socha",
         "date": "1988",
         "material": "žula, bronz",
         "image": "/b-r1.jpg"
@@ -592,7 +592,7 @@
         "name": "Hlava Franze Kafky",
         "id": "b-nt1",
         "author": "David Černý",
-        "type": "plastika",
+        "type": "socha",
         "date": "2014",
         "material": "",
         "image": "/b-nt1.jpg"
@@ -640,7 +640,7 @@
         "artwork": "Můstek4",
         "name": "bez názvu",
         "id": "b-m4",
-        "author": "neznámý",
+        "author": "neznámý autor",
         "type": "pítko",
         "date": "",
         "material": "reliéf",
@@ -660,9 +660,9 @@
         "name": "Bitva o Sokolovo",
         "id": "b-f1",
         "author": "Oldřich Oplt, Sauro Ballardini",
-        "type": "kamenná mozaika",
+        "type": "mozaika",
         "date": "1974",
-        "material": "plastika",
+        "material": "kámen",
         "image": "/b-f1.jpg"
       },
       {
@@ -670,7 +670,7 @@
         "name": "Mostaři",
         "id": "b-f2",
         "author": "Karel Hladík",
-        "type": "plastika",
+        "type": "socha",
         "date": "1980",
         "material": "",
         "image": "/b-f2.jpg"
@@ -710,7 +710,7 @@
         "name": "bez názvu (fontána)",
         "id": "b-i2",
         "author": "Lydie Hladíková, Děvana Mírová, Marie Rychlíková",
-        "type": "plastika",
+        "type": "socha",
         "date": "1964",
         "material": "keramika",
         "image": "/b-i2.jpg"
@@ -721,7 +721,7 @@
         "name": "bez názvu (keramická mříž)",
         "id": "b-i3",
         "author": "Lydie Hladíková, Děvana Mírová, Marie Rychlíková",
-        "type": "plastika",
+        "type": "socha",
         "date": "1963",
         "material": "keramika",
         "image": "/b-i3.jpg"
@@ -758,7 +758,7 @@
         "name": "Červený květ",
         "id": "b-p3",
         "author": "Jiří Kryštůfek",
-        "type": "plastika",
+        "type": "socha",
         "date": "1970",
         "material": "mramor",
         "image": "/b-p3.jpg"
@@ -769,7 +769,7 @@
         "id": "b-p1",
         "author": "Alexius Appl",
         "date": "1987",
-        "type": "plastika",
+        "type": "socha",
         "material": "ocel",
         "image": "/b-p1.jpg"
       },
@@ -814,7 +814,7 @@
         "id": "b-v1",
         "author": "Petr Voříšek",
         "date": "1999",
-        "type": "plastika",
+        "type": "socha",
         "material": "kov",
         "image": "/b-v1.jpg"
       },
@@ -844,7 +844,7 @@
         "id": "b-h1",
         "author": "Arnošt Košík",
         "date": "1970",
-        "type": "plastika",
+        "type": "socha",
         "material": "bílý beton",
         "image": "/b-h1.jpg"
       },
@@ -855,7 +855,7 @@
         "id": "b-h2",
         "author": "Jaroslav Hladký",
         "date": "1985",
-        "type": "plastika",
+        "type": "socha",
         "material": "bronz",
         "image": "/b-h2.jpg"
       }
@@ -874,7 +874,7 @@
         "name": "Kosmonauti",
         "id": "c-h1",
         "author": "Jan Bartoš",
-        "type": "plastika",
+        "type": "socha",
         "date": "1979",
         "material": "bronz",
         "image": "/c-h1.jpg",
@@ -922,7 +922,7 @@
         "name": "Budovatel metra",
         "id": "c-ch1",
         "author": "František Radvan",
-        "type": "plastika",
+        "type": "socha",
         "date": "80. léta 20. století",
         "material": "bronz",
         "image": "/c-ch1.jpg",
@@ -986,7 +986,7 @@
         "name": "Barikáda - květen 1945",
         "id": "c-prp1",
         "author": "Stanislav Hanzík",
-        "type": "plastika",
+        "type": "socha",
         "date": "",
         "material": "kámen",
         "image": "/c-prp1.jpg"
@@ -1143,7 +1143,7 @@
         "artwork": "Hlavní nádraží5",
         "name": "bez názvu (výdech)",
         "id": "c-hla6",
-        "author": "",
+        "author": "neznámý autor",
         "type": "výdech z metra",
         "date": "",
         "material": "beton, kov",
@@ -1172,9 +1172,9 @@
         "name": "Mostaři",
         "id": "c-f2",
         "author": "Karel Hladík",
-        "type": "plastika",
+        "type": "socha",
         "date": "1980",
-        "material": "plastika",
+        "material": "",
         "image": "/b-f2.jpg",
         "location": "Florenc"
       }
@@ -1214,7 +1214,7 @@
         "name": "bez názvu",
         "id": "c-vl3",
         "author": "Vladimír Dolejš",
-        "type": "keramická stěna",
+        "type": "stěna",
         "date": "1984",
         "material": "keramika",
         "image": "/c-vl3.jpg",
@@ -1244,7 +1244,7 @@
         "name": "Řeka",
         "id": "c-nh1",
         "author": "Josef Klimeš",
-        "type": "plastika",
+        "type": "socha",
         "date": "1984",
         "material": "mramor",
         "image": "/c-nh1.jpg",

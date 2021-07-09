@@ -5,6 +5,7 @@ import AllTypes from '../components/AllTypes';
 import { getAllStation } from '../lib/allStation';
 import styles from '../styles/Search.module.css';
 import listStation from '../data/listStation.json';
+import Popup from 'reactjs-popup';
 
 const Search = (lines) => {
   const justStations = AllStation();
@@ -81,6 +82,9 @@ const Search = (lines) => {
     station.artworks.map((artwork) => artworksIn.push(artwork));
   });
 
+  // const circleClass =
+  //   artwork.id.slice(0, 1) === 'a' ? styles.circleGreen : styles.circleYellow;
+
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>vyhledávání</h2>
@@ -131,11 +135,42 @@ const Search = (lines) => {
         {finalSelection !== null
           ? finalSelection.map((artwork) => (
               <div className={styles.artwork} key={artwork.id}>
-                <img
-                  className={styles.img}
-                  src={artwork.image}
-                  alt={artwork.name}
-                />
+                <div
+                  className={
+                    artwork.id.slice(0, 1) === 'a'
+                      ? styles.circleGreen
+                      : artwork.id.slice(0, 1) === 'b'
+                      ? styles.circleYellow
+                      : artwork.id.slice(0, 1) === 'c'
+                      ? styles.circleRed
+                      : ''
+                  }
+                ></div>
+                <Popup
+                  trigger={
+                    <img
+                      src={artwork.image}
+                      alt={artwork.name}
+                      className={styles.img}
+                    />
+                  }
+                  modal
+                  nested
+                >
+                  {(close) => (
+                    <div className="modal">
+                      <button className="close" onClick={close}>
+                        &times;
+                      </button>
+                      <img
+                        className="img_popup"
+                        src={artwork.image}
+                        alt={artwork.name}
+                      />
+                    </div>
+                  )}
+                </Popup>
+
                 <div className={styles.artwork_text}>
                   <p>{artwork.name.toUpperCase()}</p>
                   <p>{artwork.author}</p>
