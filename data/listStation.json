@@ -285,7 +285,7 @@
         "artwork": "Jiřího z Poděbrad4",
         "name": "Výdech 10 JP",
         "id": "a-jir4",
-        "author": "Petr Šedivý, Anna Hübschmannová",
+        "author": "Petr Šedivý",
         "type": "výdech z metra",
         "date": "1981",
         "material": " ",
@@ -491,7 +491,22 @@
     ]
   },
 
-  { "line": "B", "station": "Smíchovské nádráží", "artworks": false },
+  {
+    "line": "B",
+    "station": "Smíchovské nádráží",
+    "artworks": [
+      {
+        "artwork": "Smíchovské nádráží1",
+        "name": "59 SN",
+        "id": "b-smi1",
+        "author": "",
+        "type": "výdech z metra",
+        "date": "",
+        "material": "",
+        "image": "/b-smi.jpg"
+      }
+    ]
+  },
 
   {
     "line": "B",
@@ -535,7 +550,6 @@
         "material": "sklo, kov",
         "image": "/b-kn1.jpg"
       },
-
       {
         "artwork": "Karlovo náměstí2",
         "name": "bez názvu (skleněný objekt)",
@@ -546,7 +560,6 @@
         "material": "sklo",
         "image": "/b-kn2.jpg"
       },
-
       {
         "artwork": "Karlovo náměstí3",
         "name": "bez názvu (pítko)",
@@ -556,6 +569,16 @@
         "date": "1985",
         "material": "",
         "image": "/b-kn3.jpg"
+      },
+      {
+        "artwork": "Karlovo náměstí5",
+        "name": "bez názvu (obklad)",
+        "id": "b-kn5",
+        "author": "František Vízner",
+        "type": "obklad",
+        "date": "1985",
+        "material": "lisované sklo",
+        "image": "/b-kn5.jpg"
       }
     ]
   },
@@ -649,8 +672,18 @@
         "author": "Karel Hladík",
         "type": "plastika",
         "date": "1980",
-        "material": "plastika",
+        "material": "",
         "image": "/b-f2.jpg"
+      },
+      {
+        "artwork": "Florenc3",
+        "name": "bez názvu (výdech)",
+        "id": "b-f3",
+        "author": "František Cubr",
+        "type": "výdech z metra",
+        "date": "",
+        "material": "",
+        "image": "/b-f3.jpg"
       }
     ]
   },
@@ -956,8 +989,17 @@
         "type": "plastika",
         "date": "",
         "material": "kámen",
-        "image": "/c-prp1.jpg",
-        "location": "Pražského povstání"
+        "image": "/c-prp1.jpg"
+      },
+      {
+        "artwork": "Pražského povstání1",
+        "name": "40 PP",
+        "id": "c-prp2",
+        "author": "Václav Hilský",
+        "type": "výdech z metra",
+        "date": "",
+        "material": "kámen",
+        "image": "/c-prp2.jpg"
       }
     ]
   },
@@ -1019,6 +1061,26 @@
         "date": "1992",
         "material": "",
         "image": "/a-muz2.jpg"
+      },
+      {
+        "artwork": "Muzeum3",
+        "name": "Tvárnice",
+        "id": "c-muz3",
+        "author": "Martin Zet",
+        "type": "socha",
+        "date": "2019",
+        "material": "beton",
+        "image": "/c-muz3.jpg"
+      },
+      {
+        "artwork": "Muzeum2",
+        "name": "Palachův pylon",
+        "id": "c-muz2",
+        "author": "Karel Prager, Miloslav Chlupáč",
+        "type": "busty",
+        "date": "1968-2020",
+        "material": "ocel",
+        "image": "/c-muz2.jpg"
       }
     ]
   },
@@ -1046,6 +1108,46 @@
         "date": "1947",
         "material": "bronz",
         "image": "/c-hla2.jpg"
+      },
+      {
+        "artwork": "Hlavní nádraží3",
+        "name": "Woodrow Wilson",
+        "id": "c-hla3",
+        "author": "Albín Polášek",
+        "type": "pomník",
+        "date": "1928",
+        "material": "bronz",
+        "image": "/c-hla3.jpg"
+      },
+      {
+        "artwork": "Hlavní nádraží4",
+        "name": "Sir Nicholas Winton",
+        "id": "c-hla4",
+        "author": "Flor Kentová",
+        "type": "pomník",
+        "date": "2009",
+        "material": "socha",
+        "image": "/c-hla4.jpg"
+      },
+      {
+        "artwork": "Hlavní nádraží5",
+        "name": "bez názvu (výdech)",
+        "id": "c-hla5",
+        "author": "Josef Danda",
+        "type": "výdech z metra",
+        "date": "1974",
+        "material": "beton, kov",
+        "image": "/c-hla5.jpg"
+      },
+      {
+        "artwork": "Hlavní nádraží5",
+        "name": "bez názvu (výdech)",
+        "id": "c-hla6",
+        "author": "",
+        "type": "výdech z metra",
+        "date": "",
+        "material": "beton, kov",
+        "image": "/c-hla6.jpg"
       }
     ]
   },
