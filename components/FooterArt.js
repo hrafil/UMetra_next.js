@@ -42,16 +42,12 @@ export const FooterArt = ({ lines, station, color }) => {
 
         {index === 0 ? undefined : (
           <li className={styles.footer_left}>
-            <Link href={`${mapStationIsFull[index - 1]}`}>
-              předchozí stanice
-            </Link>
+            <Link href={`${mapStationIsFull[index - 1]}`}>předchozí</Link>
           </li>
         )}
         {index === mapStationIsFull.length - 1 ? undefined : (
           <li className={styles.footer_right}>
-            <Link href={`${mapStationIsFull[index + 1]}`}>
-              následující stanice
-            </Link>
+            <Link href={`${mapStationIsFull[index + 1]}`}>následující</Link>
           </li>
         )}
       </ul>

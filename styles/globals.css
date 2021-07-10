@@ -271,7 +271,7 @@ li {
 
 .container_artpage {
   position: relative;
-  width: 80%;
+  width: 260px;
   margin: 0 auto;
   padding-top: 10px;
 }
@@ -290,6 +290,8 @@ img {
 
 .container_artworks img {
   border: 10px solid white;
+  /* width: 250px;
+  height: auto; */
 }
 
 .popup-arrow {
@@ -337,6 +339,7 @@ img {
 
 .artwork_text {
   margin-top: 5px;
+  margin-right: 10px;
 }
 
 /* .transfer_art_green {
@@ -405,6 +408,24 @@ img {
   display: inline-block;
 }
 
+@media (min-width: 360px) {
+  .container_artpage {
+    width: 290px;
+  }
+}
+
+@media (min-width: 375px) {
+  .container_artpage {
+    width: 300px;
+  }
+}
+
+@media (min-width: 414px) {
+  .container_artpage {
+    width: 340px;
+  }
+}
+
 @media (min-width: 768px) {
   .circle_art_yellow {
     height: 600px;
@@ -426,6 +447,9 @@ img {
     border-bottom-right-radius: 600px;
     border-top-right-radius: 600px;
     top: 100px;
+  }
+  .container_artpage {
+    width: 540px;
   }
   /* .transfer_art_green,
   .transfer_art_yellow,
@@ -598,28 +622,20 @@ img {
 .menu_bottom {
   display: flex;
   flex-direction: row;
-  position: absolute;
-  bottom: 0px;
+  /* position: absolute;
+  bottom: 0px; */
+  position: fixed;
+  bottom: 0;
 }
 
 .menu_bottom a {
   width: calc(100vw / 3);
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
 }
 
 .nav_first {
   margin-top: 10rem;
-  /* position: relative;
-  display: inline-block; */
 }
-
-/* .nav_first img {
-  width: 1.5em;
-  height: 1.5em;
-  border: none;
-  margin-left: 10px;
-  position: absolute;
-} */
 
 .nav_logo {
   position: absolute;
