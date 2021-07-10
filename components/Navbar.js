@@ -18,11 +18,11 @@ export const Navbar = () => {
   return (
     <nav className="nav_bar">
       <button name="menu" onClick={handleToggle}>
-        {navbarOpen ? (
-          <MdClose style={{ width: '50px', height: '50px' }} />
-        ) : (
-          <BiMenu style={{ color: '#707070', width: '50px', height: '50px' }} />
-        )}
+        <div className={navbarOpen ? 'hamburger is-opened' : 'hamburger'}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </button>
       <ul
         onClick={() => closeMenu()}

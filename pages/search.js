@@ -21,6 +21,9 @@ const Search = (lines) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // setNothing('Vašemu výběru neodpovídá žádné dílo.');
+    // console.log(nothing);
+
     setFinalSelection(
       artworksIn.filter(
         (station) =>
@@ -30,21 +33,23 @@ const Search = (lines) => {
             selectedStation === null),
       ),
     );
-    // setNothing('Vašemu výběru neodpovídá žádné dílo.');
   };
 
-  console.log(finalSelection);
+  // console.log(finalSelection);
+  // console.log(selectedAuthor);
+  // console.log(selectedType);
+  // console.log(selectedStation);
 
   const handleStation = (e) => {
-    setSelectedStation(e.target.value);
+    setSelectedStation(e.target.value === '--vybrat--' ? null : e.target.value);
   };
 
   const handleAuthor = (e) => {
-    setSelectedAuthor(e.target.value);
+    setSelectedAuthor(e.target.value === '--vybrat--' ? null : e.target.value);
   };
 
   const handleType = (e) => {
-    setSelectedType(e.target.value);
+    setSelectedType(e.target.value === '--vybrat--' ? null : e.target.value);
   };
 
   const handleReset = () => {
@@ -54,36 +59,12 @@ const Search = (lines) => {
     setSelectedType(null);
   };
 
-  // const lineA = lines.lines.filter(
-  //   (station) => station.line === 'A' && station.artworks,
-  // );
-  // const lineB = lines.lines.filter(
-  //   (station) => station.line === 'B' && station.artworks,
-  // );
-  // const lineC = lines.lines.filter(
-  //   (station) => station.line === 'C' && station.artworks,
-  // );
-
-  // const resultStationA = lineA.find(
-  //   (station) => station.station === selectedStation,
-  // );
-
-  // const resultStationB = lineB.find(
-  //   (station) => station.station === selectedStation,
-  // );
-  // const resultStationC = lineC.find(
-  //   (station) => station.station === selectedStation,
-  // );
-
   const stationsFull = listStation.filter((item) => item.artworks !== false);
 
   const artworksIn = [];
   stationsFull.map((station) => {
     station.artworks.map((artwork) => artworksIn.push(artwork));
   });
-
-  // const circleClass =
-  //   artwork.id.slice(0, 1) === 'a' ? styles.circleGreen : styles.circleYellow;
 
   return (
     <div className={styles.container}>

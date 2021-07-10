@@ -21,7 +21,7 @@ const About = () => {
         </p>
         <p>
           UMetra vzniklo jako závěrečný projekt Digitální Akademie Web,
-          Czechitas.
+          Czechitas v roce 2021.
         </p>
       </div>
     </div>
