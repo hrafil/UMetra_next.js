@@ -290,8 +290,8 @@ img {
 
 .container_artworks img {
   border: 10px solid white;
-  /* width: 250px;
-  height: auto; */
+  width: 250px;
+  height: auto;
 }
 
 .popup-arrow {
@@ -412,17 +412,29 @@ img {
   .container_artpage {
     width: 290px;
   }
+  .container_artworks img {
+    width: 280px;
+    height: auto;
+  }
 }
 
 @media (min-width: 375px) {
   .container_artpage {
     width: 300px;
   }
+  .container_artworks img {
+    width: 290px;
+    height: auto;
+  }
 }
 
 @media (min-width: 414px) {
   .container_artpage {
     width: 340px;
+  }
+  .container_artworks img {
+    width: 330px;
+    height: auto;
   }
 }
 
@@ -450,6 +462,10 @@ img {
   }
   .container_artpage {
     width: 540px;
+  }
+  .container_artworks img {
+    width: 530px;
+    height: auto;
   }
   /* .transfer_art_green,
   .transfer_art_yellow,
