@@ -17,12 +17,14 @@ export const Navbar = () => {
 
   return (
     <nav className="nav_bar">
-      <button name="menu" onClick={handleToggle}>
-        <div className={navbarOpen ? 'hamburger is-opened' : 'hamburger'}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+      <button
+        name="menu"
+        onClick={handleToggle}
+        className={navbarOpen ? 'hamburger is-opened' : 'hamburger'}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
       <ul
         onClick={() => closeMenu()}
