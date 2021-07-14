@@ -6,7 +6,7 @@ const Sources = () => {
     <div className={styles.container}>
       <h2 className={styles.title}>zdroje</h2>
       <div className={styles.text}>
-        <p>Informace o jednotlivých dílech jsme čerpali primárně z webů</p>
+        <p>Informace o jednotlivých dílech jsme čerpaly primárně z webů</p>
         <li>
           <b>
             <Link href="http://www.metroart.cz/">www.metroart.cz</Link>

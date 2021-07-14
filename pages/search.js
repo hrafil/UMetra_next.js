@@ -5,6 +5,7 @@ import AllTypes from '../components/AllTypes';
 import { getAllStation } from '../lib/allStation';
 import styles from '../styles/Search.module.css';
 import listStation from '../data/listStation.json';
+import Popup from 'reactjs-popup';
 
 const Search = (lines) => {
   const justStations = AllStation();
@@ -15,7 +16,13 @@ const Search = (lines) => {
   const [selectedAuthor, setSelectedAuthor] = useState(null);
   const [selectedType, setSelectedType] = useState(null);
   const [finalSelection, setFinalSelection] = useState(null);
-  // const [nothing, setNothing] = useState(null);
+  const [nothing, setNothing] = useState(null);
+
+  // useEffect(() => {
+  //   finalSelection !== null && finalSelection.length === 0
+  //     ? console.log('dobrý')
+  //     : console.log('kunda prdel');
+  // }, [selectedStation, selectedAuthor, selectedType]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -29,21 +36,31 @@ const Search = (lines) => {
             selectedStation === null),
       ),
     );
-    // setNothing('Vašemu výběru neodpovídá žádné dílo.');
+
+    // finalSelection !== null && finalSelection.length === 0
+    //   ? setNothing('Vašemu výběru neodpovídá žádné dílo.')
+    //   : null;
   };
 
+  console.log(selectedAuthor);
+  console.log(selectedType);
+  console.log(selectedStation);
   console.log(finalSelection);
+  console.log(nothing);
 
   const handleStation = (e) => {
-    setSelectedStation(e.target.value);
+    setSelectedStation(e.target.value === '--vybrat--' ? null : e.target.value);
+    setNothing('Vašemu výběru neodpovídá žádné dílo.');
   };
 
   const handleAuthor = (e) => {
-    setSelectedAuthor(e.target.value);
+    setSelectedAuthor(e.target.value === '--vybrat--' ? null : e.target.value);
+    setNothing('Vašemu výběru neodpovídá žádné dílo.');
   };
 
   const handleType = (e) => {
-    setSelectedType(e.target.value);
+    setSelectedType(e.target.value === '--vybrat--' ? null : e.target.value);
+    setNothing('Vašemu výběru neodpovídá žádné dílo.');
   };
 
   const handleReset = () => {
@@ -52,27 +69,6 @@ const Search = (lines) => {
     setSelectedAuthor(null);
     setSelectedType(null);
   };
-
-  // const lineA = lines.lines.filter(
-  //   (station) => station.line === 'A' && station.artworks,
-  // );
-  // const lineB = lines.lines.filter(
-  //   (station) => station.line === 'B' && station.artworks,
-  // );
-  // const lineC = lines.lines.filter(
-  //   (station) => station.line === 'C' && station.artworks,
-  // );
-
-  // const resultStationA = lineA.find(
-  //   (station) => station.station === selectedStation,
-  // );
-
-  // const resultStationB = lineB.find(
-  //   (station) => station.station === selectedStation,
-  // );
-  // const resultStationC = lineC.find(
-  //   (station) => station.station === selectedStation,
-  // );
 
   const stationsFull = listStation.filter((item) => item.artworks !== false);
 
@@ -131,11 +127,42 @@ const Search = (lines) => {
         {finalSelection !== null
           ? finalSelection.map((artwork) => (
               <div className={styles.artwork} key={artwork.id}>
-                <img
-                  className={styles.img}
-                  src={artwork.image}
-                  alt={artwork.name}
-                />
+                <div
+                  className={
+                    artwork.id.slice(0, 1) === 'a'
+                      ? styles.circleGreen
+                      : artwork.id.slice(0, 1) === 'b'
+                      ? styles.circleYellow
+                      : artwork.id.slice(0, 1) === 'c'
+                      ? styles.circleRed
+                      : ''
+                  }
+                ></div>
+                <Popup
+                  trigger={
+                    <img
+                      src={artwork.image}
+                      alt={artwork.name}
+                      className={styles.img}
+                    />
+                  }
+                  modal
+                  nested
+                >
+                  {(close) => (
+                    <div className="modal">
+                      <button className="close" onClick={close}>
+                        &times;
+                      </button>
+                      <img
+                        className="img_popup"
+                        src={artwork.image}
+                        alt={artwork.name}
+                      />
+                    </div>
+                  )}
+                </Popup>
+
                 <div className={styles.artwork_text}>
                   <p>{artwork.name.toUpperCase()}</p>
                   <p>{artwork.author}</p>
@@ -146,6 +173,11 @@ const Search = (lines) => {
               </div>
             ))
           : ''}
+        {finalSelection !== null && finalSelection.length === 0 ? (
+          <p>{nothing}</p>
+        ) : (
+          ''
+        )}
       </div>
     </div>
   );
