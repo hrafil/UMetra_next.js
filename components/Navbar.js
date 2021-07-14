@@ -31,11 +31,13 @@ export const Navbar = () => {
         className={`menu_nav ${navbarOpen ? ' show_menu' : ''}`}
       >
         <li className="nav_logo">
-          <Link href="/">UMetra</Link>
+          <Link href="/">UMetra </Link>
         </li>
         <li className="nav_first">
           <Link href="/search">Vyhledat</Link>
+          <span className="search">&#8981;</span>
         </li>
+
         <li>
           <Link href="/stations">Stanice</Link>
         </li>

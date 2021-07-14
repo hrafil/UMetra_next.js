@@ -613,6 +613,19 @@ img {
 
 .nav_first {
   margin-top: 10rem;
+  /* margin-left: 30px;
+  font-size: 20px;
+  text-align: center; */
+  position: relative;
+}
+
+.search {
+  position: absolute;
+  font-size: 40px;
+  margin-left: 8px;
+  top: -17px;
+  right: 30%;
+  z-index: -10;
 }
 
 .nav_logo {
@@ -632,7 +645,7 @@ img {
   height: 50px;
 }
 
-span {
+button span {
   display: block;
   margin: 8px auto;
   background-color: #707070;
@@ -674,5 +687,8 @@ span {
   .nav_bar button {
     right: 50%;
     margin-right: -325px;
+  }
+  .search {
+    right: 38%;
   }
 }
