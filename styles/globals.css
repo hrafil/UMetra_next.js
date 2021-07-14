@@ -271,7 +271,7 @@ li {
 
 .container_artpage {
   position: relative;
-  width: 260px;
+  width: 85%;
   margin: 0 auto;
   padding-top: 10px;
 }
@@ -285,13 +285,11 @@ li {
 
 img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .container_artworks img {
   border: 10px solid white;
-  width: 250px;
-  height: auto;
 }
 
 .popup-arrow {
@@ -408,36 +406,6 @@ img {
   display: inline-block;
 }
 
-@media (min-width: 360px) {
-  .container_artpage {
-    width: 290px;
-  }
-  .container_artworks img {
-    width: 280px;
-    height: auto;
-  }
-}
-
-@media (min-width: 375px) {
-  .container_artpage {
-    width: 300px;
-  }
-  .container_artworks img {
-    width: 290px;
-    height: auto;
-  }
-}
-
-@media (min-width: 414px) {
-  .container_artpage {
-    width: 340px;
-  }
-  .container_artworks img {
-    width: 330px;
-    height: auto;
-  }
-}
-
 @media (min-width: 768px) {
   .circle_art_yellow {
     height: 600px;
@@ -460,13 +428,7 @@ img {
     border-top-right-radius: 600px;
     top: 100px;
   }
-  .container_artpage {
-    width: 540px;
-  }
-  .container_artworks img {
-    width: 530px;
-    height: auto;
-  }
+
   /* .transfer_art_green,
   .transfer_art_yellow,
   .transfer_art_red {
