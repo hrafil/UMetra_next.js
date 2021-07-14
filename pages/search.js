@@ -16,13 +16,16 @@ const Search = (lines) => {
   const [selectedAuthor, setSelectedAuthor] = useState(null);
   const [selectedType, setSelectedType] = useState(null);
   const [finalSelection, setFinalSelection] = useState(null);
-  // const [nothing, setNothing] = useState(null);
+  const [nothing, setNothing] = useState(null);
+
+  // useEffect(() => {
+  //   finalSelection !== null && finalSelection.length === 0
+  //     ? console.log('dobrý')
+  //     : console.log('kunda prdel');
+  // }, [selectedStation, selectedAuthor, selectedType]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // setNothing('Vašemu výběru neodpovídá žádné dílo.');
-    // console.log(nothing);
 
     setFinalSelection(
       artworksIn.filter(
@@ -33,23 +36,31 @@ const Search = (lines) => {
             selectedStation === null),
       ),
     );
+
+    // finalSelection !== null && finalSelection.length === 0
+    //   ? setNothing('Vašemu výběru neodpovídá žádné dílo.')
+    //   : null;
   };
 
-  // console.log(finalSelection);
-  // console.log(selectedAuthor);
-  // console.log(selectedType);
-  // console.log(selectedStation);
+  console.log(selectedAuthor);
+  console.log(selectedType);
+  console.log(selectedStation);
+  console.log(finalSelection);
+  console.log(nothing);
 
   const handleStation = (e) => {
     setSelectedStation(e.target.value === '--vybrat--' ? null : e.target.value);
+    setNothing('Vašemu výběru neodpovídá žádné dílo.');
   };
 
   const handleAuthor = (e) => {
     setSelectedAuthor(e.target.value === '--vybrat--' ? null : e.target.value);
+    setNothing('Vašemu výběru neodpovídá žádné dílo.');
   };
 
   const handleType = (e) => {
     setSelectedType(e.target.value === '--vybrat--' ? null : e.target.value);
+    setNothing('Vašemu výběru neodpovídá žádné dílo.');
   };
 
   const handleReset = () => {
@@ -162,6 +173,11 @@ const Search = (lines) => {
               </div>
             ))
           : ''}
+        {finalSelection !== null && finalSelection.length === 0 ? (
+          <p>{nothing}</p>
+        ) : (
+          ''
+        )}
       </div>
     </div>
   );
