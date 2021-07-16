@@ -62,37 +62,34 @@
 
 .circleGreen {
   background-color: #17a301;
-  height: 60px;
-  width: 60px;
+  height: 15px;
+  width: 15px;
   border-radius: 50%;
   position: absolute;
-  z-index: -1;
-  top: -15px;
+  top: -5px;
   left: 20px;
   display: inline-block;
 }
 
 .circleYellow {
   background-color: #ffce2d;
-  height: 60px;
-  width: 60px;
+  height: 15px;
+  width: 15px;
   border-radius: 50%;
   position: absolute;
-  z-index: -1;
-  top: -15px;
-  left: 40%;
+  top: -5px;
+  left: 40px;
   display: inline-block;
 }
 
 .circleRed {
   background-color: #ff2632;
-  height: 60px;
-  width: 60px;
+  height: 15px;
+  width: 15px;
   border-radius: 50%;
   position: absolute;
-  z-index: -1;
-  top: -15px;
-  right: 20px;
+  top: -5px;
+  left: 60px;
   display: inline-block;
 }
 

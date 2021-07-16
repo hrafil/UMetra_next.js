@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { MdClose } from 'react-icons/md';
-import { BiMenu } from 'react-icons/bi';
-import { BiSearch } from 'react-icons/bi';
 
 export const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);

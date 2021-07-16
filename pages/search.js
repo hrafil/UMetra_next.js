@@ -6,6 +6,7 @@ import { getAllStation } from '../lib/allStation';
 import styles from '../styles/Search.module.css';
 import listStation from '../data/listStation.json';
 import Popup from 'reactjs-popup';
+import Link from 'next/link';
 
 const Search = (lines) => {
   const justStations = AllStation();
@@ -17,12 +18,6 @@ const Search = (lines) => {
   const [selectedType, setSelectedType] = useState(null);
   const [finalSelection, setFinalSelection] = useState(null);
   const [nothing, setNothing] = useState(null);
-
-  // useEffect(() => {
-  //   finalSelection !== null && finalSelection.length === 0
-  //     ? console.log('dobrý')
-  //     : console.log('kunda prdel');
-  // }, [selectedStation, selectedAuthor, selectedType]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -36,11 +31,9 @@ const Search = (lines) => {
             selectedStation === null),
       ),
     );
-
-    // finalSelection !== null && finalSelection.length === 0
-    //   ? setNothing('Vašemu výběru neodpovídá žádné dílo.')
-    //   : null;
   };
+
+  // && artworksIn.artwork.image.includes(station.image) === false
 
   console.log(selectedAuthor);
   console.log(selectedType);
@@ -127,17 +120,44 @@ const Search = (lines) => {
         {finalSelection !== null
           ? finalSelection.map((artwork) => (
               <div className={styles.artwork} key={artwork.id}>
-                <div
-                  className={
-                    artwork.id.slice(0, 1) === 'a'
-                      ? styles.circleGreen
-                      : artwork.id.slice(0, 1) === 'b'
-                      ? styles.circleYellow
-                      : artwork.id.slice(0, 1) === 'c'
-                      ? styles.circleRed
-                      : ''
-                  }
-                ></div>
+                {artwork.id.startsWith('a') &&
+                !artwork.artwork.startsWith('Muzeum') ? (
+                  <Link href="/line-a">
+                    <div className={styles.circleGreen}></div>
+                  </Link>
+                ) : artwork.id.startsWith('b') &&
+                  !artwork.artwork.startsWith('Florenc') ? (
+                  <Link href="/line-b">
+                    <div className={styles.circleYellow}></div>
+                  </Link>
+                ) : artwork.id.startsWith('c') &&
+                  !artwork.artwork.startsWith('Florenc') &&
+                  !artwork.artwork.startsWith('Muzeum') ? (
+                  <Link href="/line-c">
+                    <div className={styles.circleRed}></div>
+                  </Link>
+                ) : artwork.artwork.startsWith('Florenc') ? (
+                  <>
+                    <Link href="/line-b">
+                      <div className={styles.circleYellow}></div>
+                    </Link>
+                    <Link href="/line-c">
+                      <div className={styles.circleRed}></div>
+                    </Link>
+                  </>
+                ) : artwork.artwork.startsWith('Muzeum') ? (
+                  <>
+                    <Link href="/line-a">
+                      <div className={styles.circleGreen}></div>
+                    </Link>
+                    <Link href="/line-c">
+                      <div className={styles.circleRed}></div>
+                    </Link>
+                  </>
+                ) : (
+                  ''
+                )}
+
                 <Popup
                   trigger={
                     <img

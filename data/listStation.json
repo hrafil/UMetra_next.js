@@ -239,23 +239,33 @@
     "artworks": [
       {
         "artwork": "Muzeum1",
-        "name": "Pomník svatého Václava",
+        "name": "Busty Lista a Beldy",
         "id": "a-muz1",
-        "author": "Josef Václav Myslbek",
-        "type": "pomník",
-        "date": "1912",
+        "author": "Josef Kadlčík, Jan Bartoš",
+        "type": "busty",
+        "date": "1992",
         "material": "",
-        "image": "/a-muz1.jpg"
+        "image": "/a-muz2.jpg"
+      },
+      {
+        "artwork": "Muzeum3",
+        "name": "Tvárnice",
+        "id": "a-muz3",
+        "author": "Martin Zet",
+        "type": "socha",
+        "date": "2019",
+        "material": "beton",
+        "image": "/c-muz3.jpg"
       },
       {
         "artwork": "Muzeum2",
-        "name": "bez názvu (busty Lista a Belady)",
+        "name": "Palachův pylon",
         "id": "a-muz2",
-        "author": "Josef Kadlčík, Jan Bartoš",
+        "author": "Karel Prager, Miloslav Chlupáč",
         "type": "busty",
-        "date": "",
-        "material": "",
-        "image": "/a-muz2.jpg"
+        "date": "1968-2020",
+        "material": "ocel",
+        "image": "/c-muz2.jpg"
       }
     ]
   },
@@ -1162,10 +1172,9 @@
         "id": "c-f1",
         "author": "Oldřich Oplt, Sauro Ballardini",
         "type": "mozaika",
-        "date": "1984",
-        "material": "keramika",
-        "image": "/b-f1.jpg",
-        "location": "Florenc"
+        "date": "1974",
+        "material": "kámen",
+        "image": "/b-f1.jpg"
       },
       {
         "artwork": "Florenc2",
@@ -1175,8 +1184,17 @@
         "type": "socha",
         "date": "1980",
         "material": "",
-        "image": "/b-f2.jpg",
-        "location": "Florenc"
+        "image": "/b-f2.jpg"
+      },
+      {
+        "artwork": "Florenc3",
+        "name": "bez názvu (výdech)",
+        "id": "c-f3",
+        "author": "František Cubr",
+        "type": "výdech z metra",
+        "date": "",
+        "material": "",
+        "image": "/b-f3.jpg"
       }
     ]
   },
