@@ -19,41 +19,68 @@ const Search = (lines) => {
   const [finalSelection, setFinalSelection] = useState(null);
   const [nothing, setNothing] = useState(null);
 
+  const stationsFull = listStation.filter((item) => item.artworks !== false);
+
+  const artworksIn = [];
+  stationsFull.map((station) => {
+    station.artworks.map((artwork) => artworksIn.push(artwork));
+  });
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    setFinalSelection(
-      artworksIn.filter(
-        (station) =>
-          (selectedAuthor === station.author || selectedAuthor === null) &&
-          (selectedType === station.type || selectedType === null) &&
-          (station.artwork.includes(selectedStation) ||
-            selectedStation === null),
-      ),
-    );
+    // setFinalSelection(
+    //   artworksIn.filter(
+    //     (station) =>
+    //       (selectedAuthor === station.author || selectedAuthor === null) &&
+    //       (selectedType === station.type || selectedType === null) &&
+    //       (station.artwork.includes(selectedStation) ||
+    //         selectedStation === null),
+    //   ),
+    // );
+
+    const finalFinal = [];
+
+    for (let i = 0; i < artworksIn.length; i += 1) {
+      if (
+        (selectedAuthor === artworksIn[i].author || selectedAuthor === null) &&
+        (selectedType === artworksIn[i].type || selectedType === null) &&
+        (artworksIn[i].artwork.includes(selectedStation) ||
+          selectedStation === null)
+        //    &&
+        // artworksIn.some((station) =>
+        //   station.artwork.includes(artworksIn[i].artwork),
+        // ) === true
+      ) {
+        finalFinal.push(artworksIn[i]);
+      }
+    }
+    // console.log(artworkName);
+    setFinalSelection(finalFinal);
   };
 
+  // console.log(artworksIn);
   // && artworksIn.artwork.image.includes(station.image) === false
 
-  console.log(selectedAuthor);
-  console.log(selectedType);
-  console.log(selectedStation);
+  // console.log(selectedAuthor);
+  // console.log(selectedType);
+  // console.log(selectedStation);
   console.log(finalSelection);
-  console.log(nothing);
+  // console.log(nothing);
 
   const handleStation = (e) => {
     setSelectedStation(e.target.value === '--vybrat--' ? null : e.target.value);
-    setNothing('Vašemu výběru neodpovídá žádné dílo.');
+    // setNothing('Vašemu výběru neodpovídá žádné dílo.');
   };
 
   const handleAuthor = (e) => {
     setSelectedAuthor(e.target.value === '--vybrat--' ? null : e.target.value);
-    setNothing('Vašemu výběru neodpovídá žádné dílo.');
+    // setNothing('Vašemu výběru neodpovídá žádné dílo.');
   };
 
   const handleType = (e) => {
     setSelectedType(e.target.value === '--vybrat--' ? null : e.target.value);
-    setNothing('Vašemu výběru neodpovídá žádné dílo.');
+    // setNothing('Vašemu výběru neodpovídá žádné dílo.');
   };
 
   const handleReset = () => {
@@ -62,13 +89,6 @@ const Search = (lines) => {
     setSelectedAuthor(null);
     setSelectedType(null);
   };
-
-  const stationsFull = listStation.filter((item) => item.artworks !== false);
-
-  const artworksIn = [];
-  stationsFull.map((station) => {
-    station.artworks.map((artwork) => artworksIn.push(artwork));
-  });
 
   return (
     <div className={styles.container}>

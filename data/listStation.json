@@ -29,7 +29,7 @@
       {
         "artwork": "Dejvická1",
         "name": "Plameny revoluce",
-        "id": "a-dej2",
+        "id": "a-dej1",
         "author": "Martin Sladký",
         "type": "mozaika",
         "date": "1978",
@@ -45,6 +45,16 @@
         "date": "2001",
         "material": "bronz",
         "image": "/a-dej2.jpg"
+      },
+      {
+        "artwork": "Dejvická3",
+        "name": "Ležící žena",
+        "id": "a-dej3",
+        "author": "Josef Nálepa",
+        "type": "socha",
+        "date": "1972",
+        "material": "vápenec",
+        "image": "/a-dej3.jpg"
       }
     ]
   },
@@ -659,7 +669,22 @@
     ]
   },
 
-  { "line": "B", "station": "Náměstí Republiky", "artworks": false },
+  {
+    "line": "B",
+    "station": "Náměstí Republiky",
+    "artworks": [
+      {
+        "artwork": "Náměstí Republiky1",
+        "name": "bez názvu (výdech)",
+        "id": "b-nr1",
+        "author": "neznámý autor",
+        "type": "výdech z metra",
+        "date": "",
+        "material": "",
+        "image": "/b-nr1.jpg"
+      }
+    ]
+  },
 
   {
     "line": "B",
@@ -1002,7 +1027,7 @@
         "image": "/c-prp1.jpg"
       },
       {
-        "artwork": "Pražského povstání1",
+        "artwork": "Pražského povstání2",
         "name": "40 PP",
         "id": "c-prp2",
         "author": "Václav Hilský",
@@ -1150,7 +1175,7 @@
         "image": "/c-hla5.jpg"
       },
       {
-        "artwork": "Hlavní nádraží5",
+        "artwork": "Hlavní nádraží6",
         "name": "bez názvu (výdech)",
         "id": "c-hla6",
         "author": "neznámý autor",
