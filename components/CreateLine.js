@@ -37,15 +37,15 @@ const CreateStation = ({ line, color, colorEmpty, letter }) => {
             <h2 className="label">
               {line.station.toUpperCase()}
               {transferToC ? (
-                <Link href="/line-c">
+                <Link href="/linka-c">
                   <span className="transfer_red"></span>
                 </Link>
               ) : transferToA ? (
-                <Link href="/line-a">
+                <Link href="/linka-a">
                   <span className="transfer_green"></span>
                 </Link>
               ) : transferToB ? (
-                <Link href="/line-b">
+                <Link href="/linka-b">
                   <span className="transfer_yellow"></span>
                 </Link>
               ) : undefined}
