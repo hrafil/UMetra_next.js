@@ -8,7 +8,7 @@ import listStation from '../data/listStation.json';
 import Popup from 'reactjs-popup';
 import Link from 'next/link';
 
-const Search = (lines) => {
+const Search = () => {
   const justStations = AllStation();
   const justAuthors = AllAuthors();
   const justTypes = AllTypes();
@@ -26,61 +26,44 @@ const Search = (lines) => {
     station.artworks.map((artwork) => artworksIn.push(artwork));
   });
 
+  const transferJustOnce = [];
+  for (let i = 0; i < artworksIn.length; i += 1) {
+    if (
+      transferJustOnce.some((art) =>
+        art.image.includes(artworksIn[i].image),
+      ) === false
+    ) {
+      transferJustOnce.push(artworksIn[i]);
+    }
+  }
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // setFinalSelection(
-    //   artworksIn.filter(
-    //     (station) =>
-    //       (selectedAuthor === station.author || selectedAuthor === null) &&
-    //       (selectedType === station.type || selectedType === null) &&
-    //       (station.artwork.includes(selectedStation) ||
-    //         selectedStation === null),
-    //   ),
-    // );
-
-    const finalFinal = [];
-
-    for (let i = 0; i < artworksIn.length; i += 1) {
-      if (
-        (selectedAuthor === artworksIn[i].author || selectedAuthor === null) &&
-        (selectedType === artworksIn[i].type || selectedType === null) &&
-        (artworksIn[i].artwork.includes(selectedStation) ||
-          selectedStation === null)
-        //    &&
-        // artworksIn.some((station) =>
-        //   station.artwork.includes(artworksIn[i].artwork),
-        // ) === true
-      ) {
-        finalFinal.push(artworksIn[i]);
-      }
-    }
-    // console.log(artworkName);
-    setFinalSelection(finalFinal);
+    setFinalSelection(
+      transferJustOnce.filter(
+        (station) =>
+          (selectedAuthor === station.author || selectedAuthor === null) &&
+          (selectedType === station.type || selectedType === null) &&
+          (station.artwork.includes(selectedStation) ||
+            selectedStation === null),
+      ),
+    );
   };
-
-  // console.log(artworksIn);
-  // && artworksIn.artwork.image.includes(station.image) === false
-
-  // console.log(selectedAuthor);
-  // console.log(selectedType);
-  // console.log(selectedStation);
-  console.log(finalSelection);
-  // console.log(nothing);
 
   const handleStation = (e) => {
     setSelectedStation(e.target.value === '--vybrat--' ? null : e.target.value);
-    // setNothing('Vašemu výběru neodpovídá žádné dílo.');
+    setNothing('Vašemu výběru neodpovídá žádné dílo.');
   };
 
   const handleAuthor = (e) => {
     setSelectedAuthor(e.target.value === '--vybrat--' ? null : e.target.value);
-    // setNothing('Vašemu výběru neodpovídá žádné dílo.');
+    setNothing('Vašemu výběru neodpovídá žádné dílo.');
   };
 
   const handleType = (e) => {
     setSelectedType(e.target.value === '--vybrat--' ? null : e.target.value);
-    // setNothing('Vašemu výběru neodpovídá žádné dílo.');
+    setNothing('Vašemu výběru neodpovídá žádné dílo.');
   };
 
   const handleReset = () => {
@@ -140,44 +123,54 @@ const Search = (lines) => {
         {finalSelection !== null
           ? finalSelection.map((artwork) => (
               <div className={styles.artwork} key={artwork.id}>
-                {artwork.id.startsWith('a') &&
-                !artwork.artwork.startsWith('Muzeum') ? (
-                  <Link href="/line-a">
-                    <div className={styles.circleGreen}></div>
-                  </Link>
-                ) : artwork.id.startsWith('b') &&
-                  !artwork.artwork.startsWith('Florenc') ? (
-                  <Link href="/line-b">
-                    <div className={styles.circleYellow}></div>
-                  </Link>
-                ) : artwork.id.startsWith('c') &&
-                  !artwork.artwork.startsWith('Florenc') &&
+                <div className={styles.artworkHeader}>
+                  {artwork.id.startsWith('a') &&
                   !artwork.artwork.startsWith('Muzeum') ? (
-                  <Link href="/line-c">
-                    <div className={styles.circleRed}></div>
-                  </Link>
-                ) : artwork.artwork.startsWith('Florenc') ? (
-                  <>
-                    <Link href="/line-b">
-                      <div className={styles.circleYellow}></div>
-                    </Link>
-                    <Link href="/line-c">
-                      <div className={styles.circleRed}></div>
-                    </Link>
-                  </>
-                ) : artwork.artwork.startsWith('Muzeum') ? (
-                  <>
-                    <Link href="/line-a">
+                    <Link href="/linka-a">
                       <div className={styles.circleGreen}></div>
                     </Link>
-                    <Link href="/line-c">
+                  ) : artwork.id.startsWith('b') &&
+                    !artwork.artwork.startsWith('Florenc') ? (
+                    <Link href="/linka-b">
+                      <div className={styles.circleYellow}></div>
+                    </Link>
+                  ) : artwork.id.startsWith('c') &&
+                    !artwork.artwork.startsWith('Florenc') &&
+                    !artwork.artwork.startsWith('Muzeum') ? (
+                    <Link href="/linka-c">
                       <div className={styles.circleRed}></div>
                     </Link>
-                  </>
-                ) : (
-                  ''
-                )}
+                  ) : artwork.artwork.startsWith('Florenc') ? (
+                    <>
+                      <Link href="/linka-b">
+                        <div className={styles.circleYellow}></div>
+                      </Link>
+                      <Link href="/linka-c">
+                        <div className={styles.circleRed}></div>
+                      </Link>
+                    </>
+                  ) : artwork.artwork.startsWith('Muzeum') ? (
+                    <>
+                      <Link href="/linka-a">
+                        <div className={styles.circleGreen}></div>
+                      </Link>
+                      <Link href="/linka-c">
+                        <div className={styles.circleRed}></div>
+                      </Link>
+                    </>
+                  ) : (
+                    ''
+                  )}
 
+                  <Link
+                    href={`/linka-${artwork.id.substring(
+                      0,
+                      1,
+                    )}/${artwork.artwork.slice(0, -1)}`}
+                  >
+                    <p>{artwork.artwork.slice(0, -1).toUpperCase()}</p>
+                  </Link>
+                </div>
                 <Popup
                   trigger={
                     <img
@@ -208,7 +201,6 @@ const Search = (lines) => {
                   <p>{artwork.author}</p>
                   <p>{artwork.date}</p>
                   <p>{artwork.type}</p>
-                  <p>{artwork.artwork.slice(0, -1)}</p>
                 </div>
               </div>
             ))

@@ -22,13 +22,13 @@ const Home = () => {
       </p>
       <ul className="btn_home">
         <li className="btn_green">
-          <Link href="/line-a">A</Link>
+          <Link href="/linka-a">A</Link>
         </li>
         <li className="btn_yellow">
-          <Link href="/line-b">B</Link>
+          <Link href="/linka-b">B</Link>
         </li>
         <li className="btn_red">
-          <Link href="/line-c">C</Link>
+          <Link href="/linka-c">C</Link>
         </li>
       </ul>
       <footer></footer>

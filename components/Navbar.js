@@ -31,32 +31,32 @@ export const Navbar = () => {
           <Link href="/">UMetra </Link>
         </li>
         <li className="nav_first">
-          <Link href="/search">Vyhledat</Link>
+          <Link href="/vyhledavani">Vyhledat</Link>
           <span className="search">&#8981;</span>
         </li>
 
         <li>
-          <Link href="/stations">Stanice</Link>
+          <Link href="/stanice">Stanice</Link>
         </li>
 
         <li>
-          <Link href="/line-a">Linka A</Link>
+          <Link href="/linka-a">Linka A</Link>
         </li>
         <li>
-          <Link href="/line-b">Linka B</Link>
+          <Link href="/lika-b">Linka B</Link>
         </li>
         <li>
-          <Link href="/line-c">Linka C</Link>
+          <Link href="/linka-c">Linka C</Link>
         </li>
         <ul className="menu_bottom">
           <li>
-            <Link href="/contact">Kontakt</Link>
+            <Link href="/kontakt">Kontakt</Link>
           </li>
           <li>
-            <Link href="/about">O projektu</Link>
+            <Link href="/o-projektu">O projektu</Link>
           </li>
           <li>
-            <Link href="/sources">Zdroje</Link>
+            <Link href="/zdroje">Zdroje</Link>
           </li>
         </ul>
       </ul>
