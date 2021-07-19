@@ -161,7 +161,6 @@ const Search = () => {
                   ) : (
                     ''
                   )}
-
                   <Link
                     href={`/linka-${artwork.id.substring(
                       0,

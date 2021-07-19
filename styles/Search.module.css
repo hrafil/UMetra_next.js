@@ -79,7 +79,7 @@
   border-radius: 50%;
   position: absolute;
   top: 2px;
-  /* left: 0px; */
+  left: 0px;
   display: inline-block;
 }
 
@@ -157,5 +157,6 @@
   }
   .artworkHeader > p {
     margin-left: 100px;
+    cursor: pointer;
   }
 }
