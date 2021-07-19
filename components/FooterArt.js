@@ -24,17 +24,17 @@ export const FooterArt = ({ lines, station, color }) => {
       <ul>
         <li className={styles.footer_center}>
           {transferToMustekA ? (
-            <Link href="/line-a/Můstek">přestup na linku A</Link>
+            <Link href="/linka-a/Můstek">přestup na linku A</Link>
           ) : transferToMuzeumA ? (
-            <Link href="/line-a/Muzeum">přestup na linku A</Link>
+            <Link href="/linka-a/Muzeum">přestup na linku A</Link>
           ) : tranferToMustekB ? (
-            <Link href="/line-b/Můstek">přestup na linku B</Link>
+            <Link href="/linka-b/Můstek">přestup na linku B</Link>
           ) : tranferToMuzeumC ? (
-            <Link href="/line-c/Muzeum">přestup na linku C</Link>
+            <Link href="/linka-c/Muzeum">přestup na linku C</Link>
           ) : transferToFlorencB ? (
-            <Link href="/line-b/Florenc">přestup na linku B</Link>
+            <Link href="/linka-b/Florenc">přestup na linku B</Link>
           ) : transferToFlorencC ? (
-            <Link href="/line-c/Florenc">přestup na linku C</Link>
+            <Link href="/linka-c/Florenc">přestup na linku C</Link>
           ) : (
             ''
           )}
