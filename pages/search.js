@@ -6,6 +6,7 @@ import { getAllStation } from '../lib/allStation';
 import styles from '../styles/Search.module.css';
 import listStation from '../data/listStation.json';
 import Popup from 'reactjs-popup';
+import Link from 'next/link';
 
 const Search = (lines) => {
   const justStations = AllStation();
@@ -18,49 +19,68 @@ const Search = (lines) => {
   const [finalSelection, setFinalSelection] = useState(null);
   const [nothing, setNothing] = useState(null);
 
-  // useEffect(() => {
-  //   finalSelection !== null && finalSelection.length === 0
-  //     ? console.log('dobrý')
-  //     : console.log('kunda prdel');
-  // }, [selectedStation, selectedAuthor, selectedType]);
+  const stationsFull = listStation.filter((item) => item.artworks !== false);
+
+  const artworksIn = [];
+  stationsFull.map((station) => {
+    station.artworks.map((artwork) => artworksIn.push(artwork));
+  });
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    setFinalSelection(
-      artworksIn.filter(
-        (station) =>
-          (selectedAuthor === station.author || selectedAuthor === null) &&
-          (selectedType === station.type || selectedType === null) &&
-          (station.artwork.includes(selectedStation) ||
-            selectedStation === null),
-      ),
-    );
+    // setFinalSelection(
+    //   artworksIn.filter(
+    //     (station) =>
+    //       (selectedAuthor === station.author || selectedAuthor === null) &&
+    //       (selectedType === station.type || selectedType === null) &&
+    //       (station.artwork.includes(selectedStation) ||
+    //         selectedStation === null),
+    //   ),
+    // );
 
-    // finalSelection !== null && finalSelection.length === 0
-    //   ? setNothing('Vašemu výběru neodpovídá žádné dílo.')
-    //   : null;
+    const finalFinal = [];
+
+    for (let i = 0; i < artworksIn.length; i += 1) {
+      if (
+        (selectedAuthor === artworksIn[i].author || selectedAuthor === null) &&
+        (selectedType === artworksIn[i].type || selectedType === null) &&
+        (artworksIn[i].artwork.includes(selectedStation) ||
+          selectedStation === null)
+        //    &&
+        // artworksIn.some((station) =>
+        //   station.artwork.includes(artworksIn[i].artwork),
+        // ) === true
+      ) {
+        finalFinal.push(artworksIn[i]);
+      }
+    }
+    // console.log(artworkName);
+    setFinalSelection(finalFinal);
   };
 
-  console.log(selectedAuthor);
-  console.log(selectedType);
-  console.log(selectedStation);
+  // console.log(artworksIn);
+  // && artworksIn.artwork.image.includes(station.image) === false
+
+  // console.log(selectedAuthor);
+  // console.log(selectedType);
+  // console.log(selectedStation);
   console.log(finalSelection);
-  console.log(nothing);
+  // console.log(nothing);
 
   const handleStation = (e) => {
     setSelectedStation(e.target.value === '--vybrat--' ? null : e.target.value);
-    setNothing('Vašemu výběru neodpovídá žádné dílo.');
+    // setNothing('Vašemu výběru neodpovídá žádné dílo.');
   };
 
   const handleAuthor = (e) => {
     setSelectedAuthor(e.target.value === '--vybrat--' ? null : e.target.value);
-    setNothing('Vašemu výběru neodpovídá žádné dílo.');
+    // setNothing('Vašemu výběru neodpovídá žádné dílo.');
   };
 
   const handleType = (e) => {
     setSelectedType(e.target.value === '--vybrat--' ? null : e.target.value);
-    setNothing('Vašemu výběru neodpovídá žádné dílo.');
+    // setNothing('Vašemu výběru neodpovídá žádné dílo.');
   };
 
   const handleReset = () => {
@@ -69,13 +89,6 @@ const Search = (lines) => {
     setSelectedAuthor(null);
     setSelectedType(null);
   };
-
-  const stationsFull = listStation.filter((item) => item.artworks !== false);
-
-  const artworksIn = [];
-  stationsFull.map((station) => {
-    station.artworks.map((artwork) => artworksIn.push(artwork));
-  });
 
   return (
     <div className={styles.container}>
@@ -127,17 +140,44 @@ const Search = (lines) => {
         {finalSelection !== null
           ? finalSelection.map((artwork) => (
               <div className={styles.artwork} key={artwork.id}>
-                <div
-                  className={
-                    artwork.id.slice(0, 1) === 'a'
-                      ? styles.circleGreen
-                      : artwork.id.slice(0, 1) === 'b'
-                      ? styles.circleYellow
-                      : artwork.id.slice(0, 1) === 'c'
-                      ? styles.circleRed
-                      : ''
-                  }
-                ></div>
+                {artwork.id.startsWith('a') &&
+                !artwork.artwork.startsWith('Muzeum') ? (
+                  <Link href="/line-a">
+                    <div className={styles.circleGreen}></div>
+                  </Link>
+                ) : artwork.id.startsWith('b') &&
+                  !artwork.artwork.startsWith('Florenc') ? (
+                  <Link href="/line-b">
+                    <div className={styles.circleYellow}></div>
+                  </Link>
+                ) : artwork.id.startsWith('c') &&
+                  !artwork.artwork.startsWith('Florenc') &&
+                  !artwork.artwork.startsWith('Muzeum') ? (
+                  <Link href="/line-c">
+                    <div className={styles.circleRed}></div>
+                  </Link>
+                ) : artwork.artwork.startsWith('Florenc') ? (
+                  <>
+                    <Link href="/line-b">
+                      <div className={styles.circleYellow}></div>
+                    </Link>
+                    <Link href="/line-c">
+                      <div className={styles.circleRed}></div>
+                    </Link>
+                  </>
+                ) : artwork.artwork.startsWith('Muzeum') ? (
+                  <>
+                    <Link href="/line-a">
+                      <div className={styles.circleGreen}></div>
+                    </Link>
+                    <Link href="/line-c">
+                      <div className={styles.circleRed}></div>
+                    </Link>
+                  </>
+                ) : (
+                  ''
+                )}
+
                 <Popup
                   trigger={
                     <img
