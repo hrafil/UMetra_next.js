@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-// import Navbar from '../Nav/Navbar';
-import SearchField from './searchbox.js';
+
 import { Navbar } from '../Navbar';
 
 const Layout = ({ children }) => {
@@ -14,24 +13,11 @@ const Layout = ({ children }) => {
       </Head>
       <header>
         <div className="App">
-          {/* <Navbar /> */}
           <Navbar />
         </div>
-        {/* <button>
-          <Link href="/">x</Link>
-        </button> */}
       </header>
       <main>{children}</main>
     </>
-  );
-};
-
-export const AppNav = () => {
-  return (
-    <div className="App">
-      <Navbar />
-      App
-    </div>
   );
 };
 
