@@ -26,15 +26,15 @@ const Stations = (allStation) => {
       {justStation.map((station) => (
         <div className={styles.text} key={station}>
           {justStationA.includes(station) ? (
-            <Link className={styles.link} href={`/line-a/${station}`}>
+            <Link className={styles.link} href={`/linka-a/${station}`}>
               {station}
             </Link>
           ) : justStationB.includes(station) ? (
-            <Link className={styles.link} href={`/line-b/${station}`}>
+            <Link className={styles.link} href={`/linka-b/${station}`}>
               {station}
             </Link>
           ) : justStationC.includes(station) ? (
-            <Link className={styles.link} href={`/line-c/${station}`}>
+            <Link className={styles.link} href={`/linka-c/${station}`}>
               {station}
             </Link>
           ) : (
