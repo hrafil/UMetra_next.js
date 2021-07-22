@@ -20,7 +20,9 @@ export const getStaticProps = ({ params }) => {
   return {
     props: {
       lines: lineC,
-      station: lineC.find((station) => station.station === params.art),
+      station: lineC.find(
+        (station) => station.station.replace(/\s/g, '-') === params.art,
+      ),
     },
   };
 };
@@ -33,7 +35,7 @@ export const getStaticPaths = () => {
 
   return {
     paths: lineC.map((station) => ({
-      params: { art: station.station },
+      params: { art: station.station.replace(/\s/g, '-') },
     })),
     fallback: false,
   };

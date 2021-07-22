@@ -43,7 +43,7 @@ export const Navbar = () => {
           <Link href="/linka-a">Linka A</Link>
         </li>
         <li>
-          <Link href="/lika-b">Linka B</Link>
+          <Link href="/linka-b">Linka B</Link>
         </li>
         <li>
           <Link href="/linka-c">Linka C</Link>
