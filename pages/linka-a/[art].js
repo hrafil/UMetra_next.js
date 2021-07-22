@@ -1,18 +1,26 @@
 import { getAllStation } from '../../lib/allStation';
 import { CreateArt } from '../../components/CreateArt';
 import { FooterArt } from '../../components/FooterArt';
+import ReactDOM from 'react-dom';
+import Swipe from 'react-easy-swipe';
 
 export const Artwork = ({ station, lines }) => {
+  onSwipeRight = (e) => {
+    console.log('Start swiping...', event);
+  };
+
   return (
-    <div className="container_artpage">
-      <CreateArt
-        station={station}
-        color="circle_art_green"
-        letter="a"
-        lines={lines}
-      />
-      <FooterArt lines={lines} station={station} color="circle_art_green" />
-    </div>
+    <Swipe onSwipeRight={onSwipeRight}>
+      <div className="container_artpage">
+        <CreateArt
+          station={station}
+          color="circle_art_green"
+          letter="a"
+          lines={lines}
+        />
+        <FooterArt lines={lines} station={station} color="circle_art_green" />
+      </div>
+    </Swipe>
   );
 };
 
