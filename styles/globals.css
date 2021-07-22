@@ -227,8 +227,6 @@ li {
   top: -170px;
   /* margin-top: 0.5rem; */
   cursor: pointer;
-  overflow: hidden;
-  display: none;
 }
 
 .transfer_line_green {
