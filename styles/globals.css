@@ -1,19 +1,20 @@
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
   box-sizing: border-box;
   overflow-x: hidden;
-  width: 100vw;
+  width: 100%;
 }
 
 body {
   font-family: 'Hind Siliguri', sans-serif;
   overflow-x: hidden;
-  /* width: 100vw; */
   width: 100%;
 }
 
@@ -234,12 +235,17 @@ li {
 
 .transfer_line_green {
   background-color: #17a301;
+  right: 160px;
+}
+
+.transfer_line_yellow_right {
+  background-color: #ffce2d;
   left: 160px;
 }
 
-.transfer_line_yellow {
+.transfer_line_yellow_left {
   background-color: #ffce2d;
-  left: 160px;
+  right: 160px;
 }
 
 .transfer_line_red {
@@ -340,33 +346,6 @@ img {
   margin-top: 5px;
   margin-right: 10px;
 }
-
-/* .transfer_art_green {
-  background-color: #17a301;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  margin: 0 auto;
-  cursor: pointer;
-}
-
-.transfer_art_yellow {
-  background-color: #ffce2d;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  margin: 0 auto;
-  cursor: pointer;
-}
-
-.transfer_art_red {
-  background-color: #ff2632;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  margin: 0 auto;
-  cursor: pointer;
-} */
 
 .circle_art_yellow {
   background-color: #ffce2d;
