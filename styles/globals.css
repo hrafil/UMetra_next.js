@@ -7,12 +7,13 @@
 html {
   box-sizing: border-box;
   overflow-x: hidden;
-  width: 100%;
+  width: 100vw;
 }
 
 body {
   font-family: 'Hind Siliguri', sans-serif;
   overflow-x: hidden;
+  /* width: 100vw; */
   width: 100%;
 }
 
@@ -212,51 +213,51 @@ li {
   .container_home p {
     margin-top: 35%;
   }
+  body,
+  html {
+    width: auto;
+  }
 }
 
 /* Line transfer */
 
 .transfer_line {
-  /* height: 150px;
-  width: 75px;
-  border-bottom-left-radius: 150px;
-  border-top-left-radius: 150px; */
-
   width: 150px;
   height: 150px;
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  /* right: -250px; */
   top: -170px;
-  /* margin-top: 0.5rem; */
-  margin-left: 80px;
+  /* margin-left: 80px; */
   cursor: pointer;
-  overflow: hidden;
 }
 
 .transfer_line_green {
   background-color: #17a301;
+  left: 160px;
 }
 
 .transfer_line_yellow {
   background-color: #ffce2d;
+  left: 160px;
 }
 
 .transfer_line_red {
   background-color: #ff2632;
+  left: 160px;
 }
 
-@media (min-width: 768px) {
-  .transfer_red,
+/* @media (min-width: 768px) {
+  .transfer_line_green,
   .transfer_yellow,
   .transfer_green {
-    width: 2rem;
-    height: 2rem;
-    margin-top: 0rem;
-    right: -150px;
+    right: 150px;
   }
-}
+  .transfer_line {
+    display: none;
+    margin-left: 100px;
+  }
+} */
 
 /* ArtWorks */
 
@@ -469,7 +470,7 @@ img {
 .station {
   display: flex;
   flex-wrap: wrap;
-  width: 100vw;
+  /* width: 100vw; */
   margin: 0 auto;
   flex-direction: column;
 }
@@ -585,8 +586,10 @@ img {
 }
 
 .menu_nav.show_menu {
-  width: 100vw;
+  width: 100%;
+  height: 100%;
   margin-top: 0;
+  /* left: 0; */
 }
 
 .menu_nav a {

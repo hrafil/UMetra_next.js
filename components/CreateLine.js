@@ -29,8 +29,11 @@ const CreateStation = ({ line, color, colorEmpty, letter }) => {
     return (
       <>
         <Link
-          href={`/linka-${letter}/[art]?art=${line.station}`}
-          as={`/linka-${letter}/${line.station}`}
+          href={`/linka-${letter}/[art]?art=${line.station.replace(
+            /\s/g,
+            '-',
+          )}`}
+          as={`/linka-${letter}/${line.station.replace(/\s/g, '-')}`}
         >
           <div className="station">
             <div className={color}></div>

@@ -4,17 +4,15 @@ import { FooterArt } from '../../components/FooterArt';
 
 export const Artwork = ({ station, lines }) => {
   return (
-    <Swipe onSwipeRight={onSwipeRight}>
-      <div className="container_artpage">
-        <CreateArt
-          station={station}
-          color="circle_art_green"
-          letter="a"
-          lines={lines}
-        />
-        <FooterArt lines={lines} station={station} color="circle_art_green" />
-      </div>
-    </Swipe>
+    <div className="container_artpage">
+      <CreateArt
+        station={station}
+        color="circle_art_green"
+        letter="a"
+        lines={lines}
+      />
+      <FooterArt lines={lines} station={station} color="circle_art_green" />
+    </div>
   );
 };
 
@@ -27,7 +25,9 @@ export const getStaticProps = ({ params }) => {
   return {
     props: {
       lines: lineA,
-      station: lineA.find((station) => station.station === params.art),
+      station: lineA.find(
+        (station) => station.station.replace(/\s/g, '-') === params.art,
+      ),
     },
   };
 };
@@ -40,7 +40,7 @@ export const getStaticPaths = () => {
 
   return {
     paths: lineA.map((station) => ({
-      params: { art: station.station },
+      params: { art: station.station.replace(/\s/g, '-') },
     })),
     fallback: false,
   };
