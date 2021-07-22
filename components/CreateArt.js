@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Popup from 'reactjs-popup';
 import React from 'react';
+import Swiper from 'react-id-swiper';
 
 export const CreateArt = ({ station, color }) => {
   return (

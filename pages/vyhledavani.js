@@ -114,7 +114,11 @@ const Search = () => {
           <button type="submit" className={styles.button}>
             Filtrovat
           </button>
-          <button onClick={handleReset} type="reset" className={styles.button}>
+          <button
+            onClick={handleReset}
+            type="reset"
+            className={styles.button_reset}
+          >
             Zrušit filtr
           </button>
         </form>
