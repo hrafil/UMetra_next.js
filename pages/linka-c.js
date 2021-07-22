@@ -3,7 +3,7 @@ import CreateLine from '../components/CreateLine';
 import { useEffect } from 'react';
 
 const LineC = ({ lines }) => {
-  useEffect(() => window.scrollTo(0, 2145), []);
+  useEffect(() => window.scrollTo(0, 1995), []);
 
   const lineC = lines.filter((station) => station.line === 'C');
 

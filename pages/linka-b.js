@@ -3,7 +3,7 @@ import { getAllStation } from '../lib/allStation';
 import { useEffect } from 'react';
 
 const LineB = ({ lines }) => {
-  useEffect(() => window.scrollTo(0, 2700), []);
+  useEffect(() => window.scrollTo(0, 2640), []);
 
   const lineB = lines.filter((station) => station.line === 'B');
 

@@ -1,15 +1,21 @@
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
   box-sizing: border-box;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body {
   font-family: 'Hind Siliguri', sans-serif;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 input,
@@ -208,49 +214,56 @@ li {
   .container_home p {
     margin-top: 35%;
   }
+  body,
+  html {
+    width: auto;
+  }
 }
 
 /* Line transfer */
 
 .transfer_line {
-  /* height: 150px;
-  width: 75px;
-  border-bottom-left-radius: 150px;
-  border-top-left-radius: 150px; */
-
   width: 150px;
   height: 150px;
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  right: -244px;
   top: -170px;
-  /* margin-top: 0.5rem; */
+  /* margin-left: 80px; */
   cursor: pointer;
 }
 
 .transfer_line_green {
   background-color: #17a301;
+  right: 160px;
 }
 
-.transfer_line_yellow {
+.transfer_line_yellow_right {
   background-color: #ffce2d;
+  left: 160px;
+}
+
+.transfer_line_yellow_left {
+  background-color: #ffce2d;
+  right: 160px;
 }
 
 .transfer_line_red {
   background-color: #ff2632;
+  left: 160px;
 }
 
-@media (min-width: 768px) {
-  .transfer_red,
+/* @media (min-width: 768px) {
+  .transfer_line_green,
   .transfer_yellow,
   .transfer_green {
-    width: 2rem;
-    height: 2rem;
-    margin-top: 0rem;
-    right: -150px;
+    right: 150px;
   }
-}
+  .transfer_line {
+    display: none;
+    margin-left: 100px;
+  }
+} */
 
 /* ArtWorks */
 
@@ -333,33 +346,6 @@ img {
   margin-top: 5px;
   margin-right: 10px;
 }
-
-/* .transfer_art_green {
-  background-color: #17a301;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  margin: 0 auto;
-  cursor: pointer;
-}
-
-.transfer_art_yellow {
-  background-color: #ffce2d;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  margin: 0 auto;
-  cursor: pointer;
-}
-
-.transfer_art_red {
-  background-color: #ff2632;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  margin: 0 auto;
-  cursor: pointer;
-} */
 
 .circle_art_yellow {
   background-color: #ffce2d;
@@ -463,7 +449,7 @@ img {
 .station {
   display: flex;
   flex-wrap: wrap;
-  width: 100vw;
+  /* width: 100vw; */
   margin: 0 auto;
   flex-direction: column;
 }
@@ -579,8 +565,10 @@ img {
 }
 
 .menu_nav.show_menu {
-  width: 100vw;
+  width: 100%;
+  height: 100%;
   margin-top: 0;
+  /* left: 0; */
 }
 
 .menu_nav a {

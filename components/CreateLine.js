@@ -15,7 +15,7 @@ const CreateStation = ({ line, color, colorEmpty, letter }) => {
   const transferFromCtoB = line.station === 'Florenc' && color === 'circle_red';
 
   const transferToA = transferFromBtoA || transferFromCtoA;
-  const transferToB = transferFromAtoB || transferFromCtoB;
+  // const transferToB = transferFromAtoB || transferFromCtoB;
   const transferToC = transferFromBtoC || transferFromAtoC;
 
   if (!line.artworks) {
@@ -29,8 +29,11 @@ const CreateStation = ({ line, color, colorEmpty, letter }) => {
     return (
       <>
         <Link
-          href={`/linka-${letter}/[art]?art=${line.station}`}
-          as={`/linka-${letter}/${line.station}`}
+          href={`/linka-${letter}/[art]?art=${line.station.replace(
+            /\s/g,
+            '-',
+          )}`}
+          as={`/linka-${letter}/${line.station.replace(/\s/g, '-')}`}
         >
           <div className="station">
             <div className={color}></div>
@@ -44,9 +47,13 @@ const CreateStation = ({ line, color, colorEmpty, letter }) => {
                 <Link href="/linka-a">
                   <span className="transfer_line transfer_line_green"></span>
                 </Link>
-              ) : transferToB ? (
+              ) : transferFromCtoB ? (
                 <Link href="/linka-b">
-                  <span className="transfer_line transfer_line_yellow"></span>
+                  <span className="transfer_line transfer_line_yellow_right"></span>
+                </Link>
+              ) : transferFromAtoB ? (
+                <Link href="/linka-b">
+                  <span className="transfer_line transfer_line_yellow_left"></span>
                 </Link>
               ) : undefined}
             </h2>
