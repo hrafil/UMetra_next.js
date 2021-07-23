@@ -8,13 +8,13 @@ html {
   box-sizing: border-box;
   overflow-x: hidden;
   width: 100%;
-  margin: 0;
 }
 
 body {
   font-family: 'Hind Siliguri', sans-serif;
   overflow-x: hidden;
   width: 100%;
+  margin: 0;
 }
 
 input,
