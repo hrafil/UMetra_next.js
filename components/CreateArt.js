@@ -22,8 +22,8 @@ export const CreateArt = ({ station, color }) => {
                   <img
                     src={artwork.image}
                     alt={artwork.name}
-                    width="800"
-                    height="800"
+                    width="1000"
+                    height="1000"
                   />
                 }
                 modal
