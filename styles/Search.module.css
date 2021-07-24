@@ -52,6 +52,7 @@
   margin-top: 15px;
   margin-right: 20px;
   font-family: 'Hind Siliguri', sans-serif;
+  cursor: pointer;
 }
 
 .button_reset {
@@ -67,6 +68,7 @@
   margin-top: 15px;
   margin-right: 20px;
   font-family: 'Hind Siliguri', sans-serif;
+  cursor: pointer;
 }
 
 .artwork {
@@ -170,6 +172,6 @@
   }
   .artworkHeader > p {
     margin-left: 100px;
-    cursor: pointer;
+    /* cursor: pointer; */
   }
 }

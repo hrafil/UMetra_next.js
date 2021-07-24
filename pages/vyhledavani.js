@@ -165,14 +165,14 @@ const Search = () => {
                   ) : (
                     ''
                   )}
-                  <Link
+                  {/* <Link
                     href={`/linka-${artwork.id.substring(
                       0,
                       1,
                     )}/${artwork.artwork.slice(0, -1)}`}
-                  >
-                    <p>{artwork.artwork.slice(0, -1).toUpperCase()}</p>
-                  </Link>
+                  > */}
+                  <p>{artwork.artwork.slice(0, -1).toUpperCase()}</p>
+                  {/* </Link> */}
                 </div>
                 <Popup
                   trigger={
