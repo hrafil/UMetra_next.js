@@ -275,6 +275,11 @@ li {
   cursor: pointer;
 }
 
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
 .container_artpage {
   position: relative;
   width: 85%;
@@ -290,7 +295,7 @@ li {
 }
 
 img {
-  width: 100%;
+  /* width: 100%; */
   height: auto;
 }
 
