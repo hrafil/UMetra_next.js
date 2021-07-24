@@ -18,7 +18,14 @@ export const CreateArt = ({ station, color }) => {
           station.artworks.map((artwork) => (
             <div key={artwork.id} className="container_artwork">
               <Popup
-                trigger={<img src={artwork.image} alt={artwork.name} />}
+                trigger={
+                  <img
+                    src={artwork.image}
+                    alt={artwork.name}
+                    width="100%"
+                    height="100%"
+                  />
+                }
                 modal
                 nested
               >
