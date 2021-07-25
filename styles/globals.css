@@ -199,6 +199,10 @@ li {
     max-width: 650px;
     margin: 0 auto;
   }
+  body,
+  html {
+    width: auto;
+  }
   h1 {
     margin-top: 8%;
     margin-bottom: 0;
@@ -212,10 +216,6 @@ li {
   }
   .container_home p {
     margin-top: 35%;
-  }
-  body,
-  html {
-    width: auto;
   }
 }
 
