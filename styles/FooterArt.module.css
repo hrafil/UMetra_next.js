@@ -4,7 +4,7 @@
   flex-direction: row;
   display: inline-block;
   flex-wrap: wrap;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .footer_center a {
@@ -32,16 +32,8 @@
   align-self: flex-end;
 }
 
-/* @media (min-width: 1300px) {
-  .footer_left,
-  .footer_right {
-    position: fixed;
-    top: 50vh;
+@media (min-width: 768px) {
+  .footer_art {
+    font-size: 18px;
   }
-  .footer_left {
-    left: 18%;
-  }
-  .footer_right {
-    right: 18%;
-  }
-} */
+}

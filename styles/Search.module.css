@@ -1,12 +1,10 @@
 .container {
-  padding-top: 10é0px;
+  padding-top: 110px;
   text-align: left;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;
-  /* width: 85vw; */
-  /* height: 100vh; */
 }
 
 .title {
@@ -108,44 +106,9 @@
 }
 
 .artworkHeader > p {
-  /* margin: 0 0 0 80px; */
-  /* font-weight: bold; */
   font-size: 18px;
   margin: 0;
 }
-
-/* .circleGreen {
-  background-color: #17a301;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  position: absolute;
-  top: 2px;
-  left: 0px;
-  display: inline-block;
-}
-
-.circleYellow {
-  background-color: #ffce2d;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  position: absolute;
-  top: 2px;
-  left: 25px;
-  display: inline-block;
-}
-
-.circleRed {
-  background-color: #ff2632;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  position: absolute;
-  top: 2px;
-  left: 50px;
-  display: inline-block;
-} */
 
 .img {
   width: 100%;
@@ -155,7 +118,7 @@
 
 .artwork_text {
   text-align: right;
-  padding-right: 10px;
+  padding-top: 10px;
 }
 
 .artwork_text p {
@@ -181,25 +144,7 @@
   .artworkHeader {
     margin-bottom: 10px;
   }
-  .circleGreen,
-  .circleYellow,
-  .circleRed {
-    height: 25px;
-    width: 25px;
-    top: 0;
-    cursor: pointer;
-  }
-  .circleGreen {
-    left: 0;
-  }
-  .circleYellow {
-    left: 30px;
-  }
-  .circleRed {
-    left: 60px;
-  }
   .artworkHeader > p {
     margin-left: 100px;
-    /* cursor: pointer; */
   }
 }

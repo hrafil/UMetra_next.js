@@ -196,7 +196,7 @@ li {
 }
 
 @media (min-width: 768px) {
-  body {
+  .container_home {
     max-width: 650px;
     margin: 0 auto;
   }
@@ -253,28 +253,16 @@ li {
   left: 160px;
 }
 
-/* @media (min-width: 768px) {
-  .transfer_line_green,
-  .transfer_yellow,
-  .transfer_green {
-    right: 150px;
-  }
-  .transfer_line {
-    display: none;
-    margin-left: 100px;
-  }
-} */
-
 /* ArtWorks */
 
-.logo {
+/* .logo {
   position: absolute;
   left: 7.5%;
   top: -5px;
   width: 80px;
   border: none;
   cursor: pointer;
-}
+} */
 
 .container_green {
   min-height: 100vh;
@@ -337,13 +325,14 @@ img {
 }
 
 .container_artwork {
-  margin: 15px auto;
+  padding-bottom: 40px;
+  margin: 0 auto;
   text-align: right;
 }
 
 .artwork_title {
   margin: 0 auto;
-  padding-top: 30px;
+  padding: 30px 0 20px 0;
   font-size: 28px;
   position: relative;
 }
@@ -353,50 +342,14 @@ img {
 }
 
 .artwork_text {
-  margin-top: 5px;
+  margin-top: 10px;
 }
-
-/* .circle_art_yellow {
-  background-color: #ffce2d;
-  height: 500px;
-  width: 250px;
-  border-bottom-right-radius: 500px;
-  border-top-right-radius: 500px;
-  position: fixed;
-  z-index: -1;
-  top: 90px;
-  left: -70px;
-  display: inline-block;
-}
-
-.circle_art_green {
-  background-color: #17a301;
-  height: 500px;
-  width: 250px;
-  border-bottom-right-radius: 500px;
-  border-top-right-radius: 500px;
-  position: fixed;
-  z-index: -1;
-  top: 90px;
-  left: -70px;
-  display: inline-block;
-}
-
-.circle_art_red {
-  background-color: #ff2632;
-  height: 500px;
-  width: 250px;
-  border-bottom-right-radius: 500px;
-  border-top-right-radius: 500px;
-  position: fixed;
-  z-index: -1;
-  top: 90px;
-  left: -70px;
-  display: inline-block;
-} */
 
 @media (min-width: 768px) {
-  .circle_art_yellow {
+  .artwork_text {
+    font-size: 18px;
+  }
+  /* .circle_art_yellow {
     height: 600px;
     width: 300px;
     border-bottom-right-radius: 600px;
@@ -416,7 +369,7 @@ img {
     border-bottom-right-radius: 600px;
     border-top-right-radius: 600px;
     top: 100px;
-  }
+  } */
 
   /* .transfer_art_green,
   .transfer_art_yellow,
@@ -426,6 +379,10 @@ img {
     right: 50px;
     margin-top: 0.2em;
   } */
+  .container_artpage {
+    max-width: 540px;
+    margin: 0 auto;
+  }
   .img_popup {
     display: none;
   }
@@ -610,10 +567,14 @@ img {
 }
 
 .nav_first {
-  padding-top: 90px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 40px;
   width: 20%;
   margin: 0 auto;
+}
+
+.nav_first > img {
+  cursor: pointer;
 }
 
 .nav_second {
@@ -698,21 +659,21 @@ img {
 }
 
 .artworkGreen {
-  padding: 18px 0;
+  padding: 20px 0;
   position: relative;
   width: 100vw;
   background-color: #17a301;
 }
 
 .artworkYellow {
-  padding: 10px 0;
+  padding: 20px 0;
   position: relative;
   width: 100vw;
   background-color: #ffce2d;
 }
 
 .artworkRed {
-  padding: 10px 0;
+  padding: 20px 0;
   position: relative;
   width: 100vw;
   background-color: #ff2632;
