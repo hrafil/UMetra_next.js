@@ -15,9 +15,9 @@ export const Navbar = () => {
   return (
     <nav className="nav_bar">
       <div className="logo">
-        <Link href="/">
+        {/* <Link href="/">
           <img src="/logo.svg" alt="logo" />
-        </Link>
+        </Link> */}
       </div>
       <button
         name="menu"
@@ -32,10 +32,15 @@ export const Navbar = () => {
         onClick={() => closeMenu()}
         className={`menu_nav ${navbarOpen ? ' show_menu' : ''}`}
       >
-        <li className="nav_logo">
+        {/* <li className="nav_logo">
           <Link href="/">UMetra </Link>
-        </li>
+        </li> */}
         <li className="nav_first">
+          <Link href="/">
+            <img src="/logo.svg" alt="logo" />
+          </Link>
+        </li>
+        <li className="nav_second">
           <Link href="/vyhledavani">Vyhledat</Link>
           <span className="search">&#8981;</span>
         </li>

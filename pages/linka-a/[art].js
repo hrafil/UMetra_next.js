@@ -4,14 +4,16 @@ import { FooterArt } from '../../components/FooterArt';
 
 export const Artwork = ({ station, lines }) => {
   return (
-    <div className="container_artpage">
-      <CreateArt
-        station={station}
-        color="circle_art_green"
-        letter="a"
-        lines={lines}
-      />
-      <FooterArt lines={lines} station={station} color="circle_art_green" />
+    <div className="container_green">
+      <div className="container_artpage">
+        <CreateArt
+          station={station}
+          // color="circle_art_green"
+          letter="a"
+          lines={lines}
+        />
+        <FooterArt lines={lines} station={station} color="circle_art_green" />
+      </div>
     </div>
   );
 };

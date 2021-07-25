@@ -8,7 +8,7 @@ const LineB = ({ lines }) => {
   const lineB = lines.filter((station) => station.line === 'B');
 
   return (
-    <>
+    <div className="container_line">
       <CreateLine
         key={lineB.station}
         lines={lineB}
@@ -16,7 +16,7 @@ const LineB = ({ lines }) => {
         colorEmpty="circle_empty_yellow"
         letter="b"
       />
-    </>
+    </div>
   );
 };
 

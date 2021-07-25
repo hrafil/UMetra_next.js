@@ -42,7 +42,8 @@ a {
 /* Home page */
 
 .container_home {
-  margin: 0 15px;
+  width: 90%;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -268,37 +269,46 @@ li {
 
 .logo {
   position: absolute;
-  left: 10px;
+  left: 7.5%;
   top: -5px;
   width: 80px;
   border: none;
   cursor: pointer;
 }
 
-.container_artpage {
+.container_green {
+  min-height: 100vh;
+  background-color: #17a301;
   position: relative;
-  /* width: 85%; */
   margin: 0 auto;
   padding-top: 15px;
-  /* padding-top: 60px; */
-  background-color: #ffce2d;
 }
 
-.container_artworks {
-  display: flex;
-  flex-direction: column;
+.container_yellow {
+  min-height: 100vh;
+  background-color: #ffce2d;
+  position: relative;
   margin: 0 auto;
-  transform: none;
+  padding-top: 15px;
+}
+
+.container_red {
+  min-height: 100vh;
+  background-color: #ff2632;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.container_artpage {
+  width: 85%;
+  margin: 0 auto;
 }
 
 img {
   width: 100%;
   height: auto;
 }
-
-/* .container_artworks img {
-  border: 10px solid white;
-} */
 
 .popup-arrow {
   color: transparent;
@@ -327,18 +337,14 @@ img {
 }
 
 .container_artwork {
-  width: 85%;
   margin: 15px auto;
   text-align: right;
-  /* background-color: #ffce2d; */
 }
 
 .artwork_title {
   margin: 0 auto;
-  padding-top: 45px;
-  text-align: left;
+  padding-top: 30px;
   font-size: 28px;
-  width: 85%;
   position: relative;
 }
 
@@ -348,10 +354,9 @@ img {
 
 .artwork_text {
   margin-top: 5px;
-  margin-right: 10px;
 }
 
-.circle_art_yellow {
+/* .circle_art_yellow {
   background-color: #ffce2d;
   height: 500px;
   width: 250px;
@@ -388,7 +393,7 @@ img {
   top: 90px;
   left: -70px;
   display: inline-block;
-}
+} */
 
 @media (min-width: 768px) {
   .circle_art_yellow {
@@ -433,6 +438,11 @@ img {
 }
 
 /* Line */
+
+.container_line {
+  background-color: white;
+  margin-top: 20px;
+}
 
 .label {
   margin: 20px auto;
@@ -600,10 +610,13 @@ img {
 }
 
 .nav_first {
-  margin-top: 10rem;
-  /* margin-left: 30px;
-  font-size: 20px;
-  text-align: center; */
+  padding-top: 90px;
+  padding-bottom: 50px;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.nav_second {
   position: relative;
 }
 

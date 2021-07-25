@@ -8,13 +8,15 @@ const LineC = ({ lines }) => {
   const lineC = lines.filter((station) => station.line === 'C');
 
   return (
-    <CreateLine
-      key={lineC.station}
-      lines={lineC}
-      color="circle_red"
-      colorEmpty="circle_empty_red"
-      letter="c"
-    />
+    <div className="container_line">
+      <CreateLine
+        key={lineC.station}
+        lines={lineC}
+        color="circle_red"
+        colorEmpty="circle_empty_red"
+        letter="c"
+      />
+    </div>
   );
 };
 
