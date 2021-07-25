@@ -5,8 +5,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;
-  width: 85vw;
-
+  /* width: 85vw; */
   /* height: 100vh; */
 }
 
@@ -15,10 +14,15 @@
   font-size: 24px;
   margin-bottom: 20px;
   width: 100%;
+  width: 85vw;
+  margin: 0 auto;
 }
 
 .text {
   font-size: 12px;
+  width: 85vw;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .form {
@@ -71,9 +75,30 @@
   cursor: pointer;
 }
 
-.artwork {
-  margin: 35px 0;
+/* .artworkGreen {
+  padding: 35px 0;
   position: relative;
+  width: 100vw;
+  background-color: #17a301;
+}
+
+.artworkYellow {
+  padding: 35px 0;
+  position: relative;
+  width: 100vw;
+  background-color: #ffce2d;
+}
+
+.artworkRed {
+  padding: 35px 0;
+  position: relative;
+  width: 100vw;
+  background-color: #ff2632;
+} */
+
+.artworkContent {
+  width: 85vw;
+  margin: 0 auto;
 }
 
 .artworkHeader {
@@ -83,11 +108,13 @@
 }
 
 .artworkHeader > p {
-  margin: 0 0 0 80px;
-  font-weight: bold;
+  /* margin: 0 0 0 80px; */
+  /* font-weight: bold; */
+  font-size: 18px;
+  margin: 0;
 }
 
-.circleGreen {
+/* .circleGreen {
   background-color: #17a301;
   height: 20px;
   width: 20px;
@@ -118,11 +145,12 @@
   top: 2px;
   left: 50px;
   display: inline-block;
-}
+} */
 
 .img {
   width: 100%;
   height: auto;
+  /* border: 10px solid white; */
 }
 
 .artwork_text {

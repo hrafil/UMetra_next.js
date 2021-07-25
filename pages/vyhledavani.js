@@ -112,7 +112,7 @@ const Search = () => {
             </select>
           </label>
           <button type="submit" className={styles.button}>
-            Filtrovat
+            Vyhledat
           </button>
           <button
             onClick={handleReset}
@@ -126,84 +126,66 @@ const Search = () => {
       <div>
         {finalSelection !== null
           ? finalSelection.map((artwork) => (
-              <div className={styles.artwork} key={artwork.id}>
-                <div className={styles.artworkHeader}>
-                  {artwork.id.startsWith('a') &&
-                  !artwork.artwork.startsWith('Muzeum') ? (
-                    <Link href="/linka-a">
-                      <div className={styles.circleGreen}></div>
-                    </Link>
-                  ) : artwork.id.startsWith('b') &&
-                    !artwork.artwork.startsWith('Florenc') ? (
-                    <Link href="/linka-b">
-                      <div className={styles.circleYellow}></div>
-                    </Link>
-                  ) : artwork.id.startsWith('c') &&
-                    !artwork.artwork.startsWith('Florenc') &&
-                    !artwork.artwork.startsWith('Muzeum') ? (
-                    <Link href="/linka-c">
-                      <div className={styles.circleRed}></div>
-                    </Link>
-                  ) : artwork.artwork.startsWith('Florenc') ? (
-                    <>
-                      <Link href="/linka-b">
-                        <div className={styles.circleYellow}></div>
-                      </Link>
-                      <Link href="/linka-c">
-                        <div className={styles.circleRed}></div>
-                      </Link>
-                    </>
-                  ) : artwork.artwork.startsWith('Muzeum') ? (
-                    <>
-                      <Link href="/linka-a">
-                        <div className={styles.circleGreen}></div>
-                      </Link>
-                      <Link href="/linka-c">
-                        <div className={styles.circleRed}></div>
-                      </Link>
-                    </>
-                  ) : (
-                    ''
-                  )}
-                  {/* <Link
-                    href={`/linka-${artwork.id.substring(
-                      0,
-                      1,
-                    )}/${artwork.artwork.slice(0, -1)}`}
-                  > */}
-                  <p>{artwork.artwork.slice(0, -1).toUpperCase()}</p>
-                  {/* </Link> */}
-                </div>
-                <Popup
-                  trigger={
-                    <img
-                      src={artwork.image}
-                      alt={artwork.name}
-                      className={styles.img}
-                    />
-                  }
-                  modal
-                  nested
-                >
-                  {(close) => (
-                    <div className="modal">
-                      <button className="close" onClick={close}>
-                        &times;
-                      </button>
+              <div
+                className={
+                  artwork.id.startsWith('a')
+                    ? // &&
+                      // !artwork.artwork.startsWith('Muzeum')
+                      // && !artwork.artwork.startsWith('Muzeum')
+                      `artworkGreen`
+                    : artwork.id.startsWith('b')
+                    ? // &&
+                      //   !artwork.artwork.startsWith('Florenc')
+                      // && !artwork.artwork.startsWith('Florenc')
+                      'artworkYellow'
+                    : artwork.id.startsWith('c')
+                    ? // ||
+                      //   artwork.artwork.startsWith('Muzeum') ||
+                      //   artwork.artwork.startsWith('Florenc')
+                      // &&
+                      //   !artwork.artwork.startsWith('Florenc') &&
+                      //   !artwork.artwork.startsWith('Muzeum')
+                      'artworkRed'
+                    : undefined
+                }
+                key={artwork.id}
+              >
+                <div className={styles.artworkContent}>
+                  <div className={styles.artworkHeader}>
+                    <p>{artwork.artwork.slice(0, -1).toUpperCase()}</p>
+                    {/* </Link> */}
+                  </div>
+                  <Popup
+                    trigger={
                       <img
-                        className="img_popup"
                         src={artwork.image}
                         alt={artwork.name}
+                        className={styles.img}
                       />
-                    </div>
-                  )}
-                </Popup>
+                    }
+                    modal
+                    nested
+                  >
+                    {(close) => (
+                      <div className="modal">
+                        <button className="close" onClick={close}>
+                          &times;
+                        </button>
+                        <img
+                          className="img_popup"
+                          src={artwork.image}
+                          alt={artwork.name}
+                        />
+                      </div>
+                    )}
+                  </Popup>
 
-                <div className={styles.artwork_text}>
-                  <p>{artwork.name.toUpperCase()}</p>
-                  <p>{artwork.author}</p>
-                  <p>{artwork.date}</p>
-                  <p>{artwork.type}</p>
+                  <div className={styles.artwork_text}>
+                    <p>{artwork.name.toUpperCase()}</p>
+                    <p>{artwork.author}</p>
+                    <p>{artwork.date}</p>
+                    <p>{artwork.type}</p>
+                  </div>
                 </div>
               </div>
             ))

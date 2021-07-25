@@ -14,6 +14,11 @@ export const Navbar = () => {
 
   return (
     <nav className="nav_bar">
+      <div className="logo">
+        <Link href="/">
+          <img src="/logo.svg" alt="logo" />
+        </Link>
+      </div>
       <button
         name="menu"
         onClick={handleToggle}

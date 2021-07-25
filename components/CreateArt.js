@@ -1,16 +1,11 @@
 import Link from 'next/link';
 import Popup from 'reactjs-popup';
 import React from 'react';
-import Swiper from 'react-id-swiper';
+// import Swiper from 'react-id-swiper';
 
 export const CreateArt = ({ station, color }) => {
   return (
     <>
-      <div className="logo">
-        <Link href="/">
-          <img src="/logo.svg" alt="logo" />
-        </Link>
-      </div>
       <h2 className="artwork_title">{station.station.toUpperCase()}</h2>
       <div className="container_artworks">
         <div className={color}></div>
