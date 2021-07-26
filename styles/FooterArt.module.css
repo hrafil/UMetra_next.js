@@ -1,17 +1,18 @@
 .footer_art {
-  width: 80%;
+  width: 100%;
   /* height: 20%; */
   display: flex;
   flex-direction: row;
   display: inline-block;
   flex-wrap: wrap;
   /* margin-top: 20px; */
-  position: absolute;
-  bottom: 10px;
+  /* position: absolute;
+  bottom: 0; */
 }
 
 .footer_center a {
   width: 100%;
+  padding-bottom: 5px;
   text-align: center;
   display: inline-block;
 }
