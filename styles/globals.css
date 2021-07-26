@@ -291,6 +291,7 @@ li {
 .container_artpage {
   width: 80%;
   margin: 0 auto;
+  padding-bottom: 70px;
 }
 
 img {
@@ -349,39 +350,12 @@ img {
   .artwork_text {
     font-size: 18px;
   }
-  /* .circle_art_yellow {
-    height: 600px;
-    width: 300px;
-    border-bottom-right-radius: 600px;
-    border-top-right-radius: 600px;
-    top: 100px;
-  }
-  .circle_art_green {
-    height: 600px;
-    width: 300px;
-    border-bottom-right-radius: 600px;
-    border-top-right-radius: 600px;
-    top: 100px;
-  }
-  .circle_art_red {
-    height: 600px;
-    width: 300px;
-    border-bottom-right-radius: 600px;
-    border-top-right-radius: 600px;
-    top: 100px;
-  } */
-
-  /* .transfer_art_green,
-  .transfer_art_yellow,
-  .transfer_art_red {
-    width: 1em;
-    height: 1em;
-    right: 50px;
-    margin-top: 0.2em;
-  } */
   .container_artpage {
     max-width: 540px;
     margin: 0 auto;
+  }
+  .artwork_title {
+    font-size: 36px;
   }
   .img_popup {
     display: none;

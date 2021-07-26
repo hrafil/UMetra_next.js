@@ -7,6 +7,10 @@
   margin: 0 auto;
 }
 
+.containerText {
+  margin: 0 auto;
+}
+
 .title {
   text-align: left;
   font-size: 24px;
