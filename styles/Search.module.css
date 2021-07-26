@@ -107,6 +107,8 @@
 .artworkHeader > p {
   font-size: 18px;
   margin: 0;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .img {
@@ -139,6 +141,9 @@
     max-width: 600px;
     margin: 0 auto;
   }
+  .artworkHeader > p {
+    font-size: 28px;
+  }
   .text {
     /* max-width: 600px; */
     flex-wrap: nowrap;
@@ -149,5 +154,8 @@
   }
   .title {
     padding-bottom: 10px;
+  }
+  .artwork_text {
+    font-size: 18px;
   }
 }

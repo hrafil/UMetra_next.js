@@ -154,8 +154,35 @@ const Search = () => {
               >
                 <div className={styles.artworkContent}>
                   <div className={styles.artworkHeader}>
-                    <p>{artwork.artwork.slice(0, -1).toUpperCase()}</p>
-                    {/* </Link> */}
+                    {/* <p>{artwork.artwork.slice(0, -1).toUpperCase()}</p> */}
+
+                    {artwork.id.startsWith('a') ? (
+                      <Link
+                        href={`/linka-a/${artwork.artwork
+                          .slice(0, -1)
+                          .replace(/\s/g, '-')}`}
+                      >
+                        <p>{artwork.artwork.slice(0, -1).toUpperCase()}</p>
+                      </Link>
+                    ) : artwork.id.startsWith('b') ? (
+                      <Link
+                        href={`/linka-b/${artwork.artwork
+                          .slice(0, -1)
+                          .replace(/\s/g, '-')}`}
+                      >
+                        <p>{artwork.artwork.slice(0, -1).toUpperCase()}</p>
+                      </Link>
+                    ) : artwork.id.startsWith('c') ? (
+                      <Link
+                        href={`/linka-c/${artwork.artwork
+                          .slice(0, -1)
+                          .replace(/\s/g, '-')}`}
+                      >
+                        <p>{artwork.artwork.slice(0, -1).toUpperCase()}</p>
+                      </Link>
+                    ) : (
+                      ''
+                    )}
                   </div>
                   <Popup
                     trigger={
