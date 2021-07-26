@@ -75,53 +75,55 @@ const Search = () => {
 
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>vyhledávání</h2>
-      <div className={styles.text}>
-        <form onSubmit={handleSubmit} className={styles.form}>
-          <label className={styles.label}>
-            Autor:
-            <select className={styles.select} onChange={handleAuthor}>
-              <option value={null}>--vybrat--</option>
-              {justAuthors.map((author) => (
-                <option key={author} value={author}>
-                  {author}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label className={styles.label}>
-            Typ:
-            <select className={styles.select} onChange={handleType}>
-              <option value={null}>--vybrat--</option>
-              {justTypes.map((type) => (
-                <option key={type} value={type}>
-                  {type}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label className={styles.label}>
-            Stanice:
-            <select className={styles.select} onChange={handleStation}>
-              <option value={null}>--vybrat--</option>
-              {justStations.map((station) => (
-                <option key={station} value={station}>
-                  {station}
-                </option>
-              ))}
-            </select>
-          </label>
-          <button type="submit" className={styles.button}>
-            Vyhledat
-          </button>
-          <button
-            onClick={handleReset}
-            type="reset"
-            className={styles.button_reset}
-          >
-            Zrušit filtr
-          </button>
-        </form>
+      <div className={styles.containerText}>
+        <h2 className={styles.title}>vyhledávání</h2>
+        <div className={styles.text}>
+          <form onSubmit={handleSubmit} className={styles.form}>
+            <label className={styles.label}>
+              Autor:
+              <select className={styles.select} onChange={handleAuthor}>
+                <option value={null}>--vybrat--</option>
+                {justAuthors.map((author) => (
+                  <option key={author} value={author}>
+                    {author}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label className={styles.label}>
+              Typ:
+              <select className={styles.select} onChange={handleType}>
+                <option value={null}>--vybrat--</option>
+                {justTypes.map((type) => (
+                  <option key={type} value={type}>
+                    {type}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label className={styles.label}>
+              Stanice:
+              <select className={styles.select} onChange={handleStation}>
+                <option value={null}>--vybrat--</option>
+                {justStations.map((station) => (
+                  <option key={station} value={station}>
+                    {station}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <button type="submit" className={styles.button}>
+              Vyhledat
+            </button>
+            <button
+              onClick={handleReset}
+              type="reset"
+              className={styles.button_reset}
+            >
+              Zrušit filtr
+            </button>
+          </form>
+        </div>
       </div>
       <div>
         {finalSelection !== null
@@ -132,7 +134,7 @@ const Search = () => {
                     ? // &&
                       // !artwork.artwork.startsWith('Muzeum')
                       // && !artwork.artwork.startsWith('Muzeum')
-                      `artworkGreen`
+                      'artworkGreen'
                     : artwork.id.startsWith('b')
                     ? // &&
                       //   !artwork.artwork.startsWith('Florenc')

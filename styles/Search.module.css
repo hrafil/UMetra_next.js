@@ -10,7 +10,6 @@
 .title {
   text-align: left;
   font-size: 24px;
-  margin-bottom: 20px;
   width: 100%;
   width: 85vw;
   margin: 0 auto;
@@ -73,26 +72,26 @@
   cursor: pointer;
 }
 
-/* .artworkGreen {
-  padding: 35px 0;
+.artworkGreen {
+  padding: 20px 0;
   position: relative;
   width: 100vw;
   background-color: #17a301;
 }
 
 .artworkYellow {
-  padding: 35px 0;
+  padding: 20px 0;
   position: relative;
   width: 100vw;
   background-color: #ffce2d;
 }
 
 .artworkRed {
-  padding: 35px 0;
+  padding: 20px 0;
   position: relative;
   width: 100vw;
   background-color: #ff2632;
-} */
+}
 
 .artworkContent {
   width: 85vw;
@@ -102,7 +101,7 @@
 .artworkHeader {
   display: flex;
   flex-direction: row;
-  margin-bottom: 7px;
+  margin-bottom: 14px;
 }
 
 .artworkHeader > p {
@@ -133,18 +132,22 @@
 
 @media (min-width: 768px) {
   .container {
-    max-width: 690px;
-    padding: 70px 100px 70px 100px;
+    width: 100%;
+  }
+  .containerText,
+  .artworkContent {
+    max-width: 600px;
     margin: 0 auto;
   }
   .text {
+    /* max-width: 600px; */
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0 auto;
     font-size: 16px;
     line-height: 1.5;
   }
-  .artworkHeader {
-    margin-bottom: 10px;
-  }
-  .artworkHeader > p {
-    margin-left: 100px;
+  .title {
+    padding-bottom: 10px;
   }
 }

@@ -289,7 +289,7 @@ li {
 }
 
 .container_artpage {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -677,4 +677,7 @@ img {
   position: relative;
   width: 100vw;
   background-color: #ff2632;
+}
+
+@media (min-width: 768px) {
 }
