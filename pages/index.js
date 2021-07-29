@@ -31,7 +31,6 @@ const Home = () => {
           <Link href="/linka-c">C</Link>
         </li>
       </ul>
-      <footer></footer>
     </div>
   );
 };

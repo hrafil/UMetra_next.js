@@ -22,35 +22,40 @@ export const FooterArt = ({ lines, station, color }) => {
   return (
     <footer className={styles.footer_art}>
       <ul>
+        {index === 0 ? undefined : (
+          <li className={styles.footer_left}>
+            <Link href={`${mapStationIsFull[index - 1].replace(/\s/g, '-')}`}>
+              {/* &#8249; */}
+              <img src="/arrow-left.svg" alt="arrow-left" />
+              {/* {mapStationIsFull[index - 1].toUpperCase()} */}
+            </Link>
+          </li>
+        )}
         <li className={styles.footer_center}>
           {transferToMustekA ? (
-            <Link href="/linka-a/Můstek">přestup na linku A</Link>
-          ) : transferToMuzeumA ? (
-            <Link href="/linka-a/Muzeum">přestup na linku A</Link>
+            <Link href="/linka-a/Můstek">A</Link>
+          ) : // <Link href="/linka-a/Můstek">přestup na linku A</Link>
+          transferToMuzeumA ? (
+            <Link href="/linka-a/Muzeum">A</Link>
           ) : tranferToMustekB ? (
-            <Link href="/linka-b/Můstek">přestup na linku B</Link>
+            <Link href="/linka-b/Můstek">B</Link>
           ) : tranferToMuzeumC ? (
-            <Link href="/linka-c/Muzeum">přestup na linku C</Link>
+            <Link href="/linka-c/Muzeum">C</Link>
           ) : transferToFlorencB ? (
-            <Link href="/linka-b/Florenc">přestup na linku B</Link>
+            <Link href="/linka-b/Florenc">B</Link>
           ) : transferToFlorencC ? (
-            <Link href="/linka-c/Florenc">přestup na linku C</Link>
+            <Link href="/linka-c/Florenc">C</Link>
           ) : (
             ''
           )}
         </li>
 
-        {index === 0 ? undefined : (
-          <li className={styles.footer_left}>
-            <Link href={`${mapStationIsFull[index - 1].replace(/\s/g, '-')}`}>
-              předchozí
-            </Link>
-          </li>
-        )}
         {index === mapStationIsFull.length - 1 ? undefined : (
           <li className={styles.footer_right}>
             <Link href={`${mapStationIsFull[index + 1].replace(/\s/g, '-')}`}>
-              následující
+              {/* &#8250; */}
+              <img src="/arrow-right.svg" alt="arrow-right" />
+              {/* {mapStationIsFull[index + 1].toUpperCase()} */}
             </Link>
           </li>
         )}
