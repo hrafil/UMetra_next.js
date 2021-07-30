@@ -28,7 +28,8 @@ export const getStaticProps = ({ params }) => {
     props: {
       lines: lineB,
       station: lineB.find(
-        (station) => station.station.replace(/\s/g, '-') === params.art,
+        (station) =>
+          station.station.replace(/\s/g, '-').toLowerCase() === params.art,
       ),
     },
   };
@@ -42,7 +43,7 @@ export const getStaticPaths = () => {
 
   return {
     paths: lineB.map((station) => ({
-      params: { art: station.station.replace(/\s/g, '-') },
+      params: { art: station.station.replace(/\s/g, '-').toLowerCase() },
     })),
     fallback: false,
   };

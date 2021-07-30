@@ -28,21 +28,21 @@ const Stations = (allStation) => {
           {justStationA.includes(station) ? (
             <Link
               className={styles.link}
-              href={`/linka-a/${station.replace(/\s/g, '-')}`}
+              href={`/linka-a/${station.replace(/\s/g, '-').toLowerCase()}`}
             >
               {station}
             </Link>
           ) : justStationB.includes(station) ? (
             <Link
               className={styles.link}
-              href={`/linka-b/${station.replace(/\s/g, '-')}`}
+              href={`/linka-b/${station.replace(/\s/g, '-').toLowerCase()}`}
             >
               {station}
             </Link>
           ) : justStationC.includes(station) ? (
             <Link
               className={styles.link}
-              href={`/linka-c/${station.replace(/\s/g, '-')}`}
+              href={`/linka-c/${station.replace(/\s/g, '-').toLowerCase()}`}
             >
               {station}
             </Link>

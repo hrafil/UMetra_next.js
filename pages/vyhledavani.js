@@ -160,7 +160,8 @@ const Search = () => {
                       <Link
                         href={`/linka-a/${artwork.artwork
                           .slice(0, -1)
-                          .replace(/\s/g, '-')}`}
+                          .replace(/\s/g, '-')
+                          .toLowerCase()}`}
                       >
                         <p>{artwork.artwork.slice(0, -1).toUpperCase()}</p>
                       </Link>
@@ -168,7 +169,8 @@ const Search = () => {
                       <Link
                         href={`/linka-b/${artwork.artwork
                           .slice(0, -1)
-                          .replace(/\s/g, '-')}`}
+                          .replace(/\s/g, '-')
+                          .toLowerCase()}`}
                       >
                         <p>{artwork.artwork.slice(0, -1).toUpperCase()}</p>
                       </Link>
@@ -176,7 +178,8 @@ const Search = () => {
                       <Link
                         href={`/linka-c/${artwork.artwork
                           .slice(0, -1)
-                          .replace(/\s/g, '-')}`}
+                          .replace(/\s/g, '-')
+                          .toLowerCase()}`}
                       >
                         <p>{artwork.artwork.slice(0, -1).toUpperCase()}</p>
                       </Link>
