@@ -29,17 +29,19 @@ export const FooterArt = ({ lines, station, color }) => {
                 .replace(/\s/g, '-')
                 .toLowerCase()}`}
             >
-              {/* &#8249; */}
-              <img src="/arrow-left.svg" alt="arrow-left" />
-              {/* {mapStationIsFull[index - 1].toUpperCase()} */}
+              <img
+                src="/arrow-left.svg"
+                alt="arrow-left"
+                width="100"
+                height="100"
+              />
             </Link>
           </li>
         )}
         <li className={styles.footer_center}>
           {transferToMustekA ? (
             <Link href="/linka-a/můstek">A</Link>
-          ) : // <Link href="/linka-a/Můstek">přestup na linku A</Link>
-          transferToMuzeumA ? (
+          ) : transferToMuzeumA ? (
             <Link href="/linka-a/muzeum">A</Link>
           ) : tranferToMustekB ? (
             <Link href="/linka-b/můstek">B</Link>
@@ -61,9 +63,12 @@ export const FooterArt = ({ lines, station, color }) => {
                 .replace(/\s/g, '-')
                 .toLowerCase()}`}
             >
-              {/* &#8250; */}
-              <img src="/arrow-right.svg" alt="arrow-right" />
-              {/* {mapStationIsFull[index + 1].toUpperCase()} */}
+              <img
+                src="/arrow-right.svg"
+                alt="arrow-right"
+                width="100"
+                height="100"
+              />
             </Link>
           </li>
         )}

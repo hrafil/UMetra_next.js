@@ -1,14 +1,10 @@
-import Link from 'next/link';
 import Popup from 'reactjs-popup';
 import React from 'react';
-// import Swiper from 'react-id-swiper';
 
 export const CreateArt = ({ station, color }) => {
   return (
     <>
       <h2 className="artwork_title">{station.station.toUpperCase()}</h2>
-      {/* <div className={color}> */}
-      {/* <div className={color}></div> */}
       {station.artworks &&
         station.artworks.map((artwork) => (
           <div key={artwork.id} className="container_artwork">
@@ -45,7 +41,6 @@ export const CreateArt = ({ station, color }) => {
             </div>
           </div>
         ))}
-      {/* </div> */}
     </>
   );
 };

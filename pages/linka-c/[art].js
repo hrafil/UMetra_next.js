@@ -6,7 +6,7 @@ export const Artwork = ({ station, lines }) => {
   return (
     <div className="container_red">
       <div className="container_artpage">
-        <CreateArt station={station} color="circle_art_red" letter="c" />
+        <CreateArt station={station} letter="c" />
         <FooterArt lines={lines} station={station} color="circle_art_red" />
       </div>
     </div>

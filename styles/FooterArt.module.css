@@ -22,7 +22,14 @@
 .footer_left,
 .footer_right {
   width: 8%;
+  height: auto;
   cursor: pointer;
+}
+
+.footer_left img,
+.footer_right img {
+  width: 100%;
+  height: auto;
 }
 
 @media (min-width: 1200px) {
