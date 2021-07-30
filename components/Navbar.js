@@ -14,13 +14,10 @@ export const Navbar = () => {
 
   return (
     <nav className="nav_bar">
-      <div className="logo">
-        {/* <Link href="/">
-          <img src="/logo.svg" alt="logo" />
-        </Link> */}
-      </div>
+      <div className="logo"></div>
       <button
         name="menu"
+        aria-label="Right Align"
         onClick={handleToggle}
         className={navbarOpen ? 'hamburger is-opened' : 'hamburger'}
       >
