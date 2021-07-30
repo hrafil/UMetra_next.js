@@ -28,36 +28,35 @@ export const Navbar = () => {
         <span></span>
         <span></span>
       </button>
-      <ul
+      <div
         onClick={() => closeMenu()}
         className={`menu_nav ${navbarOpen ? ' show_menu' : ''}`}
       >
-        {/* <li className="nav_logo">
-          <Link href="/">UMetra </Link>
-        </li> */}
-        <li className="nav_first">
-          <Link href="/">
-            <img src="/logo.svg" alt="logo" />
-          </Link>
-        </li>
-        <li className="nav_second">
-          <Link href="/vyhledavani">Vyhledat</Link>
-          <span className="search">&#8981;</span>
-        </li>
+        <ul>
+          <li className="nav_first">
+            <Link href="/">
+              <img src="/logo.svg" alt="logo" />
+            </Link>
+          </li>
+          <li className="nav_second">
+            <Link href="/vyhledavani">Vyhledat</Link>
+            <span className="search">&#8981;</span>
+          </li>
 
-        <li>
-          <Link href="/stanice">Stanice</Link>
-        </li>
+          <li>
+            <Link href="/stanice">Stanice</Link>
+          </li>
 
-        <li>
-          <Link href="/linka-a">Linka A</Link>
-        </li>
-        <li>
-          <Link href="/linka-b">Linka B</Link>
-        </li>
-        <li>
-          <Link href="/linka-c">Linka C</Link>
-        </li>
+          <li>
+            <Link href="/linka-a">Linka A</Link>
+          </li>
+          <li>
+            <Link href="/linka-b">Linka B</Link>
+          </li>
+          <li>
+            <Link href="/linka-c">Linka C</Link>
+          </li>
+        </ul>
         <ul className="menu_bottom">
           <li>
             <Link href="/kontakt">Kontakt</Link>
@@ -69,7 +68,7 @@ export const Navbar = () => {
             <Link href="/zdroje">Zdroje</Link>
           </li>
         </ul>
-      </ul>
+      </div>
     </nav>
   );
 };

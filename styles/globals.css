@@ -8,6 +8,7 @@ html {
   box-sizing: border-box;
   overflow-x: hidden;
   width: 100%;
+  min-height: 100vh;
 }
 
 body {
@@ -529,15 +530,12 @@ img {
 .menu_bottom {
   display: flex;
   flex-direction: row;
-  /* position: absolute;
-  bottom: 0px; */
-  position: fixed;
+  position: absolute;
   bottom: 0;
 }
 
 .menu_bottom a {
   width: calc(100vw / 3);
-  /* padding-bottom: 80px; */
 }
 
 .nav_first {
@@ -599,10 +597,6 @@ img {
     border: none;
     left: 50%;
     margin-left: -335px;
-  }
-  .menu_bottom {
-    position: relative;
-    margin-top: 150px;
   }
   .menu_bottom a {
     width: calc(650px / 3);
