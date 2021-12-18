@@ -15,13 +15,21 @@
       }
     ]
   },
-
-  { "line": "A", "station": "Petřiny", "artworks": false },
-
-  { "line": "A", "station": "Nádraží Veleslavín", "artworks": false },
-
-  { "line": "A", "station": "Bořislavka", "artworks": false },
-
+  {
+    "line": "A",
+    "station": "Petřiny",
+    "artworks": false
+  },
+  {
+    "line": "A",
+    "station": "Nádraží Veleslavín",
+    "artworks": false
+  },
+  {
+    "line": "A",
+    "station": "Bořislavka",
+    "artworks": false
+  },
   {
     "line": "A",
     "station": "Dejvická",
@@ -58,7 +66,6 @@
       }
     ]
   },
-
   {
     "line": "A",
     "station": "Hradčanská",
@@ -73,7 +80,6 @@
         "material": "kámen",
         "image": "/a-hra1.jpg"
       },
-
       {
         "artwork": "Hradčanská2",
         "name": "bez názvu (ruce)",
@@ -84,7 +90,6 @@
         "material": "kámen",
         "image": "/a-hra2.jpg"
       },
-
       {
         "artwork": "Hradčanská3",
         "name": "bez názvu (nápis)",
@@ -107,7 +112,6 @@
       }
     ]
   },
-
   {
     "line": "A",
     "station": "Malostranská",
@@ -122,7 +126,6 @@
         "material": "kámen",
         "image": "/a-mal1.jpg"
       },
-
       {
         "artwork": "Malostranská2",
         "name": "bez názvu (pítko)",
@@ -133,7 +136,6 @@
         "material": "kámen",
         "image": "/a-mal2.jpg"
       },
-
       {
         "artwork": "Malostranská3",
         "name": "bez názvu (patník)",
@@ -144,7 +146,6 @@
         "material": "kámen",
         "image": "/a-mal3.jpg"
       },
-
       {
         "artwork": "Malostranská4",
         "name": "bez názvu (mříž)",
@@ -155,7 +156,6 @@
         "material": "kov",
         "image": "/a-mal4.jpg"
       },
-
       {
         "artwork": "Malostranská5",
         "name": "bez názvu (mříž - Valdš. jízdárna)",
@@ -168,7 +168,6 @@
       }
     ]
   },
-
   {
     "line": "A",
     "station": "Staroměstská",
@@ -185,7 +184,6 @@
       }
     ]
   },
-
   {
     "line": "A",
     "station": "Můstek",
@@ -242,7 +240,6 @@
       }
     ]
   },
-
   {
     "line": "A",
     "station": "Muzeum",
@@ -279,7 +276,6 @@
       }
     ]
   },
-
   {
     "line": "A",
     "station": "Náměstí míru",
@@ -296,7 +292,6 @@
       }
     ]
   },
-
   {
     "line": "A",
     "station": "Jiřího z Poděbrad",
@@ -353,7 +348,6 @@
       }
     ]
   },
-
   {
     "line": "A",
     "station": "Flora",
@@ -370,7 +364,6 @@
       }
     ]
   },
-
   {
     "line": "A",
     "station": "Želivského",
@@ -397,9 +390,11 @@
       }
     ]
   },
-
-  { "line": "A", "station": "Strašnická", "artworks": false },
-
+  {
+    "line": "A",
+    "station": "Strašnická",
+    "artworks": false
+  },
   {
     "line": "A",
     "station": "Skalka",
@@ -426,7 +421,6 @@
       }
     ]
   },
-
   {
     "line": "A",
     "station": "Depo Hostivař",
@@ -443,16 +437,31 @@
       }
     ]
   },
-  { "line": "B", "station": "Zličín", "artworks": false },
-
-  { "line": "B", "station": "Stodůlky", "artworks": false },
-
-  { "line": "B", "station": "Luka", "artworks": false },
-
-  { "line": "B", "station": "Lužiny", "artworks": false },
-
-  { "line": "B", "station": "Hůrka", "artworks": false },
-
+  {
+    "line": "B",
+    "station": "Zličín",
+    "artworks": false
+  },
+  {
+    "line": "B",
+    "station": "Stodůlky",
+    "artworks": false
+  },
+  {
+    "line": "B",
+    "station": "Luka",
+    "artworks": false
+  },
+  {
+    "line": "B",
+    "station": "Lužiny",
+    "artworks": false
+  },
+  {
+    "line": "B",
+    "station": "Hůrka",
+    "artworks": false
+  },
   {
     "line": "B",
     "station": "Nové Butovice",
@@ -467,7 +476,6 @@
         "material": "pískovec",
         "image": "/b-nb1.jpg"
       },
-
       {
         "artwork": "Nové Butovice2",
         "name": "Trifot",
@@ -480,9 +488,11 @@
       }
     ]
   },
-
-  { "line": "B", "station": "Jinonice", "artworks": false },
-
+  {
+    "line": "B",
+    "station": "Jinonice",
+    "artworks": false
+  },
   {
     "line": "B",
     "station": "Radlická",
@@ -497,7 +507,6 @@
         "material": "žula, bronz",
         "image": "/b-r1.jpg"
       },
-
       {
         "artwork": "Radlická2",
         "name": "bez názvu",
@@ -510,7 +519,6 @@
       }
     ]
   },
-
   {
     "line": "B",
     "station": "Smíchovské nádráží",
@@ -527,7 +535,6 @@
       }
     ]
   },
-
   {
     "line": "B",
     "station": "Anděl",
@@ -544,7 +551,6 @@
       }
     ]
   },
-
   {
     "line": "B",
     "station": "Karlovo náměstí",
@@ -559,7 +565,6 @@
         "material": "",
         "image": "/b-kn4.jpg"
       },
-
       {
         "artwork": "Karlovo náměstí1",
         "name": "beu názvu (vitráž)",
@@ -602,7 +607,6 @@
       }
     ]
   },
-
   {
     "line": "B",
     "station": "Národní třída",
@@ -619,7 +623,6 @@
       }
     ]
   },
-
   {
     "line": "B",
     "station": "Můstek",
@@ -634,7 +637,6 @@
         "material": "keramický reliéf",
         "image": "/b-m1.jpg"
       },
-
       {
         "artwork": "Můstek2",
         "name": "Praha",
@@ -645,7 +647,6 @@
         "material": "keramický reliéf",
         "image": "/b-m2.jpeg"
       },
-
       {
         "artwork": "Můstek3",
         "name": "bez názvu (pítko u Dětského domu)",
@@ -668,7 +669,6 @@
       }
     ]
   },
-
   {
     "line": "B",
     "station": "Náměstí Republiky",
@@ -685,7 +685,6 @@
       }
     ]
   },
-
   {
     "line": "B",
     "station": "Florenc",
@@ -722,9 +721,11 @@
       }
     ]
   },
-
-  { "line": "B", "station": "Křižíkova", "artworks": false },
-
+  {
+    "line": "B",
+    "station": "Křižíkova",
+    "artworks": false
+  },
   {
     "line": "B",
     "station": "Invalidovna",
@@ -739,7 +740,6 @@
         "material": "skleněná vitráž",
         "image": "/b-i1.jpg"
       },
-
       {
         "artwork": "Invalidovna2",
         "name": "bez názvu (fontána)",
@@ -750,7 +750,6 @@
         "material": "keramika",
         "image": "/b-i2.jpg"
       },
-
       {
         "artwork": "Invalidovna3",
         "name": "bez názvu (keramická mříž)",
@@ -783,7 +782,6 @@
       }
     ]
   },
-
   {
     "line": "B",
     "station": "Palmovka",
@@ -808,7 +806,6 @@
         "material": "ocel",
         "image": "/b-p1.jpg"
       },
-
       {
         "artwork": "Palmovka2",
         "name": "úryvky z Hrabalových děl",
@@ -821,7 +818,6 @@
       }
     ]
   },
-
   {
     "line": "B",
     "station": "Českomoravská",
@@ -838,7 +834,6 @@
       }
     ]
   },
-
   {
     "line": "B",
     "station": "Vysočanská",
@@ -853,7 +848,6 @@
         "material": "kov",
         "image": "/b-v1.jpg"
       },
-
       {
         "artwork": "Vysočanská2",
         "name": "Pomník Emila Kolbena",
@@ -866,9 +860,11 @@
       }
     ]
   },
-
-  { "line": "B", "station": "Kolbenova", "artworks": false },
-
+  {
+    "line": "B",
+    "station": "Kolbenova",
+    "artworks": false
+  },
   {
     "line": "B",
     "station": "Hloubětín",
@@ -883,7 +879,6 @@
         "material": "bílý beton",
         "image": "/b-h1.jpg"
       },
-
       {
         "artwork": "Hloubětín2",
         "name": "Koupání",
@@ -896,10 +891,16 @@
       }
     ]
   },
-
-  { "line": "B", "station": "Rajská zahrada", "artworks": false },
-
-  { "line": "B", "station": "Černý most", "artworks": false },
+  {
+    "line": "B",
+    "station": "Rajská zahrada",
+    "artworks": false
+  },
+  {
+    "line": "B",
+    "station": "Černý most",
+    "artworks": false
+  },
   {
     "line": "C",
     "station": "Háje",
@@ -915,7 +916,6 @@
         "image": "/c-h1.jpg",
         "location": "Háje"
       },
-
       {
         "artwork": "Háje2",
         "name": "Kosmonauti",
@@ -929,7 +929,6 @@
       }
     ]
   },
-
   {
     "line": "C",
     "station": "Opatov",
@@ -947,7 +946,6 @@
       }
     ]
   },
-
   {
     "line": "C",
     "station": "Chodov",
@@ -965,9 +963,11 @@
       }
     ]
   },
-
-  { "line": "C", "station": "Roztyly", "artworks": false },
-
+  {
+    "line": "C",
+    "station": "Roztyly",
+    "artworks": false
+  },
   {
     "line": "C",
     "station": "Kačerov",
@@ -983,7 +983,6 @@
         "image": "/c-ka1.jpg",
         "location": "Kačerov"
       },
-
       {
         "artwork": "Kačerov2",
         "name": "",
@@ -995,7 +994,6 @@
         "image": "/c-ka2.jpg",
         "location": "Kačerov"
       },
-
       {
         "artwork": "Kačerov3",
         "name": "(spirály)",
@@ -1009,9 +1007,11 @@
       }
     ]
   },
-
-  { "line": "C", "station": "Pankrác", "artworks": false },
-
+  {
+    "line": "C",
+    "station": "Pankrác",
+    "artworks": false
+  },
   {
     "line": "C",
     "station": "Pražského povstání",
@@ -1038,7 +1038,6 @@
       }
     ]
   },
-
   {
     "line": "C",
     "station": "Vyšehrad",
@@ -1065,7 +1064,6 @@
       }
     ]
   },
-
   {
     "line": "C",
     "station": "I. P. Pavlova",
@@ -1082,7 +1080,6 @@
       }
     ]
   },
-
   {
     "line": "C",
     "station": "Muzeum",
@@ -1119,7 +1116,6 @@
       }
     ]
   },
-
   {
     "line": "C",
     "station": "Hlavní nádraží",
@@ -1186,7 +1182,6 @@
       }
     ]
   },
-
   {
     "line": "C",
     "station": "Florenc",
@@ -1223,7 +1218,6 @@
       }
     ]
   },
-
   {
     "line": "C",
     "station": "Vltavská",
@@ -1239,7 +1233,6 @@
         "image": "/c-vl1.jpg",
         "location": "Vltavská"
       },
-
       {
         "artwork": "Vltavská2",
         "name": "Vltava",
@@ -1251,7 +1244,6 @@
         "image": "/c-vl2.jpg",
         "location": "Vltavská"
       },
-
       {
         "artwork": "Vltavská3",
         "name": "bez názvu",
@@ -1263,7 +1255,6 @@
         "image": "/c-vl3.jpg",
         "location": "Vltavská"
       },
-
       {
         "artwork": "Vltavská4",
         "name": "",
@@ -1277,7 +1268,6 @@
       }
     ]
   },
-
   {
     "line": "C",
     "station": "Nádraží Holešovice",
@@ -1293,7 +1283,6 @@
         "image": "/c-nh1.jpg",
         "location": "Nádraží Holešovice"
       },
-
       {
         "artwork": "Nádraží Holešovice2",
         "name": "Reliéf Júlia Fučíka",
@@ -1307,9 +1296,11 @@
       }
     ]
   },
-
-  { "line": "C", "station": "Kobylisy", "artworks": false },
-
+  {
+    "line": "C",
+    "station": "Kobylisy",
+    "artworks": false
+  },
   {
     "line": "C",
     "station": "Ládví",
@@ -1327,10 +1318,19 @@
       }
     ]
   },
-
-  { "line": "C", "station": "Střížkov", "artworks": false },
-
-  { "line": "C", "station": "Prosek", "artworks": false },
-
-  { "line": "C", "station": "Letňany", "artworks": false }
+  {
+    "line": "C",
+    "station": "Střížkov",
+    "artworks": false
+  },
+  {
+    "line": "C",
+    "station": "Prosek",
+    "artworks": false
+  },
+  {
+    "line": "C",
+    "station": "Letňany",
+    "artworks": false
+  }
 ]
