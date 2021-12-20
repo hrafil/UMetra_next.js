@@ -1,6 +1,6 @@
 import { FilterMapBuilder } from "./FilterMapBuilder";
 
-export class FilterHelper{
+class FilterHelper{
     constructor() {
         this.filterMapBuilder = new FilterMapBuilder();
         this.filterMapBuilder.createFilterMap();
@@ -33,3 +33,5 @@ export class FilterHelper{
         return filterQuery.map(o => o.name).sort();
     }
 }
+
+export const filterHelper = new FilterHelper();
