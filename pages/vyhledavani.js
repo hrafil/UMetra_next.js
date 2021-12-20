@@ -1,16 +1,12 @@
-import { useState, useEffect } from 'react';
-import AllStation from '../components/AllStation';
-import AllAuthors from '../components/AllAuthors';
-import AllTypes from '../components/AllTypes';
+import { useState } from 'react';
 import { getAllStation } from '../lib/allStation';
 import styles from '../styles/Search.module.css';
 import listStation from '../data/listStation.json';
 import Popup from 'reactjs-popup';
 import Link from 'next/link';
-import { FilterHelper } from '../components/DynamicFilltering/FilterHelper';
+import { filterHelper } from '../components/DynamicFilltering/FilterHelper';
 
 const Search = ({ stations, authors, types, lines }) => {
-  const filterHelper = new FilterHelper();
 
   const [justStations, setJustStations] = useState(stations);
   const [justAuthors, setJustAuthors] = useState(authors)
@@ -247,7 +243,6 @@ const Search = ({ stations, authors, types, lines }) => {
 
 export const getStaticProps = () => {
   const allStation = getAllStation();
-  const filterHelper = new FilterHelper();
   return {
     props: {
       stations: filterHelper.getFilteredStations(null, null),
